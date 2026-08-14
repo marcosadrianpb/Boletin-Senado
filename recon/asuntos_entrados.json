@@ -1,0 +1,881 @@
+{
+ "titulo": "Honorable Senado de la Nación Argentina",
+ "url": "https://www.senado.gob.ar/parlamentario/sesiones/asuntosEnt",
+ "campos": [
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][day]",
+   "id": "busqueda_proyectos_fechaDesde_day",
+   "ph": "",
+   "vis": true,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][month]",
+   "id": "busqueda_proyectos_fechaDesde_month",
+   "ph": "",
+   "vis": true,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][year]",
+   "id": "busqueda_proyectos_fechaDesde_year",
+   "ph": "",
+   "vis": true,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "2026=26",
+    "2025=25",
+    "2024=24",
+    "2023=23",
+    "2022=22",
+    "2021=21"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][day]",
+   "id": "busqueda_proyectos_fechaHasta_day",
+   "ph": "",
+   "vis": true,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][month]",
+   "id": "busqueda_proyectos_fechaHasta_month",
+   "ph": "",
+   "vis": true,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][year]",
+   "id": "busqueda_proyectos_fechaHasta_year",
+   "ph": "",
+   "vis": true,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "2026=26",
+    "2025=25",
+    "2024=24",
+    "2023=23",
+    "2022=22",
+    "2021=21"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "busqueda_proyectos[palabra]",
+   "id": "busqueda_proyectos_palabra",
+   "ph": "",
+   "vis": true,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[opcion]",
+   "id": "busqueda_proyectos_opcion",
+   "ph": "",
+   "vis": true,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "Y=Y",
+    "O=O"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "busqueda_proyectos[palabra2]",
+   "id": "busqueda_proyectos_palabra2",
+   "ph": "",
+   "vis": true,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "image",
+   "name": "",
+   "id": "",
+   "ph": "",
+   "vis": true,
+   "pane": "1",
+   "form": "",
+   "op": null
+  }
+ ],
+ "forms": [
+  {
+   "id": "",
+   "name": "",
+   "action": "/parlamentario/sesiones/asuntosResultado",
+   "method": "POST"
+  }
+ ],
+ "tabs": [
+  {
+   "txt": "INSTITUCIONAL",
+   "href": "#",
+   "target": ""
+  },
+  {
+   "txt": "Presidencia",
+   "href": "/presidencia",
+   "target": ""
+  },
+  {
+   "txt": "Autoridades - Organigrama",
+   "href": "/autoridades",
+   "target": ""
+  },
+  {
+   "txt": "Dependencias del Senado",
+   "href": "/micrositios/Dependencias",
+   "target": ""
+  },
+  {
+   "txt": "Constitución Nacional",
+   "href": "https://www.congreso.gob.ar/constitucionNacional.php",
+   "target": ""
+  },
+  {
+   "txt": "Constitución Nacional original de 1853",
+   "href": "/CN",
+   "target": ""
+  },
+  {
+   "txt": "Reglamento del Senado",
+   "href": "/reglamento",
+   "target": ""
+  },
+  {
+   "txt": "Enviá tu CV",
+   "href": "/micrositios/postulante/new",
+   "target": ""
+  },
+  {
+   "txt": "PRENSA",
+   "href": "#",
+   "target": ""
+  },
+  {
+   "txt": "Gacetillas de Prensa",
+   "href": "/prensa/eventos",
+   "target": ""
+  },
+  {
+   "txt": "Galería de Fotos",
+   "href": "/prensa/galeria",
+   "target": ""
+  },
+  {
+   "txt": "Información para Medios",
+   "href": "/prensa/medios",
+   "target": ""
+  },
+  {
+   "txt": "CONTACTO",
+   "href": "/FormularioContacto",
+   "target": ""
+  },
+  {
+   "txt": "Senadores",
+   "href": "/senadores/listados/listaSenadoRes",
+   "target": ""
+  },
+  {
+   "txt": "Proyectos",
+   "href": "/parlamentario/parlamentaria/",
+   "target": ""
+  },
+  {
+   "txt": "Sesiones",
+   "href": "/parlamentario/sesiones/busquedaTac",
+   "target": ""
+  },
+  {
+   "txt": "Comisiones",
+   "href": "/parlamentario/comisiones/?active=permanente",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "",
+   "target": ""
+  },
+  {
+   "txt": "SENADORES",
+   "href": "/senadores/listados/listaSenadoRes",
+   "target": ""
+  },
+  {
+   "txt": "PROYECTOS",
+   "href": "/parlamentario/parlamentaria/",
+   "target": ""
+  },
+  {
+   "txt": "SESIONES",
+   "href": "/parlamentario/sesiones/busquedaTac",
+   "target": ""
+  },
+  {
+   "txt": "COMISIONES",
+   "href": "/parlamentario/comisiones/?active=permanente",
+   "target": ""
+  },
+  {
+   "txt": "SENADORES -",
+   "href": "/senadores/listados/listaSenadoRes",
+   "target": ""
+  },
+  {
+   "txt": "PROYECTOS -",
+   "href": "/parlamentario/parlamentaria/",
+   "target": ""
+  },
+  {
+   "txt": "SESIONES -",
+   "href": "/parlamentario/sesiones/busquedaTac",
+   "target": ""
+  },
+  {
+   "txt": "COMISIONES",
+   "href": "/parlamentario/comisiones/?active=permanente",
+   "target": ""
+  },
+  {
+   "txt": "Senado TV en vivo",
+   "href": "/parlamentario/sesiones/enVivo",
+   "target": ""
+  },
+  {
+   "txt": "Boletín de Novedades",
+   "href": "/parlamentario/sesiones/",
+   "target": ""
+  },
+  {
+   "txt": "Versiones Taquigráficas",
+   "href": "/parlamentario/sesiones/busquedaTac",
+   "target": ""
+  },
+  {
+   "txt": "Dae Digital",
+   "href": "/parlamentario/DAEDIGITAL/",
+   "target": ""
+  },
+  {
+   "txt": "Lista de Asuntos Entrados",
+   "href": "#1",
+   "target": ""
+  },
+  {
+   "txt": "Plenario de Labor Parlamentaria",
+   "href": "/parlamentario/parlamentaria/actas",
+   "target": ""
+  },
+  {
+   "txt": "Votaciones",
+   "href": "/votaciones/actas",
+   "target": ""
+  },
+  {
+   "txt": "Presidencia",
+   "href": "/presidencia",
+   "target": ""
+  },
+  {
+   "txt": "Autoridades - Organigrama",
+   "href": "/autoridades",
+   "target": ""
+  },
+  {
+   "txt": "Dependencias del Senado",
+   "href": "/micrositios/Dependencias",
+   "target": ""
+  },
+  {
+   "txt": "Constitución Nacional",
+   "href": "https://www.congreso.gob.ar/constitucionNacional.php",
+   "target": ""
+  },
+  {
+   "txt": "Constitución Nacional original de 1853",
+   "href": "/CN",
+   "target": ""
+  },
+  {
+   "txt": "Reglamento del Senado",
+   "href": "/reglamento",
+   "target": ""
+  },
+  {
+   "txt": "Enviá tu CV",
+   "href": "/micrositios/postulante/new",
+   "target": ""
+  },
+  {
+   "txt": "Noticias",
+   "href": "/prensa/eventos",
+   "target": ""
+  },
+  {
+   "txt": "Galería de fotos",
+   "href": "/prensa/galeria",
+   "target": ""
+  },
+  {
+   "txt": "Información para medios",
+   "href": "/prensa/medios",
+   "target": ""
+  },
+  {
+   "txt": "AGENDA",
+   "href": "/parlamentario/Agenda/AgendaWeb/14,08,2026",
+   "target": ""
+  },
+  {
+   "txt": "CONTACTO",
+   "href": "/FormularioContacto",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "https://www.youtube.com/senadotvargentina",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "https://www.instagram.com/senadoargentina/",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "https://twitter.com/SenadoArgentina",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "https://www.facebook.com/senadoargentina/",
+   "target": ""
+  },
+  {
+   "txt": "Listado alfabético",
+   "href": "/senadores/listados/listaSenadoRes",
+   "target": ""
+  },
+  {
+   "txt": "Listado por bloque",
+   "href": "/senadores/listados/agrupados-por-bloques",
+   "target": ""
+  },
+  {
+   "txt": "Listado por provincia",
+   "href": "/senadores/listados/agrupados-por-provincia",
+   "target": ""
+  },
+  {
+   "txt": "Buscador histórico",
+   "href": "/senadores/Historico/Introduccion",
+   "target": ""
+  },
+  {
+   "txt": "Búsqueda de proyectos",
+   "href": "/parlamentario/parlamentaria/",
+   "target": ""
+  },
+  {
+   "txt": "Votaciones",
+   "href": "/votaciones/actas",
+   "target": ""
+  },
+  {
+   "txt": "Plenario de Labor",
+   "href": "/parlamentario/parlamentaria/actas",
+   "target": ""
+  },
+  {
+   "txt": "Asuntos Entrados",
+   "href": "/parlamentario/sesiones/asuntosEnt",
+   "target": ""
+  },
+  {
+   "txt": "DAE digital",
+   "href": "/parlamentario/DAEDIGITAL/",
+   "target": ""
+  },
+  {
+   "txt": "Versiones Taquigráficas",
+   "href": "/parlamentario/sesiones/busquedaTac",
+   "target": ""
+  },
+  {
+   "txt": "Boletín de Novedades",
+   "href": "/parlamentario/sesiones/",
+   "target": ""
+  },
+  {
+   "txt": "Senado TV en vivo",
+   "href": "/parlamentario/sesiones/enVivo",
+   "target": ""
+  },
+  {
+   "txt": "Comisiones unicamerales",
+   "href": "/parlamentario/comisiones/?active=permanente",
+   "target": ""
+  },
+  {
+   "txt": "Comisiones bicamerales",
+   "href": "/parlamentario/comisiones/?active=especiales",
+   "target": ""
+  },
+  {
+   "txt": "Agenda de reuniones",
+   "href": "/parlamentario/comisiones/?active=agenda",
+   "target": ""
+  },
+  {
+   "txt": "Composición y funciones",
+   "href": "/poderlegislativo",
+   "target": ""
+  },
+  {
+   "txt": "Formación de leyes",
+   "href": "/parlamentario/tramite",
+   "target": ""
+  },
+  {
+   "txt": "Relaciones Internacionales",
+   "href": "/micrositios/RInternacionalesPresentacion",
+   "target": ""
+  },
+  {
+   "txt": "Acuerdos",
+   "href": "/acuerdos",
+   "target": ""
+  },
+  {
+   "txt": "Estadísticas parlamentarias",
+   "href": "/parlamentario/estadisticas",
+   "target": ""
+  },
+  {
+   "txt": "Obras declaradas de interés por el Senado",
+   "href": "/obras",
+   "target": ""
+  },
+  {
+   "txt": "Mensajes presidenciales",
+   "href": "/parlamentario/mensajes",
+   "target": ""
+  },
+  {
+   "txt": "Informes de la Jefatura de Gabinete de Ministros",
+   "href": "/parlamentario/InformesJgm/",
+   "target": ""
+  },
+  {
+   "txt": "Reforma constitucional de 1949",
+   "href": "/parlamentario/convenciones/49/inicio/Institucional",
+   "target": ""
+  },
+  {
+   "txt": "Reforma constitucional de 1994",
+   "href": "/parlamentario/convenciones/inicio/Institucional",
+   "target": ""
+  },
+  {
+   "txt": "ÓRDENES DEL DÍA",
+   "href": "/parlamentario/parlamentaria/ordenDelDia",
+   "target": ""
+  },
+  {
+   "txt": "Cultura",
+   "href": "/micrositios/ActividadesCulturales/",
+   "target": ""
+  },
+  {
+   "txt": "Visitas guiadas",
+   "href": "/visitasguiadas",
+   "target": ""
+  },
+  {
+   "txt": "Capacitación",
+   "href": "/micrositios/capacitacion",
+   "target": ""
+  },
+  {
+   "txt": "Dirección de Transparencia y Fortalecimiento Institucional",
+   "href": "/micrositios/oficinatransparencia",
+   "target": ""
+  },
+  {
+   "txt": "Normativa parlamentaria",
+   "href": "/parlamentario/parlamentaria/decreto",
+   "target": ""
+  },
+  {
+   "txt": "Normativa y actos administrativos",
+   "href": "/administrativo/normativa",
+   "target": ""
+  },
+  {
+   "txt": "Licitaciones y contrataciones",
+   "href": "/administrativo/Licitaciones",
+   "target": ""
+  },
+  {
+   "txt": "Viajes nacionales e internacionales",
+   "href": "/administrativo/viajes",
+   "target": ""
+  },
+  {
+   "txt": "Partidas presupuestarias",
+   "href": "/administrativo/partida",
+   "target": ""
+  },
+  {
+   "txt": "Nómina de personal y escala salarial",
+   "href": "/recursos-humanos/agente/composicion",
+   "target": ""
+  },
+  {
+   "txt": "Dietas y gastos de representación",
+   "href": "/dietas",
+   "target": ""
+  },
+  {
+   "txt": "Declaraciones juradas",
+   "href": "/administrativo/ddjj/",
+   "target": ""
+  },
+  {
+   "txt": "Acuerdos de financiamiento internacional",
+   "href": "/administrativo/financiamiento",
+   "target": ""
+  },
+  {
+   "txt": "Plan de Acción de Congreso Abierto",
+   "href": "/micrositios/Plan/",
+   "target": ""
+  },
+  {
+   "txt": "Informes de gestión",
+   "href": "/administrativo/informes",
+   "target": ""
+  },
+  {
+   "txt": "Informes especiales y de auditoría",
+   "href": "/administrativo/InformesAuditoria",
+   "target": ""
+  },
+  {
+   "txt": "Datos abiertos",
+   "href": "/micrositios/DatosAbiertos/",
+   "target": ""
+  },
+  {
+   "txt": "Audiencias públicas",
+   "href": "/audiencias",
+   "target": ""
+  },
+  {
+   "txt": "Firma digital",
+   "href": "/administrativo/firmadigital",
+   "target": ""
+  },
+  {
+   "txt": "Guía de información disponible en el sitio",
+   "href": "/bundles/senadomicrositios/pdf/transparencia/guia.pdf",
+   "target": ""
+  },
+  {
+   "txt": "Atención ciudadana",
+   "href": "/micrositios/ac/home",
+   "target": ""
+  },
+  {
+   "txt": "SANDH",
+   "href": "https://www.senado.gob.ar/micrositios/observatorioDDHH/SANDH",
+   "target": ""
+  },
+  {
+   "txt": "Registro de ONG",
+   "href": "/micrositios/dirgralcomisionesong",
+   "target": ""
+  },
+  {
+   "txt": "Conservación y restauración",
+   "href": "/micrositios/DCYR/",
+   "target": ""
+  },
+  {
+   "txt": "El Congreso de los chicos",
+   "href": "https://chicos.congreso.gob.ar/",
+   "target": ""
+  },
+  {
+   "txt": "WEBMAIL",
+   "href": "https://outlook.office.com/senadogovar.onmicrosoft.com",
+   "target": ""
+  },
+  {
+   "txt": "TCR",
+   "href": "https://hsnext.senado.gob.ar:10443/",
+   "target": ""
+  }
+ ],
+ "botones": [
+  {
+   "txt": "Toggle navigation",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  }
+ ],
+ "exportar": [
+  {
+   "txt": "",
+   "href": "/micrositios/DatosAbiertos/ExportarListadoAsuntosEntrados/Excel",
+   "onclick": ""
+  },
+  {
+   "txt": "",
+   "href": "/micrositios/DatosAbiertos/ExportarListadoAsuntosEntrados/json",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "/parlamentario/parlamentaria/sesionordinaria%2016-07-26.pdf/downloadEntrados",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "/parlamentario/parlamentaria/sesionordinaria04-06-2026.pdf/downloadEntrados",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "/parlamentario/parlamentaria/sesionordinaria14-05-2026.pdf/downloadEntrados",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "/parlamentario/parlamentaria/sesionordinaria09-04-2026-.pdf/downloadEntrados",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "/parlamentario/parlamentaria/sesionordinaria18-03-2026.pdf/downloadEntrados",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "/parlamentario/parlamentaria/sesionespecial27-02-2026.pdf/downloadEntrados",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "/parlamentario/parlamentaria/sesionespecial26-02-2026.pdf/downloadEntrados",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "/parlamentario/parlamentaria/sesionpreparatoria24-02-26.pdf/downloadEntrados",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "/parlamentario/parlamentaria/sesionespecialAGN24-02-2026.pdf/downloadEntrados",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "/parlamentario/parlamentaria/sesionespecial11-02-26.pdf/downloadEntrados",
+   "onclick": ""
+  },
+  {
+   "txt": "descargar",
+   "href": "",
+   "onclick": ""
+  },
+  {
+   "txt": "Datos abiertos",
+   "href": "/micrositios/DatosAbiertos/",
+   "onclick": ""
+  }
+ ]
+}

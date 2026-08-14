@@ -1,0 +1,1800 @@
+{
+ "titulo": "Honorable Senado de la Nación Argentina",
+ "url": "https://www.senado.gob.ar/parlamentario/parlamentaria/",
+ "campos": [
+  {
+   "tag": "input",
+   "type": "image",
+   "name": "",
+   "id": "",
+   "ph": "",
+   "vis": true,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "busqueda_proyectos[ley]",
+   "id": "busqueda_proyectos_ley",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "image",
+   "name": "",
+   "id": "type_image",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "hidden",
+   "name": "busqueda_proyectos[_token]",
+   "id": "busqueda_proyectos__token",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteLugar]",
+   "id": "busqueda_proyectos_expedienteLugar",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "DCD=COMUNIC.DICTAMEN DIPUTADOS",
+    "CD=CÁMARA DE DIPUTADOS",
+    "JGM=JEFATURA GABINETE MINISTROS",
+    "OVD=OFIC.VARIOS H.CÁMARA DIPUTADOS",
+    "OV=OFICIALES VARIOS"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "busqueda_proyectos[expedienteNumeroPre]",
+   "id": "busqueda_proyectos_expedienteNumeroPre",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteNumeroPos]",
+   "id": "busqueda_proyectos_expedienteNumeroPos",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "2026=2026",
+    "2025=2025",
+    "2024=2024",
+    "2023=2023",
+    "2022=2022"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteTipo]",
+   "id": "busqueda_proyectos_expedienteTipo",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "AC=ACUERDOS",
+    "C1=C.E. (Art. 101 C.N.)",
+    "C2=C.E. (Art. 37 Ley 24.156)",
+    "CA=COMUNICACIONES DE AUDITORÍA",
+    "CC=COMUNICACIONES DE COMISIONES"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "image",
+   "name": "",
+   "id": "type_image1",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "hidden",
+   "name": "busqueda_proyectos[_token]",
+   "id": "busqueda_proyectos__token",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechadada]",
+   "id": "busqueda_proyectos_fechadada",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "1983-12-15 00:00:00=15-DIC-83",
+    "1983-12-21 00:00:00=21-DIC-83",
+    "1983-12-22 00:00:00=22-DIC-83",
+    "1984-01-11 00:00:00=11-ENE-84",
+    "1984-01-19 00:00:00=19-ENE-84"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "image",
+   "name": "",
+   "id": "type_image2",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[autor]",
+   "id": "busqueda_proyectos_autor",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "3269=ABAD, ELIAS",
+    "546=ABAD,MAXIMILIANO",
+    "452=ABAL MEDINA,JUAN MANUEL",
+    "564=ABDALA,BARTOLOMÉ ESTEBAN",
+    "371=ABRAMETO,JACOBO ALBERTO"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "busqueda_proyectos[palabra]",
+   "id": "busqueda_proyectos_palabra",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[opcion]",
+   "id": "busqueda_proyectos_opcion",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "Y=Y",
+    "O=O"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "busqueda_proyectos[palabra2]",
+   "id": "busqueda_proyectos_palabra2",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[comision]",
+   "id": "busqueda_proyectos_comision",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "76=BANCA DE LA MUJER",
+    "117=BICAMERAL ASESORA DE LA FEDERA",
+    "118=BICAMERAL DE CONTROL DE LOS FO",
+    "315=BICAMERAL DE REFORMA DEL ESTAD",
+    "104=BICAMERAL PERMANENTE DE FISCAL"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[tipoDocumento]",
+   "id": "busqueda_proyectos_tipoDocumento",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "DIC=DICTAMEN",
+    "EX=EXTRACTO"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteLugar]",
+   "id": "busqueda_proyectos_expedienteLugar",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "DCD=COMUNIC.DICTAMEN DIPUTADOS",
+    "CD=CÁMARA DE DIPUTADOS",
+    "JGM=JEFATURA GABINETE MINISTROS",
+    "OVD=OFIC.VARIOS H.CÁMARA DIPUTADOS",
+    "OV=OFICIALES VARIOS"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "busqueda_proyectos[expedienteNumeroPre]",
+   "id": "busqueda_proyectos_expedienteNumeroPre",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteNumeroPos]",
+   "id": "busqueda_proyectos_expedienteNumeroPos",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "2026=2026",
+    "2025=2025",
+    "2024=2024",
+    "2023=2023",
+    "2022=2022"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteTipo]",
+   "id": "busqueda_proyectos_expedienteTipo",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "AC=ACUERDOS",
+    "C1=C.E. (Art. 101 C.N.)",
+    "C2=C.E. (Art. 37 Ley 24.156)",
+    "CA=COMUNICACIONES DE AUDITORÍA",
+    "CC=COMUNICACIONES DE COMISIONES"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "image",
+   "name": "",
+   "id": "type_image2",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "hidden",
+   "name": "busqueda_proyectos[_token]",
+   "id": "busqueda_proyectos__token",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesdeMesa][day]",
+   "id": "busqueda_proyectos_fechaDesdeMesa_day",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesdeMesa][month]",
+   "id": "busqueda_proyectos_fechaDesdeMesa_month",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesdeMesa][year]",
+   "id": "busqueda_proyectos_fechaDesdeMesa_year",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "2026=26",
+    "2025=25",
+    "2024=24",
+    "2023=23",
+    "2022=22",
+    "2021=21"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHastaMesa][day]",
+   "id": "busqueda_proyectos_fechaHastaMesa_day",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHastaMesa][month]",
+   "id": "busqueda_proyectos_fechaHastaMesa_month",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHastaMesa][year]",
+   "id": "busqueda_proyectos_fechaHastaMesa_year",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "2026=26",
+    "2025=25",
+    "2024=24",
+    "2023=23",
+    "2022=22",
+    "2021=21"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "image",
+   "name": "",
+   "id": "type_image3",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "hidden",
+   "name": "busqueda_proyectos[_token]",
+   "id": "busqueda_proyectos__token",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "number",
+   "name": "busqueda_proyectos[ordenDelDiaNumero]",
+   "id": "busqueda_proyectos_ordenDelDiaNumero",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[ordenDelDiaPeriodo]",
+   "id": "busqueda_proyectos_ordenDelDiaPeriodo",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "2026=2026",
+    "2025=2025",
+    "2024=2024",
+    "2023=2023",
+    "2022=2022",
+    "2021=2021"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "image",
+   "name": "",
+   "id": "type_image4",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "hidden",
+   "name": "busqueda_proyectos[_token]",
+   "id": "busqueda_proyectos__token",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[autor]",
+   "id": "busqueda_proyectos_autor",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "3269=ABAD, ELIAS",
+    "546=ABAD,MAXIMILIANO",
+    "452=ABAL MEDINA,JUAN MANUEL",
+    "564=ABDALA,BARTOLOMÉ ESTEBAN",
+    "371=ABRAMETO,JACOBO ALBERTO"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][day]",
+   "id": "busqueda_proyectos_fechaDesde_day",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][month]",
+   "id": "busqueda_proyectos_fechaDesde_month",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][year]",
+   "id": "busqueda_proyectos_fechaDesde_year",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "2026=26",
+    "2025=25",
+    "2024=24",
+    "2023=23",
+    "2022=22",
+    "2021=21"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][day]",
+   "id": "busqueda_proyectos_fechaHasta_day",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][month]",
+   "id": "busqueda_proyectos_fechaHasta_month",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][year]",
+   "id": "busqueda_proyectos_fechaHasta_year",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "2026=26",
+    "2025=25",
+    "2024=24",
+    "2023=23",
+    "2022=22",
+    "2021=21"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "busqueda_proyectos[palabra]",
+   "id": "busqueda_proyectos_palabra",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteLugar]",
+   "id": "busqueda_proyectos_expedienteLugar",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "DCD=COMUNIC.DICTAMEN DIPUTADOS",
+    "CD=CÁMARA DE DIPUTADOS",
+    "JGM=JEFATURA GABINETE MINISTROS",
+    "OVD=OFIC.VARIOS H.CÁMARA DIPUTADOS",
+    "OV=OFICIALES VARIOS"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "busqueda_proyectos[expedienteNumeroPre]",
+   "id": "busqueda_proyectos_expedienteNumeroPre",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteNumeroPos]",
+   "id": "busqueda_proyectos_expedienteNumeroPos",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "2026=2026",
+    "2025=2025",
+    "2024=2024",
+    "2023=2023",
+    "2022=2022"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteTipo]",
+   "id": "busqueda_proyectos_expedienteTipo",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "AC=ACUERDOS",
+    "C1=C.E. (Art. 101 C.N.)",
+    "C2=C.E. (Art. 37 Ley 24.156)",
+    "CA=COMUNICACIONES DE AUDITORÍA",
+    "CC=COMUNICACIONES DE COMISIONES"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[comision]",
+   "id": "busqueda_proyectos_comision",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "76=BANCA DE LA MUJER",
+    "117=BICAMERAL ASESORA DE LA FEDERA",
+    "118=BICAMERAL DE CONTROL DE LOS FO",
+    "315=BICAMERAL DE REFORMA DEL ESTAD",
+    "104=BICAMERAL PERMANENTE DE FISCAL"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "image",
+   "name": "",
+   "id": "type_image5",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "hidden",
+   "name": "busqueda_proyectos[_token]",
+   "id": "busqueda_proyectos__token",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[autor]",
+   "id": "busqueda_proyectos_autor",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "3269=ABAD, ELIAS",
+    "546=ABAD,MAXIMILIANO",
+    "452=ABAL MEDINA,JUAN MANUEL",
+    "564=ABDALA,BARTOLOMÉ ESTEBAN",
+    "371=ABRAMETO,JACOBO ALBERTO"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][day]",
+   "id": "busqueda_proyectos_fechaDesde_day",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][month]",
+   "id": "busqueda_proyectos_fechaDesde_month",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][year]",
+   "id": "busqueda_proyectos_fechaDesde_year",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "2026=26",
+    "2025=25",
+    "2024=24",
+    "2023=23",
+    "2022=22",
+    "2021=21"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][day]",
+   "id": "busqueda_proyectos_fechaHasta_day",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][month]",
+   "id": "busqueda_proyectos_fechaHasta_month",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][year]",
+   "id": "busqueda_proyectos_fechaHasta_year",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "2026=26",
+    "2025=25",
+    "2024=24",
+    "2023=23",
+    "2022=22",
+    "2021=21"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteLugar]",
+   "id": "busqueda_proyectos_expedienteLugar",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "DCD=COMUNIC.DICTAMEN DIPUTADOS",
+    "CD=CÁMARA DE DIPUTADOS",
+    "JGM=JEFATURA GABINETE MINISTROS",
+    "OVD=OFIC.VARIOS H.CÁMARA DIPUTADOS",
+    "OV=OFICIALES VARIOS"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "busqueda_proyectos[expedienteNumeroPre]",
+   "id": "busqueda_proyectos_expedienteNumeroPre",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteNumeroPos]",
+   "id": "busqueda_proyectos_expedienteNumeroPos",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "2026=2026",
+    "2025=2025",
+    "2024=2024",
+    "2023=2023",
+    "2022=2022"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteTipo]",
+   "id": "busqueda_proyectos_expedienteTipo",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "AC=ACUERDOS",
+    "C1=C.E. (Art. 101 C.N.)",
+    "C2=C.E. (Art. 37 Ley 24.156)",
+    "CA=COMUNICACIONES DE AUDITORÍA",
+    "CC=COMUNICACIONES DE COMISIONES"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[comision]",
+   "id": "busqueda_proyectos_comision",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "76=BANCA DE LA MUJER",
+    "117=BICAMERAL ASESORA DE LA FEDERA",
+    "118=BICAMERAL DE CONTROL DE LOS FO",
+    "315=BICAMERAL DE REFORMA DEL ESTAD",
+    "104=BICAMERAL PERMANENTE DE FISCAL"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "image",
+   "name": "",
+   "id": "type_image6",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "hidden",
+   "name": "busqueda_proyectos[_token]",
+   "id": "busqueda_proyectos__token",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[autor]",
+   "id": "busqueda_proyectos_autor",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "3269=ABAD, ELIAS",
+    "546=ABAD,MAXIMILIANO",
+    "452=ABAL MEDINA,JUAN MANUEL",
+    "564=ABDALA,BARTOLOMÉ ESTEBAN",
+    "371=ABRAMETO,JACOBO ALBERTO"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][day]",
+   "id": "busqueda_proyectos_fechaDesde_day",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][month]",
+   "id": "busqueda_proyectos_fechaDesde_month",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaDesde][year]",
+   "id": "busqueda_proyectos_fechaDesde_year",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "2026=26",
+    "2025=25",
+    "2024=24",
+    "2023=23",
+    "2022=22",
+    "2021=21"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][day]",
+   "id": "busqueda_proyectos_fechaHasta_day",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][month]",
+   "id": "busqueda_proyectos_fechaHasta_month",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "1=1",
+    "2=2",
+    "3=3",
+    "4=4",
+    "5=5",
+    "6=6"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[fechaHasta][year]",
+   "id": "busqueda_proyectos_fechaHasta_year",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "2026=26",
+    "2025=25",
+    "2024=24",
+    "2023=23",
+    "2022=22",
+    "2021=21"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteLugar]",
+   "id": "busqueda_proyectos_expedienteLugar",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "DCD=COMUNIC.DICTAMEN DIPUTADOS",
+    "CD=CÁMARA DE DIPUTADOS",
+    "JGM=JEFATURA GABINETE MINISTROS",
+    "OVD=OFIC.VARIOS H.CÁMARA DIPUTADOS",
+    "OV=OFICIALES VARIOS"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "busqueda_proyectos[expedienteNumeroPre]",
+   "id": "busqueda_proyectos_expedienteNumeroPre",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteNumeroPos]",
+   "id": "busqueda_proyectos_expedienteNumeroPos",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "2026=2026",
+    "2025=2025",
+    "2024=2024",
+    "2023=2023",
+    "2022=2022"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[expedienteTipo]",
+   "id": "busqueda_proyectos_expedienteTipo",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "AC=ACUERDOS",
+    "C1=C.E. (Art. 101 C.N.)",
+    "C2=C.E. (Art. 37 Ley 24.156)",
+    "CA=COMUNICACIONES DE AUDITORÍA",
+    "CC=COMUNICACIONES DE COMISIONES"
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "",
+   "name": "busqueda_proyectos[comision]",
+   "id": "busqueda_proyectos_comision",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": [
+    "=",
+    "76=BANCA DE LA MUJER",
+    "117=BICAMERAL ASESORA DE LA FEDERA",
+    "118=BICAMERAL DE CONTROL DE LOS FO",
+    "315=BICAMERAL DE REFORMA DEL ESTAD",
+    "104=BICAMERAL PERMANENTE DE FISCAL"
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "hidden",
+   "name": "busqueda_proyectos[_token]",
+   "id": "busqueda_proyectos__token",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  },
+  {
+   "tag": "input",
+   "type": "image",
+   "name": "",
+   "id": "type_image7",
+   "ph": "",
+   "vis": false,
+   "pane": "1",
+   "form": "",
+   "op": null
+  }
+ ],
+ "forms": [
+  {
+   "id": "",
+   "name": "",
+   "action": "/parlamentario/parlamentaria/ley",
+   "method": "POST"
+  },
+  {
+   "id": "",
+   "name": "s",
+   "action": "/parlamentario/parlamentaria/exp",
+   "method": "POST"
+  },
+  {
+   "id": "",
+   "name": "s",
+   "action": "/parlamentario/parlamentaria/fechaDada",
+   "method": "POST"
+  },
+  {
+   "id": "",
+   "name": "ingreso2",
+   "action": "/parlamentario/parlamentaria/avanzada",
+   "method": "POST"
+  },
+  {
+   "id": "",
+   "name": "ingreso3",
+   "action": "/parlamentario/parlamentaria/fechaMesa",
+   "method": "POST"
+  },
+  {
+   "id": "",
+   "name": "",
+   "action": "/parlamentario/parlamentaria/orden",
+   "method": "POST"
+  },
+  {
+   "id": "",
+   "name": "ingreso4",
+   "action": "/parlamentario/parlamentaria/comision",
+   "method": "POST"
+  },
+  {
+   "id": "",
+   "name": "ingreso",
+   "action": "/parlamentario/parlamentaria/comiPendientes",
+   "method": "POST"
+  },
+  {
+   "id": "",
+   "name": "ingreso4",
+   "action": "/parlamentario/parlamentaria/comiDicatamen",
+   "method": "POST"
+  }
+ ],
+ "tabs": [
+  {
+   "txt": "INSTITUCIONAL",
+   "href": "#",
+   "target": ""
+  },
+  {
+   "txt": "Presidencia",
+   "href": "/presidencia",
+   "target": ""
+  },
+  {
+   "txt": "Autoridades - Organigrama",
+   "href": "/autoridades",
+   "target": ""
+  },
+  {
+   "txt": "Dependencias del Senado",
+   "href": "/micrositios/Dependencias",
+   "target": ""
+  },
+  {
+   "txt": "Constitución Nacional",
+   "href": "https://www.congreso.gob.ar/constitucionNacional.php",
+   "target": ""
+  },
+  {
+   "txt": "Constitución Nacional original de 1853",
+   "href": "/CN",
+   "target": ""
+  },
+  {
+   "txt": "Reglamento del Senado",
+   "href": "/reglamento",
+   "target": ""
+  },
+  {
+   "txt": "Enviá tu CV",
+   "href": "/micrositios/postulante/new",
+   "target": ""
+  },
+  {
+   "txt": "PRENSA",
+   "href": "#",
+   "target": ""
+  },
+  {
+   "txt": "Gacetillas de Prensa",
+   "href": "/prensa/eventos",
+   "target": ""
+  },
+  {
+   "txt": "Galería de Fotos",
+   "href": "/prensa/galeria",
+   "target": ""
+  },
+  {
+   "txt": "Información para Medios",
+   "href": "/prensa/medios",
+   "target": ""
+  },
+  {
+   "txt": "CONTACTO",
+   "href": "/FormularioContacto",
+   "target": ""
+  },
+  {
+   "txt": "Senadores",
+   "href": "/senadores/listados/listaSenadoRes",
+   "target": ""
+  },
+  {
+   "txt": "Proyectos",
+   "href": "/parlamentario/parlamentaria/",
+   "target": ""
+  },
+  {
+   "txt": "Sesiones",
+   "href": "/parlamentario/sesiones/busquedaTac",
+   "target": ""
+  },
+  {
+   "txt": "Comisiones",
+   "href": "/parlamentario/comisiones/?active=permanente",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "",
+   "target": ""
+  },
+  {
+   "txt": "SENADORES",
+   "href": "/senadores/listados/listaSenadoRes",
+   "target": ""
+  },
+  {
+   "txt": "PROYECTOS",
+   "href": "/parlamentario/parlamentaria/",
+   "target": ""
+  },
+  {
+   "txt": "SESIONES",
+   "href": "/parlamentario/sesiones/busquedaTac",
+   "target": ""
+  },
+  {
+   "txt": "COMISIONES",
+   "href": "/parlamentario/comisiones/?active=permanente",
+   "target": ""
+  },
+  {
+   "txt": "SENADORES -",
+   "href": "/senadores/listados/listaSenadoRes",
+   "target": ""
+  },
+  {
+   "txt": "PROYECTOS -",
+   "href": "/parlamentario/parlamentaria/",
+   "target": ""
+  },
+  {
+   "txt": "SESIONES -",
+   "href": "/parlamentario/sesiones/busquedaTac",
+   "target": ""
+  },
+  {
+   "txt": "COMISIONES",
+   "href": "/parlamentario/comisiones/?active=permanente",
+   "target": ""
+  },
+  {
+   "txt": "Presidencia",
+   "href": "/presidencia",
+   "target": ""
+  },
+  {
+   "txt": "Autoridades - Organigrama",
+   "href": "/autoridades",
+   "target": ""
+  },
+  {
+   "txt": "Dependencias del Senado",
+   "href": "/micrositios/Dependencias",
+   "target": ""
+  },
+  {
+   "txt": "Constitución Nacional",
+   "href": "https://www.congreso.gob.ar/constitucionNacional.php",
+   "target": ""
+  },
+  {
+   "txt": "Constitución Nacional original de 1853",
+   "href": "/CN",
+   "target": ""
+  },
+  {
+   "txt": "Reglamento del Senado",
+   "href": "/reglamento",
+   "target": ""
+  },
+  {
+   "txt": "Enviá tu CV",
+   "href": "/micrositios/postulante/new",
+   "target": ""
+  },
+  {
+   "txt": "Noticias",
+   "href": "/prensa/eventos",
+   "target": ""
+  },
+  {
+   "txt": "Galería de fotos",
+   "href": "/prensa/galeria",
+   "target": ""
+  },
+  {
+   "txt": "Información para medios",
+   "href": "/prensa/medios",
+   "target": ""
+  },
+  {
+   "txt": "AGENDA",
+   "href": "/parlamentario/Agenda/AgendaWeb/14,08,2026",
+   "target": ""
+  },
+  {
+   "txt": "CONTACTO",
+   "href": "/FormularioContacto",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "https://www.youtube.com/senadotvargentina",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "https://www.instagram.com/senadoargentina/",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "https://twitter.com/SenadoArgentina",
+   "target": ""
+  },
+  {
+   "txt": "",
+   "href": "https://www.facebook.com/senadoargentina/",
+   "target": ""
+  },
+  {
+   "txt": "Listado alfabético",
+   "href": "/senadores/listados/listaSenadoRes",
+   "target": ""
+  },
+  {
+   "txt": "Listado por bloque",
+   "href": "/senadores/listados/agrupados-por-bloques",
+   "target": ""
+  },
+  {
+   "txt": "Listado por provincia",
+   "href": "/senadores/listados/agrupados-por-provincia",
+   "target": ""
+  },
+  {
+   "txt": "Buscador histórico",
+   "href": "/senadores/Historico/Introduccion",
+   "target": ""
+  },
+  {
+   "txt": "Búsqueda de proyectos",
+   "href": "/parlamentario/parlamentaria/",
+   "target": ""
+  },
+  {
+   "txt": "Votaciones",
+   "href": "/votaciones/actas",
+   "target": ""
+  },
+  {
+   "txt": "Plenario de Labor",
+   "href": "/parlamentario/parlamentaria/actas",
+   "target": ""
+  },
+  {
+   "txt": "Asuntos Entrados",
+   "href": "/parlamentario/sesiones/asuntosEnt",
+   "target": ""
+  },
+  {
+   "txt": "DAE digital",
+   "href": "/parlamentario/DAEDIGITAL/",
+   "target": ""
+  },
+  {
+   "txt": "Versiones Taquigráficas",
+   "href": "/parlamentario/sesiones/busquedaTac",
+   "target": ""
+  },
+  {
+   "txt": "Boletín de Novedades",
+   "href": "/parlamentario/sesiones/",
+   "target": ""
+  },
+  {
+   "txt": "Senado TV en vivo",
+   "href": "/parlamentario/sesiones/enVivo",
+   "target": ""
+  },
+  {
+   "txt": "Comisiones unicamerales",
+   "href": "/parlamentario/comisiones/?active=permanente",
+   "target": ""
+  },
+  {
+   "txt": "Comisiones bicamerales",
+   "href": "/parlamentario/comisiones/?active=especiales",
+   "target": ""
+  },
+  {
+   "txt": "Agenda de reuniones",
+   "href": "/parlamentario/comisiones/?active=agenda",
+   "target": ""
+  },
+  {
+   "txt": "Composición y funciones",
+   "href": "/poderlegislativo",
+   "target": ""
+  },
+  {
+   "txt": "Formación de leyes",
+   "href": "/parlamentario/tramite",
+   "target": ""
+  },
+  {
+   "txt": "Relaciones Internacionales",
+   "href": "/micrositios/RInternacionalesPresentacion",
+   "target": ""
+  },
+  {
+   "txt": "Acuerdos",
+   "href": "/acuerdos",
+   "target": ""
+  },
+  {
+   "txt": "Estadísticas parlamentarias",
+   "href": "/parlamentario/estadisticas",
+   "target": ""
+  },
+  {
+   "txt": "Obras declaradas de interés por el Senado",
+   "href": "/obras",
+   "target": ""
+  },
+  {
+   "txt": "Mensajes presidenciales",
+   "href": "/parlamentario/mensajes",
+   "target": ""
+  },
+  {
+   "txt": "Informes de la Jefatura de Gabinete de Ministros",
+   "href": "/parlamentario/InformesJgm/",
+   "target": ""
+  },
+  {
+   "txt": "Reforma constitucional de 1949",
+   "href": "/parlamentario/convenciones/49/inicio/Institucional",
+   "target": ""
+  },
+  {
+   "txt": "Reforma constitucional de 1994",
+   "href": "/parlamentario/convenciones/inicio/Institucional",
+   "target": ""
+  },
+  {
+   "txt": "ÓRDENES DEL DÍA",
+   "href": "/parlamentario/parlamentaria/ordenDelDia",
+   "target": ""
+  },
+  {
+   "txt": "Cultura",
+   "href": "/micrositios/ActividadesCulturales/",
+   "target": ""
+  },
+  {
+   "txt": "Visitas guiadas",
+   "href": "/visitasguiadas",
+   "target": ""
+  },
+  {
+   "txt": "Capacitación",
+   "href": "/micrositios/capacitacion",
+   "target": ""
+  },
+  {
+   "txt": "Dirección de Transparencia y Fortalecimiento Institucional",
+   "href": "/micrositios/oficinatransparencia",
+   "target": ""
+  },
+  {
+   "txt": "Normativa parlamentaria",
+   "href": "/parlamentario/parlamentaria/decreto",
+   "target": ""
+  },
+  {
+   "txt": "Normativa y actos administrativos",
+   "href": "/administrativo/normativa",
+   "target": ""
+  },
+  {
+   "txt": "Licitaciones y contrataciones",
+   "href": "/administrativo/Licitaciones",
+   "target": ""
+  },
+  {
+   "txt": "Viajes nacionales e internacionales",
+   "href": "/administrativo/viajes",
+   "target": ""
+  },
+  {
+   "txt": "Partidas presupuestarias",
+   "href": "/administrativo/partida",
+   "target": ""
+  },
+  {
+   "txt": "Nómina de personal y escala salarial",
+   "href": "/recursos-humanos/agente/composicion",
+   "target": ""
+  },
+  {
+   "txt": "Dietas y gastos de representación",
+   "href": "/dietas",
+   "target": ""
+  },
+  {
+   "txt": "Declaraciones juradas",
+   "href": "/administrativo/ddjj/",
+   "target": ""
+  },
+  {
+   "txt": "Acuerdos de financiamiento internacional",
+   "href": "/administrativo/financiamiento",
+   "target": ""
+  },
+  {
+   "txt": "Plan de Acción de Congreso Abierto",
+   "href": "/micrositios/Plan/",
+   "target": ""
+  },
+  {
+   "txt": "Informes de gestión",
+   "href": "/administrativo/informes",
+   "target": ""
+  },
+  {
+   "txt": "Informes especiales y de auditoría",
+   "href": "/administrativo/InformesAuditoria",
+   "target": ""
+  },
+  {
+   "txt": "Datos abiertos",
+   "href": "/micrositios/DatosAbiertos/",
+   "target": ""
+  },
+  {
+   "txt": "Audiencias públicas",
+   "href": "/audiencias",
+   "target": ""
+  },
+  {
+   "txt": "Firma digital",
+   "href": "/administrativo/firmadigital",
+   "target": ""
+  },
+  {
+   "txt": "Guía de información disponible en el sitio",
+   "href": "/bundles/senadomicrositios/pdf/transparencia/guia.pdf",
+   "target": ""
+  },
+  {
+   "txt": "Atención ciudadana",
+   "href": "/micrositios/ac/home",
+   "target": ""
+  },
+  {
+   "txt": "SANDH",
+   "href": "https://www.senado.gob.ar/micrositios/observatorioDDHH/SANDH",
+   "target": ""
+  },
+  {
+   "txt": "Registro de ONG",
+   "href": "/micrositios/dirgralcomisionesong",
+   "target": ""
+  },
+  {
+   "txt": "Conservación y restauración",
+   "href": "/micrositios/DCYR/",
+   "target": ""
+  },
+  {
+   "txt": "El Congreso de los chicos",
+   "href": "https://chicos.congreso.gob.ar/",
+   "target": ""
+  },
+  {
+   "txt": "WEBMAIL",
+   "href": "https://outlook.office.com/senadogovar.onmicrosoft.com",
+   "target": ""
+  },
+  {
+   "txt": "TCR",
+   "href": "https://hsnext.senado.gob.ar:10443/",
+   "target": ""
+  }
+ ],
+ "botones": [
+  {
+   "txt": "Toggle navigation",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "×",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  },
+  {
+   "txt": "Cerrar",
+   "id": "",
+   "type": "button",
+   "onclick": ""
+  }
+ ],
+ "exportar": [
+  {
+   "txt": "Datos abiertos",
+   "href": "/micrositios/DatosAbiertos/",
+   "onclick": ""
+  }
+ ]
+}
