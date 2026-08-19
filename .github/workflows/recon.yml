@@ -9,7 +9,7 @@ permissions:
 jobs:
   recon:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v5
 
@@ -25,180 +25,181 @@ jobs:
       - name: Reconocer el sitio
         continue-on-error: true
         run: |
-          cat > r2.py <<'PY'
+          cat > r3.py <<'PY'
           import json, re, traceback
+          from datetime import date, timedelta
           from pathlib import Path
           from playwright.sync_api import sync_playwright
 
           BASE = "https://www.senado.gob.ar"
           BUSC = BASE + "/parlamentario/parlamentaria/"
-          ASUN = BASE + "/parlamentario/sesiones/asuntosEnt"
           OUT = Path("recon"); OUT.mkdir(exist_ok=True)
           L = []
           def w(s=""): L.append(s)
 
-          RUIDO = re.compile(r"^(gs[_-]|gsc|___gcse|q$)", re.I)
+          HASTA = date.today()
+          DESDE = HASTA - timedelta(days=45)
 
-          DUMP = """() => {
-            const t = e => (e?.innerText||e?.value||'').trim().replace(/\\s+/g,' ').slice(0,90);
+          PONER = """(a) => {
+            const f = [...document.querySelectorAll('form')]
+              .find(x => (x.getAttribute('action')||'').includes(a.ep));
+            if (!f) return 'SIN FORMULARIO';
+            const out = [];
+            for (const [n, v] of a.vals) {
+              const e = f.querySelector('[name="' + n + '"]');
+              if (!e) { out.push(n + ':NO-EXISTE'); continue; }
+              e.value = v;
+              out.push(n.replace('busqueda_proyectos','bp') + '=' + e.value);
+            }
+            f.submit();
+            return out.join(' | ');
+          }"""
+
+          VOLCAR = """() => {
+            const t = e => (e?.innerText||'').trim().replace(/\\s+/g,' ').slice(0,120);
             return {
-              titulo: document.title,
               url: location.href,
-              campos: [...document.querySelectorAll('input,select,textarea')].map(c=>({
-                tag: c.tagName.toLowerCase(),
-                type: c.getAttribute('type')||'',
-                name: c.getAttribute('name')||'',
-                id: c.id||'',
-                ph: c.getAttribute('placeholder')||'',
-                vis: !!(c.offsetWidth||c.offsetHeight),
-                pane: (c.closest('.tab-pane,[role=tabpanel]')||{}).id || '',
-                form: (c.closest('form')||{}).id || '',
-                op: c.options ? [...c.options].slice(0,6).map(o=>o.value+'='+o.text.trim().slice(0,30)) : null
+              titulo: document.title,
+              tablas: [...document.querySelectorAll('table')].map(x=>({
+                id: x.id||'', clase: (x.className||'').slice(0,60),
+                cols: [...x.querySelectorAll('thead th, tr:first-child th')].map(t),
+                nfilas: x.querySelectorAll('tbody tr').length || x.querySelectorAll('tr').length,
+                filas: [...x.querySelectorAll('tbody tr')].slice(0,3)
+                  .map(tr=>[...tr.querySelectorAll('td')].map(t))
               })),
-              forms: [...document.querySelectorAll('form')].map(f=>({
-                id: f.id||'', name: f.getAttribute('name')||'',
-                action: f.getAttribute('action')||'', method: (f.getAttribute('method')||'GET').toUpperCase()
-              })),
-              tabs: [...document.querySelectorAll('[data-toggle=tab],[role=tab],.nav-tabs a,.nav-pills a,ul.nav a')]
-                .map(a=>({txt:t(a), href:a.getAttribute('href')||'', target:a.getAttribute('data-target')||''})),
-              botones: [...document.querySelectorAll('button,input[type=submit],input[type=button],a.btn')]
-                .map(b=>({txt:t(b), id:b.id||'', type:b.getAttribute('type')||'',
-                          onclick:(b.getAttribute('onclick')||'').slice(0,120)})),
-              exportar: [...document.querySelectorAll('a,button')].filter(e=>
-                /datos abiertos|excel|xlsx|csv|json|descargar|export|download/i.test(t(e)+' '+(e.getAttribute('href')||''))
-                ).map(e=>({txt:t(e), href:e.getAttribute('href')||'',
-                           onclick:(e.getAttribute('onclick')||'').slice(0,150)}))
+              links_proyecto: [...document.querySelectorAll('a')]
+                .map(a=>a.getAttribute('href')||'')
+                .filter(h=>/parlamentaria|expediente|proyecto|Downl|\\.pdf/i.test(h))
+                .slice(0,15),
+              paginacion: [...document.querySelectorAll('.pagination a, [class*=pagina] a')]
+                .slice(0,12).map(a=>({txt:t(a), href:a.getAttribute('href')||''})),
+              texto: document.body.innerText.replace(/\\n{2,}/g,'\\n').slice(0,2500)
             }}"""
 
 
-          def util(c):
-              return not (RUIDO.match(c["id"] or "") or RUIDO.match(c["name"] or ""))
+          def sel(nombre, d):
+              return [(f"busqueda_proyectos[{nombre}][day]", str(d.day)),
+                      (f"busqueda_proyectos[{nombre}][month]", str(d.month)),
+                      (f"busqueda_proyectos[{nombre}][year]", str(d.year))]
 
 
-          def volcar(page, nombre, url, red):
-              w(f"## {nombre}")
+          def probar(pg, etiqueta, ep, campos):
+              w(f"## {etiqueta}  (POST /{ep})")
+              w()
+              w(f"rango consultado: {DESDE} a {HASTA}")
               w()
               try:
-                  r = page.goto(url, wait_until="domcontentloaded", timeout=60000)
-                  page.wait_for_timeout(4000)
-                  d = page.evaluate(DUMP)
-                  w(f"- HTTP: {r.status if r else '?'} | url final: `{page.url}`")
-                  w(f"- titulo: {d['titulo']}")
+                  pg.goto(BUSC, wait_until="domcontentloaded", timeout=60000)
+                  pg.wait_for_timeout(2500)
+                  res = pg.evaluate(PONER, {"ep": ep, "vals": campos})
+                  w(f"- campos seteados: `{res}`")
+                  if res == "SIN FORMULARIO":
+                      w()
+                      return
+                  try:
+                      pg.wait_for_load_state("domcontentloaded", timeout=45000)
+                  except Exception:
+                      pass
+                  pg.wait_for_timeout(6000)
+                  d = pg.evaluate(VOLCAR)
+                  w(f"- url resultado: `{d['url']}`")
                   w()
-                  w("### Formularios")
-                  for f in d["forms"]:
-                      w(f"- id=`{f['id']}` name=`{f['name']}` **{f['method']}** action=`{f['action']}`")
+                  for i, tb in enumerate(d["tablas"]):
+                      if not tb["nfilas"]:
+                          continue
+                      w(f"### tabla {i}: id=`{tb['id']}` clase=`{tb['clase']}` ({tb['nfilas']} filas)")
+                      w(f"- columnas: {tb['cols']}")
+                      for fila in tb["filas"]:
+                          w(f"- fila: {fila}")
+                      w()
+                  w(f"- paginacion: {d['paginacion']}")
+                  w(f"- links tipo proyecto: {d['links_proyecto']}")
                   w()
-                  w("### Pestanas")
-                  for a in d["tabs"][:40]:
-                      if a["txt"]:
-                          w(f"- `{a['txt']}` -> href=`{a['href']}` target=`{a['target']}`")
+                  w("texto de la pagina:")
+                  w("```")
+                  w(d["texto"])
+                  w("```")
                   w()
-                  cs = [c for c in d["campos"] if util(c)]
-                  w(f"### Campos utiles ({len(cs)} de {len(d['campos'])} totales)")
-                  w()
-                  w("| tag | type | name | id | placeholder | visible | panel | form |")
-                  w("|---|---|---|---|---|---|---|---|")
-                  for c in cs[:90]:
-                      w(f"| {c['tag']} | {c['type']} | `{c['name']}` | `{c['id']}` | {c['ph']} "
-                        f"| {'SI' if c['vis'] else 'no'} | {c['pane']} | {c['form']} |")
-                  w()
-                  w("### Opciones de los select")
-                  for c in cs:
-                      if c["op"]:
-                          w(f"- `{c['name'] or c['id']}`: {c['op']}")
-                  w()
-                  w("### Botones")
-                  for b in d["botones"][:40]:
-                      if b["txt"] or b["onclick"]:
-                          w(f"- `{b['txt']}` id=`{b['id']}` type={b['type']} onclick=`{b['onclick']}`")
-                  w()
-                  w("### Enlaces de exportacion / descarga")
-                  for e in d["exportar"][:40]:
-                      w(f"- `{e['txt']}` -> `{e['href']}` onclick=`{e['onclick']}`")
-                  w()
-                  (OUT / f"{nombre}.html").write_text(page.content(), encoding="utf-8")
-                  (OUT / f"{nombre}.json").write_text(json.dumps(d, indent=1, ensure_ascii=False),
+                  (OUT / f"res_{ep}.html").write_text(pg.content(), encoding="utf-8")
+                  (OUT / f"res_{ep}.json").write_text(json.dumps(d, indent=1, ensure_ascii=False),
                                                       encoding="utf-8")
-                  return d
               except Exception as e:
                   w(f"**ERROR:** `{type(e).__name__}: {e}`")
                   w("```")
-                  w(traceback.format_exc()[-800:])
+                  w(traceback.format_exc()[-700:])
                   w("```")
                   w()
-                  return None
 
 
-          red = []
+          w("# Fase 0 - Reconocimiento (v3): busquedas reales")
+          w()
+
           with sync_playwright() as pw:
               br = pw.chromium.launch()
               ctx = br.new_context(locale="es-AR", timezone_id="America/Argentina/Buenos_Aires",
                                    viewport={"width": 1500, "height": 1100})
               ctx.set_default_timeout(45000)
               ctx.route(re.compile(r"(google-analytics|googletagmanager|adtrafficquality|doubleclick"
-                                   r"|googlesyndication|cse\.google)"), lambda r: r.abort())
-
+                                   r"|googlesyndication|cse\.google|sharethis)"), lambda r: r.abort())
               pg = ctx.new_page()
-              pg.on("response", lambda r: red.append(
-                  (r.request.method, r.url[:300], r.status, r.headers.get("content-type", "")[:50],
-                   (r.request.post_data or "")[:400]))
-                  if "senado.gob.ar" in r.url and r.request.resource_type in ("document", "xhr", "fetch")
-                  else None)
 
-              w("# Fase 0 - Reconocimiento (v2)")
+              probar(pg, "A. Fecha de Mesa de Entradas", "fechaMesa",
+                     sel("fechaDesdeMesa", DESDE) + sel("fechaHastaMesa", HASTA))
+
+              probar(pg, "B. Busqueda avanzada por fecha", "avanzada",
+                     sel("fechaDesde", DESDE) + sel("fechaHasta", HASTA))
+
+              w("## C. Endpoints de datos abiertos")
               w()
-              d1 = volcar(pg, "buscador", BUSC, red)
+              for nombre, url in [
+                  ("asuntos entrados JSON", BASE + "/micrositios/DatosAbiertos/ExportarListadoAsuntosEntrados/json"),
+                  ("asuntos entrados Excel", BASE + "/micrositios/DatosAbiertos/ExportarListadoAsuntosEntrados/Excel"),
+              ]:
+                  try:
+                      r = ctx.request.get(url, timeout=45000)
+                      cuerpo = r.body()
+                      w(f"- **{nombre}**: HTTP {r.status} | {r.headers.get('content-type','?')} "
+                        f"| {len(cuerpo)} bytes")
+                      if "json" in (r.headers.get("content-type", "") + url).lower():
+                          muestra = cuerpo.decode("utf-8", "replace")[:1800]
+                          w("```")
+                          w(muestra)
+                          w("```")
+                          (OUT / "asuntos_entrados.json").write_bytes(cuerpo)
+                  except Exception as e:
+                      w(f"- **{nombre}**: ERROR {str(e)[:200]}")
+                  w()
 
-              # Activar cada pestana y ver que campos se vuelven visibles
-              w("## Campos que aparecen al activar cada pestana")
+              w("## D. DAE Digital")
               w()
               try:
-                  tabs = pg.locator(".nav-tabs a, [data-toggle=tab], [role=tab]")
-                  n = min(tabs.count(), 10)
-                  w(f"pestanas encontradas: {tabs.count()}")
+                  pg.goto(BASE + "/parlamentario/DAEDIGITAL/", wait_until="domcontentloaded", timeout=60000)
+                  pg.wait_for_timeout(4000)
+                  d = pg.evaluate(VOLCAR)
+                  w(f"- url: `{d['url']}` | titulo: {d['titulo']}")
+                  for i, tb in enumerate(d["tablas"]):
+                      if tb["nfilas"]:
+                          w(f"- tabla {i} id=`{tb['id']}` ({tb['nfilas']} filas) cols={tb['cols']}")
+                          for fila in tb["filas"]:
+                              w(f"  - {fila}")
+                  w(f"- links: {d['links_proyecto']}")
                   w()
-                  for i in range(n):
-                      try:
-                          tt = tabs.nth(i).inner_text().strip()[:40]
-                          tabs.nth(i).click(timeout=8000)
-                          pg.wait_for_timeout(1200)
-                          vis = pg.evaluate("""() => [...document.querySelectorAll('input,select')]
-                              .filter(c=>(c.offsetWidth||c.offsetHeight))
-                              .map(c=>(c.getAttribute('name')||'')+'|'+(c.id||'')+'|'
-                                      +(c.getAttribute('type')||'')+'|'+(c.getAttribute('placeholder')||''))
-                              .filter(s=>!/^gs|gsc|___gcse/i.test(s))""")
-                          w(f"### Pestana {i}: {tt}")
-                          for v in vis[:25]:
-                              w(f"- `{v}`")
-                          w()
-                      except Exception as e:
-                          w(f"### Pestana {i}: fallo -> {str(e)[:120]}")
-                          w()
+                  w("```")
+                  w(d["texto"][:1500])
+                  w("```")
+                  (OUT / "dae.html").write_text(pg.content(), encoding="utf-8")
               except Exception as e:
-                  w(f"**ERROR pestanas:** {str(e)[:200]}")
-                  w()
+                  w(f"**ERROR:** {str(e)[:250]}")
+              w()
 
-              d2 = volcar(pg, "asuntos_entrados", ASUN, red)
               br.close()
-
-          w("## Peticiones a senado.gob.ar")
-          w()
-          vistos = set()
-          for m, u, st, ct, pd in red:
-              if (m, u) in vistos:
-                  continue
-              vistos.add((m, u))
-              w(f"- `{m} {u}` -> {st} ({ct})")
-              if pd:
-                  w(f"  - envia: `{pd}`")
 
           txt = "\n".join(L)
           Path("INFORME.md").write_text(txt, encoding="utf-8")
           (OUT / "INFORME.md").write_text(txt, encoding="utf-8")
           print(txt)
           PY
-          python r2.py
+          python r3.py
 
       - name: Mostrar informe
         if: always()
@@ -210,7 +211,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A recon INFORME.md || true
-          git diff --staged --quiet || git commit -m "Resultados del reconocimiento"
+          git diff --staged --quiet || git commit -m "Resultados del reconocimiento v3"
           git push || true
 
       - name: Subir artifact
