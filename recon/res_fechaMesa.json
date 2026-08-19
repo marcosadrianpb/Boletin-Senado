@@ -1,0 +1,89 @@
+{
+ "url": "https://www.senado.gob.ar/parlamentario/parlamentaria/fechaMesa",
+ "titulo": "Honorable Senado de la Nación Argentina",
+ "tablas": [
+  {
+   "id": "",
+   "clase": "table table-bordered",
+   "cols": [
+    "Exp",
+    "Tipo",
+    "Origen",
+    "Exp. HCD",
+    "Fec. Ing. Mesa Entrada",
+    "Extracto"
+   ],
+   "nfilas": 10,
+   "filas": [
+    [
+     "1361/26",
+     "PD",
+     "S",
+     "",
+     "12/08/2026",
+     "VISCHI: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS LA VISITA OFICIAL DEL PAPA LEON XIV, DEL 6 AL 17 DE NOVIEMBRE DE "
+    ],
+    [
+     "1360/26",
+     "PD",
+     "S",
+     "",
+     "12/08/2026",
+     "VISCHI Y VALENZUELA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS EL 4° CONGRESO ECOTURÍSTICO DE LA REGIÓN LITORAL, EN"
+    ],
+    [
+     "1359/26",
+     "PD",
+     "S",
+     "",
+     "12/08/2026",
+     "KIRCHNER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO POR LA CONMEMORACIÓN DEL 50° ANIVERSARIO DE LA FUNDACIÓN DEL J"
+    ]
+   ]
+  }
+ ],
+ "links_proyecto": [
+  "/parlamentario/parlamentaria/",
+  "/parlamentario/parlamentaria/",
+  "/parlamentario/parlamentaria/",
+  "/parlamentario/parlamentaria/",
+  "/micrositios/DatosAbiertosExpedientes/BusquedaMesaEntradas/XLS",
+  "/parlamentario/parlamentaria/fechaMesa?page=2",
+  "/parlamentario/parlamentaria/fechaMesa?page=3",
+  "/parlamentario/parlamentaria/fechaMesa?page=4",
+  "/parlamentario/parlamentaria/fechaMesa?page=5",
+  "/parlamentario/parlamentaria/fechaMesa?page=2",
+  "/parlamentario/parlamentaria/fechaMesa?page=31",
+  "/parlamentario/parlamentaria/",
+  "/parlamentario/parlamentaria/actas",
+  "/parlamentario/parlamentaria/ordenDelDia",
+  "/parlamentario/parlamentaria/decreto"
+ ],
+ "paginacion": [
+  {
+   "txt": "2",
+   "href": "/parlamentario/parlamentaria/fechaMesa?page=2"
+  },
+  {
+   "txt": "3",
+   "href": "/parlamentario/parlamentaria/fechaMesa?page=3"
+  },
+  {
+   "txt": "4",
+   "href": "/parlamentario/parlamentaria/fechaMesa?page=4"
+  },
+  {
+   "txt": "5",
+   "href": "/parlamentario/parlamentaria/fechaMesa?page=5"
+  },
+  {
+   "txt": ">",
+   "href": "/parlamentario/parlamentaria/fechaMesa?page=2"
+  },
+  {
+   "txt": ">>",
+   "href": "/parlamentario/parlamentaria/fechaMesa?page=31"
+  }
+ ],
+ "texto": "INSTITUCIONAL\nPRENSA\nCONTACTO\nBUSCADOR\nSENADORES\nPROYECTOS\nSESIONES\nCOMISIONES\nHome Sesiones  Búsqueda de Proyectos Resultado\nIngresados por Mesa de Entradas\nFecha Desde:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n/ \n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n / \n26\n25\n24\n23\n22\n21\n20\n19\n18\n17\n16\n15\n14\n13\n12\n11\n10\n09\n08\n07\n06\n05\n04\n03\n02\n01\n00\n99\n98\n97\n96\n95\n94\n93\n92\n91\n90\n89\n88\n87\n86\n85\n84\n83\nFecha Hasta:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n/ \n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n/ \n26\n25\n24\n23\n22\n21\n20\n19\n18\n17\n16\n15\n14\n13\n12\n11\n10\n09\n08\n07\n06\n05\n04\n03\n02\n01\n00\n99\n98\n97\n96\n95\n94\n93\n92\n91\n90\n89\n88\n87\n86\n85\n84\n83\n  Datos abiertos: \nExp\tTipo\tOrigen\tExp. HCD\tFec. Ing. Mesa Entrada\tExtracto\n1361/26\tPD\tS\t\t12/08/2026\tVISCHI: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS LA VISITA OFICIAL DEL PAPA LEON XIV, DEL 6 AL 17 DE NOVIEMBRE DE 2026\n1360/26\tPD\tS\t\t12/08/2026\tVISCHI Y VALENZUELA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS EL 4° CONGRESO ECOTURÍSTICO DE LA REGIÓN LITORAL, EN LA CDAD. DE CORRIENTES, PROV. HOMONIMA, EL 3 Y 4 DE SEPTIEMBRE DE 2026.\n1359/26\tPD\tS\t\t12/08/2026\tKIRCHNER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO POR LA CONMEMORACIÓN DEL 50° ANIVERSARIO DE LA FUNDACIÓN DEL JARDIN DE INFANTES N° 21 \"ALUEN\", DE LA LOC. DE 28 DE NOVIEMBRE, PROV. DE SANTA CRUZ, EL 2 DE JUNIO DE 2026.\n1358/26\tPC\tS\t\t12/08/2026\tKIRCHNER Y OTROS: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DISTINTOS PUNTOS RELACIONADOS AL CUMPLIMIENTO DE LA LEY 23.966, QUE ESTABLECE LA AFECTACIÓN ESPECÍFICA DE UNA PARTE DE LOS IMPUESTOS A LOS COMBUSTIBLES LÍQUIDOS Y AL GAS NATURAL AL SISTEMA VIAL INTEGRADO (SISVIAL).\n1357/26\tPR\tS\t\t12/08/2026\tMARKS Y OTROS: PROYECTO DE RESOLUCION QUE CITA AL JEFE DE GABINETE DE MINISTROS, CPN DIEGO CESAR SANTILLI, Y AL MINISTRO DE ECONOMÍA, LIC. LUIS ANDRES CAPUTO, DE CONFORMIDAD AL ART. 71 DE LA C.N. Y EL ART. 214 DEL REGLAMENTO DE LA H. CAMARA, A FIN DE BRINDAR INFORME SOBRE EL DESTINO DE LOS RECURSO\n1356/26\tPD\tS\t\t12/08/2026\tLOPEZ FLORENCIA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL \"4° CONGRESO DE CANTO CON CAJA\", A DESARROLLARSE EN LA PROV. DE LA RIOJA, DEL 13 AL 16 DE AGOSTO DE 2026.\n1355/26\tPD\tS\t\t12/08/2026\tLEWANDOWSKI: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL SITIO WEB WWW.BRIGADIERLOPEZ.AR, DESAROLLADO POR THIAGO ALBERTO LLORENTE Y SANTIAGO FERRERO.\n1354/26\tPD\tS\t\t12/08/2026\tJURI: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LA PUBLICACION DEL LIBRO"
+}

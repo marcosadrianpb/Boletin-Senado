@@ -1,881 +1,2276 @@
 {
- "titulo": "Honorable Senado de la Nación Argentina",
- "url": "https://www.senado.gob.ar/parlamentario/sesiones/asuntosEnt",
- "campos": [
-  {
-   "tag": "select",
-   "type": "",
-   "name": "busqueda_proyectos[fechaDesde][day]",
-   "id": "busqueda_proyectos_fechaDesde_day",
-   "ph": "",
-   "vis": true,
-   "pane": "1",
-   "form": "",
-   "op": [
-    "1=1",
-    "2=2",
-    "3=3",
-    "4=4",
-    "5=5",
-    "6=6"
-   ]
-  },
-  {
-   "tag": "select",
-   "type": "",
-   "name": "busqueda_proyectos[fechaDesde][month]",
-   "id": "busqueda_proyectos_fechaDesde_month",
-   "ph": "",
-   "vis": true,
-   "pane": "1",
-   "form": "",
-   "op": [
-    "1=1",
-    "2=2",
-    "3=3",
-    "4=4",
-    "5=5",
-    "6=6"
-   ]
-  },
-  {
-   "tag": "select",
-   "type": "",
-   "name": "busqueda_proyectos[fechaDesde][year]",
-   "id": "busqueda_proyectos_fechaDesde_year",
-   "ph": "",
-   "vis": true,
-   "pane": "1",
-   "form": "",
-   "op": [
-    "2026=26",
-    "2025=25",
-    "2024=24",
-    "2023=23",
-    "2022=22",
-    "2021=21"
-   ]
-  },
-  {
-   "tag": "select",
-   "type": "",
-   "name": "busqueda_proyectos[fechaHasta][day]",
-   "id": "busqueda_proyectos_fechaHasta_day",
-   "ph": "",
-   "vis": true,
-   "pane": "1",
-   "form": "",
-   "op": [
-    "1=1",
-    "2=2",
-    "3=3",
-    "4=4",
-    "5=5",
-    "6=6"
-   ]
-  },
-  {
-   "tag": "select",
-   "type": "",
-   "name": "busqueda_proyectos[fechaHasta][month]",
-   "id": "busqueda_proyectos_fechaHasta_month",
-   "ph": "",
-   "vis": true,
-   "pane": "1",
-   "form": "",
-   "op": [
-    "1=1",
-    "2=2",
-    "3=3",
-    "4=4",
-    "5=5",
-    "6=6"
-   ]
-  },
-  {
-   "tag": "select",
-   "type": "",
-   "name": "busqueda_proyectos[fechaHasta][year]",
-   "id": "busqueda_proyectos_fechaHasta_year",
-   "ph": "",
-   "vis": true,
-   "pane": "1",
-   "form": "",
-   "op": [
-    "2026=26",
-    "2025=25",
-    "2024=24",
-    "2023=23",
-    "2022=22",
-    "2021=21"
-   ]
-  },
-  {
-   "tag": "input",
-   "type": "text",
-   "name": "busqueda_proyectos[palabra]",
-   "id": "busqueda_proyectos_palabra",
-   "ph": "",
-   "vis": true,
-   "pane": "1",
-   "form": "",
-   "op": null
-  },
-  {
-   "tag": "select",
-   "type": "",
-   "name": "busqueda_proyectos[opcion]",
-   "id": "busqueda_proyectos_opcion",
-   "ph": "",
-   "vis": true,
-   "pane": "1",
-   "form": "",
-   "op": [
-    "Y=Y",
-    "O=O"
-   ]
-  },
-  {
-   "tag": "input",
-   "type": "text",
-   "name": "busqueda_proyectos[palabra2]",
-   "id": "busqueda_proyectos_palabra2",
-   "ph": "",
-   "vis": true,
-   "pane": "1",
-   "form": "",
-   "op": null
-  },
-  {
-   "tag": "input",
-   "type": "image",
-   "name": "",
-   "id": "",
-   "ph": "",
-   "vis": true,
-   "pane": "1",
-   "form": "",
-   "op": null
-  }
- ],
- "forms": [
-  {
-   "id": "",
-   "name": "",
-   "action": "/parlamentario/sesiones/asuntosResultado",
-   "method": "POST"
-  }
- ],
- "tabs": [
-  {
-   "txt": "INSTITUCIONAL",
-   "href": "#",
-   "target": ""
-  },
-  {
-   "txt": "Presidencia",
-   "href": "/presidencia",
-   "target": ""
-  },
-  {
-   "txt": "Autoridades - Organigrama",
-   "href": "/autoridades",
-   "target": ""
-  },
-  {
-   "txt": "Dependencias del Senado",
-   "href": "/micrositios/Dependencias",
-   "target": ""
-  },
-  {
-   "txt": "Constitución Nacional",
-   "href": "https://www.congreso.gob.ar/constitucionNacional.php",
-   "target": ""
-  },
-  {
-   "txt": "Constitución Nacional original de 1853",
-   "href": "/CN",
-   "target": ""
-  },
-  {
-   "txt": "Reglamento del Senado",
-   "href": "/reglamento",
-   "target": ""
-  },
-  {
-   "txt": "Enviá tu CV",
-   "href": "/micrositios/postulante/new",
-   "target": ""
-  },
-  {
-   "txt": "PRENSA",
-   "href": "#",
-   "target": ""
-  },
-  {
-   "txt": "Gacetillas de Prensa",
-   "href": "/prensa/eventos",
-   "target": ""
-  },
-  {
-   "txt": "Galería de Fotos",
-   "href": "/prensa/galeria",
-   "target": ""
-  },
-  {
-   "txt": "Información para Medios",
-   "href": "/prensa/medios",
-   "target": ""
-  },
-  {
-   "txt": "CONTACTO",
-   "href": "/FormularioContacto",
-   "target": ""
-  },
-  {
-   "txt": "Senadores",
-   "href": "/senadores/listados/listaSenadoRes",
-   "target": ""
-  },
-  {
-   "txt": "Proyectos",
-   "href": "/parlamentario/parlamentaria/",
-   "target": ""
-  },
-  {
-   "txt": "Sesiones",
-   "href": "/parlamentario/sesiones/busquedaTac",
-   "target": ""
-  },
-  {
-   "txt": "Comisiones",
-   "href": "/parlamentario/comisiones/?active=permanente",
-   "target": ""
-  },
-  {
-   "txt": "",
-   "href": "",
-   "target": ""
-  },
-  {
-   "txt": "",
-   "href": "",
-   "target": ""
-  },
-  {
-   "txt": "",
-   "href": "",
-   "target": ""
-  },
-  {
-   "txt": "",
-   "href": "",
-   "target": ""
-  },
-  {
-   "txt": "SENADORES",
-   "href": "/senadores/listados/listaSenadoRes",
-   "target": ""
-  },
-  {
-   "txt": "PROYECTOS",
-   "href": "/parlamentario/parlamentaria/",
-   "target": ""
-  },
-  {
-   "txt": "SESIONES",
-   "href": "/parlamentario/sesiones/busquedaTac",
-   "target": ""
-  },
-  {
-   "txt": "COMISIONES",
-   "href": "/parlamentario/comisiones/?active=permanente",
-   "target": ""
-  },
-  {
-   "txt": "SENADORES -",
-   "href": "/senadores/listados/listaSenadoRes",
-   "target": ""
-  },
-  {
-   "txt": "PROYECTOS -",
-   "href": "/parlamentario/parlamentaria/",
-   "target": ""
-  },
-  {
-   "txt": "SESIONES -",
-   "href": "/parlamentario/sesiones/busquedaTac",
-   "target": ""
-  },
-  {
-   "txt": "COMISIONES",
-   "href": "/parlamentario/comisiones/?active=permanente",
-   "target": ""
-  },
-  {
-   "txt": "Senado TV en vivo",
-   "href": "/parlamentario/sesiones/enVivo",
-   "target": ""
-  },
-  {
-   "txt": "Boletín de Novedades",
-   "href": "/parlamentario/sesiones/",
-   "target": ""
-  },
-  {
-   "txt": "Versiones Taquigráficas",
-   "href": "/parlamentario/sesiones/busquedaTac",
-   "target": ""
-  },
-  {
-   "txt": "Dae Digital",
-   "href": "/parlamentario/DAEDIGITAL/",
-   "target": ""
-  },
-  {
-   "txt": "Lista de Asuntos Entrados",
-   "href": "#1",
-   "target": ""
-  },
-  {
-   "txt": "Plenario de Labor Parlamentaria",
-   "href": "/parlamentario/parlamentaria/actas",
-   "target": ""
-  },
-  {
-   "txt": "Votaciones",
-   "href": "/votaciones/actas",
-   "target": ""
-  },
-  {
-   "txt": "Presidencia",
-   "href": "/presidencia",
-   "target": ""
-  },
-  {
-   "txt": "Autoridades - Organigrama",
-   "href": "/autoridades",
-   "target": ""
-  },
-  {
-   "txt": "Dependencias del Senado",
-   "href": "/micrositios/Dependencias",
-   "target": ""
-  },
-  {
-   "txt": "Constitución Nacional",
-   "href": "https://www.congreso.gob.ar/constitucionNacional.php",
-   "target": ""
-  },
-  {
-   "txt": "Constitución Nacional original de 1853",
-   "href": "/CN",
-   "target": ""
-  },
-  {
-   "txt": "Reglamento del Senado",
-   "href": "/reglamento",
-   "target": ""
-  },
-  {
-   "txt": "Enviá tu CV",
-   "href": "/micrositios/postulante/new",
-   "target": ""
-  },
-  {
-   "txt": "Noticias",
-   "href": "/prensa/eventos",
-   "target": ""
-  },
-  {
-   "txt": "Galería de fotos",
-   "href": "/prensa/galeria",
-   "target": ""
-  },
-  {
-   "txt": "Información para medios",
-   "href": "/prensa/medios",
-   "target": ""
-  },
-  {
-   "txt": "AGENDA",
-   "href": "/parlamentario/Agenda/AgendaWeb/14,08,2026",
-   "target": ""
-  },
-  {
-   "txt": "CONTACTO",
-   "href": "/FormularioContacto",
-   "target": ""
-  },
-  {
-   "txt": "",
-   "href": "https://www.youtube.com/senadotvargentina",
-   "target": ""
-  },
-  {
-   "txt": "",
-   "href": "https://www.instagram.com/senadoargentina/",
-   "target": ""
-  },
-  {
-   "txt": "",
-   "href": "https://twitter.com/SenadoArgentina",
-   "target": ""
-  },
-  {
-   "txt": "",
-   "href": "https://www.facebook.com/senadoargentina/",
-   "target": ""
-  },
-  {
-   "txt": "Listado alfabético",
-   "href": "/senadores/listados/listaSenadoRes",
-   "target": ""
-  },
-  {
-   "txt": "Listado por bloque",
-   "href": "/senadores/listados/agrupados-por-bloques",
-   "target": ""
-  },
-  {
-   "txt": "Listado por provincia",
-   "href": "/senadores/listados/agrupados-por-provincia",
-   "target": ""
-  },
-  {
-   "txt": "Buscador histórico",
-   "href": "/senadores/Historico/Introduccion",
-   "target": ""
-  },
-  {
-   "txt": "Búsqueda de proyectos",
-   "href": "/parlamentario/parlamentaria/",
-   "target": ""
-  },
-  {
-   "txt": "Votaciones",
-   "href": "/votaciones/actas",
-   "target": ""
-  },
-  {
-   "txt": "Plenario de Labor",
-   "href": "/parlamentario/parlamentaria/actas",
-   "target": ""
-  },
-  {
-   "txt": "Asuntos Entrados",
-   "href": "/parlamentario/sesiones/asuntosEnt",
-   "target": ""
-  },
-  {
-   "txt": "DAE digital",
-   "href": "/parlamentario/DAEDIGITAL/",
-   "target": ""
-  },
-  {
-   "txt": "Versiones Taquigráficas",
-   "href": "/parlamentario/sesiones/busquedaTac",
-   "target": ""
-  },
-  {
-   "txt": "Boletín de Novedades",
-   "href": "/parlamentario/sesiones/",
-   "target": ""
-  },
-  {
-   "txt": "Senado TV en vivo",
-   "href": "/parlamentario/sesiones/enVivo",
-   "target": ""
-  },
-  {
-   "txt": "Comisiones unicamerales",
-   "href": "/parlamentario/comisiones/?active=permanente",
-   "target": ""
-  },
-  {
-   "txt": "Comisiones bicamerales",
-   "href": "/parlamentario/comisiones/?active=especiales",
-   "target": ""
-  },
-  {
-   "txt": "Agenda de reuniones",
-   "href": "/parlamentario/comisiones/?active=agenda",
-   "target": ""
-  },
-  {
-   "txt": "Composición y funciones",
-   "href": "/poderlegislativo",
-   "target": ""
-  },
-  {
-   "txt": "Formación de leyes",
-   "href": "/parlamentario/tramite",
-   "target": ""
-  },
-  {
-   "txt": "Relaciones Internacionales",
-   "href": "/micrositios/RInternacionalesPresentacion",
-   "target": ""
-  },
-  {
-   "txt": "Acuerdos",
-   "href": "/acuerdos",
-   "target": ""
-  },
-  {
-   "txt": "Estadísticas parlamentarias",
-   "href": "/parlamentario/estadisticas",
-   "target": ""
-  },
-  {
-   "txt": "Obras declaradas de interés por el Senado",
-   "href": "/obras",
-   "target": ""
-  },
-  {
-   "txt": "Mensajes presidenciales",
-   "href": "/parlamentario/mensajes",
-   "target": ""
-  },
-  {
-   "txt": "Informes de la Jefatura de Gabinete de Ministros",
-   "href": "/parlamentario/InformesJgm/",
-   "target": ""
-  },
-  {
-   "txt": "Reforma constitucional de 1949",
-   "href": "/parlamentario/convenciones/49/inicio/Institucional",
-   "target": ""
-  },
-  {
-   "txt": "Reforma constitucional de 1994",
-   "href": "/parlamentario/convenciones/inicio/Institucional",
-   "target": ""
-  },
-  {
-   "txt": "ÓRDENES DEL DÍA",
-   "href": "/parlamentario/parlamentaria/ordenDelDia",
-   "target": ""
-  },
-  {
-   "txt": "Cultura",
-   "href": "/micrositios/ActividadesCulturales/",
-   "target": ""
-  },
-  {
-   "txt": "Visitas guiadas",
-   "href": "/visitasguiadas",
-   "target": ""
-  },
-  {
-   "txt": "Capacitación",
-   "href": "/micrositios/capacitacion",
-   "target": ""
-  },
-  {
-   "txt": "Dirección de Transparencia y Fortalecimiento Institucional",
-   "href": "/micrositios/oficinatransparencia",
-   "target": ""
-  },
-  {
-   "txt": "Normativa parlamentaria",
-   "href": "/parlamentario/parlamentaria/decreto",
-   "target": ""
-  },
-  {
-   "txt": "Normativa y actos administrativos",
-   "href": "/administrativo/normativa",
-   "target": ""
-  },
-  {
-   "txt": "Licitaciones y contrataciones",
-   "href": "/administrativo/Licitaciones",
-   "target": ""
-  },
-  {
-   "txt": "Viajes nacionales e internacionales",
-   "href": "/administrativo/viajes",
-   "target": ""
-  },
-  {
-   "txt": "Partidas presupuestarias",
-   "href": "/administrativo/partida",
-   "target": ""
-  },
-  {
-   "txt": "Nómina de personal y escala salarial",
-   "href": "/recursos-humanos/agente/composicion",
-   "target": ""
-  },
-  {
-   "txt": "Dietas y gastos de representación",
-   "href": "/dietas",
-   "target": ""
-  },
-  {
-   "txt": "Declaraciones juradas",
-   "href": "/administrativo/ddjj/",
-   "target": ""
-  },
-  {
-   "txt": "Acuerdos de financiamiento internacional",
-   "href": "/administrativo/financiamiento",
-   "target": ""
-  },
-  {
-   "txt": "Plan de Acción de Congreso Abierto",
-   "href": "/micrositios/Plan/",
-   "target": ""
-  },
-  {
-   "txt": "Informes de gestión",
-   "href": "/administrativo/informes",
-   "target": ""
-  },
-  {
-   "txt": "Informes especiales y de auditoría",
-   "href": "/administrativo/InformesAuditoria",
-   "target": ""
-  },
-  {
-   "txt": "Datos abiertos",
-   "href": "/micrositios/DatosAbiertos/",
-   "target": ""
-  },
-  {
-   "txt": "Audiencias públicas",
-   "href": "/audiencias",
-   "target": ""
-  },
-  {
-   "txt": "Firma digital",
-   "href": "/administrativo/firmadigital",
-   "target": ""
-  },
-  {
-   "txt": "Guía de información disponible en el sitio",
-   "href": "/bundles/senadomicrositios/pdf/transparencia/guia.pdf",
-   "target": ""
-  },
-  {
-   "txt": "Atención ciudadana",
-   "href": "/micrositios/ac/home",
-   "target": ""
-  },
-  {
-   "txt": "SANDH",
-   "href": "https://www.senado.gob.ar/micrositios/observatorioDDHH/SANDH",
-   "target": ""
-  },
-  {
-   "txt": "Registro de ONG",
-   "href": "/micrositios/dirgralcomisionesong",
-   "target": ""
-  },
-  {
-   "txt": "Conservación y restauración",
-   "href": "/micrositios/DCYR/",
-   "target": ""
-  },
-  {
-   "txt": "El Congreso de los chicos",
-   "href": "https://chicos.congreso.gob.ar/",
-   "target": ""
-  },
-  {
-   "txt": "WEBMAIL",
-   "href": "https://outlook.office.com/senadogovar.onmicrosoft.com",
-   "target": ""
-  },
-  {
-   "txt": "TCR",
-   "href": "https://hsnext.senado.gob.ar:10443/",
-   "target": ""
-  }
- ],
- "botones": [
-  {
-   "txt": "Toggle navigation",
-   "id": "",
-   "type": "button",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "id": "",
-   "type": "button",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "id": "",
-   "type": "button",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "id": "",
-   "type": "button",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "id": "",
-   "type": "button",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "id": "",
-   "type": "button",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "id": "",
-   "type": "button",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "id": "",
-   "type": "button",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "id": "",
-   "type": "button",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "id": "",
-   "type": "button",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "id": "",
-   "type": "button",
-   "onclick": ""
-  }
- ],
- "exportar": [
-  {
-   "txt": "",
-   "href": "/micrositios/DatosAbiertos/ExportarListadoAsuntosEntrados/Excel",
-   "onclick": ""
-  },
-  {
-   "txt": "",
-   "href": "/micrositios/DatosAbiertos/ExportarListadoAsuntosEntrados/json",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "/parlamentario/parlamentaria/sesionordinaria%2016-07-26.pdf/downloadEntrados",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "/parlamentario/parlamentaria/sesionordinaria04-06-2026.pdf/downloadEntrados",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "/parlamentario/parlamentaria/sesionordinaria14-05-2026.pdf/downloadEntrados",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "/parlamentario/parlamentaria/sesionordinaria09-04-2026-.pdf/downloadEntrados",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "/parlamentario/parlamentaria/sesionordinaria18-03-2026.pdf/downloadEntrados",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "/parlamentario/parlamentaria/sesionespecial27-02-2026.pdf/downloadEntrados",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "/parlamentario/parlamentaria/sesionespecial26-02-2026.pdf/downloadEntrados",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "/parlamentario/parlamentaria/sesionpreparatoria24-02-26.pdf/downloadEntrados",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "/parlamentario/parlamentaria/sesionespecialAGN24-02-2026.pdf/downloadEntrados",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "/parlamentario/parlamentaria/sesionespecial11-02-26.pdf/downloadEntrados",
-   "onclick": ""
-  },
-  {
-   "txt": "descargar",
-   "href": "",
-   "onclick": ""
-  },
-  {
-   "txt": "Datos abiertos",
-   "href": "/micrositios/DatosAbiertos/",
-   "onclick": ""
-  }
- ]
-}
+    "table": {
+        "rows": [
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria 16-07-26.pdf/downloadEntrados",  
+                "FECHA REUNION": "2026-07-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria04-06-2026.pdf/downloadEntrados",  
+                "FECHA REUNION": "2026-06-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria14-05-2026.pdf/downloadEntrados",  
+                "FECHA REUNION": "2026-05-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria09-04-2026-.pdf/downloadEntrados",  
+                "FECHA REUNION": "2026-04-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria18-03-2026.pdf/downloadEntrados",  
+                "FECHA REUNION": "2026-03-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial27-02-2026.pdf/downloadEntrados",  
+                "FECHA REUNION": "2026-02-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial26-02-2026.pdf/downloadEntrados",  
+                "FECHA REUNION": "2026-02-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionpreparatoria24-02-26.pdf/downloadEntrados",  
+                "FECHA REUNION": "2026-02-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecialAGN24-02-2026.pdf/downloadEntrados",  
+                "FECHA REUNION": "2026-02-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial11-02-26.pdf/downloadEntrados",  
+                "FECHA REUNION": "2026-02-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial26-12-25.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-12-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial28-11-25.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-11-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria02-10-2025.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-10-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria18-09-2025.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-09-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion Ordinaria 04-09-25.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-09-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion Ordinaria 21-08-25 -final.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-08-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion10-07-25.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-07-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesioninformativa26-06-2025.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-06-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria07-05-2025.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-05-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria24-04-2025.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-04-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial03-04-2025.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-04-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionextraordinaria20-02-2025.pdf/downloadEntrados",  
+                "FECHA REUNION": "2025-02-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial12-12-2024.pdf/downloadEntrados",  
+                "FECHA REUNION": "2024-12-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesioninformativa27-11-2024.pdf/downloadEntrados",  
+                "FECHA REUNION": "2024-11-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria26-09-2024.pdf/downloadEntrados",  
+                "FECHA REUNION": "2024-09-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria22-08-24.pdf/downloadEntrados",  
+                "FECHA REUNION": "2024-08-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial 04-07-2024.pdf/downloadEntrados",  
+                "FECHA REUNION": "2024-07-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial12-06-24.pdf/downloadEntrados",  
+                "FECHA REUNION": "2024-06-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesioninformativa15-05-2024.pdf/downloadEntrados",  
+                "FECHA REUNION": "2024-05-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion ordinaria 18-4-24.pdf/downloadEntrados",  
+                "FECHA REUNION": "2024-04-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SesionPublicaEspecial14-03-2024 .pdf/downloadEntrados",  
+                "FECHA REUNION": "2024-03-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SesionPREPARATORIA-23FEBRERO.pdf/downloadEntrados",  
+                "FECHA REUNION": "2024-02-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SesionPublicaEspecial13-12-2023Def .pdf/downloadEntrados",  
+                "FECHA REUNION": "2023-12-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SesionAsamblea07-12-2023.pdf/downloadEntrados",  
+                "FECHA REUNION": "2023-12-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial28-09-23.pdf/downloadEntrados",  
+                "FECHA REUNION": "2023-09-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesioninformativa11-05-2023.pdf/downloadEntrados",  
+                "FECHA REUNION": "2023-05-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria13-04-2023.pdf/downloadEntrados",  
+                "FECHA REUNION": "2023-04-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial30-03-2023.pdf/downloadEntrados",  
+                "FECHA REUNION": "2023-03-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionpreparatoria23-02-2023.pdf/downloadEntrados",  
+                "FECHA REUNION": "2023-02-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial16-11-22.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-11-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial27-10-22.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-10-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionpublicaespecial22-09-22.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-09-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial08-09-2022.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-09-08",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial01-09-2022.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-09-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion especial 10-08-2022.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-08-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESIONORDINARIA30-06-22.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-06-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion informativa 132 JGM02-06-22.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-06-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion especial 2-06-2022.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-06-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion Especial 12-05-22.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-05-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion Especial 7-4-22.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-04-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion especial 17-03-22.pdf/downloadEntrados",  
+                "FECHA REUNION": "2022-03-17",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion especial 29-12-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-12-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesiónordinaria09-12-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-12-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesionpublicaespecial09-12-2021.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-12-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria28-10-21 .pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-10-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial06-10-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-10-06",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion Especial 19-08-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-08-19",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial15-07-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-07-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion especial 24-06-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-06-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion-03-06-2021.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-06-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion especial 02-06-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-06-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion especial 13-05-21 -.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-05-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial08-04-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-04-08",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion especial 25-03-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-03-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion especial 11-03-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-03-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesiónespecial24-02-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-02-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SesiónPreparatoria24-02-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-02-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesiónespecial04-02-21.pdf/downloadEntrados",  
+                "FECHA REUNION": "2021-02-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesiónespecial29-12-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-12-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualESPECIAL10-12-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-12-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualESPECIAL04-12-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-12-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualORDINARIA30-11-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-11-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial27-11-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-11-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualORDINARIA26-11-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-11-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial12-11-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-11-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial05-11-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-11-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualESPECIAL 30-10-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-10-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualORDINARIA 29-10-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-10-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualORDINARIA15-10-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-10-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Informe.127JGM07-10-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-10-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial 02-10-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-10-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial 16-09-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-09-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial 03-09-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-09-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial 27-08-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-08-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial 13-08-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-08-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial 30-07-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-07-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial 23-07-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-07-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial 24-06-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-06-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Informe.125JGM18-06-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-06-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirutalespecial11-06-20.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-06-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial04-06-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-06-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial21-05-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-05-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionvirtualespecial13-05-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-05-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial12-03-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-03-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial28-02-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-02-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionextraordinaria20-02-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-02-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesiónprepa.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-02-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecialextraordinaria05-02-2020.pdf/downloadEntrados",  
+                "FECHA REUNION": "2020-02-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionextraordinaria20-12-19.pdf/downloadEntrados",  
+                "FECHA REUNION": "2019-12-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial27-11-2019.pdf/downloadEntrados",  
+                "FECHA REUNION": "2019-11-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial13-11-19.pdf/downloadEntrados",  
+                "FECHA REUNION": "2019-11-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial18-9-19.pdf/downloadEntrados",  
+                "FECHA REUNION": "2019-09-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria17-07-19.pdf/downloadEntrados",  
+                "FECHA REUNION": "2019-07-17",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-05-19.pdf/downloadEntrados",  
+                "FECHA REUNION": "2019-05-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion16-04-2019.pdf/downloadEntrados",  
+                "FECHA REUNION": "2019-04-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesioninformativa27-03-19.pdf/downloadEntrados",  
+                "FECHA REUNION": "2019-03-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion20-03-19.pdf/downloadEntrados",  
+                "FECHA REUNION": "2019-03-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionpreparatoria27-2-19.pdf/downloadEntrados",  
+                "FECHA REUNION": "2019-02-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionextraordinaria19-12-2018.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-12-19",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionextraordinaria12-12-18.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-12-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial14-11-2018.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-11-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion10-10-18.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-10-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-08-2018.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-08-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial09-08-18.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-08-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial08-08-18.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-08-08",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion04-07-18.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-07-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion27-06-18.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-06-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial30-05-18.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-05-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial25-04-2018.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-04-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria18-04-18.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-04-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion21-03-18.pdf/downloadEntrados",  
+                "FECHA REUNION": "2018-03-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESIONEXTRA27-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-12-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecialyordinariax2.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-11-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/doblesesion2.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-11-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion27-09-17.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-09-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion07-09-17.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-09-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesioninformativa06-09-17.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-09-06",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion 23-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-08-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial12-07-17.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-07-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesioninformativa28-06-17.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-06-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion31-05-17.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-05-31",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESIONESPECIAL 10-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-05-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESIONESPECIAL26-04-17.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-04-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESIONESP25-04-17 E INF..pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-04-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion29-03-17.pdf/downloadEntrados",  
+                "FECHA REUNION": "2017-03-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionextraordinaria21-12-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-12-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionextraordinaria14-12-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-12-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion30-11-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-11-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion23-11-2016.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-11-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion16-11-2016.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-11-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionordinaria02-11-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-11-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion19-10-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-10-19",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesioninformativa28-9.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-09-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial21-9.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-09-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion07-09-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-09-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion10-08-2016.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-08-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion13-07-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-07-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion07-07-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-07-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial29-06-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-06-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesión08-06-2016.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-06-08",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/miniSesión01-06-2016.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-06-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesiónesp01-06-2016.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-06-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion18-05-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-05-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesionespecial27-4-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-04-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial30-03-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-03-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion9-03-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-03-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion9-03-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-03-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial23-02-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-02-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionext11-02-16.pdf/downloadEntrados",  
+                "FECHA REUNION": "2016-02-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESIONPUBLICAESPECIAL03-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-12-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion25-11-15..pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-11-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial28-10-15.pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-10-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion07-10-15.pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-10-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion16-09-15.pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-09-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion26-08-15.pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-08-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion29-07-15.pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-07-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion1-07-15.pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-07-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion27-05-15.pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-05-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion15-04-15.pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-04-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion11-03-1517.pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-03-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESIONPREP27-2-15.pdf/downloadEntrados",  
+                "FECHA REUNION": "2015-02-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion17-12-14.pdf/downloadEntrados",  
+                "FECHA REUNION": "2014-12-17",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion10-12-14.pdf/downloadEntrados",  
+                "FECHA REUNION": "2014-12-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion03-12-14.pdf/downloadEntrados",  
+                "FECHA REUNION": "2014-12-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion29-10-14.pdf/downloadEntrados",  
+                "FECHA REUNION": "2014-10-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-10-14.pdf/downloadEntrados",  
+                "FECHA REUNION": "2014-10-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESION 17-09-14.pdf/downloadEntrados",  
+                "FECHA REUNION": "2014-09-17",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion02-07-14.pdf/downloadEntrados",  
+                "FECHA REUNION": "2014-07-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28.05.2014..pdf/downloadEntrados",  
+                "FECHA REUNION": "2014-05-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESION-21-05-2014.pdf/downloadEntrados",  
+                "FECHA REUNION": "2014-05-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/compag30-04-2014.pdf/downloadEntrados",  
+                "FECHA REUNION": "2014-04-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESIONDEL9ABRIL2014.pdf/downloadEntrados",  
+                "FECHA REUNION": "2014-04-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion18-12-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-12-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion04-12-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-12-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/LISTAESCRUTINIO27-11-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-11-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion13-11-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-11-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion12-09-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-09-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion04-09-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-09-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial31-07-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-07-31",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion03-07-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-07-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion26-06-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-06-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion05-06-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-06-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-05-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-05-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion24-04-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-04-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion20-03-13.pdf/downloadEntrados",  
+                "FECHA REUNION": "2013-03-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionext19-12-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-12-19",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion29-11-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-11-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28-11-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-11-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion14-11-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-11-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion31-10-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-10-31",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/especial25-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-10-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion17-10-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-10-17",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion03-10-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-10-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion12-9-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-09-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion05-09-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-09-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sespubesp16-08-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-08-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion15-08-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-08-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion11-07-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-07-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion04-07-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-07-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial25-06-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-06-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion30-05-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-05-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion16-05-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-05-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion09-05-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-05-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial25-04-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-04-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion21-03-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-03-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion14-03-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-03-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/PREPARATORIA29-02-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2012-02-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/ext02-21-12-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-12-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion14-12-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-12-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESIONASAM10-12-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-12-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionasamblea.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-12-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESIONESP30-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-11-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion02-11-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-11-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion02-11-11.doc/downloadEntrados",  
+                "FECHA REUNION": "2011-11-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion31-08-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-08-31",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion27-07-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-07-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion29-06-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-06-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion01-06-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-06-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion04-05-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-05-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion13-04-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-04-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion30-03-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-03-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion16-03-2011.pdf/downloadEntrados",  
+                "FECHA REUNION": "2011-03-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-12-2010.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-12-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionext15-12-2010.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-12-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion24-11-2010.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-11-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion03-11-2010.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-11-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion20-10-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-10-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion13-10-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-10-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion29-09-2010.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-09-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion08-09-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-09-08",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion25-08-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-08-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion-11-08-2010.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-08-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/anexosenadores11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-08-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion14-07-2010.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-07-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion30-06-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-06-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion09-06-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-06-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion02-06-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-06-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion19-05-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-05-19",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion05-05-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-05-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28-04-2010.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-04-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion14-04-2010.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-04-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion03-03-2010.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-03-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionpreparatoria25-02-2010.pdf/downloadEntrados",  
+                "FECHA REUNION": "2010-02-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion02-12-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-12-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion25-11-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-11-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion18-11-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-11-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion11-11-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-11-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28-10-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-10-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion21-10-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-10-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial9-10-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-10-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion23-09-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-09-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion09-09-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-09-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion20-08-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-08-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion05-08-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-08-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion08-07-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-07-08",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion13-05-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-05-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion15-04-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-04-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion26-03-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-03-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion26-03-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-03-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion04-03-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2009-03-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion18-12-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-12-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion17-12-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-12-17",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion10-12-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-12-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion26-11-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-11-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion20-11-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-11-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion05-11-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-11-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-10-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-10-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion01-10-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-10-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion24-09-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-09-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion10-09-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-09-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion03-09-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-09-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion13-08-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-08-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion06-08-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-08-06",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion06-08-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-08-06",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion16-07-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-07-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion25-06-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-06-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESIONESPECIAL28-05-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-05-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28-05-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-05-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion21-05-2008.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-05-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion14-05-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-05-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion16-04-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-04-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion09-04-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-04-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion26-03-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-03-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion12-03-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-03-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/APERTURADESESIONES01-03-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-03-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionext0227-02-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-02-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionext13-02-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2008-02-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion26-12-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-12-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion19-12-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-12-19",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion12-12-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-12-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion05-12-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-12-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial28-11-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-11-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28-11-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-11-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion21-11-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-11-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/asamblea21-11-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-11-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion14-11-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-11-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion07-11-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-11-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-08-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-08-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion08-08-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-08-08",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion04-07-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-07-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion27-06-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-06-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion06-06-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-06-06",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion23-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-05-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion02-05-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-05-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion25-04-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-04-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion11-04-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-04-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion11-04-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-04-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28-03-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-03-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion14-03-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-03-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionext13-02-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2007-02-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion20-12-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-12-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion13-12-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-12-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion6-12-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-12-06",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion29-11-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-11-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-11-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-11-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion01-11-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-11-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion11-10-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-10-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion04-10-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-10-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion27-09-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-09-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion13-09-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-09-13",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion06-09-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-09-06",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion30-08-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-08-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion16-08-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-08-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion09-08-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-08-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion02-08-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-08-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion12-07-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-07-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesesp05-07-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-07-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28-06-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-06-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion14-06-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-06-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion07-06-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-06-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion31-05-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-05-31",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion17-05-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-05-17",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion10-05-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-05-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion26-04-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-04-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion19-04-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-04-19",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion05-04-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-04-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-03-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-03-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion15-03-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-03-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion08-03-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-03-08",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-02-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-02-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion15-02-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2006-02-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion21-12-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-12-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion14-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-12-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion30-11-2005.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-11-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionespecial29-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-11-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion23-11-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-11-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion16-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-11-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion09-11-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-11-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion02-11-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-11-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28-09-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-09-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion21-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-09-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion07-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-09-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion25-08-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-08-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion17-08-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-08-17",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion10-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-08-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion27-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-07-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-6.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-06-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion15-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-06-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion08-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-06-08",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion1-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-06-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion18-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-05-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion11-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-05-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion04-05-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-05-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion20-04-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-04-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion06-04-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-04-06",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/seesp06-04.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-04-06",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion16-03.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-03-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESION09-03.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-03-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion02-03-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-03-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion03-02.pdf/downloadEntrados",  
+                "FECHA REUNION": "2005-02-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion16-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-12-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion01-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-12-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion24-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-11-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesión17-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-11-17",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion10-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-11-10",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion27-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-10-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion20-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-10-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion6-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-10-06",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion22-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-09-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion15-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-09-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion01-09.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-09-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion25-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-08-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion18-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-08-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion11-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-08-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion04-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-08-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion07-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-07-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion23-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-06-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion2-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-06-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion19-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-05-19",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion12-05-04.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-05-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion5-05.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-05-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28-04.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-04-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion21-04.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-04-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion14-4.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-04-14",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion31-3-04.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-03-31",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion18-03.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-03-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion24-02.pdf/downloadEntrados",  
+                "FECHA REUNION": "2004-02-24",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion17-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-12-17",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion04-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-12-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion26-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-11-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion19-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-11-19",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion05-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-11-05",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion29-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-10-29",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion15-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-10-16",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion1-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-10-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion17-9.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-09-17",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesionjuicio.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-09-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion20-08.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-08-20",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion6-8.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-08-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion23-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-07-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion02-07.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-07-02",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion18-6.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-06-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion11-06.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-06-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion4-6.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-06-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28-5.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-05-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion09-04.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-04-09",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion26-03.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-03-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion6-3.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-03-06",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/24-2.pdf/downloadEntrados",  
+                "FECHA REUNION": "2003-02-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion26-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-12-26",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion18-12.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-12-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion28-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-11-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/27-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-11-27",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/LISTACOMPLSESION21-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-11-22",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion21-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-11-21",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESION6-11.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-11-07",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESION30-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-11-01",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/ListaCompSesion23-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-10-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SESION23-10.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-10-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/listacomplsesion18-9.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-09-25",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion18-9.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-09-18",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/listacomplsesion4-9.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-09-11",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/listasesion4-9.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-09-04",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion28-8.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-08-28",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion15-8.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-08-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion1-8.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-07-31",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion3-7.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-07-03",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion12-6.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-06-12",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/SesionSubversionEconomica.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-05-30",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/sesion23-5.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-05-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/listacompsesion23-5.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-05-23",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/Sesion15-5.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-05-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/listacomplsesion15-5.pdf/downloadEntrados",  
+                "FECHA REUNION": "2002-05-15",  
+               
+            },
+            {
+                "URL": "https://www.senado.gov.ar/parlamentario/parlamentaria/DOCUMENTO DE PRUEBA DEL SISTEMA.pdf/downloadEntrados",  
+                "FECHA REUNION": "1999-09-09",  
+               
+            }
+		]
+		}
+		}
