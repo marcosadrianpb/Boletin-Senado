@@ -1,0 +1,61 @@
+name: Boletin - Actualizar padron
+
+on:
+  workflow_dispatch:
+    inputs:
+      anios:
+        description: "Anios de expediente separados por espacio (vacio = el que corre)"
+        default: ""
+      sin_enriquecer:
+        description: "No consultar la ficha de cada expediente nuevo"
+        type: boolean
+        default: false
+  schedule:
+    # 8:00 de Buenos Aires (UTC-3), de lunes a viernes
+    - cron: "0 11 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: padron
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Actualizar padron
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.anios }}" ]; then ARGS="--anios ${{ inputs.anios }}"; fi
+          if [ "${{ inputs.sin_enriquecer }}" = "true" ]; then ARGS="$ARGS --sin-enriquecer"; fi
+          python -m src.actualizar $ARGS --resumen "$GITHUB_STEP_SUMMARY"
+
+      - name: Guardar en el repo
+        if: success()
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A datos
+          git diff --staged --quiet || git commit -m "Padron del $(TZ=America/Argentina/Buenos_Aires date +%F)"
+          git pull --rebase
+          git push
+
+      - name: Subir artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: padron
+          path: datos/
+          if-no-files-found: warn
