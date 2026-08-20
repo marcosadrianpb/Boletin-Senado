@@ -146,6 +146,9 @@ def main(argv=None) -> int:
         "linea_base": linea_base,
         "anios": anios,
         **dif,
+        # De los absorbidos queda la cuenta y nada mas: en la corrida 0 son el
+        # padron entero, y volver a escribirlos aca seria duplicar padron.json.
+        "absorbidos": len(dif["absorbidos"]),
     }
 
     est.actualizar(actual, bajados, anios)
