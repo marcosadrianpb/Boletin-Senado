@@ -1,4 +1,4 @@
-name: Boletin - Actualizar padron
+name: Boletin - Actualizar padron y publicar
 
 on:
   workflow_dispatch:
@@ -10,12 +10,17 @@ on:
         description: "No consultar la ficha de cada expediente nuevo"
         type: boolean
         default: false
+      sin_issue:
+        description: "No abrir el issue con el boletin"
+        type: boolean
+        default: false
   schedule:
     # 8:00 de Buenos Aires (UTC-3), de lunes a viernes
     - cron: "0 11 * * 1-5"
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: padron
@@ -42,6 +47,13 @@ jobs:
           if [ "${{ inputs.sin_enriquecer }}" = "true" ]; then ARGS="$ARGS --sin-enriquecer"; fi
           python -m src.actualizar $ARGS --resumen "$GITHUB_STEP_SUMMARY"
 
+      # Los dias sin altas ni cambios no arman boletin: no se abre issue.
+      - name: Armar boletin
+        id: boletin
+        run: |
+          python -m src.boletin --cuerpo-issue "$RUNNER_TEMP/issue.md" \
+                               --resumen "$GITHUB_STEP_SUMMARY"
+
       - name: Guardar en el repo
         if: success()
         run: |
@@ -51,6 +63,16 @@ jobs:
           git diff --staged --quiet || git commit -m "Padron del $(TZ=America/Argentina/Buenos_Aires date +%F)"
           git pull --rebase
           git push
+
+      - name: Abrir el issue del dia
+        if: success() && steps.boletin.outputs.hay == 'true' && inputs.sin_issue != true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITULO: ${{ steps.boletin.outputs.titulo }}
+          CUERPO: ${{ steps.boletin.outputs.cuerpo }}
+        run: |
+          gh label create boletin --color 0E8A16 --description "Boletin diario" --force
+          gh issue create --title "$TITULO" --body-file "$CUERPO" --label boletin
 
       - name: Subir artifact
         if: always()

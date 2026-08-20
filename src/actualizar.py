@@ -61,6 +61,7 @@ def enriquecer(sesion, expedientes: list[dict], tope: int) -> None:
 
 
 def escribir_resumen(ruta: Path | None, novedades: dict) -> None:
+    """Las cuentas de la corrida. El detalle lo arma despues src.boletin."""
     if not ruta:
         return
     L = []
@@ -70,24 +71,12 @@ def escribir_resumen(ruta: Path | None, novedades: dict) -> None:
         L.append(f"- expedientes en el padron: **{novedades['total_ahora']}**\n")
         L.append("No hay boletin: esta corrida es el punto de partida.\n")
     else:
-        L.append(f"## Novedades del {novedades['fecha']}\n")
+        L.append(f"## Corrida del {novedades['fecha']}\n")
         L.append(f"- padron: **{novedades['total_antes']} -> {novedades['total_ahora']}**")
         L.append(f"- altas: **{len(novedades['altas'])}**")
         for etiqueta in ("reingresos", "bajas", "correcciones"):
             if novedades[etiqueta]:
                 L.append(f"- {etiqueta}: **{len(novedades[etiqueta])}**")
-        L.append("")
-        if novedades["altas"]:
-            L.append("| Exp | Tipo | Origen | Fecha | Autores | Extracto |")
-            L.append("|---|---|---|---|---|---|")
-            for x in novedades["altas"]:
-                f = x.get("ficha") or {}
-                autores = ", ".join(f.get("autores") or []) or "-"
-                extracto = x["extracto"].replace("|", "/")[:110]
-                L.append(f"| {x['expediente']} | {x['tipo']} | {x['origen']} | "
-                         f"{f.get('fecha_mesa') or '-'} | {autores[:60]} | {extracto} |")
-        else:
-            L.append("Sin altas hoy.")
         L.append("")
     ruta.parent.mkdir(parents=True, exist_ok=True)
     with ruta.open("a", encoding="utf-8") as fh:

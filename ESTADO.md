@@ -1,6 +1,6 @@
 # Boletín diario de proyectos del Senado — Estado del proyecto
 
-Última actualización: 19 de agosto de 2026 · **Fase 1 cerrada: corrida 0 hecha y verificada**
+Última actualización: 20 de agosto de 2026 · **Fase 2 escrita: boletín e issue diario, a la espera del primer día con altas**
 
 ## Objetivo
 
@@ -24,13 +24,16 @@ armar un boletín con ese listado y enviarlo por mail a una lista de difusión c
 | Lenguaje | Python 3.11 + `requests` + `xlrd` + `beautifulsoup4`. **Sin Playwright** |
 | Horario | 8:00 de Buenos Aires, días hábiles (`cron: 0 11 * * 1-5`) |
 
-Pendiente de confirmar: qué hacer los días sin novedades (propuesto: no abrir issue).
+Los días sin novedades no abren issue: la corrida igual corre, actualiza el padrón y deja
+la cuenta en el historial. Si conviene lo contrario, se cambia una condición del workflow.
 
 ## Fases
 
 - **Fase 0 — Reconocimiento.** ✅ CERRADA.
-- **Fase 1 — Extractor y padrón.** ✅ CERRADA. Subida, corrida 0 hecha y verificada.
-- **Fase 2 — Boletín e issue diario.** ← acá estamos
+- **Fase 1 — Extractor y padrón.** ✅ CERRADA. Corrida 0 y primera comparación, las dos
+  verificadas en Actions.
+- **Fase 2 — Boletín e issue diario.** ← acá estamos. Escrita y probada contra el sitio
+  real; falta verla correr un día con altas de verdad.
 - **Fase 3 — Envío por mail.**
 - **Fase 4 — Endurecimiento.**
 
@@ -97,20 +100,53 @@ padrón. Las tablas se identifican por su atributo `summary`, que es estable.
 - Si la descarga trae menos de la mitad del padrón vigente, la corrida aborta sin tocar
   nada: es más probable una falla de la fuente que una purga real.
 
+## Cómo se arma el boletín
+
+`src/boletin.py` lee `datos/novedades/YYYY-MM-DD.json` y escribe el texto. No toca la red ni
+el padrón: todo lo que necesita ya está en ese archivo, que es lo que dejó la corrida. Por
+eso el mismo cuerpo va a servir después para el mail de la Fase 3, sin volver a consultar
+nada.
+
+- **Agrupado por tipo**, en un orden fijo: primero lo que se legisla (leyes, declaraciones,
+  comunicaciones, resoluciones), después acuerdos y decretos, y al final las comunicaciones
+  varias. Si no fuera así, los proyectos de ley quedarían enterrados entre los informes de
+  la AGN, que son un tercio del padrón.
+- Cada expediente entra con su número enlazado a la ficha, el origen, la fecha de mesa de
+  entradas, el DAE, el extracto crudo, los autores con nombre completo, los giros a
+  comisiones y el link al PDF del texto. Nada de esto se resume ni se reescribe.
+- Los códigos de tipo y de origen se muestran con el nombre que les da el propio formulario
+  del Senado (`PL` → proyecto de ley, `OV` → oficiales varios). Si aparece un código que no
+  está en la tabla, se muestra el código y el boletín sale igual.
+- Los expedientes se ordenan por número, no alfabéticamente: `51/26` antes que `276/26`.
+- Correcciones y bajas van al final, en una línea cada una. La corrección muestra el texto
+  viejo y el nuevo.
+- Si un expediente no tiene ficha —porque el día trajo más de 80 altas y no se enriquecen,
+  o porque la consulta falló— igual sale, con el link armado a mano y el extracto.
+- **Días sin novedades: no hay boletín ni issue.** El script termina bien, avisa por qué y
+  deja `hay=false` para que el workflow saltee el paso del issue.
+- El cuerpo del issue de GitHub no puede pasar los 65.536 caracteres. Si el boletín no
+  entra, se corta antes del último expediente que entra y avisa dónde está el archivo
+  completo. El `.md` que se commitea nunca se recorta.
+
+El issue lo abre el mismo workflow con `gh issue create`, con la etiqueta `boletin` y el
+título `Boletín del Senado - 2026-08-20 - 8 nuevos, 1 corrección, 1 baja`.
+
 ## Estado del repo
 
 Todo subido. Últimos commits:
 
 ```
+c6f63b2  Padron del 2026-08-20          <- lo commiteo el workflow
+b112fcf  ESTADO.md al dia: corrida 0 hecha y verificada
 a84dd06  Ajustes de la corrida 0
-d810abc  Padron del 2026-08-19          <- lo commiteo el workflow
+d810abc  Padron del 2026-08-19
 1bd58af  Fase 1: extraccion por anio de expediente y padron comparable
-18c218a  Resultados del reconocimiento v3
 ```
 
 - `src/senado.py` — cliente del buscador. Baja y parsea. No guarda estado.
 - `src/padron.py` — el padrón y la comparación. No toca la red.
 - `src/actualizar.py` — la corrida diaria: baja, compara, actualiza, escribe novedades.
+- `src/boletin.py` — arma el texto del boletín. No toca la red ni el padrón.
 - `.github/workflows/actualizar.yml` — corre a las 8:00 AR de lunes a viernes, y a mano.
 - `requirements.txt`
 - `.github/workflows/recon.yml`, `INFORME.md`, `recon/` — Fase 0, ya cumplieron su función.
@@ -126,6 +162,7 @@ Nunca se subió.
 datos/padron.json                  el padron completo, clave -> expediente
 datos/novedades/YYYY-MM-DD.json    altas, bajas, reingresos y correcciones del dia
 datos/historial.jsonl              una linea por corrida: total, altas, bajas
+datos/boletines/YYYY-MM-DD.md      el boletin del dia, solo si hubo novedades
 ```
 
 Formato de cada expediente en el padrón:
@@ -214,26 +251,49 @@ En Actions:
 
 - Corrida 0 real, verificada contra la extracción local (ver arriba).
 
+## La primera corrida automática (20/8/2026)
+
+Salió sola a las 8:00 AR, la primera que compara en vez de cargar:
+
+```json
+{"fecha":"2026-08-20","total":2014,"altas":0,"bajas":0,"linea_base":false}
+```
+
+El Senado no cargó nada entre el 19 y el 20. Sirvió igual: es la primera vez que el camino
+de comparación corre en Actions y no solo en local, y dio lo que tenía que dar.
+
+## Pruebas del boletín (20/8/2026, contra el sitio real)
+
+Con el padrón de verdad, en una copia fuera del repo:
+
+- Le saqué 8 expedientes de tipos distintos, le ensucié el extracto a uno e inventé uno que
+  hoy no existe. La corrida detectó **8 altas, 1 corrección y 1 baja**, trajo las 8 fichas
+  y el boletín salió agrupado por tipo, con autores, comisiones y PDF.
+- Otra pasada con 5 expedientes sacados, para ver el resumen del run y las salidas que
+  consume el workflow (`hay`, `titulo`, `archivo`, `cuerpo`).
+- Casos raros: expediente sin ficha, tipo desconocido (`ZZ`) y ficha que falló. Los tres
+  salen en el boletín sin romperlo.
+- Recorte a 2.500 caracteres para forzar el tope del issue: corta antes de un expediente,
+  no deja títulos de sección colgando y avisa dónde está el completo.
+- Días sin novedades (19 y 20 de agosto): no arma boletín, deja `hay=false`.
+
+Lo único que falta ver es el `gh issue create` en Actions: hasta que no haya un día con
+altas, el paso se saltea solo.
+
 ## Próximo paso
 
-**Pendiente chico:** correr el workflow una vez más. Sirve para dos cosas: reemplaza el
-`datos/novedades/2026-08-19.json` que quedó de 591 KB por el chico (ver abajo), y es la
-primera vez que el camino de comparación corre en Actions y no solo en local. Tiene que dar
-`altas 0 | bajas 0`.
-
-Después, **Fase 2**: armar el boletín y abrir el issue diario a partir de
-`datos/novedades/YYYY-MM-DD.json`. Agrupado por tipo, con el link a `verExp` y al PDF del
-texto.
-
-La corrida automática de las 8:00 arranca sola de lunes a viernes. La primera con altas
-reales debería ser la del día siguiente a la corrida 0.
+Esperar la primera corrida con altas reales —la del próximo día hábil en que el Senado
+cargue expedientes— y mirar el issue que abre. Si sale bien, **Fase 3**: el envío por mail
+con Brevo, reusando el mismo cuerpo del boletín.
 
 ## Arreglado después de la corrida 0
 
 - `upload-artifact` de v4 a v7: el runner avisa que Node 20 está deprecado.
 - El archivo de novedades de la línea de base guardaba los 2014 expedientes absorbidos, que
   son los mismos que están en `padron.json`. Ahora guarda solo la cuenta: **de 591 KB a 289
-  bytes**. El archivo gordo sigue commiteado hasta que se vuelva a correr el workflow.
+  bytes**. El archivo gordo ya se reemplazó por el chico.
+- El resumen del run que escribía `actualizar.py` tenía una tabla con las altas; ahora la
+  presentación es toda del boletín y `actualizar.py` deja solo las cuentas de la corrida.
 
 ## Descartado
 
@@ -268,4 +328,5 @@ reales debería ser la del día siguiente a la corrida 0.
 | Fallas silenciosas (devuelve cero y nadie se entera) | Si la exportación viene vacía, la corrida falla en vez de guardar un padrón vacío |
 | GitHub desactiva workflows programados tras 60 días sin actividad | El commit diario mantiene el repo activo |
 | El Senado carga proyectos con fecha retroactiva | Resuelto: la consulta es por año de expediente, no por fecha |
+| Un dia de vuelta de receso trae cientos de altas | Arriba de 80 no se piden fichas, y el cuerpo del issue se recorta con un puntero al archivo completo |
 | Mails al spam por remitente sin dominio propio | Se mide en Fase 3 |
