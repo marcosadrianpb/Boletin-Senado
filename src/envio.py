@@ -41,7 +41,7 @@ API = "https://api.brevo.com/v3"
 TIMEOUT = 60
 
 REMITENTE_MAIL = "proparlamentariasenado@gmail.com"
-REMITENTE_NOMBRE = "Boletín del Senado"
+REMITENTE_NOMBRE = "Boletin proyectos ingresados"
 
 
 class BrevoError(Exception):

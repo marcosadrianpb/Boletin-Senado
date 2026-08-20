@@ -1,6 +1,8 @@
 # Boletín diario de proyectos del Senado — Estado del proyecto
 
-Última actualización: 20 de agosto de 2026 · **Fase 2 escrita: boletín e issue diario, a la espera del primer día con altas**
+Última actualización: 20 de agosto de 2026 · **Fases 2 y 3 escritas. El envío por mail
+está subido pero apagado: falta configurarlo en Brevo y en GitHub.**
+**Los pasos para retomar están en [Próximo paso](#próximo-paso).**
 
 ## Objetivo
 
@@ -20,7 +22,7 @@ armar un boletín con ese listado y enviarlo por mail a una lista de difusión c
 | Contenido del mail | Listado crudo: expediente, tipo, fecha, autores, comisiones, extracto y link. Sin resúmenes generados |
 | Entrega inicial | Un issue de GitHub por día; el envío del mail arranca manual |
 | Proveedor de mail | Brevo, plan gratis (300/día). Sin dominio propio: todo tiene que salir cero pesos hasta que haga falta otra cosa |
-| Remitente | Nombre visible propio ("Boletín del Senado"); el dominio lo reescribe Brevo a `@NNNNNNN.brevosend.com` |
+| Remitente | `proparlamentariasenado@gmail.com`, con el nombre visible **Boletin proyectos ingresados** |
 | Infraestructura | GitHub Actions, repo público `marcosadrianpb/Boletin-Senado` |
 | Lenguaje | Python 3.11 + `requests` + `xlrd` + `beautifulsoup4`. **Sin Playwright** |
 | Horario | 8:00 de Buenos Aires, días hábiles (`cron: 0 11 * * 1-5`) |
@@ -35,8 +37,8 @@ la cuenta en el historial. Si conviene lo contrario, se cambia una condición de
   verificadas en Actions.
 - **Fase 2 — Boletín e issue diario.** ← acá estamos. Escrita y probada contra el sitio
   real; falta verla correr un día con altas de verdad.
-- **Fase 3 — Envío por mail.** ← lo que sigue. Decidido el proveedor y el remitente,
-  falta la cuenta, la lista y el código de envío.
+- **Fase 3 — Envío por mail.** ← acá estamos. El código está escrito y subido, y el paso
+  del workflow está apagado hasta que existan el secret y la variable.
 - **Fase 4 — Endurecimiento.**
 
 ## Cómo funciona la extracción
@@ -138,10 +140,10 @@ título `Boletín del Senado - 2026-08-20 - 8 nuevos, 1 corrección, 1 baja`.
 Todo subido. Últimos commits:
 
 ```
-c6f63b2  Padron del 2026-08-20          <- lo commiteo el workflow
-b112fcf  ESTADO.md al dia: corrida 0 hecha y verificada
-a84dd06  Ajustes de la corrida 0
-d810abc  Padron del 2026-08-19
+7a6b7d4  Fase 3: envio por Brevo, apagado hasta que se configure
+b638530  Fase 3: el mail en HTML y la decision del remitente
+f915932  Fase 2: boletin diario e issue automatico
+6f239a9  Padron del 2026-08-20          <- lo commiteo el workflow
 1bd58af  Fase 1: extraccion por anio de expediente y padron comparable
 ```
 
@@ -286,9 +288,49 @@ altas, el paso se saltea solo.
 
 ## Próximo paso
 
-Esperar la primera corrida con altas reales —la del próximo día hábil en que el Senado
-cargue expedientes— y mirar el issue que abre. Si sale bien, **Fase 3**: el envío por mail
-con Brevo, reusando el mismo cuerpo del boletín.
+Todo el código está subido y funcionando. El envío por mail está **apagado**: el paso del
+workflow no hace nada hasta que existan la variable y el secret. Lo que falta son cinco
+cosas, en este orden, y las cuatro primeras son de cuenta y credenciales.
+
+**1. Las dos listas de contactos, en Brevo → Contacts → Lists.**
+Una `Prueba`, con la casilla propia de Gmail más una de Outlook y una de Yahoo: los tres
+filtran distinto y es la única forma de medir sin mandarle a nadie de verdad. Otra
+`Boletin Senado`, vacía por ahora. El id de cada lista se ve en la URL al abrirla.
+
+**2. La API key, en Brevo → SMTP & API → API keys → Generate a new API key.**
+Copiarla en el momento: después no la vuelve a mostrar.
+
+**3. El secret, en el repo → Settings → Secrets and variables → Actions → pestaña Secrets.**
+`New repository secret`, nombre `BREVO_API_KEY`, valor la clave.
+
+**4. La variable, en la misma pantalla, pestaña Variables.**
+`New repository variable`, nombre `BREVO_LISTA`, valor el id de la lista **de prueba**.
+`BREVO_ENVIAR` todavía no: sin ella la campaña se crea y queda en borrador.
+
+**5. Esperar el primer día con altas.** El workflow va a armar la campaña y dejarla sin
+mandar. Hay que abrirla en Brevo y mirar la previsualización.
+
+Si no se quiere esperar al Senado, se puede agregar al workflow un disparo manual que arme
+la campaña con un día simulado. No está hecho; es media hora.
+
+### Y después, la verificación
+
+1. Poner `BREVO_ENVIAR` en `true`. La corrida siguiente manda a la lista de prueba.
+2. En el mail que llegue a Gmail: menú del mensaje → **Mostrar original**. Ahí está el `From`
+   real —que responde la pregunta del `brevosend.com`— y el `Authentication-Results`, que
+   tiene que decir `spf=pass` y `dkim=pass`.
+3. Pasar el mismo mail por mail-tester y anotar el puntaje.
+4. Confirmar que en Outlook y en Yahoo entró a la bandeja y no a spam.
+5. Recién con eso, cambiar `BREVO_LISTA` por el id de la lista real.
+
+Si cae en spam, las salidas son las dos que ya se discutieron y no hay una tercera gratis:
+dominio propio, o mandar por el SMTP de Gmail con la lista guardada en un secret. Medir
+primero.
+
+### Lo que queda pendiente de Fase 2
+
+Ver el `gh issue create` funcionando. Hasta que no haya un día con altas, el paso se saltea
+solo. Es el mismo día que se destraba el punto 5 de arriba.
 
 ## Arreglado después de la corrida 0
 
@@ -337,7 +379,10 @@ La idea es arrancar apuntando a una lista de prueba con `BREVO_ENVIAR` sin poner
 borrador en Brevo, después ponerlo en `true` contra la lista de prueba, medir, y recién ahí
 cambiar `BREVO_LISTA` por la lista de verdad.
 
-Remitente: `proparlamentariasenado@gmail.com`, con el nombre visible `Boletín del Senado`.
+Remitente: `proparlamentariasenado@gmail.com`, con el nombre visible
+**Boletin proyectos ingresados**. Ese nombre es lo que ve la gente en la bandeja; el que
+quiera cambiarlo, que lo haga antes del primer envío: moverlo después le mueve el piso a
+los filtros. En el código está en `REMITENTE_NOMBRE`, en `src/envio.py`.
 
 ## El remitente y el spam
 
@@ -350,9 +395,28 @@ dominio del remitente*. Eso se llama alineación y es lo que miran Gmail, Outloo
 - **DMARC**: la política de qué hacer si un mail dice venir del dominio y no lo puede probar.
 
 Los tres viven en el DNS del dominio, así que **solo se pueden configurar si el dominio es
-tuyo**. `gmail.com` no lo es. Por eso Brevo no deja mandar con un From `@gmail.com`: desde
-que rigen los requisitos de Gmail y Yahoo de febrero de 2024, reemplaza el dominio por uno
-propio y el mail sale desde algo como `boletin@5000001.brevosend.com`, firmado por ellos.
+tuyo**. `gmail.com` no lo es, y por eso Brevo marca el remitente como "no conforme".
+
+### Lo que hay en la cuenta de Brevo, al 20/8/2026
+
+La cuenta gratuita está creada y `proparlamentariasenado@gmail.com` figura **verificado**,
+con dos advertencias que son exactamente este problema:
+
+- **Firma DKIM: Predeterminado.** Lo firma Brevo con su clave, no con una nuestra.
+- **DMARC: "no se recomienda usar un dominio de email gratuito".** No hay forma de alinearlo.
+
+El aviso dice que las campañas *pueden* no llegar. No lo bloquea, y hay un dato a favor: los
+requisitos duros de Google y Yahoo de 2024 —los que exigen DMARC alineado— aplican a quien
+manda **más de 5.000 mensajes por día**. Con menos de 50 destinatarios el listón es más bajo:
+que pase SPF **o** DKIM, que haya baja en un clic y que las quejas sean pocas. Todo eso lo
+cumple Brevo con su propia autenticación. O sea que no esperamos un rechazo por política; el
+riesgo es caer en spam por reputación, que es otra cosa y hay que medirla.
+
+**Dato sin confirmar:** la documentación de Brevo dice que, cuando el dominio no está
+autenticado, reemplazan el dominio del remitente por uno propio y el mail sale desde algo
+como `boletin@5000001.brevosend.com`. La pantalla de remitentes no lo confirma: muestra la
+dirección de Gmail verificada. **Cuál de las dos cosas pasa se ve en el primer envío de
+prueba**, mirando el `From` real en *Mostrar original*. Para eso es la lista de prueba.
 
 Verificado el 20/8/2026, la política de Gmail hoy es blanda:
 
@@ -395,6 +459,9 @@ no se llega a esa instancia porque Brevo reescribe el From antes de mandar.
 
 ## Notas de trabajo
 
+- **Para empezar en otra máquina:** `git clone` del repo y `pip install -r
+  requirements.txt`. Sin eso, `requests`, `xlrd` y `beautifulsoup4` no están y no corre nada
+  en local. El padrón y el historial vienen con el repo, así que no hay que rearmar estado.
 - Desde la máquina del usuario hay salida de red a `senado.gob.ar`, a
   `raw.githubusercontent.com` y a la API de GitHub, incluidas las corridas de Actions. El
   extractor se puede probar localmente contra el sitio real, sin depender del ciclo
