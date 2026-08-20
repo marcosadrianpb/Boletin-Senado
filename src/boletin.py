@@ -140,7 +140,7 @@ def titulo(nov: dict) -> str:
     return f"Boletín del Senado - {nov['fecha']} - {detalle}"
 
 
-def _agrupar(expedientes: list[dict]) -> list[tuple[str, list[dict]]]:
+def agrupar(expedientes: list[dict]) -> list[tuple[str, list[dict]]]:
     """Por tipo, en el orden de ORDEN; los codigos desconocidos van al final."""
     grupos: dict[str, list[dict]] = {}
     for exp in expedientes:
@@ -188,7 +188,7 @@ def _expediente(exp: dict) -> list[str]:
 
 def _seccion(nombre: str, expedientes: list[dict]) -> list[str]:
     L = [f"## {nombre}", ""]
-    for codigo, grupo in _agrupar(expedientes):
+    for codigo, grupo in agrupar(expedientes):
         L += [f"### {tipo_nombre(codigo, varios=len(grupo) > 1)} ({len(grupo)})", ""]
         for exp in grupo:
             L += _expediente(exp)
@@ -213,7 +213,7 @@ def cuerpo(nov: dict) -> str:
     resumen.append(f"padrón **{nov['total_antes']} → {nov['total_ahora']}**")
     L += [SEP.join(resumen), ""]
 
-    grupos = _agrupar(altas)
+    grupos = agrupar(altas)
     if len(grupos) > 1:
         L += [f"- {tipo_nombre(c, varios=len(g) > 1)}: {len(g)}" for c, g in grupos]
         L.append("")

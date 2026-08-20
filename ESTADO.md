@@ -19,7 +19,8 @@ armar un boletín con ese listado y enviarlo por mail a una lista de difusión c
 | Clave de un expediente | `(número, origen)` — el número solo se repite entre orígenes |
 | Contenido del mail | Listado crudo: expediente, tipo, fecha, autores, comisiones, extracto y link. Sin resúmenes generados |
 | Entrega inicial | Un issue de GitHub por día; el envío del mail arranca manual |
-| Proveedor de mail | Brevo (300/día gratis) con casilla Gmail dedicada verificada. Sin dominio propio por ahora |
+| Proveedor de mail | Brevo, plan gratis (300/día). Sin dominio propio: todo tiene que salir cero pesos hasta que haga falta otra cosa |
+| Remitente | Nombre visible propio ("Boletín del Senado"); el dominio lo reescribe Brevo a `@NNNNNNN.brevosend.com` |
 | Infraestructura | GitHub Actions, repo público `marcosadrianpb/Boletin-Senado` |
 | Lenguaje | Python 3.11 + `requests` + `xlrd` + `beautifulsoup4`. **Sin Playwright** |
 | Horario | 8:00 de Buenos Aires, días hábiles (`cron: 0 11 * * 1-5`) |
@@ -34,7 +35,8 @@ la cuenta en el historial. Si conviene lo contrario, se cambia una condición de
   verificadas en Actions.
 - **Fase 2 — Boletín e issue diario.** ← acá estamos. Escrita y probada contra el sitio
   real; falta verla correr un día con altas de verdad.
-- **Fase 3 — Envío por mail.**
+- **Fase 3 — Envío por mail.** ← lo que sigue. Decidido el proveedor y el remitente,
+  falta la cuenta, la lista y el código de envío.
 - **Fase 4 — Endurecimiento.**
 
 ## Cómo funciona la extracción
@@ -294,6 +296,48 @@ con Brevo, reusando el mismo cuerpo del boletín.
   bytes**. El archivo gordo ya se reemplazó por el chico.
 - El resumen del run que escribía `actualizar.py` tenía una tabla con las altas; ahora la
   presentación es toda del boletín y `actualizar.py` deja solo las cuentas de la corrida.
+
+## El remitente y el spam
+
+La pregunta que ordena todo esto es una sola: **el dominio que figura en el From, ¿es
+nuestro o no?** No alcanza con que el mail esté firmado; tiene que estar firmado *por el
+dominio del remitente*. Eso se llama alineación y es lo que miran Gmail, Outlook y Yahoo.
+
+- **SPF**: un registro en el DNS del dominio que dice qué servidores pueden mandar en su nombre.
+- **DKIM**: la firma criptográfica de cada mail; la clave pública también vive en ese DNS.
+- **DMARC**: la política de qué hacer si un mail dice venir del dominio y no lo puede probar.
+
+Los tres viven en el DNS del dominio, así que **solo se pueden configurar si el dominio es
+tuyo**. `gmail.com` no lo es. Por eso Brevo no deja mandar con un From `@gmail.com`: desde
+que rigen los requisitos de Gmail y Yahoo de febrero de 2024, reemplaza el dominio por uno
+propio y el mail sale desde algo como `boletin@5000001.brevosend.com`, firmado por ellos.
+
+Verificado el 20/8/2026, la política de Gmail hoy es blanda:
+
+```
+_dmarc.gmail.com -> v=DMARC1; p=none; sp=quarantine
+```
+
+`p=none` significa que todavía no piden tirar a spam lo que no alinea. Es irrelevante igual:
+no se llega a esa instancia porque Brevo reescribe el From antes de mandar.
+
+### Lo que se descartó y por qué
+
+- **Comprar un dominio** (diez o quince dólares al año) es la solución de fondo: alinea todo
+  y da un remitente reconocible que se puede mudar de proveedor. Queda para cuando haga
+  falta infraestructura mejor; por ahora el proyecto va a costo cero.
+- **Mandar por el SMTP de Gmail**, sin Brevo, alinea perfecto y es gratis. Se descartó por la
+  lista: los mails de los suscriptos son datos personales y este repo es público, así que
+  tendrían que vivir en un secret de Actions, sin bajas ni rebotes manejados. En Brevo la
+  lista queda del lado de ellos.
+
+### Lo que hay que medir cuando salga el primer envío
+
+- El encabezado `Authentication-Results` de un mail recibido en Gmail: `spf=pass`,
+  `dkim=pass`, `dmarc=pass`.
+- El puntaje de mail-tester.
+- Que llegue a la bandeja, no a spam, en Gmail, Outlook y Yahoo, que filtran distinto.
+- Que el mail traiga el encabezado `List-Unsubscribe` con baja en un clic.
 
 ## Descartado
 
