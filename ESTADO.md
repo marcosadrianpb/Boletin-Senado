@@ -1,6 +1,6 @@
 # Boletín diario de proyectos del Senado — Estado del proyecto
 
-Última actualización: 19 de agosto de 2026 · **Fase 1 reescrita y probada contra el sitio real**
+Última actualización: 19 de agosto de 2026 · **Fase 1 cerrada: corrida 0 hecha y verificada**
 
 ## Objetivo
 
@@ -22,15 +22,15 @@ armar un boletín con ese listado y enviarlo por mail a una lista de difusión c
 | Proveedor de mail | Brevo (300/día gratis) con casilla Gmail dedicada verificada. Sin dominio propio por ahora |
 | Infraestructura | GitHub Actions, repo público `marcosadrianpb/Boletin-Senado` |
 | Lenguaje | Python 3.11 + `requests` + `xlrd` + `beautifulsoup4`. **Sin Playwright** |
+| Horario | 8:00 de Buenos Aires, días hábiles (`cron: 0 11 * * 1-5`) |
 
 Pendiente de confirmar: qué hacer los días sin novedades (propuesto: no abrir issue).
-El horario quedó en 8:00 de Buenos Aires, días hábiles (`cron: 0 11 * * 1-5`).
 
 ## Fases
 
 - **Fase 0 — Reconocimiento.** ✅ CERRADA.
-- **Fase 1 — Extractor y padrón.** ✅ Escrita y probada localmente contra el sitio real. Falta subirla y correr la corrida 0.
-- **Fase 2 — Boletín e issue diario.**
+- **Fase 1 — Extractor y padrón.** ✅ CERRADA. Subida, corrida 0 hecha y verificada.
+- **Fase 2 — Boletín e issue diario.** ← acá estamos
 - **Fase 3 — Envío por mail.**
 - **Fase 4 — Endurecimiento.**
 
@@ -44,8 +44,7 @@ Tres pedidos HTTP planos, sin navegador:
 3. `GET /micrositios/DatosAbiertosExpedientes/BusquedaAvanzada/XLS` → el resultado entero
 
 Medido el 19/8/2026: **2014 expedientes de 2026, 900 KB, un segundo**. Verificado contra el
-listado paginado (202 páginas, la última con 3 filas → 2013 al momento de la medición): el
-XLS no viene truncado.
+listado paginado (202 páginas, la última con 3 filas): el XLS no viene truncado.
 
 Columnas del XLS: `Numero Expediente | Tipo | Origen | Extracto`. No trae fecha ni autor.
 
@@ -94,35 +93,39 @@ padrón. Las tablas se identifican por su atributo `summary`, que es estable.
 - **Cambio de año:** en enero y febrero se consultan el año en curso y el anterior. La
   primera vez que se consulta un año nuevo, sus expedientes entran al padrón como línea de
   base de ese año (`absorbidos`) y no se anuncian, así el boletín de enero no sale con dos
-  mil entradas.
+  mil entradas. De los absorbidos se guarda solo la cuenta: el detalle ya está en el padrón.
 - Si la descarga trae menos de la mitad del padrón vigente, la corrida aborta sin tocar
   nada: es más probable una falla de la fuente que una purga real.
 
 ## Estado del repo
 
-Subido a GitHub:
+Todo subido. Últimos commits:
 
-- `.github/workflows/recon.yml` — reconocimiento de la Fase 0. Ya cumplió su función.
-- `INFORME.md` y `recon/` — resultados del reconocimiento. `INFORME.md` está duplicado
-  (raíz y `recon/`); conviene dejar uno solo.
-
-Escrito localmente, **falta subir**:
+```
+a84dd06  Ajustes de la corrida 0
+d810abc  Padron del 2026-08-19          <- lo commiteo el workflow
+1bd58af  Fase 1: extraccion por anio de expediente y padron comparable
+18c218a  Resultados del reconocimiento v3
+```
 
 - `src/senado.py` — cliente del buscador. Baja y parsea. No guarda estado.
 - `src/padron.py` — el padrón y la comparación. No toca la red.
 - `src/actualizar.py` — la corrida diaria: baja, compara, actualiza, escribe novedades.
 - `.github/workflows/actualizar.yml` — corre a las 8:00 AR de lunes a viernes, y a mano.
 - `requirements.txt`
+- `.github/workflows/recon.yml`, `INFORME.md`, `recon/` — Fase 0, ya cumplieron su función.
+  `INFORME.md` está duplicado (raíz y `recon/`); conviene dejar uno solo.
 
-En `_to_delete/` quedaron `extractor_playwright.py` y `extraer_playwright.yml`, la versión
-vieja de Fase 1 basada en Playwright y en `fechaMesa`. Nunca se subió al repo.
+En `_to_delete/`, fuera del repo por el `.gitignore`, quedaron `extractor_playwright.py` y
+`extraer_playwright.yml`: la versión vieja de Fase 1 basada en Playwright y en `fechaMesa`.
+Nunca se subió.
 
 ### Archivos que genera
 
 ```
-datos/padron.json           el padron completo, clave -> expediente
-datos/novedades/YYYY-MM-DD.json   altas, bajas, reingresos y correcciones del dia
-datos/historial.jsonl       una linea por corrida: total, altas, bajas
+datos/padron.json                  el padron completo, clave -> expediente
+datos/novedades/YYYY-MM-DD.json    altas, bajas, reingresos y correcciones del dia
+datos/historial.jsonl              una linea por corrida: total, altas, bajas
 ```
 
 Formato de cada expediente en el padrón:
@@ -153,38 +156,84 @@ Y la ficha que se le agrega a los nuevos del día:
 }
 ```
 
-## Composición de 2026 (al 19/8)
+## La corrida 0
 
-2014 expedientes. Como el alcance es "todo lo que ingresa", cerca de un tercio son
-comunicaciones y acuerdos, no proyectos.
+Corrida el 19/8/2026 a mano desde Actions. Resultado: **2014 expedientes** cargados como
+punto de partida, sin anunciar novedades.
+
+El padrón commiteado se bajó del repo y se verificó:
+
+```
+expedientes : 2014          vigentes : 2014
+claves mal formadas : 0     claves incoherentes : 0
+sin extracto : 0            sin tipo : 0      sin origen : 0
+anio != 2026 : 0            visto : 2026-08-19 (los 2014)
+```
+
+Y se comparó contra la extracción hecha en la máquina del usuario, desde Argentina, minutos
+antes: **mismo conjunto de claves, cero extractos distintos**. El runner de GitHub, con IP
+de Estados Unidos, trae exactamente lo mismo. Queda descartado que la fuente sirva contenido
+distinto según de dónde le peguen.
+
+Primera línea del historial:
+
+```json
+{"fecha":"2026-08-19","total":2014,"altas":0,"bajas":0,"linea_base":true}
+```
+
+### Composición del padrón al 19/8/2026
+
+Como el alcance es "todo lo que ingresa", cerca de un tercio son comunicaciones y acuerdos,
+no proyectos.
 
 | Origen | | Tipo | |
 |---|---|---|---|
 | S — Senado | 1360 | PL Proyecto de ley | 572 |
-| OV — Oficiales varios | 352 | PD Proyecto de declaración | 431 |
-| PE — Poder Ejecutivo | 275 | CV Comunicaciones varias | 245 |
+| OV — Oficiales varios | 353 | PD Proyecto de declaración | 431 |
+| PE — Poder Ejecutivo | 275 | CV Comunicaciones varias | 246 |
 | P — Particulares | 20 | AC Acuerdos | 211 |
 | CD — Diputados | 6 | CC Comunicaciones de comisiones | 151 |
 | | | PC Proyecto de comunicación | 138 |
-| | | resto (CA, CO, PP, DC, PR, CE, MD, CM, MS) | 265 |
+| | | resto (CA, CO, PP, DC, CE, PR, MD, CM, MS) | 265 |
 
 Por eso el boletín conviene agruparlo por tipo, para que los proyectos de ley no queden
 enterrados entre comunicaciones de la AGN. Es decisión de presentación: la extracción trae
 todo igual.
 
-## Próximo paso
-
-Subir los archivos nuevos y correr **Boletin - Actualizar padron** a mano. Esa es la
-corrida 0: no va a anunciar novedades, va a dejar `datos/padron.json` con el padrón
-completo. La corrida del día siguiente ya sale con altas.
-
 ## Pruebas hechas (19/8/2026, contra el sitio real)
+
+En la máquina del usuario, antes de subir:
 
 - Corrida 0: 2014 expedientes cargados.
 - Corrida repetida sin cambios: 0 altas, 0 bajas. Es idempotente.
 - Día simulado sacando 5 expedientes del padrón, ensuciando el extracto de uno y dando de
   baja otro: detectó 5 altas, 1 corrección y 1 reingreso, y trajo las 6 fichas con autores,
   comisiones y PDF.
+
+En Actions:
+
+- Corrida 0 real, verificada contra la extracción local (ver arriba).
+
+## Próximo paso
+
+**Pendiente chico:** correr el workflow una vez más. Sirve para dos cosas: reemplaza el
+`datos/novedades/2026-08-19.json` que quedó de 591 KB por el chico (ver abajo), y es la
+primera vez que el camino de comparación corre en Actions y no solo en local. Tiene que dar
+`altas 0 | bajas 0`.
+
+Después, **Fase 2**: armar el boletín y abrir el issue diario a partir de
+`datos/novedades/YYYY-MM-DD.json`. Agrupado por tipo, con el link a `verExp` y al PDF del
+texto.
+
+La corrida automática de las 8:00 arranca sola de lunes a viernes. La primera con altas
+reales debería ser la del día siguiente a la corrida 0.
+
+## Arreglado después de la corrida 0
+
+- `upload-artifact` de v4 a v7: el runner avisa que Node 20 está deprecado.
+- El archivo de novedades de la línea de base guardaba los 2014 expedientes absorbidos, que
+  son los mismos que están en `padron.json`. Ahora guarda solo la cuenta: **de 591 KB a 289
+  bytes**. El archivo gordo sigue commiteado hasta que se vuelva a correr el workflow.
 
 ## Descartado
 
@@ -201,12 +250,14 @@ completo. La corrida del día siguiente ya sale con altas.
 ## Notas de trabajo
 
 - Desde la máquina del usuario hay salida de red a `senado.gob.ar`, a
-  `raw.githubusercontent.com` y a la API de GitHub. El extractor se puede probar localmente
-  contra el sitio real, sin depender del ciclo push → Actions → leer el JSON commiteado.
-- El repo local no está inicializado como git: los archivos se escriben en
-  `Escritorio/boletin-senado` y el usuario los sube.
-- Como el repo es público, los workflows commitean sus resultados: eso cierra el circuito
-  sin copiar y pegar informes.
+  `raw.githubusercontent.com` y a la API de GitHub, incluidas las corridas de Actions. El
+  extractor se puede probar localmente contra el sitio real, sin depender del ciclo
+  push → Actions → leer el JSON commiteado.
+- El repo local ya está inicializado como git y conectado a `origin`. El usuario se
+  autenticó una vez con Git Credential Manager, así que la credencial quedó guardada en
+  Windows y los pushes salen sin ventana.
+- Los workflows commitean sus resultados al repo: eso cierra el circuito sin copiar y pegar
+  informes.
 
 ## Riesgos
 
