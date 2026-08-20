@@ -74,6 +74,21 @@ jobs:
           gh label create boletin --color 0E8A16 --description "Boletin diario" --force
           gh issue create --title "$TITULO" --body-file "$CUERPO" --label boletin
 
+      # No hace nada hasta que exista la variable BREVO_LISTA con el id de la
+      # lista. Mientras BREVO_ENVIAR no diga "true", la campana se crea y queda
+      # en borrador: hay que entrar a Brevo y mandarla a mano.
+      - name: Mandar el boletin por mail
+        if: success() && steps.boletin.outputs.hay == 'true' && vars.BREVO_LISTA != ''
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          LISTAS: ${{ vars.BREVO_LISTA }}
+          ENVIAR: ${{ vars.BREVO_ENVIAR }}
+        run: |
+          ARGS=""
+          for id in $LISTAS; do ARGS="$ARGS --lista $id"; done
+          if [ "$ENVIAR" = "true" ]; then ARGS="$ARGS --mandar"; fi
+          python -m src.envio $ARGS
+
       - name: Subir artifact
         if: always()
         uses: actions/upload-artifact@v7

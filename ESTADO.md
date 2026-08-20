@@ -149,6 +149,8 @@ d810abc  Padron del 2026-08-19
 - `src/padron.py` — el padrón y la comparación. No toca la red.
 - `src/actualizar.py` — la corrida diaria: baja, compara, actualiza, escribe novedades.
 - `src/boletin.py` — arma el texto del boletín. No toca la red ni el padrón.
+- `src/correo.py` — el mismo boletín en HTML de correo, más su versión en texto.
+- `src/envio.py` — crea la campaña en Brevo y, si se le pide, la manda.
 - `.github/workflows/actualizar.yml` — corre a las 8:00 AR de lunes a viernes, y a mano.
 - `requirements.txt`
 - `.github/workflows/recon.yml`, `INFORME.md`, `recon/` — Fase 0, ya cumplieron su función.
@@ -296,6 +298,46 @@ con Brevo, reusando el mismo cuerpo del boletín.
   bytes**. El archivo gordo ya se reemplazó por el chico.
 - El resumen del run que escribía `actualizar.py` tenía una tabla con las altas; ahora la
   presentación es toda del boletín y `actualizar.py` deja solo las cuentas de la corrida.
+
+## Cómo se manda el mail
+
+`src/correo.py` arma el cuerpo a partir del mismo archivo de novedades que el issue, así que
+el listado es idéntico y no se pueden desincronizar. Es HTML de correo, no de web: tablas en
+vez de flex, estilos escritos en cada etiqueta, sin javascript ni imágenes. Es lo único que
+renderizan igual Gmail, Outlook y el resto. Ancho de 640 px, y si el mail pasa de 90 KB se
+corta con un aviso, porque arriba de 102 KB Gmail lo recorta solo y rompe el listado.
+
+`src/envio.py` lo manda con la **API de campañas** de Brevo, no con la de transaccionales.
+La de campañas maneja la lista: agrega sola el encabezado `List-Unsubscribe`, reemplaza el
+`{{ unsubscribe }}` del pie por el link de baja de cada destinatario y deja las
+estadísticas. La contra es que no recibe una versión de texto plano —Brevo la genera del
+HTML—, así que `correo.texto_plano` queda para el archivo y para el día que haga falta la
+transaccional.
+
+Tres frenos, porque un mail mandado no se puede desmandar:
+
+- Sin `--mandar`, la campaña se crea y **queda en borrador**.
+- Sin `--lista`, no manda: no existe el envío a nadie.
+- Si ya hay una campaña del día, no crea otra. El workflow puede correr dos veces —ya pasó—
+  y eso no puede significar dos mails.
+
+Además está `--seco`, que no toca la red y muestra qué mandaría.
+
+### Cómo se configura
+
+El paso del workflow no hace nada hasta que existan estas tres cosas en el repo:
+
+| Dónde | Nombre | Para qué |
+|---|---|---|
+| Secret | `BREVO_API_KEY` | La clave de la API. No se escribe nunca en el log |
+| Variable | `BREVO_LISTA` | Id de la lista de Brevo; si son varias, separados por espacio |
+| Variable | `BREVO_ENVIAR` | Con `true` manda; con cualquier otra cosa deja el borrador |
+
+La idea es arrancar apuntando a una lista de prueba con `BREVO_ENVIAR` sin poner, mirar el
+borrador en Brevo, después ponerlo en `true` contra la lista de prueba, medir, y recién ahí
+cambiar `BREVO_LISTA` por la lista de verdad.
+
+Remitente: `proparlamentariasenado@gmail.com`, con el nombre visible `Boletín del Senado`.
 
 ## El remitente y el spam
 
