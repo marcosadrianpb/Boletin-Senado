@@ -1,0 +1,39 @@
+{
+ "fecha": "2026-08-21",
+ "generado": "2026-08-21T08:15:45-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "276/26",
+   "tipo": "DC",
+   "origen": "PE",
+   "extracto": "JEFATURA DE GABINETE: REMITE MENSAJE Nº 39/26 QUE COMUNICA EL DICTADO DEL DECRETO DE NECESIDAD Y URGENCIA Nº 717/26, POR EL QUE SE AUTORIZA EL INGRESO DE MEDIOS Y PERSONAL DE LA MARINA DE LA REPÚBLICA FEDERATIVA DEL BRASIL PARA LA PARTICIPACIÓN EN EL EJERCICIO \"FRATERNO XXXIX\" A LLEVARSE A CABO",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/276.26/PE/DC",
+    "fecha_mesa": "2026-08-20",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE DE TRÁMITE LEGISLATIVO (LEY 26.122)",
+      "orden": "1",
+      "ingreso": "20-08-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2014,
+ "total_ahora": 2015
+}
