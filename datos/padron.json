@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-08-24T08:17:14-03:00",
+ "actualizado": "2026-08-25T03:38:17-03:00",
  "anios": [
   2026
  ],
- "corridas": 6,
+ "corridas": 7,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -6007,10 +6007,10 @@
    "visto": "2026-08-19"
   },
   "168/26|S": {
-   "actualizado": "2026-08-19",
+   "actualizado": "2026-08-25",
    "anio": 2026,
    "expediente": "168/26",
-   "extracto": "CAPITANICH Y B AHL: PROYECTO DE LEY QUE CREA EL REGIMEN DE REGULARIZACION PREVISIONAL E IMPOSITIVO.",
+   "extracto": "CAPITANICH Y BAHL: PROYECTO DE LEY QUE CREA EL REGIMEN DE REGULARIZACION PREVISIONAL E IMPOSITIVO.",
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -11536,6 +11536,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "358/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "358/26",
+   "extracto": "MUNICIPALIDAD DE CORONEL DORREGO, PROV. DE BUENOS AIRES: EXPRESA PREOCUPACION ANTE EL ENDEUDAMIENTO Y LA MOROSIDAD DE LAS FAMILIAS ARGENTINAS.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/358.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "358/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11545,6 +11564,25 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "359/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "359/26",
+   "extracto": "CONCEJO DELIBERANTE DE TANDIL, PROV. DE BUENOS AIRES: EXPRESA PREOCUPACION Y RECHAZA LA DEROGACION DE LA LEY 25.542, LEY DE LIBROS.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/359.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "359/26|S": {
    "actualizado": "2026-08-19",
@@ -11586,6 +11624,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "360/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "360/26",
+   "extracto": "CONCEJO DELIBERANTE DE PUERTO MADRYN, PROV. DEL CHUBUT: RECHAZA EL PROYECTO \"LEY DE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA\".",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/360.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "360/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11595,6 +11652,25 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "361/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "361/26",
+   "extracto": "CONCEJO DELIBERANTE DE CARMEN DE PATAGONES, PROV. DE BUENOS AIRES: EXPRESA PREOCUPACION POR EL IMPACTO NEGATIVO DE LOS AUMENTOS EN LA TARIFA DE GAS, SOBRE LA ECONOMÍA.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/361.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "361/26|S": {
    "actualizado": "2026-08-19",
@@ -11606,6 +11682,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "362/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "362/26",
+   "extracto": "LEGISLATURA DE LA PROV. DE NEUQUEN: SOLICITA INFORME SOBRE EJECUCION PRESUPUESTARIA, ADMINISTRACION Y SITUACION PATRIMONIAL DEL SISTEMA VIAL INTEGRADO (SISVIAL)",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/362.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "362/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11615,6 +11710,25 @@
    "tipo": "CC",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "363/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "363/26",
+   "extracto": "CONCEJO DELIBERANTE DE ITUZAINGO, PROV. DE BS.AS.: RECHAZA EL PROCESO DE PRIVATIZACION DE AGUA Y SANEAMIENTOS ARGENTINOS S.A. (AYSA).",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/363.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "363/26|S": {
    "actualizado": "2026-08-19",
@@ -11626,6 +11740,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "364/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "364/26",
+   "extracto": "CONCEJO DELIBERANTE DE RUFINO, PROV. DE SANTA FE: SOLICITA PRONTO TRATAMIENTO AL PROYECTO DE LEY QUE PROPONE INCORPORAR LA ASIGNATURA EDUCACION FINANCIERA AL NIVEL SECUNDARIO.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/364.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "364/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11635,6 +11768,25 @@
    "tipo": "PC",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "365/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "365/26",
+   "extracto": "CONCEJO DELIBERANTE DE FLORENCIO VARELA, PROV. DE BS.AS.: EXPRESA PREOCUPACION Y REPUDIA EL PROYECTO DE LEY DE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/365.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "365/26|S": {
    "actualizado": "2026-08-19",
@@ -11646,6 +11798,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "366/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "366/26",
+   "extracto": "CONCEJO MUNICIPAL DE CAÑADA DE GOMEZ, PROV. DE SANTA FE: RECHAZA EL PROYECTO DE LEY DE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/366.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "366/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11655,6 +11826,25 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "367/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "367/26",
+   "extracto": "CONCEJO DELIBERANTE DE LA CDAD. DE RAWSON, PROV. DEL CHUBUT: RECHAZA EL PROYECTO DE LEY DE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/367.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "367/26|S": {
    "actualizado": "2026-08-19",
@@ -11666,6 +11856,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "368/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "368/26",
+   "extracto": "- CONCEJO MUNICIPAL DE FIRMAT, PROVINCIA DE SANTA FE: EXPRESA PREOCUPACION RESPECTO DEL PROYECTO DE LEY SOBRE TIERRAS RURALES Y DE LA EXPLOTACION DE HIDROCARBUROS EN EL TERRITORIO DE LAS ISLAS MALVINAS.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/368.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "368/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11675,6 +11884,25 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "369/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "369/26",
+   "extracto": "- CONCEJO MUNICIPAL DE SANTO TOME, PROV. DE SANTA FE: RECHAZA EL TRATAMIENTO DEL PROYECTO DE LEY SOBRE EL REGIMEN DE PROTECCIÓN DE TIERRAS RURALES.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/369.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "369/26|S": {
    "actualizado": "2026-08-19",
@@ -11716,6 +11944,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "370/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "370/26",
+   "extracto": "PODER LEGISLATIVO DE LA PROV. DEL CHACO: ADHIERE A LA CONMEMORACIÓN DEL DIA NACIONAL DEL ABOGADO VICTIMA DEL TERRORISMO DE ESTADO, CELEBRADO EL PASADO 7 DE JULIO DE 2026.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/370.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "370/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11725,6 +11972,25 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "371/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "371/26",
+   "extracto": "CONCEJO DELIBERANTE DE SAN NICOLAS DE LOS ARROYOS, PROV. DE BS. AS.: RECHAZA TODA INICIATIVA DE REFORMA PREVISIONAL QUE IMPLIQUE LA PERDIDA DE DERECHOS ADQUIRIDOS POR LOS TRABAJADORES DOCENTES Y ESTATALES DE LA PROV. DE BUENOS AIRES.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/371.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "371/26|S": {
    "actualizado": "2026-08-19",
@@ -11736,6 +12002,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "372/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "372/26",
+   "extracto": "CONCEJO DELIBERANTE DE SAN RAFAEL, PROV. DE MENDOZA: SOLICITA EL PRONTO TRATAMIENTO DEL PROYECTO DE LEY QUE PROPONE LA COLOCACION DE CARTELES EN TODOS LOS ESTABLECIMIENTOS EDUCATIVOS PUBLICOS Y PRIVADOS DE LA REPUBLICA ARGENTINA, INDICANDO LA DISTANCIA ENTRE CADA INSTITUCION Y LAS ISLAS MALVINAS.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-18",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/372.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "372/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11745,6 +12030,25 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "373/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "373/26",
+   "extracto": "CONCEJO MUNICIPAL DE CASILDA, PROV. SANTA FE: EXPRESA PREOCUPACION Y RECHAZA LA MODIFICACION A LA LEY 27637 —REGIMEN DE ZONA FRIA.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-20",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/373.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "373/26|S": {
    "actualizado": "2026-08-19",
@@ -11756,6 +12060,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "374/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "374/26",
+   "extracto": "MUNICIPALIDAD DE LAPRIDA, PROV. DE BUENOS AIRES: SOLICITA EL RECHAZO AL PROYECTO DE MODIFICACION DEL REGIMEN DE ZONA FRÍA.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-19",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/374.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "374/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11766,6 +12089,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "375/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "375/26",
+   "extracto": "CONCEJO DELIBERANTE DE MERCEDES, PROV. DE BUENOS AIRES: RECHAZA EL PROYECTO DE LEY DE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-19",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/375.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "375/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11775,6 +12117,25 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "376/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "376/26",
+   "extracto": "CONCEJO DELIBERANTE DE URDINARRAIN, PROV. DE ENTRE RIOS: EXPRESA PREOCUPACIÓN POR LAS MODIFICACIONES PROPUESTAS A LA LEY 26.737 -TIERRAS RURALES-.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-19",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/376.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "376/26|S": {
    "actualizado": "2026-08-19",
@@ -11806,6 +12167,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "378/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "378/26",
+   "extracto": "MUNICIPALIDAD DE VILLA GESELL PROV. DE BS. AS.: EXPRESA PREOCUPACION POR EL DESFINANCIAMIENTO Y DETERIORO DE LAS CONDICIONES LABORALES DEL CONICET Y LOS DISTINTOS ORGANISMOS CIENTIFICOS Y TECNOLOGICOS.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-21",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/378.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "378/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11815,6 +12195,25 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "379/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "379/26",
+   "extracto": "CONCEJO DELIBERANTE DE VILLA GESELL, PROV. DE BUENOS AIRES: EXPRESA PREOCUPACION POR EL DETERIORO DE LA RED VIAL NACIONAL Y LA FALTA DE MANTENIMIENTO DE LAS RUTAS NACIONALES.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-21",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/379.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "379/26|S": {
    "actualizado": "2026-08-19",
@@ -11856,6 +12255,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "380/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "380/26",
+   "extracto": "CONCEJO DELIBERANTE DE VILLARINO, PROV. DE BUENOS AIRES: RECHAZA EL PROYECTO DE LEY DE QUE BUSCA REGULAR Y HABILITAR LOS CRIADEROS DE ANIMALES DE COMPAÑÍA.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-21",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/380.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "380/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11865,6 +12283,25 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "381/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "381/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 168/26, QUE APRUEBA INFORME REFERIDO A LOS FONDOS NACIONALES TRANSFERIDOS A TRAVES DEL FONDO FIDUCIARIO PARA LA VIVIENDA SOCIAL, PARA FINANCIAR LOS PROGRAMAS DE VIVIENDA SOCIAL E INFRAESTRUCTURA BASICA CASA PROPIA-CONSTRUIR FUTURO Y RECONSTRUIR",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-21",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/381.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "381/26|S": {
    "actualizado": "2026-08-19",
@@ -11876,6 +12313,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "382/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "382/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 169/26, QUE APRUEBA INFORME REFERIDO A LA GESTION Y CUMPLIMIENTO DE LAS TRANSFERENCIAS DE FONDOS NACIONALES EN EL MARCO DEL PROGRAMA 53-INTEGRACION SOCIO URBANA, ACTIVIDAD 42- ABORDAJE INTEGRAL BARRIOS POPULARES, PERIODO AUDITADO 01/01/2022 AL",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-21",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/382.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "382/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11885,6 +12341,25 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "383/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "383/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 170/26, QUE APRUEBA INFORME SOBRE LOS ESTADOS FINANCIEROS DEL \"PROGRAMA DE DESARROLLO INTEGRAL DE LA PRIMERA INFANCIA\" C.P. BID N°5953/OC-AR, EJERCICIO N°2 - INICIADO EL 01/01/2025 Y FINALIZADO EL 31/12/2025.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-21",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/383.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "383/26|S": {
    "actualizado": "2026-08-19",
@@ -11896,6 +12371,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "384/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "384/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 171/26, QUE APRUEBA INFORME CORRESPONDIENTE AL PROGRAMA DE AMPLIACION DE LA COBERTURA EFECTIVA EN SALUD-SUMAR Y FINANCIAMIENTO ADICIONAL, CONVENIO DE PRESTAMO BIRF N°8853 AR Y BIRF 9222-AR (EJERCICIO N° 6 INICIADO EL 01/01/2024 Y FINALIZADO 3",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-21",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/384.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "384/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11905,6 +12399,25 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "385/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "385/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 172/26, QUE APRUEBA INFORME SOBRE LOS ESTADOS FINANCIEROS DEL \"PROGRAMA PARA EL DESARROLLO DE NUEVAS AREAS DE RIEGO EN ARGENTINA - ETAPA II E INFRAESTRUCTURA RURAL\" - EJERCICIO N° 8 INICIADO EL 01/01/2024 Y FINALIZADO 31/12/2024.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-21",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/385.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "385/26|S": {
    "actualizado": "2026-08-19",
@@ -11916,6 +12429,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "386/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "386/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 173/26, QUE APRUEBA INFORME SOBRE LOS ESTADOS FINANCIEROS DEL \"PROGRAMA DE FORTALECIMIENTO DE LOS SERVICIOS DE SANIDAD AGROPECUARIA Y DEL MANEJO SUSTENTABLE DE LOS RECURSOS MARITIMOS DE ARGENTINA\" - CONTRATO DE PRESTAMO BID N° 5660/OC-AR - EJE",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-21",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/386.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
+  },
   "386/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11925,6 +12457,25 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "387/26|OV": {
+   "actualizado": "2026-08-25",
+   "anio": 2026,
+   "expediente": "387/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 174/26, QUE APRUEBA INFORME SOBRE LA GESTION DE FONDOS NACIONALES TRANSFERIDOS EN EL MARCO DEL PROGRAMA 26 - POLITICAS ALIMENTARIAS - PRESTACION ALIMENTAR\" - INICIADO EL 01/01/2022 Y FINALIZADO 31/12/2022.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-21",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/387.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-25"
   },
   "387/26|S": {
    "actualizado": "2026-08-19",
