@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-08-26T08:19:15-03:00",
+ "actualizado": "2026-08-26T18:42:38-03:00",
  "anios": [
   2026
  ],
- "corridas": 9,
+ "corridas": 10,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -6056,6 +6056,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "17/26|P": {
+   "actualizado": "2026-08-26",
+   "anio": 2026,
+   "expediente": "17/26",
+   "extracto": "ROCCA CLAUDIA, PRESIDENTA DE LA ASOCIACION AMERICANA DE JURISTAS Y OTROS: RECHAZA EL DCTO 467/2026, QUE ELIMINA LOS MECANISMOS DE TRANSPARENCIA, PARTICIPACION CIUDADANA, CONTROL Y DIVERSIDAD DE GENERO, PARA LA SELECCION DE JUECES Y JUEZAS.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-07-13",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498879/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/17.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-08-26"
+  },
   "17/26|PE": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -6386,6 +6405,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "18/26|P": {
+   "actualizado": "2026-08-26",
+   "anio": 2026,
+   "expediente": "18/26",
+   "extracto": "BERTOLA BÁRBARA Y OTROS: SOLICITA CONVOCAR A AUDIENCIAS PÚBLICAS PARA EL \"RÉGIMEN DE INCENTIVO PARA GRANDES INVERSIONES EN NUEVAS INDUSTRIAS\" (SUPER RIGI).",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-07-14",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498880/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/18.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-08-26"
+  },
   "18/26|PE": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -6715,6 +6753,25 @@
    "tipo": "CA",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "19/26|P": {
+   "actualizado": "2026-08-26",
+   "anio": 2026,
+   "expediente": "19/26",
+   "extracto": "INSTITUTO DE ESTUDIOS ESTRATEGICOS Y DE RELACIONES INTERNACIONALES Y CIRCULO DE LEGISLADORES DE LA NACION ARGENTINA: REMITE ANTEPROYECTO DE LEY DE \"PREVENCION, ASISTENCIA Y LUCHA CONTRA EL TRASTORNO POR JUEGO - LUDOPATIA -.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-07-16",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498881/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/19.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-08-26"
   },
   "19/26|PE": {
    "actualizado": "2026-08-19",
@@ -8456,6 +8513,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "24/26|P": {
+   "actualizado": "2026-08-26",
+   "anio": 2026,
+   "expediente": "24/26",
+   "extracto": "SOSA REINALDO: REMITE ANTEPROYECTO SOBRE LA APERTURA INMEDIATA Y PERMANENTE DE LOS ACCESOS 1,2, 4 Y 5 DEL NIVEL DE SALIDAS DE LA TERMINAL DE OMNIBUS DE RETIRO.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-19",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498882/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/24.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-08-26"
+  },
   "24/26|PE": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -8785,6 +8861,25 @@
    "tipo": "CA",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "25/26|P": {
+   "actualizado": "2026-08-26",
+   "anio": 2026,
+   "expediente": "25/26",
+   "extracto": "SOSA REINALDO: REMITE ANTEPROYECTO QUE ESTABLECE UN MARCO NORMATIVO NACIONAL PARA EL RESGUARDO, REQUERIMIENTO E INCORPORACION PROBATORIA DE METADATOS DE ACTIVIDAD MOVIL EN SINIESTROS VIALES.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-19",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498883/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/25.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-08-26"
   },
   "25/26|PE": {
    "actualizado": "2026-08-19",
@@ -12207,10 +12302,10 @@
    "visto": "2026-08-19"
   },
   "387/26|OV": {
-   "actualizado": "2026-08-25",
+   "actualizado": "2026-08-26",
    "anio": 2026,
    "expediente": "387/26",
-   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 174/26, QUE APRUEBA INFORME SOBRE LA GESTION DE FONDOS NACIONALES TRANSFERIDOS EN EL MARCO DEL PROGRAMA 26 - POLITICAS ALIMENTARIAS - PRESTACION ALIMENTAR\" - INICIADO EL 01/01/2022 Y FINALIZADO 31/12/2022.",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 174/26, QUE APRUEBA INFORME SOBRE LA GESTION DE FONDOS NACIONALES TRANSFERIDOS EN EL MARCO DEL PROGRAMA 26 - POLITICAS ALIMENTARIAS - PRESTACION ALIMENTAR\" - INICIADO EL 01/01/2022 Y FINALIZADO 31/12/2024.",
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,

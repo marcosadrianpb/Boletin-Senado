@@ -1,11 +1,92 @@
 {
  "fecha": "2026-08-26",
- "generado": "2026-08-26T08:19:15-03:00",
+ "generado": "2026-08-26T18:42:38-03:00",
  "linea_base": false,
  "anios": [
   2026
  ],
- "altas": [],
+ "altas": [
+  {
+   "expediente": "25/26",
+   "tipo": "PP",
+   "origen": "P",
+   "extracto": "SOSA REINALDO: REMITE ANTEPROYECTO QUE ESTABLECE UN MARCO NORMATIVO NACIONAL PARA EL RESGUARDO, REQUERIMIENTO E INCORPORACION PROBATORIA DE METADATOS DE ACTIVIDAD MOVIL EN SINIESTROS VIALES.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/25.26/P/PP",
+    "fecha_mesa": "2026-08-19",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498883/downloadPdf"
+   }
+  },
+  {
+   "expediente": "24/26",
+   "tipo": "PP",
+   "origen": "P",
+   "extracto": "SOSA REINALDO: REMITE ANTEPROYECTO SOBRE LA APERTURA INMEDIATA Y PERMANENTE DE LOS ACCESOS 1,2, 4 Y 5 DEL NIVEL DE SALIDAS DE LA TERMINAL DE OMNIBUS DE RETIRO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/24.26/P/PP",
+    "fecha_mesa": "2026-08-19",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498882/downloadPdf"
+   }
+  },
+  {
+   "expediente": "19/26",
+   "tipo": "PP",
+   "origen": "P",
+   "extracto": "INSTITUTO DE ESTUDIOS ESTRATEGICOS Y DE RELACIONES INTERNACIONALES Y CIRCULO DE LEGISLADORES DE LA NACION ARGENTINA: REMITE ANTEPROYECTO DE LEY DE \"PREVENCION, ASISTENCIA Y LUCHA CONTRA EL TRASTORNO POR JUEGO - LUDOPATIA -.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/19.26/P/PP",
+    "fecha_mesa": "2026-07-16",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498881/downloadPdf"
+   }
+  },
+  {
+   "expediente": "18/26",
+   "tipo": "PP",
+   "origen": "P",
+   "extracto": "BERTOLA BÁRBARA Y OTROS: SOLICITA CONVOCAR A AUDIENCIAS PÚBLICAS PARA EL \"RÉGIMEN DE INCENTIVO PARA GRANDES INVERSIONES EN NUEVAS INDUSTRIAS\" (SUPER RIGI).",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/18.26/P/PP",
+    "fecha_mesa": "2026-07-14",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498880/downloadPdf"
+   }
+  },
+  {
+   "expediente": "17/26",
+   "tipo": "PP",
+   "origen": "P",
+   "extracto": "ROCCA CLAUDIA, PRESIDENTA DE LA ASOCIACION AMERICANA DE JURISTAS Y OTROS: RECHAZA EL DCTO 467/2026, QUE ELIMINA LOS MECANISMOS DE TRANSPARENCIA, PARTICIPACION CIUDADANA, CONTROL Y DIVERSIDAD DE GENERO, PARA LA SELECCION DE JUECES Y JUEZAS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/17.26/P/PP",
+    "fecha_mesa": "2026-07-13",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498879/downloadPdf"
+   }
+  }
+ ],
  "reingresos": [],
  "bajas": [],
  "correcciones": [
@@ -13,90 +94,12 @@
    "expediente": "387/26",
    "tipo": "CA",
    "origen": "OV",
-   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 174/26, QUE APRUEBA INFORME SOBRE LA GESTION DE FONDOS NACIONALES TRANSFERIDOS EN EL MARCO DEL PROGRAMA 26 - POLITICAS ALIMENTARIAS - PRESTACION ALIMENTAR\" - INICIADO EL 01/01/2022 Y FINALIZADO 31/12/2022.",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 174/26, QUE APRUEBA INFORME SOBRE LA GESTION DE FONDOS NACIONALES TRANSFERIDOS EN EL MARCO DEL PROGRAMA 26 - POLITICAS ALIMENTARIAS - PRESTACION ALIMENTAR\" - INICIADO EL 01/01/2022 Y FINALIZADO 31/12/2024.",
    "anio": 2026,
    "cambios": {
-    "tipo": [
-     "CV",
-     "CA"
-    ]
-   }
-  },
-  {
-   "expediente": "386/26",
-   "tipo": "CA",
-   "origen": "OV",
-   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 173/26, QUE APRUEBA INFORME SOBRE LOS ESTADOS FINANCIEROS DEL \"PROGRAMA DE FORTALECIMIENTO DE LOS SERVICIOS DE SANIDAD AGROPECUARIA Y DEL MANEJO SUSTENTABLE DE LOS RECURSOS MARITIMOS DE ARGENTINA\" - CONTRATO DE PRESTAMO BID N° 5660/OC-AR - EJE",
-   "anio": 2026,
-   "cambios": {
-    "tipo": [
-     "CV",
-     "CA"
-    ]
-   }
-  },
-  {
-   "expediente": "385/26",
-   "tipo": "CA",
-   "origen": "OV",
-   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 172/26, QUE APRUEBA INFORME SOBRE LOS ESTADOS FINANCIEROS DEL \"PROGRAMA PARA EL DESARROLLO DE NUEVAS AREAS DE RIEGO EN ARGENTINA - ETAPA II E INFRAESTRUCTURA RURAL\" - EJERCICIO N° 8 INICIADO EL 01/01/2024 Y FINALIZADO 31/12/2024.",
-   "anio": 2026,
-   "cambios": {
-    "tipo": [
-     "CV",
-     "CA"
-    ]
-   }
-  },
-  {
-   "expediente": "384/26",
-   "tipo": "CA",
-   "origen": "OV",
-   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 171/26, QUE APRUEBA INFORME CORRESPONDIENTE AL PROGRAMA DE AMPLIACION DE LA COBERTURA EFECTIVA EN SALUD-SUMAR Y FINANCIAMIENTO ADICIONAL, CONVENIO DE PRESTAMO BIRF N°8853 AR Y BIRF 9222-AR (EJERCICIO N° 6 INICIADO EL 01/01/2024 Y FINALIZADO 3",
-   "anio": 2026,
-   "cambios": {
-    "tipo": [
-     "CV",
-     "CA"
-    ]
-   }
-  },
-  {
-   "expediente": "383/26",
-   "tipo": "CA",
-   "origen": "OV",
-   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 170/26, QUE APRUEBA INFORME SOBRE LOS ESTADOS FINANCIEROS DEL \"PROGRAMA DE DESARROLLO INTEGRAL DE LA PRIMERA INFANCIA\" C.P. BID N°5953/OC-AR, EJERCICIO N°2 - INICIADO EL 01/01/2025 Y FINALIZADO EL 31/12/2025.",
-   "anio": 2026,
-   "cambios": {
-    "tipo": [
-     "CV",
-     "CA"
-    ]
-   }
-  },
-  {
-   "expediente": "382/26",
-   "tipo": "CA",
-   "origen": "OV",
-   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 169/26, QUE APRUEBA INFORME REFERIDO A LA GESTION Y CUMPLIMIENTO DE LAS TRANSFERENCIAS DE FONDOS NACIONALES EN EL MARCO DEL PROGRAMA 53-INTEGRACION SOCIO URBANA, ACTIVIDAD 42- ABORDAJE INTEGRAL BARRIOS POPULARES, PERIODO AUDITADO 01/01/2022 AL",
-   "anio": 2026,
-   "cambios": {
-    "tipo": [
-     "CV",
-     "CA"
-    ]
-   }
-  },
-  {
-   "expediente": "381/26",
-   "tipo": "CA",
-   "origen": "OV",
-   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 168/26, QUE APRUEBA INFORME REFERIDO A LOS FONDOS NACIONALES TRANSFERIDOS A TRAVES DEL FONDO FIDUCIARIO PARA LA VIVIENDA SOCIAL, PARA FINANCIAR LOS PROGRAMAS DE VIVIENDA SOCIAL E INFRAESTRUCTURA BASICA CASA PROPIA-CONSTRUIR FUTURO Y RECONSTRUIR",
-   "anio": 2026,
-   "cambios": {
-    "tipo": [
-     "CV",
-     "CA"
+    "extracto": [
+     "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 174/26, QUE APRUEBA INFORME SOBRE LA GESTION DE FONDOS NACIONALES TRANSFERIDOS EN EL MARCO DEL PROGRAMA 26 - POLITICAS ALIMENTARIAS - PRESTACION ALIMENTAR\" - INICIADO EL 01/01/2022 Y FINALIZADO 31/12/2022.",
+     "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 174/26, QUE APRUEBA INFORME SOBRE LA GESTION DE FONDOS NACIONALES TRANSFERIDOS EN EL MARCO DEL PROGRAMA 26 - POLITICAS ALIMENTARIAS - PRESTACION ALIMENTAR\" - INICIADO EL 01/01/2022 Y FINALIZADO 31/12/2024."
     ]
    }
   }
@@ -104,5 +107,5 @@
  "absorbidos": 0,
  "anios_nuevos": [],
  "total_antes": 2044,
- "total_ahora": 2044
+ "total_ahora": 2049
 }
