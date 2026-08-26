@@ -1,0 +1,108 @@
+{
+ "fecha": "2026-08-26",
+ "generado": "2026-08-26T08:19:15-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [
+  {
+   "expediente": "387/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 174/26, QUE APRUEBA INFORME SOBRE LA GESTION DE FONDOS NACIONALES TRANSFERIDOS EN EL MARCO DEL PROGRAMA 26 - POLITICAS ALIMENTARIAS - PRESTACION ALIMENTAR\" - INICIADO EL 01/01/2022 Y FINALIZADO 31/12/2022.",
+   "anio": 2026,
+   "cambios": {
+    "tipo": [
+     "CV",
+     "CA"
+    ]
+   }
+  },
+  {
+   "expediente": "386/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 173/26, QUE APRUEBA INFORME SOBRE LOS ESTADOS FINANCIEROS DEL \"PROGRAMA DE FORTALECIMIENTO DE LOS SERVICIOS DE SANIDAD AGROPECUARIA Y DEL MANEJO SUSTENTABLE DE LOS RECURSOS MARITIMOS DE ARGENTINA\" - CONTRATO DE PRESTAMO BID N° 5660/OC-AR - EJE",
+   "anio": 2026,
+   "cambios": {
+    "tipo": [
+     "CV",
+     "CA"
+    ]
+   }
+  },
+  {
+   "expediente": "385/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 172/26, QUE APRUEBA INFORME SOBRE LOS ESTADOS FINANCIEROS DEL \"PROGRAMA PARA EL DESARROLLO DE NUEVAS AREAS DE RIEGO EN ARGENTINA - ETAPA II E INFRAESTRUCTURA RURAL\" - EJERCICIO N° 8 INICIADO EL 01/01/2024 Y FINALIZADO 31/12/2024.",
+   "anio": 2026,
+   "cambios": {
+    "tipo": [
+     "CV",
+     "CA"
+    ]
+   }
+  },
+  {
+   "expediente": "384/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 171/26, QUE APRUEBA INFORME CORRESPONDIENTE AL PROGRAMA DE AMPLIACION DE LA COBERTURA EFECTIVA EN SALUD-SUMAR Y FINANCIAMIENTO ADICIONAL, CONVENIO DE PRESTAMO BIRF N°8853 AR Y BIRF 9222-AR (EJERCICIO N° 6 INICIADO EL 01/01/2024 Y FINALIZADO 3",
+   "anio": 2026,
+   "cambios": {
+    "tipo": [
+     "CV",
+     "CA"
+    ]
+   }
+  },
+  {
+   "expediente": "383/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 170/26, QUE APRUEBA INFORME SOBRE LOS ESTADOS FINANCIEROS DEL \"PROGRAMA DE DESARROLLO INTEGRAL DE LA PRIMERA INFANCIA\" C.P. BID N°5953/OC-AR, EJERCICIO N°2 - INICIADO EL 01/01/2025 Y FINALIZADO EL 31/12/2025.",
+   "anio": 2026,
+   "cambios": {
+    "tipo": [
+     "CV",
+     "CA"
+    ]
+   }
+  },
+  {
+   "expediente": "382/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 169/26, QUE APRUEBA INFORME REFERIDO A LA GESTION Y CUMPLIMIENTO DE LAS TRANSFERENCIAS DE FONDOS NACIONALES EN EL MARCO DEL PROGRAMA 53-INTEGRACION SOCIO URBANA, ACTIVIDAD 42- ABORDAJE INTEGRAL BARRIOS POPULARES, PERIODO AUDITADO 01/01/2022 AL",
+   "anio": 2026,
+   "cambios": {
+    "tipo": [
+     "CV",
+     "CA"
+    ]
+   }
+  },
+  {
+   "expediente": "381/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 168/26, QUE APRUEBA INFORME REFERIDO A LOS FONDOS NACIONALES TRANSFERIDOS A TRAVES DEL FONDO FIDUCIARIO PARA LA VIVIENDA SOCIAL, PARA FINANCIAR LOS PROGRAMAS DE VIVIENDA SOCIAL E INFRAESTRUCTURA BASICA CASA PROPIA-CONSTRUIR FUTURO Y RECONSTRUIR",
+   "anio": 2026,
+   "cambios": {
+    "tipo": [
+     "CV",
+     "CA"
+    ]
+   }
+  }
+ ],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2044,
+ "total_ahora": 2044
+}
