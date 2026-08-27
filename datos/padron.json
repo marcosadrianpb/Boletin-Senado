@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-08-26T18:42:38-03:00",
+ "actualizado": "2026-08-27T17:51:00-03:00",
  "anios": [
   2026
  ],
- "corridas": 10,
+ "corridas": 11,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -5306,6 +5306,168 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1473/26|S": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "1473/26",
+   "extracto": "BENSUSAN: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Bensusán , Daniel Pablo"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1473.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-08-27"
+  },
+  "1474/26|S": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "1474/26",
+   "extracto": "LINARES: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Linares , Carlos Alberto"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1474.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-08-27"
+  },
+  "1475/26|S": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "1475/26",
+   "extracto": "DE PEDRO: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "de Pedro , Eduardo Enrique"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1475.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-08-27"
+  },
+  "1476/26|S": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "1476/26",
+   "extracto": "SORIA: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Soria , Martin Ignacio"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1476.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-08-27"
+  },
+  "1477/26|S": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "1477/26",
+   "extracto": "SALINO: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Salino , Fernando Aldo"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1477.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-08-27"
+  },
+  "1478/26|S": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "1478/26",
+   "extracto": "MOISES: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Moises , María Carolina"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-08-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1478.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-08-27"
+  },
   "148/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -6061,15 +6223,6 @@
    "anio": 2026,
    "expediente": "17/26",
    "extracto": "ROCCA CLAUDIA, PRESIDENTA DE LA ASOCIACION AMERICANA DE JURISTAS Y OTROS: RECHAZA EL DCTO 467/2026, QUE ELIMINA LOS MECANISMOS DE TRANSPARENCIA, PARTICIPACION CIUDADANA, CONTROL Y DIVERSIDAD DE GENERO, PARA LA SELECCION DE JUECES Y JUEZAS.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-07-13",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498879/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/17.26/P/PP"
-   },
    "origen": "P",
    "tipo": "PP",
    "vigente": true,
@@ -6410,15 +6563,6 @@
    "anio": 2026,
    "expediente": "18/26",
    "extracto": "BERTOLA BÁRBARA Y OTROS: SOLICITA CONVOCAR A AUDIENCIAS PÚBLICAS PARA EL \"RÉGIMEN DE INCENTIVO PARA GRANDES INVERSIONES EN NUEVAS INDUSTRIAS\" (SUPER RIGI).",
-   "ficha": {
-    "autores": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-07-14",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498880/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/18.26/P/PP"
-   },
    "origen": "P",
    "tipo": "PP",
    "vigente": true,
@@ -6759,15 +6903,6 @@
    "anio": 2026,
    "expediente": "19/26",
    "extracto": "INSTITUTO DE ESTUDIOS ESTRATEGICOS Y DE RELACIONES INTERNACIONALES Y CIRCULO DE LEGISLADORES DE LA NACION ARGENTINA: REMITE ANTEPROYECTO DE LEY DE \"PREVENCION, ASISTENCIA Y LUCHA CONTRA EL TRASTORNO POR JUEGO - LUDOPATIA -.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-07-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498881/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/19.26/P/PP"
-   },
    "origen": "P",
    "tipo": "PP",
    "vigente": true,
@@ -8518,15 +8653,6 @@
    "anio": 2026,
    "expediente": "24/26",
    "extracto": "SOSA REINALDO: REMITE ANTEPROYECTO SOBRE LA APERTURA INMEDIATA Y PERMANENTE DE LOS ACCESOS 1,2, 4 Y 5 DEL NIVEL DE SALIDAS DE LA TERMINAL DE OMNIBUS DE RETIRO.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-08-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498882/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/24.26/P/PP"
-   },
    "origen": "P",
    "tipo": "PP",
    "vigente": true,
@@ -8867,15 +8993,6 @@
    "anio": 2026,
    "expediente": "25/26",
    "extracto": "SOSA REINALDO: REMITE ANTEPROYECTO QUE ESTABLECE UN MARCO NORMATIVO NACIONAL PARA EL RESGUARDO, REQUERIMIENTO E INCORPORACION PROBATORIA DE METADATOS DE ACTIVIDAD MOVIL EN SINIESTROS VIALES.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-08-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498883/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/25.26/P/PP"
-   },
    "origen": "P",
    "tipo": "PP",
    "vigente": true,
@@ -9781,6 +9898,31 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "277/26|PE": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "277/26",
+   "extracto": "MENSAJE N° 253/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DE CÁMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N°5 DE LA CAPITAL FEDERAL, AL DOCTOR JUAN CARLOS BERNIAL.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "27-08-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "28/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-08-27",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498946/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/277.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-08-27"
+  },
   "277/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -9801,6 +9943,31 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "278/26|PE": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "278/26",
+   "extracto": "MENSAJE N° 254/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZA DE CÁMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N°30 DE LA CAPITAL FEDERAL, A LA DOCTORA ROMINA MONTELEONE.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "27-08-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "28/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-08-27",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498947/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/278.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-08-27"
+  },
   "278/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -9820,6 +9987,31 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "279/26|PE": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "279/26",
+   "extracto": "MENSAJE N° 255/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DE CÁMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N°10 DE LA CAPITAL FEDERAL, AL DOCTOR SIXTO MIHURA GRADIN.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "27-08-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "28/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-08-27",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498948/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/279.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-08-27"
   },
   "279/26|S": {
    "actualizado": "2026-08-19",
@@ -10191,6 +10383,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "295/26|OV": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "295/26",
+   "extracto": "CONCEJO DELIBERANTE DE LUJAN, PROV. DE BS.AS.: EXPRESA BENEPLACITO POR EL ANIVERSARIO DE LA PUESTA EN FUNCIONAMIENTO DEL GASODUCTO PERITO FRANCISCO MORENO Y DESTACANDO LOS BENEFICIOS DURANTE SUS TRES PRIMEROS AÑOS DE OPERACIÓN.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-07-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498923/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/295.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-27"
+  },
   "295/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -10200,6 +10411,25 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "296/26|OV": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "296/26",
+   "extracto": "CONCEJO DELIBERANTE DE CARMEN DE PATAGONES, PROV. DE BS.AS.: SOLICITA LA REALIZACION DE UNA AUDIENCIA INSTITUCIONAL CON UNA COMITIVA OFICIAL DEL HONORABLE CONCEJO DELIBERANTE DEL PARTIDO DE PATAGONES.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-07-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498925/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/296.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-27"
   },
   "296/26|S": {
    "actualizado": "2026-08-19",
@@ -10211,6 +10441,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "297/26|OV": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "297/26",
+   "extracto": "CONCEJO DELIBERANTE DE SAN NICOLAS DE LOS ARROYOS, PROV. DE BS.AS.: REPUDIA Y RECHAZA LA MEDIA SANCION AL PROYECTO DE LEY QUE MODIFICA EL REGIMEN DE ZONA FRIA.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-07-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498926/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/297.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-27"
+  },
   "297/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -10221,6 +10470,25 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "298/26|OV": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "298/26",
+   "extracto": "UNIVERSIDAD NACIONAL DE CORDOBA: RECHAZA EL PROYECTO DE REFORMA DE LA LEY NACIONAL DE SALUD MENTAL N° 26.657.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-07-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498927/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/298.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-27"
+  },
   "298/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -10230,6 +10498,25 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "299/26|OV": {
+   "actualizado": "2026-08-27",
+   "anio": 2026,
+   "expediente": "299/26",
+   "extracto": "- MUNICIPIO DE TANDIL, PROV. DE BS.AS.: PRESENTA CAMPAÑA DE RECOLECCION DE FIRMAS EN DEFENSA DE LA CONTINUIDAD EN EL REGIMEN DE ZONA FRIA.",
+   "ficha": {
+    "autores": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-07-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498928/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/299.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-08-27"
   },
   "299/26|S": {
    "actualizado": "2026-08-19",
