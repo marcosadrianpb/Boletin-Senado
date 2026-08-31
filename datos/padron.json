@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-08-28T18:17:41-03:00",
+ "actualizado": "2026-08-31T14:45:06-03:00",
  "anios": [
   2026
  ],
- "corridas": 12,
+ "corridas": 13,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -9921,21 +9921,6 @@
    "anio": 2026,
    "expediente": "280/26",
    "extracto": "MENSAJE N° 252/26, QUE SOLICITA EL RETIRO DEL MENSAJE N° 117/19 Y PROYECTO DE LEY POR EL QUE INCORPORA AL ORDENAMIENTO JURIDICO NACIONAL A LOS EFECTOS PREVISTOS EN EL ART. 40 DEL PROTOCOLO DE OURO PRETO, FIRMADO EL 17/12/94, LA DECISION DEL CONSEJO DEL MERCADO COMUN DEL MERCOSUR N° 21/09, POR LA",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE RELACIONES EXTERIORES Y CULTO",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-08-27",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498979/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/280.26/PE/CE"
-   },
    "origen": "PE",
    "tipo": "CE",
    "vigente": true,
@@ -9966,15 +9951,6 @@
    "anio": 2026,
    "expediente": "281/26",
    "extracto": "JEFATURA DE GABINETE: REMITE COPIA DEL MENSAJE N° 251/26, INGRESADO POR LA H. CAMARA DE DIPUTADOS, QUE SOLICITA EL RETIRO DEL MENSAJE Nº 57/98 Y PROYECTO DE LEY, QUE APRUEBA EL CONVENIO ADUANERO SOBRE EL CUADERNO A.T.A. PARA LA IMPORTACION TEMPORAL DE MERCANCIAS, ADOPTADO EN BRUSELAS, BELGICA, EL",
-   "ficha": {
-    "autores": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-08-27",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498980/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/281.26/PE/MD"
-   },
    "origen": "PE",
    "tipo": "MD",
    "vigente": true,
@@ -10005,21 +9981,6 @@
    "anio": 2026,
    "expediente": "282/26",
    "extracto": "MENSAJE N° 256/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 1 DE SAN NICOLAS, PROVINCIA DE BUENOS AIRES, AL DR. LUCIANO CRUZ SAVIGNANO.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498981/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/282.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -10050,21 +10011,6 @@
    "anio": 2026,
    "expediente": "283/26",
    "extracto": "MENSAJE N° 257/26 QUE SOLICITA ACUERDO PARA DESIGNAR DEFENSORA PUBLICA DE MENORES E INCAPACES ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N° 2, A LA DRA. NATALIA EDA BONINO.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498982/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/283.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -10095,21 +10041,6 @@
    "anio": 2026,
    "expediente": "284/26",
    "extracto": "MENSAJE N° 258/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZA PENAL FEDERAL DEL JUZGADO FEDERAL DE GARANTIAS CON ASIENTO EN LA CDAD. DE SANTA FE, PROVINCIA DE SANTA FE, A LA DRA. VANESA NATALIA DRUETTA.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498983/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/284.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -10140,21 +10071,6 @@
    "anio": 2026,
    "expediente": "285/26",
    "extracto": "MENSAJE N° 259/26 QUE SOLICITA ACUERDO PARA DESIGNAR DEFENSORA PUBLICA DE VICTIMA CON ASIENTO EN LA PROVINCIA DE CORDOBA, A LA DRA. BERENICE OLMEDO.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498984/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/285.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -10185,21 +10101,6 @@
    "anio": 2026,
    "expediente": "286/26",
    "extracto": "MENSAJE N° 260/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA IX, AL DR. MATIAS SEBASTIAN MORENO ESPEJA.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498985/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/286.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -10230,21 +10131,6 @@
    "anio": 2026,
    "expediente": "287/26",
    "extracto": "MENSAJE N° 261/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DEL TRIBUNAL FEDERAL DE JUICIO DE RESISTENCIA, PROV. DEL CHACO, AL DR. JUAN MATEO DIJOU.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498986/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/287.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -10275,21 +10161,6 @@
    "anio": 2026,
    "expediente": "288/26",
    "extracto": "MENSAJE N° 262/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ PENAL FEDERAL DEL JUZGADO FEDERAL DE GARANTIAS CON ASIENTO EN LA CDAD. DE VENADO TUERTO, PROV. DE SANTA FE, AL DR. MARIANO JAVIER CAMBLONG.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498987/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/288.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -10320,21 +10191,6 @@
    "anio": 2026,
    "expediente": "289/26",
    "extracto": "MENSAJE N° 263/26 QUE SOLICITA ACUERDO PARA DESIGNAR FISCAL GENERAL DE LA UNIDAD FISCAL SAN LUIS, PROV. DE SAN LUIS, AL DR. FEDERICO MIGUEL BAQUIONI.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498988/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/289.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -10395,21 +10251,6 @@
    "anio": 2026,
    "expediente": "290/26",
    "extracto": "MENSAJE N° 264/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DEL TRIBUNAL FEDERAL DE JUICIO DE NEUQUEN, PROV. DEL NEUQUEN, AL DR. JUAN MANUEL KEES.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498989/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/290.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -10440,21 +10281,6 @@
    "anio": 2026,
    "expediente": "291/26",
    "extracto": "MENSAJE N° 265/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL, SALA III, A LA DRA. SOFIA INES HERNANDEZ SAINT JEAN.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498990/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/291.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -10485,21 +10311,6 @@
    "anio": 2026,
    "expediente": "292/26",
    "extracto": "MENSAJE N° 266/26 QUE SOLICITA ACUERDO PARA DESIGNAR DEFENSORA PUBLICA DE VICTIMA CON ASIENTO EN LA PROV. DE LA RIOJA, A LA DRA. MARIA JULIETA IBAÑEZ ARRIETA.",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498991/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/292.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -10530,21 +10341,6 @@
    "anio": 2026,
    "expediente": "293/26",
    "extracto": "MENSAJE N° 267/26 QUE SOLICITA ACUERDO PARA DESIGNAR CONJUECES DE LOS JUZGADOS NACIONALES DE PRIMERA INSTANCIA DEL TRABAJO DE LA JURISDICCION DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL,",
-   "ficha": {
-    "autores": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "28-08-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "29/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-08-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498992/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/293.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
