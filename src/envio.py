@@ -36,6 +36,7 @@ import requests
 from src import padron as est
 from src.boletin import hay_novedades
 from src.correo import asunto, html_cuerpo
+from src.senadores import cargar as cargar_senadores
 
 API = "https://api.brevo.com/v3"
 TIMEOUT = 60
@@ -119,6 +120,7 @@ def main(argv=None) -> int:
     p.add_argument("--remitente-nombre", default=REMITENTE_NOMBRE)
     p.add_argument("--responder-a", default=None,
                    help="por defecto, la misma casilla del remitente")
+    p.add_argument("--senadores", type=Path, default=Path("datos/senadores.json"))
     p.add_argument("--guardar-html", type=Path, default=None,
                    help="dejar copia del HTML que se manda")
     a = p.parse_args(argv)
@@ -138,7 +140,7 @@ def main(argv=None) -> int:
         salida_actions("mandado", "false")
         return 0
 
-    html = html_cuerpo(nov)
+    html = html_cuerpo(nov, cargar_senadores(a.senadores))
     if a.guardar_html:
         a.guardar_html.parent.mkdir(parents=True, exist_ok=True)
         a.guardar_html.write_text(html, encoding="utf-8")

@@ -25,9 +25,11 @@ from html import escape
 from pathlib import Path
 
 from src import padron as est
-from src.boletin import (SIN_DAE, agrupar, cuenta, fecha_corta, fecha_larga,
+from src.boletin import (SIN_DAE, agrupar, fecha_corta, fecha_larga,
                          hay_novedades, numero, origen_nombre, tipo_nombre)
+from src.resumen import armar
 from src.senado import url_ficha
+from src.senadores import cargar as cargar_senadores
 
 # Gmail corta el mail arriba de los 102 KB y muestra un "ver mensaje completo"
 # que rompe el listado. Se corta antes, con un aviso.
@@ -92,25 +94,155 @@ def bloque(exp: dict) -> str:
     return "".join(L)
 
 
-def seccion(codigo: str, grupo: list[dict]) -> str:
-    nombre = escape(tipo_nombre(codigo, varios=len(grupo) > 1))
-    L = [f'<tr><td style="padding:26px 0 2px;">'
-         f'<div style="border-left:3px solid {ACENTO};padding-left:10px;">'
-         f'<span style="color:{TEXTO};font-size:13px;font-weight:700;'
-         f'letter-spacing:.06em;text-transform:uppercase;">{nombre}</span>'
-         f'<span style="color:{SUAVE};font-size:13px;"> &nbsp;{len(grupo)}</span>'
-         f"</div></td></tr>"]
-    L += [bloque(exp) for exp in grupo]
+def _barra(n: int, total: int, color: str) -> str:
+    """Una barra hecha con dos celdas de tabla.
+
+    Es lo unico que renderiza igual en todos los clientes: una imagen la
+    bloquea Outlook, el SVG no lo soporta Gmail y javascript no corre en
+    ninguno.
+    """
+    pct = max(2, min(100, round(100 * n / total))) if total else 0
+    return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+            f'style="table-layout:fixed;"><tr>'
+            f'<td width="{pct}%" height="6" style="background:{color};font-size:0;'
+            f'line-height:0;">&nbsp;</td>'
+            f'<td height="6" style="background:{BORDE};font-size:0;line-height:0;">'
+            f'&nbsp;</td></tr></table>')
+
+
+def _renglon(nombre: str, n: int, total: int, color: str, barra: bool = True) -> str:
+    L = [f'<tr><td style="padding:10px 0 0;">'
+         f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>'
+         f'<td style="color:{TEXTO};font-size:13px;line-height:18px;">{escape(nombre)}</td>'
+         f'<td align="right" width="40" style="color:{GRIS};font-size:13px;'
+         f'font-weight:700;">{n}</td></tr></table>']
+    if barra:
+        L.append(f'<div style="padding-top:5px;">{_barra(n, total, color)}</div>')
+    L.append("</td></tr>")
+    return "".join(L)
+
+
+def _panel(titulo: str, contenido: str, pie: str = "") -> str:
+    return (f'<tr><td style="padding:16px 0 0;">'
+            f'<div style="border:1px solid {BORDE};border-radius:8px;padding:14px 16px 16px;">'
+            f'<div style="color:{GRIS};font-size:11px;font-weight:700;letter-spacing:.08em;'
+            f'text-transform:uppercase;">{escape(titulo)}</div>'
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">'
+            f'{contenido}</table>{pie}</div></td></tr>')
+
+
+def _corto(nombre: str) -> str:
+    """Para los recuadros: "Proyectos de ley" no entra, "Ley" si."""
+    for prefijo in ("Proyectos de ", "Proyecto de ", "Comunicaciones de ",
+                    "Comunicación de ", "Mensajes de ", "Mensaje de "):
+        if nombre.startswith(prefijo):
+            return nombre[len(prefijo):].capitalize()
+    return nombre
+
+
+def _recuadros(res: dict) -> str:
+    """El total y los dos tipos mas grandes. Mas de tres no entran de costado
+    en la pantalla de un telefono."""
+    cajas = [("Total", res["total"])]
+    cajas += [(_corto(t["nombre"]), t["n"]) for t in res["tipos"][:2]]
+    ancho = 100 // len(cajas)
+    celdas = ""
+    for i, (nombre, n) in enumerate(cajas):
+        derecha = "0" if i == len(cajas) - 1 else "10px"
+        celdas += (f'<td width="{ancho}%" valign="top" style="padding-right:{derecha};">'
+                   f'<div style="border:1px solid {BORDE};border-radius:8px;padding:12px 14px;">'
+                   f'<div style="color:{GRIS};font-size:11px;font-weight:700;'
+                   f'letter-spacing:.08em;text-transform:uppercase;line-height:15px;'
+                   f'height:30px;overflow:hidden;">{escape(nombre)}</div>'
+                   f'<div style="color:{TEXTO};font-size:26px;font-weight:700;'
+                   f'line-height:32px;">{n}</div></div></td>')
+    return (f'<tr><td style="padding:20px 0 0;">'
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">'
+            f'<tr>{celdas}</tr></table></td></tr>')
+
+
+# Un dia grande toca quince comisiones distintas y el panel se vuelve una
+# lista interminable. Se muestran las mas cargadas y el resto se cuenta.
+TOPE_RENGLONES = 8
+
+
+def _resto(filas: list[dict], tope: int, singular: str, plural: str) -> str:
+    sobran = filas[tope:]
+    if not sobran:
+        return ""
+    n = len(sobran)
+    return (f'<div style="color:{SUAVE};font-size:12px;padding-top:10px;">'
+            f'y {n} {singular if n == 1 else plural} más, con '
+            f'{sum(x["n"] for x in sobran)} en total</div>')
+
+
+def _tablero(res: dict) -> str:
+    """Los numeros del dia, arriba de todo y separados del listado."""
+    L = [_recuadros(res)]
+
+    if len(res["tipos"]) > 1:
+        L.append(_panel("Por tipo", "".join(
+            _renglon(t["nombre"], t["n"], res["total"], ACENTO) for t in res["tipos"])))
+
+    if res["bloques"]:
+        # Gris para los que no son un bloque: Poder Ejecutivo, oficiales varios,
+        # particulares. Presentan, pero no son un bloque.
+        L.append(_panel("Por bloque", "".join(
+            _renglon(b["nombre"], b["n"], res["total"],
+                     ACENTO if b["propio"] else SUAVE)
+            for b in res["bloques"][:TOPE_RENGLONES]),
+            _resto(res["bloques"], TOPE_RENGLONES, "bloque", "bloques")))
+
+    if res["comisiones"] or res["sin_giro"]:
+        pie = ""
+        if res["sin_giro"]:
+            pie = (f'<div style="color:{SUAVE};font-size:12px;margin-top:12px;'
+                   f'padding-top:12px;border-top:1px solid {BORDE};">'
+                   f'{res["sin_giro"]} sin giro a comisión</div>')
+        L.append(_panel("Por comisión", "".join(
+            _renglon(c["nombre"], c["n"], res["total"], ACENTO, barra=False)
+            for c in res["comisiones"][:TOPE_RENGLONES]),
+            _resto(res["comisiones"], TOPE_RENGLONES, "comisión", "comisiones") + pie))
+
+    nombres = {"reingresos": ("reingreso", "reingresos"),
+               "correcciones": ("corrección", "correcciones"),
+               "bajas": ("baja", "bajas")}
+    otras = [f"{v} {nombres[k][0] if v == 1 else nombres[k][1]}"
+             for k, v in res["otras"].items() if v]
+    if otras:
+        L.append(f'<tr><td style="padding:16px 0 0;color:{GRIS};font-size:13px;">'
+                 f'Además: {escape(", ".join(otras))}. Están al final.</td></tr>')
     return "".join(L)
 
 
 def _linea_simple(exp: dict, extra: str = "") -> str:
+    """Para correcciones y bajas: un renglon, sin la ficha entera."""
     return (f'<tr><td style="padding:7px 0;border-bottom:1px solid {BORDE};'
             f'color:{GRIS};font-size:13px;line-height:19px;">'
             f'<a href="{escape(url_ficha(exp))}" style="color:{ACENTO};'
             f'font-weight:700;text-decoration:none;">{escape(exp["expediente"])}</a> '
             f'<span style="color:{SUAVE};">'
             f'{escape(tipo_nombre(exp.get("tipo", "")))}</span><br>{extra}</td></tr>')
+
+
+def _plegable(titulo: str, n: int, filas: str, pie: str = "") -> str:
+    """Un bloque que el lector abre o cierra.
+
+    Donde el cliente no sepa plegar —Gmail, entre otros— se ve abierto y el
+    titulo queda como encabezado de seccion. Nadie se queda sin el listado.
+    """
+    return (f'<details style="border-bottom:1px solid {BORDE};">'
+            f'<summary style="cursor:pointer;padding:13px 0;color:{TEXTO};font-size:13px;'
+            f'font-weight:700;letter-spacing:.06em;text-transform:uppercase;">'
+            f'{escape(titulo)} <span style="color:{SUAVE};font-weight:400;">{n}</span>'
+            f'</summary>{pie}'
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">'
+            f'{filas}</table></details>')
+
+
+def seccion(codigo: str, grupo: list[dict]) -> str:
+    return _plegable(tipo_nombre(codigo, varios=len(grupo) > 1), len(grupo),
+                     "".join(bloque(exp) for exp in grupo))
 
 
 def asunto(nov: dict) -> str:
@@ -126,65 +258,64 @@ def asunto(nov: dict) -> str:
     return f"Boletín del Senado {d} - {', '.join(partes) or 'sin novedades'}"
 
 
-def html_cuerpo(nov: dict, baja: str = BAJA, tope: int = TOPE) -> str:
+def _hora(nov: dict) -> str:
+    generado = str(nov.get("generado") or "")
+    return generado[11:16] if len(generado) >= 16 else ""
+
+
+def html_cuerpo(nov: dict, senadores: dict | None = None,
+                baja: str = BAJA, tope: int = TOPE) -> str:
     altas = nov.get("altas") or []
-    grupos = agrupar(altas)
+    res = armar(nov, senadores or {})
 
-    resumen = [cuenta(len(altas), "alta", "altas")]
-    for campo, singular, plural in (("reingresos", "reingreso", "reingresos"),
-                                    ("correcciones", "corrección", "correcciones"),
-                                    ("bajas", "baja", "bajas")):
-        if nov.get(campo):
-            resumen.append(cuenta(len(nov[campo]), singular, plural))
-    resumen = " &middot; ".join(x.replace("**", "") for x in resumen)
-    indice = ", ".join(f"{len(g)} {tipo_nombre(c, varios=len(g) > 1).lower()}"
-                       for c, g in grupos)
-
-    dia = fecha_larga(nov["fecha"])
-    cuerpo, cortadas = [], 0
-    largo = 0
-    for codigo, grupo in grupos:
+    detalle, cortadas, largo = [], 0, 0
+    for codigo, grupo in agrupar(altas):
         if largo > tope:
             cortadas += len(grupo)
             continue
         html = seccion(codigo, grupo)
         largo += len(html)
-        cuerpo.append(html)
+        detalle.append(html)
 
     if cortadas:
-        cuerpo.append(
-            f'<tr><td style="padding:18px 0;color:{GRIS};font-size:13px;">'
+        detalle.append(
+            f'<div style="padding:14px 0;color:{GRIS};font-size:13px;">'
             f"Quedaron {cortadas} expedientes afuera: el mail no puede ser más "
-            f"largo sin que el correo lo recorte. Están todos en el boletín "
-            f"del día en el repositorio.</td></tr>")
+            f"largo sin que el correo lo recorte. Están todos en el boletín del "
+            f"día en el repositorio.</div>")
 
-    for campo, titulo_seccion, pie in (
-            ("reingresos", "Reingresos", "Vuelven al padrón."),
-            ("correcciones", "Correcciones", "El Senado les cambió el texto."),
-            ("bajas", "Bajas", "Estaban en el padrón y hoy no vinieron.")):
-        filas = nov.get(campo) or []
-        if not filas:
-            continue
-        cuerpo.append(
-            f'<tr><td style="padding:26px 0 2px;">'
-            f'<div style="border-left:3px solid {SUAVE};padding-left:10px;">'
-            f'<span style="color:{TEXTO};font-size:13px;font-weight:700;'
-            f'letter-spacing:.06em;text-transform:uppercase;">{titulo_seccion}</span>'
-            f'<span style="color:{SUAVE};font-size:13px;"> &nbsp;{len(filas)}</span>'
-            f'<div style="color:{SUAVE};font-size:12px;padding-top:2px;">{pie}</div>'
-            f"</div></td></tr>")
-        for exp in sorted(filas, key=numero):
-            if campo == "correcciones":
-                cambios = "<br>".join(
-                    f"{escape(c)}: <s>{escape(str(v[0]))}</s> &rarr; {escape(str(v[1]))}"
-                    for c, v in (exp.get("cambios") or {}).items())
-                cuerpo.append(_linea_simple(exp, cambios))
-            elif campo == "reingresos":
-                cuerpo.append(bloque(exp))
-            else:
-                cuerpo.append(_linea_simple(exp, escape(exp.get("extracto", ""))))
+    if nov.get("reingresos"):
+        detalle.append(_plegable(
+            "Reingresos", len(nov["reingresos"]),
+            "".join(bloque(e) for e in sorted(nov["reingresos"], key=numero)),
+            f'<div style="color:{SUAVE};font-size:12px;padding-bottom:6px;">'
+            f"Vuelven al padrón.</div>"))
 
-    anios = ", ".join(str(a) for a in nov.get("anios", []))
+    if nov.get("correcciones"):
+        filas = ""
+        for exp in sorted(nov["correcciones"], key=numero):
+            cambios = "<br>".join(
+                f"{escape(c)}: <s>{escape(str(v[0]))}</s> &rarr; {escape(str(v[1]))}"
+                for c, v in (exp.get("cambios") or {}).items())
+            filas += _linea_simple(exp, cambios)
+        detalle.append(_plegable(
+            "Correcciones", len(nov["correcciones"]), filas,
+            f'<div style="color:{SUAVE};font-size:12px;padding-bottom:6px;">'
+            f"El Senado les cambió el texto.</div>"))
+
+    if nov.get("bajas"):
+        filas = "".join(_linea_simple(e, escape(e.get("extracto", "")))
+                        for e in sorted(nov["bajas"], key=numero))
+        detalle.append(_plegable(
+            "Bajas", len(nov["bajas"]), filas,
+            f'<div style="color:{SUAVE};font-size:12px;padding-bottom:6px;">'
+            f"Estaban en el padrón y hoy no vinieron.</div>"))
+
+    vacio = (f'<div style="color:{GRIS};font-size:13px;padding:10px 0 20px;">'
+             f"Hoy no ingresaron expedientes nuevos.</div>")
+    indice = ", ".join(f"{t['n']} {t['nombre'].lower()}" for t in res["tipos"])
+    anios = ", ".join(str(x) for x in nov.get("anios", []))
+
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -194,30 +325,36 @@ def html_cuerpo(nov: dict, baja: str = BAJA, tope: int = TOPE) -> str:
 </head>
 <body style="margin:0;padding:0;background:{FONDO};">
 <div style="display:none;max-height:0;overflow:hidden;opacity:0;">
-{escape(indice or 'Sin altas')}</div>
+{escape(indice or 'Sin expedientes nuevos')}</div>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
        style="background:{FONDO};padding:24px 12px;">
 <tr><td align="center">
 <table role="presentation" width="640" cellpadding="0" cellspacing="0"
        style="max-width:640px;width:100%;background:#ffffff;border:1px solid {BORDE};
               border-radius:10px;font-family:{LETRA};">
-<tr><td style="padding:28px 28px 0;">
-  <div style="color:{TEXTO};font-size:22px;font-weight:700;">Boletín del Senado</div>
-  <div style="color:{GRIS};font-size:14px;padding-top:4px;">{dia}</div>
-  <div style="color:{TEXTO};font-size:14px;padding-top:14px;">{resumen}</div>
-  <div style="color:{GRIS};font-size:13px;padding-top:4px;">{escape(indice)}</div>
+
+<tr><td style="background:{ACENTO};border-radius:9px 9px 0 0;padding:26px 28px;">
+  <div style="color:#bcd4e8;font-size:11px;font-weight:700;letter-spacing:.12em;
+              text-transform:uppercase;">Boletín de proyectos ingresados</div>
+  <div style="color:#ffffff;font-size:23px;font-weight:700;padding-top:6px;
+              line-height:30px;">Proyectos ingresados<br>{escape(fecha_larga(nov['fecha']))}</div>
+  <div style="color:#bcd4e8;font-size:13px;padding-top:8px;">Generado a las {_hora(nov)} ART</div>
 </td></tr>
-<tr><td style="padding:0 28px;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-  {"".join(cuerpo)}
-  </table>
+
+<tr><td style="padding:0 28px 24px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0">{_tablero(res)}</table>
 </td></tr>
-<tr><td style="padding:22px 28px 28px;color:{SUAVE};font-size:12px;line-height:18px;
-               border-top:1px solid {BORDE};">
+
+<tr><td style="padding:0 28px;border-top:1px solid {BORDE};">
+  <div style="color:{GRIS};font-size:11px;font-weight:700;letter-spacing:.08em;
+              text-transform:uppercase;padding:20px 0 2px;">Detalle de proyectos</div>
+  {"".join(detalle) or vacio}
+</td></tr>
+
+<tr><td style="padding:22px 28px 28px;color:{SUAVE};font-size:12px;line-height:18px;">
   Todo lo que ingresó al Senado, sin filtrar. Los extractos son los que publica el
   Senado; acá no se resume ni se interpreta nada.<br>
-  Fuente: búsqueda avanzada por año de expediente ({escape(anios)}).
-  Corrida del {escape(str(nov.get("generado", nov["fecha"])))}.<br><br>
+  Fuente: búsqueda avanzada por año de expediente ({escape(anios)}).<br><br>
   <a href="{baja}" style="color:{SUAVE};">Darse de baja</a>
 </td></tr>
 </table>
@@ -270,6 +407,8 @@ def main(argv=None) -> int:
     p.add_argument("--html", type=Path, default=None)
     p.add_argument("--texto", type=Path, default=None)
     p.add_argument("--baja", default=BAJA, help="link de baja; Brevo pone el suyo")
+    p.add_argument("--senadores", type=Path, default=Path("datos/senadores.json"),
+                   help="padron de senadores, para el panel por bloque")
     a = p.parse_args(argv)
 
     if hasattr(sys.stdout, "reconfigure"):
@@ -286,9 +425,14 @@ def main(argv=None) -> int:
         print(f"[correo] {nov['fecha']}: sin novedades, no se manda mail", flush=True)
         return 0
 
+    senadores = cargar_senadores(a.senadores)
+    if not senadores.get("senadores"):
+        print(f"[correo] AVISO: no hay padron de senadores en {a.senadores}; "
+              f"el panel por bloque va a salir por origen", flush=True)
+
     html = a.html or Path(f"datos/correos/{nov['fecha']}.html")
     texto = a.texto or html.with_suffix(".txt")
-    for ruta, contenido in ((html, html_cuerpo(nov, a.baja)),
+    for ruta, contenido in ((html, html_cuerpo(nov, senadores, a.baja)),
                             (texto, texto_plano(nov))):
         ruta.parent.mkdir(parents=True, exist_ok=True)
         ruta.write_text(contenido, encoding="utf-8")

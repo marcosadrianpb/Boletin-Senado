@@ -1,0 +1,294 @@
+{
+ "version": 1,
+ "actualizado": "2026-08-31T19:46:05-03:00",
+ "senadores": {
+  "285": {
+   "nombre": "Jorge Milton Capitanich",
+   "bloque": "Justicialista"
+  },
+  "294": {
+   "nombre": "José Miguel Ángel Mayans",
+   "bloque": "Justicialista"
+  },
+  "366": {
+   "nombre": "Alicia Margarita Antonia Kirchner",
+   "bloque": "Justicialista"
+  },
+  "398": {
+   "nombre": "Lucía Benigna Corpacci",
+   "bloque": "Justicialista"
+  },
+  "400": {
+   "nombre": "Luis Alfredo Juez",
+   "bloque": "La Libertad Avanza"
+  },
+  "450": {
+   "nombre": "Gerardo Zamora",
+   "bloque": "Frente Cívico por Santiago"
+  },
+  "461": {
+   "nombre": "Carlos Mauricio Espínola",
+   "bloque": "Provincias Unidas"
+  },
+  "468": {
+   "nombre": "Anabel Fernández Sagasti",
+   "bloque": "Justicialista"
+  },
+  "477": {
+   "nombre": "María Teresa Margarita González",
+   "bloque": "Justicialista"
+  },
+  "498": {
+   "nombre": "Mariano Recalde",
+   "bloque": "Justicialista"
+  },
+  "510": {
+   "nombre": "José Emilio Neder",
+   "bloque": "Justicialista"
+  },
+  "517": {
+   "nombre": "Juliana di Tullio",
+   "bloque": "Justicialista"
+  },
+  "519": {
+   "nombre": "Guillermo Eduardo Andrada",
+   "bloque": "Convicción Federal"
+  },
+  "520": {
+   "nombre": "Flavio Sergio Fama",
+   "bloque": "UCR - Unión Cívica Radical"
+  },
+  "522": {
+   "nombre": "Carmen Alvarez Rivero",
+   "bloque": "La Libertad Avanza"
+  },
+  "523": {
+   "nombre": "Alejandra María Vigo",
+   "bloque": "Provincias Unidas"
+  },
+  "524": {
+   "nombre": "Eduardo Alejandro Vischi",
+   "bloque": "UCR - Unión Cívica Radical"
+  },
+  "525": {
+   "nombre": "Mercedes Gabriela Valenzuela",
+   "bloque": "UCR - Unión Cívica Radical"
+  },
+  "528": {
+   "nombre": "Edith Elizabeth Terenzi",
+   "bloque": "Despierta Chubut"
+  },
+  "529": {
+   "nombre": "Carlos Alberto Linares",
+   "bloque": "Justicialista"
+  },
+  "530": {
+   "nombre": "Daniel Ricardo Kroneberger",
+   "bloque": "UCR - Unión Cívica Radical"
+  },
+  "531": {
+   "nombre": "María Victoria Huala",
+   "bloque": "Frente Pro"
+  },
+  "532": {
+   "nombre": "Daniel Pablo Bensusán",
+   "bloque": "Justicialista"
+  },
+  "534": {
+   "nombre": "Mariana Juri",
+   "bloque": "UCR - Unión Cívica Radical"
+  },
+  "536": {
+   "nombre": "Carolina Losada",
+   "bloque": "UCR - Unión Cívica Radical"
+  },
+  "538": {
+   "nombre": "Marcelo Néstor Lewandowski",
+   "bloque": "Justicialista"
+  },
+  "540": {
+   "nombre": "Sandra Mariela Mendoza",
+   "bloque": "Convicción Federal"
+  },
+  "541": {
+   "nombre": "Beatriz Luisa Avila",
+   "bloque": "Independencia"
+  },
+  "545": {
+   "nombre": "Eduardo Enrique de Pedro",
+   "bloque": "Justicialista"
+  },
+  "546": {
+   "nombre": "Maximiliano Abad",
+   "bloque": "UCR - Unión Cívica Radical"
+  },
+  "551": {
+   "nombre": "Francisco Manuel Paoltroni",
+   "bloque": "La Libertad Avanza"
+  },
+  "552": {
+   "nombre": "Ezequiel Atauche",
+   "bloque": "La Libertad Avanza"
+  },
+  "553": {
+   "nombre": "Vilma Facunda Bedia",
+   "bloque": "La Libertad Avanza"
+  },
+  "554": {
+   "nombre": "María Carolina Moises",
+   "bloque": "Convicción Federal"
+  },
+  "555": {
+   "nombre": "María Florencia López",
+   "bloque": "Justicialista"
+  },
+  "556": {
+   "nombre": "Jesús Fernando Rejal",
+   "bloque": "Justicia Social Federal"
+  },
+  "557": {
+   "nombre": "Juan Carlos Pagotto",
+   "bloque": "La Libertad Avanza"
+  },
+  "558": {
+   "nombre": "Carlos Omar Arce",
+   "bloque": "Encuentro Misionero"
+  },
+  "559": {
+   "nombre": "Sonia Elizabeth Rojas Decut",
+   "bloque": "Movimiento por Misiones"
+  },
+  "560": {
+   "nombre": "Enrique Martín Goerling Lara",
+   "bloque": "Frente Pro"
+  },
+  "561": {
+   "nombre": "Sergio Mauricio Uñac",
+   "bloque": "Justicialista"
+  },
+  "562": {
+   "nombre": "María Celeste Giménez Navarro",
+   "bloque": "Justicialista"
+  },
+  "563": {
+   "nombre": "Bruno Antonio Olivera Lucero",
+   "bloque": "La Libertad Avanza"
+  },
+  "564": {
+   "nombre": "Bartolomé Esteban Abdala",
+   "bloque": "La Libertad Avanza"
+  },
+  "565": {
+   "nombre": "Ivanna Marcela Arrascaeta",
+   "bloque": "La Libertad Avanza"
+  },
+  "566": {
+   "nombre": "Fernando Aldo Salino",
+   "bloque": "Justicia Social Federal"
+  },
+  "567": {
+   "nombre": "José María Carambia",
+   "bloque": "Movere Santa Cruz"
+  },
+  "568": {
+   "nombre": "Natalia Elena Gadano",
+   "bloque": "Movere Santa Cruz"
+  },
+  "570": {
+   "nombre": "Andrea Marcela Cristina",
+   "bloque": "Frente Pro"
+  },
+  "571": {
+   "nombre": "Rodolfo Alejandro Suárez",
+   "bloque": "UCR - Unión Cívica Radical"
+  },
+  "573": {
+   "nombre": "Eduardo Horacio Galaretto",
+   "bloque": "UCR - Unión Cívica Radical"
+  },
+  "574": {
+   "nombre": "Cándida Cristina López",
+   "bloque": "Justicialista"
+  },
+  "576": {
+   "nombre": "Juan Luis Manzur",
+   "bloque": "Justicialista"
+  },
+  "578": {
+   "nombre": "Juan Cruz Godoy",
+   "bloque": "La Libertad Avanza"
+  },
+  "579": {
+   "nombre": "Silvana Lorena Schneider",
+   "bloque": "UCR - Unión Cívica Radical"
+  },
+  "580": {
+   "nombre": "Patricia Bullrich",
+   "bloque": "La Libertad Avanza"
+  },
+  "581": {
+   "nombre": "Agustín Aníbal Monteverde",
+   "bloque": "La Libertad Avanza"
+  },
+  "582": {
+   "nombre": "Joaquín Alberto Benegas Lynch",
+   "bloque": "La Libertad Avanza"
+  },
+  "583": {
+   "nombre": "Romina María Almeida",
+   "bloque": "La Libertad Avanza"
+  },
+  "584": {
+   "nombre": "Adán Humberto Bahl",
+   "bloque": "Justicialista"
+  },
+  "585": {
+   "nombre": "Nadia Judith Márquez",
+   "bloque": "La Libertad Avanza"
+  },
+  "586": {
+   "nombre": "Mario Pablo Cervi",
+   "bloque": "La Libertad Avanza"
+  },
+  "587": {
+   "nombre": "Julieta Corroza",
+   "bloque": "La Neuquinidad"
+  },
+  "588": {
+   "nombre": "Martin Ignacio Soria",
+   "bloque": "Justicialista"
+  },
+  "589": {
+   "nombre": "Ana Inés Marks",
+   "bloque": "Justicialista"
+  },
+  "590": {
+   "nombre": "Enzo Paolo Fullone",
+   "bloque": "La Libertad Avanza"
+  },
+  "591": {
+   "nombre": "María Emilia Orozco",
+   "bloque": "La Libertad Avanza"
+  },
+  "592": {
+   "nombre": "Gonzalo Guzmán Coraita",
+   "bloque": "La Libertad Avanza"
+  },
+  "593": {
+   "nombre": "Flavia Gabriela Royon",
+   "bloque": "Primero los Salteños"
+  },
+  "594": {
+   "nombre": "Elia Esther Del Carmen Moreno",
+   "bloque": "Frente Cívico por Santiago"
+  },
+  "595": {
+   "nombre": "Agustín Pedro Coto",
+   "bloque": "La Libertad Avanza"
+  },
+  "596": {
+   "nombre": "María Belén Monte de Oca",
+   "bloque": "La Libertad Avanza"
+  }
+ }
+}

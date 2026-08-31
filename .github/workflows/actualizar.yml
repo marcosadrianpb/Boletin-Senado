@@ -44,6 +44,11 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
+      # Para el panel por bloque. Se baja una vez por semana: los bloques
+      # cambian, pero no todos los dias.
+      - name: Padron de senadores
+        run: python -m src.senadores --si-viejo 7
+
       - name: Actualizar padron
         run: |
           ARGS=""

@@ -157,6 +157,8 @@ f915932  Fase 2: boletin diario e issue automatico
 - `src/padron.py` — el padrón y la comparación. No toca la red.
 - `src/actualizar.py` — la corrida diaria: baja, compara, actualiza, escribe novedades.
 - `src/boletin.py` — arma el texto del boletín. No toca la red ni el padrón.
+- `src/senadores.py` — quién es cada senador y en qué bloque está. No lo usa el padrón.
+- `src/resumen.py` — las cuentas del día: total, por tipo, por bloque, por comisión.
 - `src/correo.py` — el mismo boletín en HTML de correo, más su versión en texto.
 - `src/envio.py` — crea la campaña en Brevo y, si se le pide, la manda.
 - `.github/workflows/actualizar.yml` — corre a las 8:00 AR de lunes a viernes, y a mano.
@@ -175,6 +177,7 @@ datos/padron.json                  el padron completo, clave -> expediente
 datos/novedades/YYYY-MM-DD.json    altas, bajas, reingresos y correcciones del dia
 datos/historial.jsonl              una linea por corrida: total, altas, bajas
 datos/boletines/YYYY-MM-DD.md      el boletin del dia, solo si hubo novedades
+datos/senadores.json               id -> nombre y bloque, se refresca semanal
 ```
 
 Formato de cada expediente en el padrón:
@@ -430,6 +433,57 @@ Remitente: `proparlamentariasenado@gmail.com`, con el nombre visible
 **Boletin proyectos ingresados**. Ese nombre es lo que ve la gente en la bandeja; el que
 quiera cambiarlo, que lo haga antes del primer envío: moverlo después le mueve el piso a
 los filtros. En el código está en `REMITENTE_NOMBRE`, en `src/envio.py`.
+
+## El tablero del mail
+
+El mail abre con las cuentas del día y el listado va abajo, plegado. La idea es que se
+entienda de un vistazo qué entró, sin tener que leer 27 extractos.
+
+- **Recuadros**: el total y los dos tipos más grandes.
+- **Por tipo, por bloque y por comisión**, con barras.
+- Después un corte, "DETALLE DE PROYECTOS", y ahí cada tipo en un bloque plegable con la
+  ficha completa de siempre: expediente, origen, fecha, DAE, extracto, autores, giros y PDF.
+
+### Cómo se cuenta
+
+- **Bloque**: el del primer autor, que es quien presenta. Los que no tienen autor —acuerdos
+  del Ejecutivo, comunicaciones de oficiales varios, peticiones de particulares— se agrupan
+  por su origen y se dibujan en gris, para que el panel diga quién presentó en vez de quedar
+  en "sin datos". El cruce es por el **id del senador**, que viene en el link del autor en la
+  ficha (`/senadores/senador/561`): es exacto y no depende de cómo esté escrito el apellido.
+- **Comisión**: un expediente puede ir a más de una, así que la suma puede dar más que el
+  total. Los que no tienen giro se cuentan aparte.
+- Todo se calcula sobre las **altas**. Reingresos, correcciones y bajas van abajo.
+- Los paneles muestran hasta ocho renglones y el resto lo cuentan: un día grande toca quince
+  comisiones distintas.
+
+### Lo que se midió antes de armarlo
+
+Sobre los 34 expedientes que entraron con ficha capturada el mismo día:
+
+| tipo / origen | con comisión ya asignada |
+|---|---|
+| AC / PE — acuerdos | 15 de 15 |
+| CO / S — comunicaciones de senadores | 6 de 6 |
+| DC y CE / PE | 2 de 2 |
+| PP / P — peticiones de particulares | 0 de 5 |
+| CV / OV — comunicaciones varias | 0 de 5 |
+
+O sea: **lo que va a comisión entra ya girado**, y lo que no tiene giro es porque no le
+corresponde. El panel por comisión sirve desde el primer día.
+
+### Decisiones de HTML
+
+- Las barras son **dos celdas de tabla**, no una imagen ni un SVG. Outlook bloquea las
+  imágenes por defecto, Gmail no renderiza SVG y ningún cliente corre javascript.
+- El listado va en `<details>`. Donde el cliente sabe plegar —Apple Mail, iOS— el lector abre
+  y cierra; donde no —Gmail, Outlook— se ve abierto y el título queda como encabezado de
+  sección. **Nadie se queda sin el listado**, que era el riesgo.
+- Los paneles van apilados y no de a dos columnas: en un teléfono dos columnas de barras no
+  se leen.
+- El encabezado dice "Boletín de proyectos ingresados", no "Senado de la Nación Argentina".
+  Si el boletín sale institucionalmente por la Prosecretaría, se cambia esa línea y listo;
+  mientras no esté confirmado, no puede parecer una comunicación oficial del Senado.
 
 ## El remitente y el spam
 

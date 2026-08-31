@@ -56,6 +56,9 @@ TOKEN = re.compile(
     r'|value="([^"]+)"[^>]*name="busqueda_proyectos\[_token\]"'
 )
 PDF_TEXTO = re.compile(r"/parlamentario/parlamentaria/(\d+)/downloadPdf")
+# El autor viene enlazado a su ficha de senador: ese id es la clave
+# exacta para cruzarlo con el bloque, sin adivinar por apellido.
+SENADOR = re.compile(r"/senadores/senador/(\d+)")
 FECHA = re.compile(r"\b(\d{2})-(\d{2})-(\d{4})\b")
 
 
@@ -182,6 +185,7 @@ def ficha(sesion: requests.Session, exp: dict, pausa: float = 0.4) -> dict:
         "dae": None,
         "dae_tipo": None,
         "autores": [],
+        "autores_id": [],
         "comisiones": [],
         "texto_pdf": None,
     }
@@ -211,7 +215,14 @@ def ficha(sesion: requests.Session, exp: dict, pausa: float = 0.4) -> dict:
 
     t = _tabla(sopa, "Listado de Autores")
     if t:
-        detalle["autores"] = [limpiar(a.get_text()) for a in t.select("tbody a")]
+        for a in t.select("tbody a"):
+            nombre = limpiar(a.get_text())
+            if not nombre:
+                continue
+            m = SENADOR.search(a.get("href") or "")
+            detalle["autores"].append(nombre)
+            # Queda alineado con autores: None si el autor no es senador.
+            detalle["autores_id"].append(m.group(1) if m else None)
 
     t = _tabla(sopa, "Giros del Expediente a Comisiones")
     if t:
