@@ -1,0 +1,71 @@
+name: Boletin - Probar el mail
+
+# Banco de pruebas del envio. No toca el padron ni el repo: agarra un dia ya
+# archivado en datos/novedades y arma la campana con eso.
+#
+# Por defecto la deja en borrador y sube el HTML como artifact, asi se puede
+# mirar sin mandarle nada a nadie. Para que salga de verdad hay que tildar
+# "mandar", y conviene apuntar a la lista de prueba.
+#
+# Si todavia no esta cargado el secret BREVO_API_KEY, corre en seco: arma el
+# mail, lo sube como artifact y no toca Brevo.
+
+on:
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Dia del boletin a usar (AAAA-MM-DD). Vacio = hoy"
+        default: ""
+      lista:
+        description: "Id de la lista de Brevo. Vacio = el de la variable BREVO_LISTA"
+        default: ""
+      mandar:
+        description: "Mandarla de verdad. Sin tildar, queda en borrador"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: probar-mail
+  cancel-in-progress: false
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Armar la campana
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          FECHA: ${{ inputs.fecha }}
+          LISTAS: ${{ inputs.lista != '' && inputs.lista || vars.BREVO_LISTA }}
+          MANDAR: ${{ inputs.mandar }}
+        run: |
+          ARGS=""
+          if [ -n "$FECHA" ]; then ARGS="--fecha $FECHA"; fi
+          for id in $LISTAS; do ARGS="$ARGS --lista $id"; done
+          if [ "$MANDAR" = "true" ]; then ARGS="$ARGS --mandar"; fi
+          if [ -z "$BREVO_API_KEY" ]; then
+            echo "No hay BREVO_API_KEY: se arma el mail pero no se toca Brevo."
+            ARGS="$ARGS --seco"
+          fi
+          python -m src.envio $ARGS --guardar-html "$RUNNER_TEMP/mail.html"
+
+      - name: Subir el mail para poder mirarlo
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: mail
+          path: ${{ runner.temp }}/mail.html
+          if-no-files-found: warn

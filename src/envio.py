@@ -68,7 +68,9 @@ def pedir(metodo: str, ruta: str, clave: str, **kw) -> dict:
 
 
 def nombre_campana(fecha: str) -> str:
-    return f"Boletin del Senado {fecha}"
+    """El nombre con el que se ve la campana adentro de Brevo, y la clave con
+    la que se busca si ya existe la del dia. No lo ve el destinatario."""
+    return f"Proyectos ingresados {fecha}"
 
 
 def buscar_campana(clave: str, nombre: str) -> dict | None:

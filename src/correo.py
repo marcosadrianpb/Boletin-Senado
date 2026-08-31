@@ -255,7 +255,10 @@ def asunto(nov: dict) -> str:
         if n:
             partes.append(f"{n} {singular if n == 1 else plural}")
     d = fecha_corta(nov["fecha"])
-    return f"Boletín del Senado {d} - {', '.join(partes) or 'sin novedades'}"
+    # "Proyectos ingresados" y no "Boletín del Senado": el asunto tiene que
+    # decir lo mismo que el remitente y que el encabezado, y no dar a entender
+    # que el mail sale del Senado.
+    return f"Proyectos ingresados {d} - {', '.join(partes) or 'sin novedades'}"
 
 
 def _hora(nov: dict) -> str:

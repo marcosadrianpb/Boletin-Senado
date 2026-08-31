@@ -161,7 +161,9 @@ f915932  Fase 2: boletin diario e issue automatico
 - `src/resumen.py` — las cuentas del día: total, por tipo, por bloque, por comisión.
 - `src/correo.py` — el mismo boletín en HTML de correo, más su versión en texto.
 - `src/envio.py` — crea la campaña en Brevo y, si se le pide, la manda.
-- `.github/workflows/actualizar.yml` — corre a las 8:00 AR de lunes a viernes, y a mano.
+- `.github/workflows/actualizar.yml` — la corrida diaria, y a mano.
+- `.github/workflows/probar-mail.yml` — banco de pruebas del envío: arma la campaña
+  con un día ya archivado, sin tocar el padrón ni el repo.
 - `requirements.txt`
 - `.github/workflows/recon.yml`, `INFORME.md`, `recon/` — Fase 0, ya cumplieron su función.
   `INFORME.md` está duplicado (raíz y `recon/`); conviene dejar uno solo.
@@ -428,6 +430,24 @@ El paso del workflow no hace nada hasta que existan estas tres cosas en el repo:
 La idea es arrancar apuntando a una lista de prueba con `BREVO_ENVIAR` sin poner, mirar el
 borrador en Brevo, después ponerlo en `true` contra la lista de prueba, medir, y recién ahí
 cambiar `BREVO_LISTA` por la lista de verdad.
+
+### El banco de pruebas
+
+`probar-mail.yml` existe para no tener que esperar a que el Senado cargue algo. Se dispara a
+mano desde Actions con tres campos: la **fecha** de un boletín ya archivado (por ejemplo
+`2026-08-28`, que tuvo 14 altas), la **lista** y un tilde para **mandar**. Sin ese tilde
+arma la campaña y la deja en borrador; sin el secret cargado corre en seco y no toca Brevo.
+En los dos casos sube el HTML como artifact, así se puede bajar y abrir.
+
+Ojo con una cosa al probar días viejos: las fichas anteriores al 31/8 no guardan el id del
+autor, así que en esos días el panel por bloque agrupa todo por origen. Los días nuevos sí
+lo traen.
+
+El asunto del mail dice **"Proyectos ingresados 28/08/2026 - 14 expedientes nuevos"**, no
+"Boletín del Senado": tiene que decir lo mismo que el remitente y que el encabezado, y no
+dar a entender que el mail sale del Senado. El nombre de la campaña adentro de Brevo es
+"Proyectos ingresados AAAA-MM-DD", que además es la clave con la que se busca si la del día
+ya existe.
 
 Remitente: `proparlamentariasenado@gmail.com`, con el nombre visible
 **Boletin proyectos ingresados**. Ese nombre es lo que ve la gente en la bandeja; el que
