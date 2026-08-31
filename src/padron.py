@@ -121,6 +121,49 @@ def comparar(padron: dict, bajados: list[dict], anios: list[int]) -> dict:
     }
 
 
+def acumular(previo: dict, nuevo: dict) -> dict:
+    """Une las novedades de dos corridas del mismo dia.
+
+    Las novedades de un dia son la union de lo que encontro cada corrida, no lo
+    que encontro la ultima: la segunda corrida compara contra un padron que la
+    primera ya actualizo, asi que por si sola no ve nada. Sin esto, una corrida
+    a mano despues de la del cron borra el dia entero.
+    """
+    unido = dict(nuevo)
+
+    for campo in ("altas", "reingresos", "correcciones", "bajas"):
+        por_clave = {clave(e): e for e in previo.get(campo) or []}
+        for e in nuevo.get(campo) or []:
+            por_clave[clave(e)] = e  # dentro de una misma lista manda la ultima
+        unido[campo] = list(por_clave.values())
+
+    # Un expediente no puede estar en dos listas del mismo dia. Si entro hoy,
+    # entro: una correccion posterior es parte de la misma novedad, no otra. Y
+    # una baja de la manana queda sin efecto si a la tarde volvio a aparecer.
+    vistas = {clave(e): e for e in unido["altas"]}
+    for campo in ("reingresos", "correcciones", "bajas"):
+        quedan = []
+        for e in unido[campo]:
+            k = clave(e)
+            anterior = vistas.get(k)
+            if anterior is None:
+                vistas[k] = e
+                quedan.append(e)
+            elif campo == "correcciones" and e.get("extracto"):
+                # Ya se anuncio hoy; el texto que vale es el corregido.
+                anterior["extracto"] = e["extracto"]
+        unido[campo] = quedan
+
+    unido["total_antes"] = previo.get("total_antes", nuevo["total_antes"])
+    unido["anios"] = sorted(set(previo.get("anios") or []) | set(nuevo.get("anios") or []))
+    unido["anios_nuevos"] = sorted(
+        set(previo.get("anios_nuevos") or []) | set(nuevo.get("anios_nuevos") or []))
+    unido["absorbidos"] = (previo.get("absorbidos") or 0) + (nuevo.get("absorbidos") or 0)
+    unido["linea_base"] = bool(previo.get("linea_base")) and bool(nuevo.get("linea_base"))
+    unido["corridas"] = (previo.get("corridas") or 1) + 1
+    return unido
+
+
 def actualizar(padron: dict, bajados: list[dict], anios: list[int]) -> dict:
     """Deja el padron igual a lo que hay hoy, conservando la fecha de primera vista."""
     fecha = hoy()

@@ -15,8 +15,12 @@ on:
         type: boolean
         default: false
   schedule:
-    # 8:00 de Buenos Aires (UTC-3), de lunes a viernes
-    - cron: "0 11 * * 1-5"
+    # 7:23 de Buenos Aires (UTC-3), de lunes a viernes.
+    # El minuto no es redondo a proposito: GitHub demora los workflows
+    # programados cuando tiene carga, y la hora en punto es el peor momento.
+    # Con "0 11" las corridas llegaron a salir seis horas tarde. Los 37 minutos
+    # de adelanto son margen para que igual caiga cerca de las 8.
+    - cron: "23 10 * * 1-5"
 
 permissions:
   contents: write
@@ -64,15 +68,28 @@ jobs:
           git pull --rebase
           git push
 
-      - name: Abrir el issue del dia
+      # Si el dia ya tiene issue, se actualiza. Un dia con dos corridas es un
+      # solo boletin, no dos: el archivo de novedades ya viene acumulado.
+      - name: Abrir o actualizar el issue del dia
         if: success() && steps.boletin.outputs.hay == 'true' && inputs.sin_issue != true
         env:
           GH_TOKEN: ${{ github.token }}
           TITULO: ${{ steps.boletin.outputs.titulo }}
           CUERPO: ${{ steps.boletin.outputs.cuerpo }}
+          PREFIJO: ${{ steps.boletin.outputs.prefijo }}
         run: |
           gh label create boletin --color 0E8A16 --description "Boletin diario" --force
-          gh issue create --title "$TITULO" --body-file "$CUERPO" --label boletin
+          # Se lista por etiqueta y no con --search: la busqueda de GitHub tarda
+          # en indexar y un issue recien creado no aparece.
+          NUM=$(gh issue list --label boletin --state all --limit 50 \
+                  --json number,title \
+                  --jq '[.[] | select(.title | startswith(env.PREFIJO))] | .[0].number // empty')
+          if [ -n "$NUM" ]; then
+            gh issue edit "$NUM" --title "$TITULO" --body-file "$CUERPO"
+            echo "actualizado el issue #$NUM"
+          else
+            gh issue create --title "$TITULO" --body-file "$CUERPO" --label boletin
+          fi
 
       # No hace nada hasta que exista la variable BREVO_LISTA con el id de la
       # lista. Mientras BREVO_ENVIAR no diga "true", la campana se crea y queda

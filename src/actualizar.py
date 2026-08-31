@@ -145,6 +145,17 @@ def main(argv=None) -> int:
 
     a.novedades.mkdir(parents=True, exist_ok=True)
     destino = a.novedades / f"{novedades['fecha']}.json"
+    corrida = novedades
+    if destino.exists():
+        # Un dia puede tener mas de una corrida: la del cron y alguna a mano.
+        # La segunda compara contra el padron que ya actualizo la primera, asi
+        # que por si sola no ve nada. El dia es la union de las dos.
+        anterior = json.loads(destino.read_text(encoding="utf-8"))
+        novedades = est.acumular(anterior, novedades)
+        log(f"segunda corrida del dia: el {novedades['fecha']} acumula "
+            f"altas {len(novedades['altas'])} | bajas {len(novedades['bajas'])} | "
+            f"reingresos {len(novedades['reingresos'])} | "
+            f"correcciones {len(novedades['correcciones'])}")
     destino.write_text(json.dumps(novedades, ensure_ascii=False, indent=1),
                        encoding="utf-8")
 
@@ -160,7 +171,9 @@ def main(argv=None) -> int:
         "linea_base": linea_base,
     })
 
-    escribir_resumen(a.resumen, novedades)
+    # El resumen del run cuenta lo que encontro esta corrida, no el dia entero:
+    # el dia entero esta abajo, en el boletin.
+    escribir_resumen(a.resumen, corrida)
 
     if linea_base:
         log(f"corrida 0: {dif['total_ahora']} expedientes cargados como punto de partida")

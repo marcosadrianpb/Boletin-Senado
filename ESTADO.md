@@ -1,7 +1,7 @@
 # Boletín diario de proyectos del Senado — Estado del proyecto
 
-Última actualización: 20 de agosto de 2026 · **Fases 2 y 3 escritas. El envío por mail
-está subido pero apagado: falta configurarlo en Brevo y en GitHub.**
+Última actualización: 31 de agosto de 2026 · **Fase 2 cerrada: once días en producción.
+El envío por mail sigue apagado, falta configurarlo en Brevo y en GitHub.**
 **Los pasos para retomar están en [Próximo paso](#próximo-paso).**
 
 ## Objetivo
@@ -35,8 +35,7 @@ la cuenta en el historial. Si conviene lo contrario, se cambia una condición de
 - **Fase 0 — Reconocimiento.** ✅ CERRADA.
 - **Fase 1 — Extractor y padrón.** ✅ CERRADA. Corrida 0 y primera comparación, las dos
   verificadas en Actions.
-- **Fase 2 — Boletín e issue diario.** ← acá estamos. Escrita y probada contra el sitio
-  real; falta verla correr un día con altas de verdad.
+- **Fase 2 — Boletín e issue diario.** ✅ CERRADA. Once días en producción, siete issues.
 - **Fase 3 — Envío por mail.** ← acá estamos. El código está escrito y subido, y el paso
   del workflow está apagado hasta que existan el secret y la variable.
 - **Fase 4 — Endurecimiento.**
@@ -103,6 +102,13 @@ padrón. Las tablas se identifican por su atributo `summary`, que es estable.
   mil entradas. De los absorbidos se guarda solo la cuenta: el detalle ya está en el padrón.
 - Si la descarga trae menos de la mitad del padrón vigente, la corrida aborta sin tocar
   nada: es más probable una falla de la fuente que una purga real.
+- **Un día puede tener más de una corrida** —la del cron y alguna a mano— y las novedades
+  del día son la **unión** de lo que encontró cada una. La segunda corrida compara contra un
+  padrón que la primera ya actualizó, así que por sí sola no ve nada. Por eso el archivo del
+  día se acumula en vez de reescribirse (`padron.acumular`), y lleva la cuenta de `corridas`.
+  Un expediente no puede estar en dos listas del mismo día: si entró hoy y después le
+  corrigieron el texto es una sola novedad, con el texto corregido; y una baja de la mañana
+  queda sin efecto si a la tarde el expediente volvió a aparecer.
 
 ## Cómo se arma el boletín
 
@@ -286,6 +292,45 @@ Con el padrón de verdad, en una copia fuera del repo:
 Lo único que falta ver es el `gh issue create` en Actions: hasta que no haya un día con
 altas, el paso se saltea solo.
 
+## Once días en producción (20 al 31 de agosto)
+
+El sistema corrió solo, sin tocarlo. Resultado:
+
+| | |
+|---|---|
+| Issues abiertos | 7 |
+| Boletines commiteados | 6 |
+| Expedientes nuevos detectados | 63 (padrón 2014 → 2077) |
+| Fichas que fallaron | 0 |
+
+**En once días no entró ni un proyecto de ley ni una declaración.** Los PL siguen en 572 y
+los PD en 431, los mismos números que el 19 de agosto. Está verificado contra el padrón: no
+se pierde nada, el Senado no cargó proyectos nuevos en esa ventana. Lo que entró son
+acuerdos del Ejecutivo para designar jueces, comunicaciones de la AGN y peticiones de
+particulares.
+
+### Los dos defectos que aparecieron, y su arreglo
+
+**1. Los días con dos corridas perdían la mitad del día.** El 26/8 se abrieron *dos* issues,
+el #4 con las 7 correcciones de la mañana y el #5 con las 5 altas de la tarde, cada uno con
+un pedazo. Y `datos/novedades/2026-08-25.json` quedó diciendo `altas 0` cuando ese día
+entraron 29: la corrida de las 8:16 pisó la de las 3:38. El boletín en markdown se salvó de
+casualidad, porque no se reescribe cuando no hay novedades.
+
+Esto además bloqueaba el mail, que lee ese mismo archivo: un día con dos corridas se habría
+mandado vacío. Arreglado en dos partes: el archivo del día acumula (ver *Cómo funciona la
+comparación*), y el issue del día se actualiza en vez de abrirse de nuevo. El workflow lo
+busca por etiqueta y no con `--search`, porque la búsqueda de GitHub tarda en indexar y un
+issue recién creado no aparece. `envio.py` hace lo mismo con la campaña: si ya existe y
+sigue en borrador, le pone el día completo; si ya se mandó, no manda otra.
+
+**2. El cron llegaba tarde, y no un poco.** Las corridas programadas de la última semana
+salieron 17:44, 21:16 y 20:50 UTC: 14:44, 18:16 y 17:50 de Buenos Aires, en vez de las 8:00.
+GitHub demora los workflows programados cuando tiene carga y la hora en punto es el peor
+momento. El cron pasó de `0 11` a **`23 10`**: minuto no redondo y 37 minutos de adelanto
+como margen. No hay garantía —GitHub no la da para workflows programados—, así que hay que
+medirlo una semana. Si sigue llegando tarde, la salida es dispararlo desde afuera.
+
 ## Próximo paso
 
 Todo el código está subido y funcionando. El envío por mail está **apagado**: el paso del
@@ -308,7 +353,8 @@ Copiarla en el momento: después no la vuelve a mostrar.
 `BREVO_ENVIAR` todavía no: sin ella la campaña se crea y queda en borrador.
 
 **5. Esperar el primer día con altas.** El workflow va a armar la campaña y dejarla sin
-mandar. Hay que abrirla en Brevo y mirar la previsualización.
+mandar. Hay que abrirla en Brevo y mirar la previsualización. Ojo que en esta ventana hubo
+varios días seguidos sin novedades: puede tardar en llegar.
 
 Si no se quiere esperar al Senado, se puede agregar al workflow un disparo manual que arme
 la campaña con un día simulado. No está hecho; es media hora.
@@ -327,10 +373,11 @@ Si cae en spam, las salidas son las dos que ya se discutieron y no hay una terce
 dominio propio, o mandar por el SMTP de Gmail con la lista guardada en un secret. Medir
 primero.
 
-### Lo que queda pendiente de Fase 2
+### Y medir el horario
 
-Ver el `gh issue create` funcionando. Hasta que no haya un día con altas, el paso se saltea
-solo. Es el mismo día que se destraba el punto 5 de arriba.
+Con el cron en `23 10`, anotar una semana a qué hora salieron las corridas programadas. Se
+ve en la lista de Actions o pidiendo `/actions/runs` a la API. Si la demora sigue siendo de
+horas, hay que dispararlo desde afuera en vez de con el cron de GitHub.
 
 ## Arreglado después de la corrida 0
 
@@ -483,3 +530,4 @@ no se llega a esa instancia porque Brevo reescribe el From antes de mandar.
 | El Senado carga proyectos con fecha retroactiva | Resuelto: la consulta es por año de expediente, no por fecha |
 | Un dia de vuelta de receso trae cientos de altas | Arriba de 80 no se piden fichas, y el cuerpo del issue se recorta con un puntero al archivo completo |
 | Mails al spam por remitente sin dominio propio | Se mide en Fase 3 |
+| GitHub demora los workflows programados varias horas | El cron va en un minuto no redondo y 37' antes de la hora buscada. Medido: con `0 11` llegó a salir seis horas tarde |

@@ -70,12 +70,12 @@ def nombre_campana(fecha: str) -> str:
     return f"Boletin del Senado {fecha}"
 
 
-def buscar_campana(clave: str, nombre: str) -> int | None:
-    """El id de la campana del dia, si ya se creo en otra corrida."""
+def buscar_campana(clave: str, nombre: str) -> dict | None:
+    """La campana del dia, si ya se creo en otra corrida."""
     datos = pedir("GET", "/emailCampaigns?limit=50&offset=0&sort=desc", clave)
     for c in datos.get("campaigns") or []:
         if c.get("name") == nombre:
-            return c.get("id")
+            return c
     return None
 
 
@@ -84,6 +84,10 @@ def crear_campana(clave: str, cuerpo: dict) -> int:
     if "id" not in datos:
         raise BrevoError(f"la campana se creo sin id: {datos}")
     return datos["id"]
+
+
+def actualizar_campana(clave: str, id_campana: int, cuerpo: dict) -> None:
+    pedir("PUT", f"/emailCampaigns/{id_campana}", clave, data=json.dumps(cuerpo))
 
 
 def mandar_campana(clave: str, id_campana: int) -> None:
@@ -174,14 +178,20 @@ def main(argv=None) -> int:
         existente = None if a.forzar else buscar_campana(clave, nombre)
         if existente:
             # Que el workflow corra dos veces no puede significar dos mails.
-            log(f"ya existe la campana {existente} del {nov['fecha']}: no se crea otra")
-            salida_actions("campana", str(existente))
-            salida_actions("mandado", "false")
-            return 0
-
-        id_campana = crear_campana(clave, cuerpo)
-        log(f"campana {id_campana} creada: {nombre}")
-        salida_actions("campana", str(id_campana))
+            id_campana = existente["id"]
+            salida_actions("campana", str(id_campana))
+            if existente.get("status") != "draft":
+                log(f"la campana {id_campana} del {nov['fecha']} ya se mando: "
+                    f"no se manda otra")
+                salida_actions("mandado", "false")
+                return 0
+            # Sigue en borrador y el dia pudo crecer: se le pone lo ultimo.
+            actualizar_campana(clave, id_campana, cuerpo)
+            log(f"campana {id_campana} actualizada con el dia completo")
+        else:
+            id_campana = crear_campana(clave, cuerpo)
+            log(f"campana {id_campana} creada: {nombre}")
+            salida_actions("campana", str(id_campana))
 
         if a.mandar:
             mandar_campana(clave, id_campana)

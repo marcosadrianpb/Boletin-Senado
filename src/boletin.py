@@ -127,6 +127,11 @@ def hay_novedades(nov: dict) -> bool:
     return any(nov.get(k) for k in ("altas", "reingresos", "bajas", "correcciones"))
 
 
+def titulo_prefijo(nov: dict) -> str:
+    """Lo que no cambia del titulo. Sirve para encontrar el issue del dia."""
+    return f"Boletín del Senado - {nov['fecha']}"
+
+
 def titulo(nov: dict) -> str:
     partes = []
     for campo, singular, plural in (("altas", "nuevo", "nuevos"),
@@ -137,7 +142,7 @@ def titulo(nov: dict) -> str:
         if n:
             partes.append(f"{n} {singular if n == 1 else plural}")
     detalle = ", ".join(partes) if partes else "sin novedades"
-    return f"Boletín del Senado - {nov['fecha']} - {detalle}"
+    return f"{titulo_prefijo(nov)} - {detalle}"
 
 
 def agrupar(expedientes: list[dict]) -> list[tuple[str, list[dict]]]:
@@ -336,6 +341,7 @@ def main(argv=None) -> int:
 
     salida_actions("hay", "true")
     salida_actions("titulo", titulo(nov))
+    salida_actions("prefijo", titulo_prefijo(nov))
     salida_actions("archivo", str(destino))
 
     if a.cuerpo_issue:
