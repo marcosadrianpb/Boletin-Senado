@@ -1,0 +1,77 @@
+{
+ "fecha": "2026-09-01",
+ "generado": "2026-09-01T11:59:55-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "295/26",
+   "tipo": "DC",
+   "origen": "PE",
+   "extracto": "JEFATURA DE GABINETE: REMITE MENSAJE N° 40/26 QUE COMUNICA EL DICTADO DEL DECRETO DE NECESIDAD Y URGENCIA Nº 736/26, SOBRE CREDITOS EN MONEDA EXTRANJERA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/295.26/PE/DC",
+    "fecha_mesa": "2026-08-31",
+    "dae": "66/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE DE TRÁMITE LEGISLATIVO (LEY 26.122)",
+      "orden": "1",
+      "ingreso": "31-08-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499002/downloadPdf"
+   }
+  },
+  {
+   "expediente": "294/26",
+   "tipo": "PL",
+   "origen": "PE",
+   "extracto": "MENSAJE Nº 268/26 Y PROYECTO DE LEY QUE APRUEBA EL ACUERDO EN EL MARCO DE LA CONVENCIÓN DE LAS NACIONES UNIDAS SOBRE EL DERECHO DEL MAR RELATIVO A LA CONSERVACION Y EL USO SOSTENIBLE DE LA DIVERSIDAD BIOLOGICA MARINA DE LAS ZONAS SITUADAS FUERA DE LA JURISDICCION NACIONAL, CELEBRADO EN LA CDAD DE",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/294.26/PE/PL",
+    "fecha_mesa": "2026-08-28",
+    "dae": "66/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE RELACIONES EXTERIORES Y CULTO",
+      "orden": "1",
+      "ingreso": "31-08-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499001/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [
+  {
+   "expediente": "1239/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "COTO: PROYECTO DE LEY QUE INSTITUYE EL 3 DE MARZO DE CADA AÑO, COMO \"DIA NACIONAL EN HONOR AL ALMIRANTE GUILLERMO BROWN\".",
+   "anio": 2026,
+   "cambios": {
+    "extracto": [
+     "COTO Y OROZCO : PROYECTO DE LEY QUE INSTITUYE EL 3 DE MARZO DE CADA AÑO, COMO \"DIA NACIONAL EN HONOR AL ALMIRANTE GUILLERMO BROWN\".",
+     "COTO: PROYECTO DE LEY QUE INSTITUYE EL 3 DE MARZO DE CADA AÑO, COMO \"DIA NACIONAL EN HONOR AL ALMIRANTE GUILLERMO BROWN\"."
+    ]
+   }
+  }
+ ],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2077,
+ "total_ahora": 2079
+}

@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-08-31T14:45:06-03:00",
+ "actualizado": "2026-09-01T11:59:55-03:00",
  "anios": [
   2026
  ],
- "corridas": 13,
+ "corridas": 14,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -3277,10 +3277,10 @@
    "visto": "2026-08-19"
   },
   "1239/26|S": {
-   "actualizado": "2026-08-19",
+   "actualizado": "2026-09-01",
    "anio": 2026,
    "expediente": "1239/26",
-   "extracto": "COTO Y OROZCO : PROYECTO DE LEY QUE INSTITUYE EL 3 DE MARZO DE CADA AÑO, COMO \"DIA NACIONAL EN HONOR AL ALMIRANTE GUILLERMO BROWN\".",
+   "extracto": "COTO: PROYECTO DE LEY QUE INSTITUYE EL 3 DE MARZO DE CADA AÑO, COMO \"DIA NACIONAL EN HONOR AL ALMIRANTE GUILLERMO BROWN\".",
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -10366,6 +10366,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "294/26|PE": {
+   "actualizado": "2026-09-01",
+   "anio": 2026,
+   "expediente": "294/26",
+   "extracto": "MENSAJE Nº 268/26 Y PROYECTO DE LEY QUE APRUEBA EL ACUERDO EN EL MARCO DE LA CONVENCIÓN DE LAS NACIONES UNIDAS SOBRE EL DERECHO DEL MAR RELATIVO A LA CONSERVACION Y EL USO SOSTENIBLE DE LA DIVERSIDAD BIOLOGICA MARINA DE LAS ZONAS SITUADAS FUERA DE LA JURISDICCION NACIONAL, CELEBRADO EN LA CDAD DE",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE RELACIONES EXTERIORES Y CULTO",
+      "ingreso": "31-08-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "66/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-08-28",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499001/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/294.26/PE/PL"
+   },
+   "origen": "PE",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-01"
+  },
   "294/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -10385,6 +10411,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-27"
+  },
+  "295/26|PE": {
+   "actualizado": "2026-09-01",
+   "anio": 2026,
+   "expediente": "295/26",
+   "extracto": "JEFATURA DE GABINETE: REMITE MENSAJE N° 40/26 QUE COMUNICA EL DICTADO DEL DECRETO DE NECESIDAD Y URGENCIA Nº 736/26, SOBRE CREDITOS EN MONEDA EXTRANJERA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE DE TRÁMITE LEGISLATIVO (LEY 26.122)",
+      "ingreso": "31-08-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "66/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-08-31",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499002/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/295.26/PE/DC"
+   },
+   "origen": "PE",
+   "tipo": "DC",
+   "vigente": true,
+   "visto": "2026-09-01"
   },
   "295/26|S": {
    "actualizado": "2026-08-19",
