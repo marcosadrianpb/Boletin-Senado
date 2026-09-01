@@ -173,7 +173,7 @@ def _resto(filas: list[dict], tope: int, singular: str, plural: str) -> str:
     if not sobran:
         return ""
     n = len(sobran)
-    return (f'<div style="color:{SUAVE};font-size:12px;padding-top:10px;">'
+    return (f'<div style="color:{TEXTO};font-size:12px;padding-top:10px;">'
             f'y {n} {singular if n == 1 else plural} más, con '
             f'{sum(x["n"] for x in sobran)} en total</div>')
 
@@ -283,27 +283,36 @@ def _dibujar(nodo: dict | None, contenido) -> str:
             f'<td valign="top">{resto}</td></tr></table>')
 
 
+def _referencia(color: str, texto: str, cantidad: str = "") -> str:
+    """Un cuadradito de color con su nombre al lado."""
+    return (f'<table role="presentation" cellpadding="0" cellspacing="0"><tr>'
+            f'<td width="10" valign="top" style="padding:3px 7px 0 0;">'
+            f'<div style="width:10px;height:10px;background:{color};'
+            f'font-size:0;line-height:0;">&nbsp;</div></td>'
+            f'<td style="color:{TEXTO};font-size:11px;line-height:16px;">'
+            f'{escape(texto)}{cantidad}</td></tr></table>')
+
+
 def _leyenda(grupos: list[dict]) -> str:
-    """Los tipos con su color, como en la cabecera de un treemap."""
-    partes = []
-    grises = []
-    for g in grupos:
-        if g["color"] < 0:
-            grises.append(g["tipo_nombre"].lower())
-            continue
-        partes.append(
-            f'<span style="white-space:nowrap;">'
-            f'<span style="display:inline-block;width:9px;height:9px;'
-            f'background:{_color(g["color"])};">&nbsp;</span> '
-            f'{escape(g["tipo_nombre"])} <b>{g["total"]}</b></span>')
+    """La referencia de colores, en dos columnas para que quede pareja."""
+    refs = [_referencia(_color(g["color"]), g["tipo_nombre"],
+                        f' <b>{g["total"]}</b>')
+            for g in grupos if g["color"] >= 0]
+    grises = [g["tipo_nombre"].lower() for g in grupos if g["color"] < 0]
     if grises:
-        partes.append(
-            f'<span style="white-space:nowrap;">'
-            f'<span style="display:inline-block;width:9px;height:9px;'
-            f'background:{NEUTRO};">&nbsp;</span> '
-            f'{escape(", ".join(grises))}</span>')
-    return (f'<div style="color:{TEXTO};font-size:11px;line-height:19px;'
-            f'padding:2px 0 10px;">' + " &nbsp; ".join(partes) + "</div>")
+        refs.append(_referencia(NEUTRO, ", ".join(grises)))
+
+    filas = ""
+    for i in range(0, len(refs), 2):
+        par = refs[i:i + 2]
+        celdas = "".join(
+            f'<td width="50%" valign="top" style="padding:5px 12px 0 0;">{r}</td>'
+            for r in par)
+        if len(par) == 1:
+            celdas += '<td width="50%">&nbsp;</td>'
+        filas += f"<tr>{celdas}</tr>"
+    return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+            f'style="table-layout:fixed;padding-top:12px;">{filas}</table>')
 
 
 def _treemap(res: dict) -> str:
@@ -339,11 +348,8 @@ def _treemap(res: dict) -> str:
                   else g["tipo_nombre"])
         return _hoja(nombre, g["total"], fondo, ancho_px, alto_px), fondo
 
-    pie = (f'<div style="color:{SUAVE};font-size:11px;line-height:15px;padding-top:10px;">'
-           f'Cada rectángulo es quién presentó, agrupado por color según el tipo de '
-           f'expediente, y su tamaño es la cantidad.</div>')
     return _panel("Qué entró y quién lo presentó",
-                  f'<tr><td>{_leyenda(grupos)}{_dibujar(raiz, dentro)}</td></tr>', pie)
+                  f'<tr><td>{_dibujar(raiz, dentro)}</td></tr>', _leyenda(grupos))
 
 
 def _segmentos(celdas: list[dict], fondo: str, ancho_barra_pct: int) -> str:
@@ -417,7 +423,7 @@ def _tablero(res: dict, figura: str = "treemap") -> str:
     if res["comisiones"] or res["sin_giro"]:
         pie = ""
         if res["sin_giro"]:
-            pie = (f'<div style="color:{SUAVE};font-size:12px;margin-top:12px;'
+            pie = (f'<div style="color:{TEXTO};font-size:12px;margin-top:12px;'
                    f'padding-top:12px;border-top:1px solid {BORDE};">'
                    f'{res["sin_giro"]} sin giro a comisión</div>')
         L.append(_panel("Por comisión", "".join(

@@ -500,9 +500,9 @@ Decisiones, y por qué:
   rectángulo lleva su nombre escrito y arriba va la leyenda, así que la paleta solo refuerza.
 - **La tinta de cada celda se calcula** por contraste real contra el fondo, no a ojo. Sobre
   el naranja, el aqua y el gris, el negro contrasta casi el doble que el blanco.
-- Arriba va una **leyenda** con el color de cada tipo y su cantidad, como en la cabecera de
-  un treemap. Los tipos que quedan fuera del tope de colores comparten el gris y se listan
-  juntos al final de la leyenda.
+- Abajo del dibujo va la **referencia de colores**, en dos columnas para que quede pareja.
+  Los tipos que quedan fuera del tope de colores comparten el gris y se listan juntos al
+  final.
 
 Queda además la figura alternativa de **barras apiladas** (`--figura barras`), que dice lo
 mismo con largo en vez de área: nombre y total del tipo a la izquierda, la barra segmentada
