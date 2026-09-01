@@ -383,6 +383,39 @@ def _segmentos(celdas: list[dict], fondo: str, ancho_barra_pct: int) -> str:
     return "".join(partes)
 
 
+def _presentan(celdas: list[dict], tope: int = 4) -> str:
+    """Quienes presentaron, en dos columnas con los numeros alineados.
+
+    En un renglon corrido, con muchos bloques, no se puede barrer con la
+    vista. En grilla los numeros quedan en columna, y el tope hace que cada
+    barra ocupe el mismo alto aunque el dia traiga quince bloques.
+    """
+    muestra, sobran = celdas[:tope], celdas[tope:]
+    filas = ""
+    for i in range(0, len(muestra), 2):
+        celdas_html = ""
+        for c in muestra[i:i + 2]:
+            celdas_html += (
+                f'<td width="50%" valign="top" style="padding:3px 10px 0 0;">'
+                f'<table role="presentation" width="100%" cellpadding="0" '
+                f'cellspacing="0"><tr>'
+                f'<td style="color:{GRIS};font-size:11px;line-height:15px;">'
+                f'{escape(c["quien"])}</td>'
+                f'<td align="right" width="22" style="color:{TEXTO};font-size:11px;'
+                f'font-weight:700;">{c["n"]}</td></tr></table></td>')
+        if len(muestra[i:i + 2]) == 1:
+            celdas_html += '<td width="50%">&nbsp;</td>'
+        filas += f"<tr>{celdas_html}</tr>"
+    if sobran:
+        n = len(sobran)
+        filas += (f'<tr><td colspan="2" style="color:{GRIS};font-size:11px;'
+                  f'line-height:15px;padding-top:3px;">y {n} '
+                  f'{"bloque" if n == 1 else "bloques"} más, con '
+                  f'{sum(c["n"] for c in sobran)} en total</td></tr>')
+    return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+            f'style="table-layout:fixed;padding-top:5px;">{filas}</table>')
+
+
 def _barra_apilada(g: dict, maximo: int) -> str:
     """Un tipo: nombre y total a la izquierda, la barra segmentada a la derecha.
 
@@ -391,7 +424,6 @@ def _barra_apilada(g: dict, maximo: int) -> str:
     """
     fondo = _color(g["color"])
     ancho = max(8, round(100 * g["total"] / maximo))
-    quienes = " &middot; ".join(f'{escape(c["quien"])} {c["n"]}' for c in g["celdas"])
 
     barra = (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
              f'style="table-layout:fixed;"><tr>'
@@ -402,14 +434,17 @@ def _barra_apilada(g: dict, maximo: int) -> str:
              f'<td height="22" bgcolor="{BORDE}" style="background:{BORDE};'
              f'font-size:0;line-height:0;">&nbsp;</td></tr></table>')
 
+    # El total va al lado del titulo y en negro: abajo y en gris claro no se leia.
+    titulo = (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">'
+              f'<tr><td style="color:{TEXTO};font-size:12px;line-height:16px;'
+              f'font-weight:700;">{escape(g["tipo_nombre"])}</td>'
+              f'<td align="right" width="24" valign="top" style="color:{TEXTO};'
+              f'font-size:12px;font-weight:700;">{g["total"]}</td></tr></table>')
+
     return (f'<tr>'
-            f'<td width="34%" valign="top" style="padding:12px 12px 0 0;">'
-            f'<div style="color:{TEXTO};font-size:12px;line-height:15px;'
-            f'font-weight:700;">{escape(g["tipo_nombre"])}</div>'
-            f'<div style="color:{SUAVE};font-size:11px;">{g["total"]}</div></td>'
-            f'<td width="66%" valign="top" style="padding:12px 0 0;">{barra}'
-            f'<div style="color:{GRIS};font-size:11px;line-height:15px;'
-            f'padding-top:4px;">{quienes}</div></td></tr>')
+            f'<td width="34%" valign="top" style="padding:14px 14px 0 0;">{titulo}</td>'
+            f'<td width="66%" valign="top" style="padding:14px 0 0;">{barra}'
+            f'{_presentan(g["celdas"])}</td></tr>')
 
 
 def _barras(res: dict) -> str:
@@ -418,11 +453,8 @@ def _barras(res: dict) -> str:
     if not grupos:
         return ""
     maximo = max(g["total"] for g in grupos)
-    pie = (f'<div style="color:{SUAVE};font-size:11px;line-height:15px;padding-top:12px;">'
-           f'El largo de cada barra es cuántos entraron de ese tipo, y los pedazos, '
-           f'quién los presentó.</div>')
     return _panel("Qué entró y quién lo presentó",
-                  "".join(_barra_apilada(g, maximo) for g in grupos), pie)
+                  "".join(_barra_apilada(g, maximo) for g in grupos))
 
 
 def _tablero(res: dict, figura: str = "treemap") -> str:

@@ -524,9 +524,16 @@ Decisiones, y por qué:
   final.
 
 Queda además la figura alternativa de **barras apiladas** (`--figura barras`), que dice lo
-mismo con largo en vez de área: nombre y total del tipo a la izquierda, la barra segmentada
-por quién lo presentó a la derecha y los nombres con su cuenta abajo. Se elige desde
-`src.correo`, `src.envio` y el banco de pruebas.
+mismo con largo en vez de área: a la izquierda el nombre del tipo con su total al lado, a la
+derecha la barra segmentada por quién lo presentó, y abajo quiénes fueron.
+
+Esa lista de abajo va en **dos columnas con los números alineados y un tope de cuatro**, y
+el resto se cuenta ("y 3 bloques más, con 3 en total"). En un renglón corrido, con muchos
+bloques, no se puede barrer con la vista y cada barra ocupa un alto distinto; en grilla los
+números quedan en columna y todas las barras miden lo mismo aunque el día traiga quince
+bloques.
+
+Se elige desde `src.correo`, `src.envio` y el banco de pruebas.
 
 ### Lo que no puede entrar en el treemap
 
