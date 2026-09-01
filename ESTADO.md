@@ -476,28 +476,28 @@ entienda de un vistazo qué entró, sin tener que leer 27 extractos.
 
 ### El treemap
 
-Cada banda es un tipo de expediente y su alto sale de cuántos entraron; adentro, cada celda
-es quién lo presentó y su ancho sale de cuántos presentó. Así el área de cada celda queda
-proporcional a su cantidad, que es lo que un treemap tiene que cumplir, y cada rectángulo es
-un cruce: tipo × bloque.
+Es el algoritmo **squarified** clásico, en dos niveles: primero los tipos de expediente, y
+adentro de cada uno, quién lo presentó. Cada rectángulo es un cruce tipo × bloque y su área
+es proporcional a la cantidad. Verificado sobre el día de prueba: las nueve áreas dan 25,
+20, 15, 10, 10, 5, 5, 5 y 5 por ciento, exactamente lo esperado.
 
 Decisiones, y por qué:
 
-- **En bandas por tipo, no con el algoritmo "squarified" clásico.** Ese ordena todo por
-  tamaño para que los rectángulos queden cuadrados, y al hacerlo mezcla los tipos. Se probó:
-  quedaban un proyecto de ley, un acuerdo y una comunicación en la misma franja. En un cruce
-  eso es peor que un rectángulo feo, porque el color deja de agrupar.
-- **Alto mínimo de banda y ancho mínimo de celda**, siempre hacia arriba. Sin eso, un tipo
-  con un expediente en un día de cuarenta queda de tres píxeles. La cantidad va escrita en
-  cada celda, así que el número manda sobre el área.
-- El reparto del alto es **proporcional con mínimo**: las bandas que no llegan al mínimo se
-  fijan ahí y el resto se reparte entre las demás, repitiendo hasta que cierre. La primera
-  versión le descontaba a la banda más grande y daba vuelta las proporciones: el tipo de
-  cinco expedientes quedaba más chico que el de tres.
+- **Anidado, y no en bandas.** La primera versión repartía el ancho completo en bandas
+  horizontales, una por tipo. Con la mayoría de los tipos en uno o dos expedientes, todas
+  las bandas caían al alto mínimo y el resultado **era un gráfico de barras dibujado de otra
+  manera**. Alternando franjas horizontales y verticales, un tipo de un expediente queda de
+  unos 90 × 90 en vez de 584 × 34.
+- **Anidar en dos niveles mantiene cada tipo junto**, que era el motivo por el que había
+  arrancado con bandas. El squarified plano ordena todo por tamaño y mezcla los tipos:
+  quedaban un proyecto de ley, un acuerdo y una comunicación en la misma franja, con lo cual
+  el color dejaba de agrupar. El anidado los agrupa por construcción.
+- **Un pedazo se subdivide solo si mide más de 76 × 46.** Abajo de eso no entra nada
+  adentro, así que va como un rectángulo único con el nombre del tipo.
 - **Colores**: los slots de la guía de visualización en su orden fijo, sin saltear ninguno,
   porque los pares vecinos de esa secuencia están validados para daltonismo. Cinco tipos
-  llevan color y el resto va en gris. **La identidad nunca depende del color**: cada banda
-  lleva su nombre escrito, así que la paleta solo refuerza.
+  llevan color y el resto va en gris. **La identidad nunca depende del color**: cada
+  rectángulo lleva su nombre escrito y arriba va la leyenda, así que la paleta solo refuerza.
 - **La tinta de cada celda se calcula** por contraste real contra el fondo, no a ojo. Sobre
   el naranja, el aqua y el gris, el negro contrasta casi el doble que el blanco.
 - Arriba va una **leyenda** con el color de cada tipo y su cantidad, como en la cabecera de
