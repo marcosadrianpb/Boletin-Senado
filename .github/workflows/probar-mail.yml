@@ -17,7 +17,7 @@ on:
         description: "Dia del boletin a usar (AAAA-MM-DD). Vacio = hoy"
         default: ""
       archivo:
-        description: "Archivo de novedades a usar en vez del dia (ej: datos/pruebas/20-proyectos.json)"
+        description: "Archivo de novedades a usar en vez del dia. Ejemplo: datos/pruebas/20-proyectos.json"
         default: ""
       lista:
         description: "Id de la lista de Brevo. Vacio = el de la variable BREVO_LISTA"
