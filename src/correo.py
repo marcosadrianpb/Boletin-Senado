@@ -28,7 +28,8 @@ from src import padron as est
 from src.boletin import (SIN_DAE, agrupar, fecha_corta, fecha_larga,
                          hay_novedades, numero, origen_nombre, tipo_nombre)
 from src.resumen import armar
-from src.treemap import ANCHO as ANCHO_TREEMAP, bandas
+from src.treemap import (ANCHO as ANCHO_TREEMAP, acomodar, alto_util,
+                         se_subdivide)
 from src.senado import url_ficha
 from src.senadores import cargar as cargar_senadores
 
@@ -209,66 +210,140 @@ def _tinta(fondo: str) -> str:
     return max(("#ffffff", "#1f2328"), key=lambda c: _contraste(fondo, c))
 
 
-def _recortar(texto: str, ancho_pct: int) -> str:
-    """Lo que entra en la celda: mas o menos un caracter cada 5,5 px."""
-    caben = int(ANCHO_TREEMAP * ancho_pct / 100 / 5.5) - 2
+def _cabe(texto: str, ancho_px: float, tamano: float = 5.2) -> str:
+    """Lo que entra en ese ancho, cortado con puntos suspensivos."""
+    caben = int((ancho_px - 12) / tamano)
     if caben < 4:
         return ""
     return texto if len(texto) <= caben else texto[:caben - 1].rstrip() + "…"
 
 
-def _celda(c: dict, fondo: str, alto: int, solo: bool, tipo: str) -> str:
+def _hoja(nombre: str, cantidad: int, fondo: str,
+          ancho_px: float, alto_px: float) -> str:
+    """El contenido de un pedazo: el nombre y la cantidad, lo que entre."""
     tinta = _tinta(fondo)
-    # En una banda de una sola celda el nombre del tipo va adentro: no hace
-    # falta gastar un renglon de titulo para el.
-    encabezado = ""
-    if solo:
-        encabezado = (f'<div style="font-size:10px;letter-spacing:.06em;'
-                      f'text-transform:uppercase;">'
-                      f'{escape(_recortar(tipo, c["ancho_pct"]))}</div>')
-    nombre = _recortar(c["quien"], c["ancho_pct"])
-    etiqueta = ""
-    if nombre and alto >= 30:
-        etiqueta = (f'<div style="font-size:11px;line-height:14px;">'
-                    f'{escape(nombre)}</div>')
-    return (f'<td width="{c["ancho_pct"]}%" height="{alto}" bgcolor="{fondo}" '
-            f'valign="top" style="background:{fondo};color:{tinta};'
-            f'padding:6px 8px;font-size:15px;font-weight:700;line-height:17px;">'
-            f'{encabezado}{c["n"]}{etiqueta}</td>')
+    if ancho_px >= 58 and alto_px >= 34:
+        texto = _cabe(nombre.upper(), ancho_px, 5.4)
+        cuerpo = (f'<div style="font-size:9px;line-height:11px;letter-spacing:.03em;">'
+                  f'{escape(texto)}</div>'
+                  f'<div style="font-size:14px;font-weight:700;line-height:17px;">'
+                  f'{cantidad}</div>')
+    elif ancho_px >= 30 and alto_px >= 20:
+        cuerpo = (f'<div style="font-size:12px;font-weight:700;line-height:14px;">'
+                  f'{cantidad}</div>')
+    else:
+        cuerpo = "&nbsp;"
+    return (f'<div style="color:{tinta};padding:5px 6px;">{cuerpo}</div>')
+
+
+def _dibujar(nodo: dict | None, contenido) -> str:
+    """Un arbol de franjas, con tablas anidadas.
+
+    `contenido(celda, ancho_px, alto_px)` devuelve el HTML de adentro del
+    pedazo y el color de fondo, o None si el pedazo trae otro treemap.
+    """
+    if not nodo:
+        return ""
+    celdas = nodo["celdas"]
+    resto = _dibujar(nodo["resto"], contenido)
+
+    if nodo["horizontal"]:
+        anchos = [round(100 * c["medida"] / nodo["ancho"]) for c in celdas]
+        anchos[-1] = 100 - sum(anchos[:-1])
+        alto = max(14, round(nodo["grosor"]))
+        tds = ""
+        for c, pct in zip(celdas, anchos):
+            html, fondo = contenido(c, c["medida"], nodo["grosor"])
+            color = f'bgcolor="{fondo}" style="background:{fondo};' if fondo else 'style="'
+            tds += (f'<td width="{pct}%" height="{alto}" valign="top" {color}'
+                    f'vertical-align:top;">{html}</td>')
+        franja = (f'<table role="presentation" width="100%" cellpadding="0" '
+                  f'cellspacing="2" style="table-layout:fixed;"><tr>{tds}</tr></table>')
+        if not resto:
+            return franja
+        return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+                f'style="table-layout:fixed;">'
+                f'<tr><td>{franja}</td></tr><tr><td>{resto}</td></tr></table>')
+
+    # Franja vertical: una columna con un pedazo por fila.
+    pct = max(1, min(99, round(100 * nodo["grosor"] / nodo["ancho"])))
+    filas = ""
+    for c in celdas:
+        html, fondo = contenido(c, nodo["grosor"], c["medida"])
+        color = f'bgcolor="{fondo}" style="background:{fondo};' if fondo else 'style="'
+        filas += (f'<tr><td height="{max(14, round(c["medida"]))}" valign="top" '
+                  f'{color}vertical-align:top;">{html}</td></tr>')
+    columna = (f'<table role="presentation" width="100%" cellpadding="0" '
+               f'cellspacing="2">{filas}</table>')
+    if not resto:
+        return columna
+    return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+            f'style="table-layout:fixed;"><tr>'
+            f'<td width="{pct}%" valign="top">{columna}</td>'
+            f'<td valign="top">{resto}</td></tr></table>')
+
+
+def _leyenda(grupos: list[dict]) -> str:
+    """Los tipos con su color, como en la cabecera de un treemap."""
+    partes = []
+    grises = []
+    for g in grupos:
+        if g["color"] < 0:
+            grises.append(g["tipo_nombre"].lower())
+            continue
+        partes.append(
+            f'<span style="white-space:nowrap;">'
+            f'<span style="display:inline-block;width:9px;height:9px;'
+            f'background:{_color(g["color"])};">&nbsp;</span> '
+            f'{escape(g["tipo_nombre"])} <b>{g["total"]}</b></span>')
+    if grises:
+        partes.append(
+            f'<span style="white-space:nowrap;">'
+            f'<span style="display:inline-block;width:9px;height:9px;'
+            f'background:{NEUTRO};">&nbsp;</span> '
+            f'{escape(", ".join(grises))}</span>')
+    return (f'<div style="color:{TEXTO};font-size:11px;line-height:19px;'
+            f'padding:2px 0 10px;">' + " &nbsp; ".join(partes) + "</div>")
 
 
 def _treemap(res: dict) -> str:
-    """El cruce del dia: area por cantidad, color por tipo, etiqueta por quien.
+    """El cruce del dia: area por cantidad, color por tipo, nombre adentro.
 
-    Cada banda es un tipo. Las de mas de una celda llevan un renglon de titulo
-    arriba; las de una sola lo llevan adentro, que ahorra alto.
+    Dos niveles: primero los tipos, y adentro de cada uno quien lo presento.
+    Anidar mantiene cada tipo junto, que es lo que hace que el color agrupe.
     """
-    grupos = bandas(res["cruce"])
+    grupos = [g for g in res["cruce"] if g["total"] > 0]
     if not grupos:
         return ""
 
-    filas = []
-    for g in grupos:
+    celdas_totales = sum(len(g["celdas"]) for g in grupos)
+    alto = alto_util(celdas_totales)
+    por_tipo = {g["tipo"]: g for g in grupos}
+    raiz = acomodar([(g["tipo"], g["total"]) for g in grupos], ANCHO_TREEMAP, alto)
+
+    def dentro(celda, ancho_px, alto_px):
+        g = por_tipo[celda["clave"]]
         fondo = _color(g["color"])
-        solo = len(g["celdas"]) == 1
-        if not solo:
-            filas.append(
-                f'<tr><td style="padding:10px 0 3px;color:{GRIS};font-size:10px;'
-                f'font-weight:700;letter-spacing:.07em;text-transform:uppercase;">'
-                f'{escape(g["tipo_nombre"])}'
-                f'<span style="color:{SUAVE};"> &nbsp;{g["total"]}</span></td></tr>')
-        celdas = "".join(_celda(c, fondo, g["alto_px"], solo, g["tipo_nombre"])
-                         for c in g["celdas"])
-        filas.append(
-            f'<tr><td style="padding-bottom:3px;">'
-            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="3" '
-            f'style="table-layout:fixed;"><tr>{celdas}</tr></table></td></tr>')
+        # Si el pedazo da el tamano, se subdivide por quien lo presento.
+        if len(g["celdas"]) > 1 and se_subdivide(ancho_px, alto_px):
+            sub = acomodar([(c["quien"], c["n"]) for c in g["celdas"]],
+                           ancho_px, alto_px)
+            cuenta = {c["quien"]: c["n"] for c in g["celdas"]}
+
+            def hoja(c2, a2, h2):
+                return _hoja(c2["clave"], cuenta[c2["clave"]], fondo, a2, h2), fondo
+
+            return _dibujar(sub, hoja), None
+        # No entra subdividido: va como un solo pedazo del tipo.
+        nombre = (g["celdas"][0]["quien"] if len(g["celdas"]) == 1
+                  else g["tipo_nombre"])
+        return _hoja(nombre, g["total"], fondo, ancho_px, alto_px), fondo
 
     pie = (f'<div style="color:{SUAVE};font-size:11px;line-height:15px;padding-top:10px;">'
-           f'Cada rectángulo es un tipo de expediente cruzado con quién lo presentó, '
-           f'y su tamaño es la cantidad.</div>')
+           f'Cada rectángulo es quién presentó, agrupado por color según el tipo de '
+           f'expediente, y su tamaño es la cantidad.</div>')
     return _panel("Qué entró y quién lo presentó",
-                  "".join(filas), pie)
+                  f'<tr><td>{_leyenda(grupos)}{_dibujar(raiz, dentro)}</td></tr>', pie)
 
 
 def _segmentos(celdas: list[dict], fondo: str, ancho_barra_pct: int) -> str:

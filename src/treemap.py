@@ -1,95 +1,109 @@
 #!/usr/bin/env python3
 """
-Acomoda el treemap del boletin en bandas horizontales.
+Treemap: reparte un rectangulo en pedazos de area proporcional.
 
-Es un treemap de dos niveles: cada banda es un tipo de expediente y su alto
-sale de cuantos entraron de ese tipo; adentro, cada celda es quien lo presento
-y su ancho sale de cuantos presento. El area de cada celda queda proporcional
-a su cantidad, que es lo que un treemap tiene que cumplir.
+El algoritmo es el "squarified" clasico. Toma los valores de mayor a menor y
+arma franjas contra el lado mas corto de lo que queda libre, que es lo que
+hace que los pedazos tiendan a ser cuadrados en vez de tiras. Cada franja se
+corta del rectangulo y se sigue con el resto, alternando horizontal y vertical
+segun cual sea el lado corto en cada paso.
 
-Por que en bandas y no con el algoritmo "squarified" clasico: ese ordena todo
-por tamano para que los rectangulos queden cuadrados, y al hacerlo mezcla los
-tipos. En un cruce eso es peor que un rectangulo feo: el color deja de agrupar
-y no se puede leer "esto es todo lo que entro de proyectos de ley".
+Por que importa alternar: si todas las franjas van horizontales y de ancho
+completo, un tipo con un solo expediente queda de 584 x 34, o sea una barra
+mas. Alternando queda de unos 90 x 90, que es lo que uno espera de un treemap.
 
-Y por que en bandas y no con posiciones: en HTML de correo no hay posiciones
-absolutas. Una banda es una tabla de una fila con celdas en porcentaje, que es
-lo unico que Gmail y Outlook renderizan igual.
+Se usa en dos niveles: primero los tipos de expediente, y adentro de cada uno,
+quien lo presento. Anidar mantiene cada tipo junto, que es lo que hace que el
+color agrupe y que se pueda leer "esto es todo lo que entro de proyectos de
+ley".
 
-Dos concesiones a la legibilidad, las dos hacia arriba y nunca hacia abajo:
-un alto minimo por banda y un ancho minimo por celda. Sin eso, un tipo con un
-solo expediente en un dia de cuarenta queda de tres pixeles. La cantidad va
-escrita en cada celda, asi que el numero manda sobre el area.
+La salida no son coordenadas: en HTML de correo no hay posiciones absolutas.
+Es un arbol de franjas —cada nodo es una franja mas el resto del rectangulo—
+que se dibuja con tablas anidadas, que es lo unico que Gmail y Outlook
+renderizan igual.
 """
 
 from __future__ import annotations
 
-# Ancho util adentro de la tarjeta del mail, en pixeles. Solo sirve para
-# estimar cuanto texto entra en cada celda; el ancho real lo pone el cliente.
+# Ancho util adentro de la tarjeta del mail. Solo sirve para calcular
+# proporciones y estimar cuanto texto entra; el ancho real lo pone el cliente.
 ANCHO = 584
 
-ALTO_MINIMO = 34
-ANCHO_MINIMO_PCT = 9
+# Abajo de este tamano un pedazo no se subdivide: no entraria nada adentro.
+MINIMO_ANCHO = 76
+MINIMO_ALTO = 46
 
 
-def alto_util(cantidad_celdas: int, cantidad_bandas: int) -> int:
-    """Un dia de dos expedientes no necesita el alto de uno de cuarenta."""
-    return max(110, min(320, 46 * cantidad_bandas + 6 * cantidad_celdas))
+def alto_util(cantidad: int) -> int:
+    """El alto total del dibujo, segun cuantos pedazos hay que meter."""
+    if cantidad <= 2:
+        return 140
+    if cantidad <= 5:
+        return 230
+    return min(360, 170 + 13 * cantidad)
 
 
-def bandas(grupos: list[dict], alto_total: int | None = None) -> list[dict]:
-    """Bandas de alto proporcional, con celdas de ancho proporcional.
+def _peor_relacion(areas: list[float], corto: float) -> float:
+    """La proporcion del pedazo mas deformado de la franja. 1 es un cuadrado."""
+    suma = sum(areas)
+    if suma <= 0 or corto <= 0:
+        return float("inf")
+    grosor = suma / corto
+    peor = 1.0
+    for a in areas:
+        lado = a / grosor
+        if lado <= 0:
+            return float("inf")
+        peor = max(peor, lado / grosor, grosor / lado)
+    return peor
 
-    `grupos` viene ordenado y es [{"total": n, "celdas": [{"n": n, ...}]}].
-    Devuelve lo mismo con "alto_px" en cada banda y "ancho_pct" en cada celda.
+
+def acomodar(items: list[tuple], ancho: float, alto: float) -> dict | None:
+    """Arbol de franjas para `items`, que es [(clave, valor), ...].
+
+    Cada nodo trae si la franja es horizontal, su grosor en pixeles, las
+    celdas con su medida a lo largo, y el resto del rectangulo como otro nodo.
     """
-    grupos = [g for g in grupos if g["total"] > 0]
-    if not grupos:
-        return []
+    items = [(k, v) for k, v in items if v > 0]
+    if not items or ancho <= 0 or alto <= 0:
+        return None
+    items = sorted(items, key=lambda kv: -kv[1])
 
-    total = sum(g["total"] for g in grupos)
-    celdas = sum(len(g["celdas"]) for g in grupos)
-    alto = alto_total if alto_total is not None else alto_util(celdas, len(grupos))
+    total = sum(v for _, v in items)
+    escala = ancho * alto / total
+    corto = min(ancho, alto)
 
-    # Las bandas que no llegan al minimo se fijan ahi, y el alto que queda se
-    # reparte proporcionalmente entre las demas. Hay que repetirlo porque al
-    # repartir de nuevo puede caer otra abajo del minimo. Sin esto —sacandole
-    # a la mas grande— las proporciones se dan vuelta.
-    alto = max(alto, ALTO_MINIMO * len(grupos))
-    fijas: set[int] = set()
-    while True:
-        libre = alto - ALTO_MINIMO * len(fijas)
-        suma_libres = sum(g["total"] for i, g in enumerate(grupos) if i not in fijas)
-        if not suma_libres:
+    # La franja crece mientras agregar el siguiente no empeore la proporcion.
+    franja: list[tuple] = []
+    mejor = float("inf")
+    for item in items:
+        prueba = franja + [item]
+        r = _peor_relacion([v * escala for _, v in prueba], corto)
+        if franja and r > mejor:
             break
-        chicas = [i for i, g in enumerate(grupos)
-                  if i not in fijas and libre * g["total"] / suma_libres < ALTO_MINIMO]
-        if not chicas:
-            break
-        fijas.update(chicas)
-    altos = [ALTO_MINIMO if i in fijas
-             else max(ALTO_MINIMO, round(libre * g["total"] / suma_libres))
-             for i, g in enumerate(grupos)]
+        franja, mejor = prueba, r
 
-    salida = []
-    for g, alto_banda in zip(grupos, altos):
-        suma = sum(c["n"] for c in g["celdas"])
-        anchos = [max(ANCHO_MINIMO_PCT, round(100 * c["n"] / suma))
-                  for c in g["celdas"]]
-        # Los porcentajes tienen que cerrar en 100: lo que sobra por el minimo
-        # se le saca a la celda mas ancha.
-        exceso = sum(anchos) - 100
-        while exceso > 0:
-            i = max(range(len(anchos)), key=lambda i: anchos[i])
-            if anchos[i] <= ANCHO_MINIMO_PCT:
-                break
-            quita = min(exceso, anchos[i] - ANCHO_MINIMO_PCT)
-            anchos[i] -= quita
-            exceso -= quita
-        anchos[-1] += 100 - sum(anchos)
-        salida.append({
-            **g,
-            "alto_px": alto_banda,
-            "celdas": [{**c, "ancho_pct": a} for c, a in zip(g["celdas"], anchos)],
-        })
-    return salida
+    grosor = sum(v * escala for _, v in franja) / corto
+    horizontal = corto == ancho
+    resto = items[len(franja):]
+    return {
+        "horizontal": horizontal,
+        "grosor": grosor,
+        "ancho": ancho,
+        "alto": alto,
+        "celdas": [{"clave": k, "valor": v, "medida": v * escala / grosor}
+                   for k, v in franja],
+        "resto": (acomodar(resto, ancho, alto - grosor) if horizontal
+                  else acomodar(resto, ancho - grosor, alto)),
+    }
+
+
+def medida_celda(nodo: dict, celda: dict) -> tuple[float, float]:
+    """El ancho y el alto en pixeles de un pedazo, para poder subdividirlo."""
+    if nodo["horizontal"]:
+        return celda["medida"], nodo["grosor"]
+    return nodo["grosor"], celda["medida"]
+
+
+def se_subdivide(ancho: float, alto: float) -> bool:
+    return ancho >= MINIMO_ANCHO and alto >= MINIMO_ALTO
