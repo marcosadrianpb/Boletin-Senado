@@ -542,11 +542,33 @@ que pase SPF **o** DKIM, que haya baja en un clic y que las quejas sean pocas. T
 cumple Brevo con su propia autenticación. O sea que no esperamos un rechazo por política; el
 riesgo es caer en spam por reputación, que es otra cosa y hay que medirla.
 
-**Dato sin confirmar:** la documentación de Brevo dice que, cuando el dominio no está
-autenticado, reemplazan el dominio del remitente por uno propio y el mail sale desde algo
-como `boletin@5000001.brevosend.com`. La pantalla de remitentes no lo confirma: muestra la
-dirección de Gmail verificada. **Cuál de las dos cosas pasa se ve en el primer envío de
-prueba**, mirando el `From` real en *Mostrar original*. Para eso es la lista de prueba.
+### Confirmado en el primer envío real (1/9/2026)
+
+**Brevo sí reescribe el dominio.** El mail llegó con este remitente:
+
+```
+Boletin proyectos ingresados <proparlamentariasenado@11940744.brevosend.com>
+```
+
+Mantiene la parte de antes del arroba y el nombre visible, y cambia el dominio por uno suyo.
+En la bandeja se ve el nombre; la dirección rara aparece solo si se despliega el encabezado.
+
+Y como ese dominio **sí** es de Brevo y ellos lo firman, todo alinea. Encabezados del mail
+que llegó a Gmail:
+
+```
+SPF   : PASS con la IP 77.32.148.37
+DKIM  : PASS con el dominio 11940744.brevosend.com
+DMARC : PASS
+```
+
+Entregado nueve segundos después de mandarlo. **La entregabilidad por autenticación está
+resuelta sin comprar dominio.** Lo que se pierde es que la dirección no sea reconocible, no
+que el mail no llegue.
+
+Mejor todavía: llegó a la **bandeja Prioritarios del correo del Senado**, que es un buzón
+corporativo de Microsoft con reglas de organización. Era la prueba más exigente de las tres
+y no solo no cayó en spam: el filtro lo marcó como prioritario.
 
 Verificado el 20/8/2026, la política de Gmail hoy es blanda:
 
