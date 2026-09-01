@@ -123,6 +123,8 @@ def main(argv=None) -> int:
     p.add_argument("--responder-a", default=None,
                    help="por defecto, la misma casilla del remitente")
     p.add_argument("--senadores", type=Path, default=Path("datos/senadores.json"))
+    p.add_argument("--nombre", default=None,
+                   help="nombre de la campana en Brevo; por defecto, el del dia")
     p.add_argument("--etiqueta", default=None,
                    help="etiqueta de la campana; solo la aceptan los planes pagos")
     p.add_argument("--guardar-html", type=Path, default=None,
@@ -149,7 +151,9 @@ def main(argv=None) -> int:
         a.guardar_html.parent.mkdir(parents=True, exist_ok=True)
         a.guardar_html.write_text(html, encoding="utf-8")
 
-    nombre = nombre_campana(nov["fecha"])
+    # Con --nombre se le puede dar uno distinto: sirve para las pruebas, que
+    # no tienen que pisar ni bloquear la campana del dia.
+    nombre = a.nombre or nombre_campana(nov["fecha"])
     cuerpo = {
         "name": nombre,
         "subject": asunto(nov),

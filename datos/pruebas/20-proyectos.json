@@ -1,0 +1,587 @@
+{
+ "fecha": "2026-09-01",
+ "generado": "2026-09-01T16:32:16-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "1331/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "CORROZA: PROYECTO DE LEY QUE IMPLEMENTA UNA CAMPAÑA NACIONAL PERMANENTE DE PREVENCION DE ESTAFAS TELEFONICAS, POR INTERNET Y FRAUDES CIBERASISTIDOS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1331.26/S/PL",
+    "fecha_mesa": "2026-08-07",
+    "dae": "58/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Corroza , Julieta"
+    ],
+    "autores_id": [
+     "587"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE SISTEMAS, MEDIOS DE COMUNICACIÓN Y LIBERTAD DE EXPRESIÓN",
+      "orden": "1",
+      "ingreso": "13-08-2026"
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "orden": "2",
+      "ingreso": "13-08-2026"
+     },
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "orden": "3",
+      "ingreso": "13-08-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498592/downloadPdf"
+   }
+  },
+  {
+   "expediente": "439/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "HUALA: REPRODUCE PROYECTO DE LEY QUE TRANSFIERE A TITULO GRATUITO A FAVOR DE LA MUNICIPALIDAD DE GENERAL SAN MARTIN, PROV. DE LA PAMPA, EL DOMINIO DE UN INMUEBLE PROPIEDAD DEL ESTADO NACIONAL UBICADO EN LA MENCIONADA LOCALIDAD. (REF. S. 1980/24)",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/439.26/S/PL",
+    "fecha_mesa": "2026-04-09",
+    "dae": "21/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Huala , María Victoria"
+    ],
+    "autores_id": [
+     "531"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "orden": "1",
+      "ingreso": "16-04-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/495227/downloadPdf"
+   }
+  },
+  {
+   "expediente": "909/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "CARAMBIA: PROYECTO DE LEY QUE INCORPORA INCISO C) AL ART. 75 DE LA LEY 25.565 (PRESUPUESTO GENERAL DE LA ADMINISTRACION NACIONAL), Y EL ART. 3 BIS A LA LEY 27.637 (RÉGIMEN DE ZONA FRÍA), QUE ESTABLECE UNA BONIFICACION ADICIONAL POR ZONA POLAR, EN LAS PROV. DE SANTA CRUZ Y TIERRA DEL FUEGO Y A.I.A.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/909.26/S/PL",
+    "fecha_mesa": "2026-05-26",
+    "dae": "38/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Carambia , José María",
+     "Gadano , Natalia Elena"
+    ],
+    "autores_id": [
+     "567",
+     "568"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE MINERÍA, ENERGÍA Y COMBUSTIBLES",
+      "orden": "1",
+      "ingreso": "29-05-2026"
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "orden": "2",
+      "ingreso": "29-05-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/496716/downloadPdf"
+   }
+  },
+  {
+   "expediente": "922/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "DE PEDRO Y DI TULLIO: PROYECTO DE LEY QUE MODIFICA SU SIMILAR 26.566 -ACTIVIDAD NUCLEAR-, RESPECTO DE ASIGNARLE AL CONGRESO DE LA NACION LAS FACULTADES PARA EL DESARROLLO DEL PROTOTIPO DE REACTOR CAREM.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/922.26/S/PL",
+    "fecha_mesa": "2026-05-28",
+    "dae": "39/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "de Pedro , Eduardo Enrique",
+     "Di Tullio , Juliana"
+    ],
+    "autores_id": [
+     "545",
+     "517"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE MINERÍA, ENERGÍA Y COMBUSTIBLES",
+      "orden": "1",
+      "ingreso": "11-06-2026"
+     },
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "2",
+      "ingreso": "11-06-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/497161/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1277/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "ATAUCHE: PROYECTO DE LEY QUE CREA EL REGIMEN DE PROTECCION SEXUAL DIGITAL Y PREVENCION DE LA DIFUSION NO CONSENTIDA DE CONTENIDO MANIPULADO POR INTELIGENCIA ARTIFICIAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1277.26/S/PL",
+    "fecha_mesa": "2026-08-03",
+    "dae": "55/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Atauche , Ezequiel"
+    ],
+    "autores_id": [
+     "552"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE SISTEMAS, MEDIOS DE COMUNICACIÓN Y LIBERTAD DE EXPRESIÓN",
+      "orden": "1",
+      "ingreso": "13-08-2026"
+     },
+     {
+      "comision": "DE JUSTICIA Y ASUNTOS PENALES",
+      "orden": "2",
+      "ingreso": "13-08-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498539/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1191/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL 105° ANIVERSARIO DE LA LOC. DE LAS BREÑAS, PROV. DEL CHACO, EL 11 DE JULIO DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1191.26/S/PD",
+    "fecha_mesa": "2026-07-08",
+    "dae": "51/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "orden": "1",
+      "ingreso": "13-08-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498467/downloadPdf"
+   }
+  },
+  {
+   "expediente": "554/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "ROJAS DECUT Y ARCE: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA CONMEMORACION DEL PRIMER ANIVERSARIO DEL FALLECIMIENTO DEL PAPA FRANCISCO, EL 21 DE ABRIL DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/554.26/S/PD",
+    "fecha_mesa": "2026-04-22",
+    "dae": "27/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Rojas Decut , Sonia Elizabeth",
+     "Arce , Carlos Omar"
+    ],
+    "autores_id": [
+     "559",
+     "558"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE RELACIONES EXTERIORES Y CULTO",
+      "orden": "1",
+      "ingreso": "30-04-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/495667/downloadPdf"
+   }
+  },
+  {
+   "expediente": "589/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "MARKS: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS EL LIBRO \"EL PINTOR DE LA SUIZA ARGENTINA. HISTORIA DE UN LIBRO SOBRE LOS NAZIS DE BARILOCHE\", DEL AUTOR ESTEBAN BUCH.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/589.26/S/PD",
+    "fecha_mesa": "2026-04-27",
+    "dae": "29/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Marks , Ana Inés"
+    ],
+    "autores_id": [
+     "589"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "orden": "1",
+      "ingreso": "30-04-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/495701/downloadPdf"
+   }
+  },
+  {
+   "expediente": "475/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "CORROZA: PROYECTO DE DECLARACIÓN QUE ADHIERE AL 62° ANIVERSARIO DE LA LOCALIDAD DE HUINGANCO, DEPARTAMENTO MINAS, PROV. DEL NEUQUEN, EL 16 DE ABRIL DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/475.26/S/PD",
+    "fecha_mesa": "2026-04-10",
+    "dae": "23/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Corroza , Julieta"
+    ],
+    "autores_id": [
+     "587"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "orden": "1",
+      "ingreso": "16-04-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/495257/downloadPdf"
+   }
+  },
+  {
+   "expediente": "674/26",
+   "tipo": "PC",
+   "origen": "S",
+   "extracto": "ROYON: PROYECTO DE COMUNICACIÓN QUE SOLICITA UN RELEVAMIENTO TECNICO INTEGRAL, INSPECCION ESTRUCTURAL Y EJECUCION DE TAREAS DE MANTENIMIENTO DE LOS PUENTES CARRETEROS SOBRE EL RIO BERMEJO Y PILCOMAYO, EN LOS DEPARTAMENTOS DE ORAN, SAN MARTIN Y RIVADAVIA, PROV. DE SALTA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/674.26/S/PC",
+    "fecha_mesa": "2026-05-06",
+    "dae": "33/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Royon , Flavia Gabriela"
+    ],
+    "autores_id": [
+     "593"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE INFRAESTRUCTURA, VIVIENDA Y TRANSPORTE",
+      "orden": "1",
+      "ingreso": "12-05-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/496081/downloadPdf"
+   }
+  },
+  {
+   "expediente": "899/26",
+   "tipo": "PC",
+   "origen": "S",
+   "extracto": "LOPEZ C. Y SORIA: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE LA CARTA DE INTENCION EN EL MARCO DEL LANZAMIENTO DEL \"PROTECTING GLOBAL COMMONS PROGRAM\".",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/899.26/S/PC",
+    "fecha_mesa": "2026-05-21",
+    "dae": "38/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "López , Cándida Cristina",
+     "Soria , Martin Ignacio",
+     "González , María Teresa Margarita"
+    ],
+    "autores_id": [
+     "574",
+     "588",
+     "477"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE RELACIONES EXTERIORES Y CULTO",
+      "orden": "1",
+      "ingreso": "29-05-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/496703/downloadPdf"
+   }
+  },
+  {
+   "expediente": "687/26",
+   "tipo": "PC",
+   "origen": "S",
+   "extracto": "ZAMORA: PROYECTO DE COMUNICACION QUE SOLICITA LA APERTURA DE UNA DELEGACION DE LA DIRECCION NACIONAL DE MIGRACIONES EN LA CDAD. CAPITAL DE LA PROV. DE SANTIAGO DEL ESTERO, UNA OFICINA MIGRATORIA EN LA CDAD. DE LA BANDA Y UN CENTRO DE DOCUMENTACION RAPIDA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/687.26/S/PC",
+    "fecha_mesa": "2026-05-07",
+    "dae": "33/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Zamora , Gerardo"
+    ],
+    "autores_id": [
+     "450"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE POBLACIÓN Y DESARROLLO HUMANO",
+      "orden": "1",
+      "ingreso": "12-05-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/496094/downloadPdf"
+   }
+  },
+  {
+   "expediente": "112/26",
+   "tipo": "PR",
+   "origen": "S",
+   "extracto": "VARIOS SENADORES: PROYECTO DE RESOLUCION QUE MODIFICA LOS ARTS. 22 BIS Y 123 BIS DEL REGLAMENTO DE LA CAMARA DE SENADORES DE LA NACION, RESPECTO DE LOS REQUISITOS PROCEDIMENTALES SOBRE LA SOLICITUD DE ACUERDOS PARA JUECES Y CONJUECES DE LA CORTE SUPREMA DE JUSTICIA, MAGISTRADOS DEL PODER JUDICIAL DE",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/112.26/S/PR",
+    "fecha_mesa": "2026-03-10",
+    "dae": "6/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Bullrich , Patricia",
+     "Mayans , José Miguel Ángel",
+     "Vischi , Eduardo Alejandro",
+     "Coto , Agustín Pedro",
+     "Salino , Fernando Aldo",
+     "Huala , María Victoria",
+     "Gadano , Natalia Elena",
+     "Avila , Beatriz Luisa",
+     "Mendoza , Sandra Mariela",
+     "Corroza , Julieta",
+     "Abdala , Bartolomé Esteban",
+     "Espínola , Carlos Mauricio",
+     "Juri , Mariana"
+    ],
+    "autores_id": [
+     "580",
+     "294",
+     "524",
+     "595",
+     "566",
+     "531",
+     "568",
+     "541",
+     "540",
+     "587",
+     "564",
+     "461",
+     "534"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "11-03-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/493863/downloadPdf"
+   }
+  },
+  {
+   "expediente": "10/26",
+   "tipo": "AC",
+   "origen": "PE",
+   "extracto": "MENSAJE N° 20/26 QUE SOLICITA ACUERDO PARA DESIGNAR DIRECTOR DEL BANCO CENTRAL DE LA REPÚBLICA ARGENTINA, AL LICENCIADO EN ECONOMÍA MARTÍN VAUTHIER.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/10.26/PE/AC",
+    "fecha_mesa": "2026-03-25",
+    "dae": "3/2026",
+    "dae_tipo": "ACUERDOS",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "orden": "1",
+      "ingreso": "25-03-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/494361/downloadPdf"
+   }
+  },
+  {
+   "expediente": "3/26",
+   "tipo": "AC",
+   "origen": "PE",
+   "extracto": "MENSAJE N° 14/26 QUE SOLICITA ACUERDO PARA PROMOVER AL GRADO INMEDIATO SUPERIOR, CON FECHA 15 DE DICIEMBRE DE 2025, AL VICEALMIRANTE JUAN CARLOS ROMAY.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/3.26/PE/AC",
+    "fecha_mesa": "2026-03-04",
+    "dae": "1/2026",
+    "dae_tipo": "ACUERDOS",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "orden": "1",
+      "ingreso": "04-03-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/493720/downloadPdf"
+   }
+  },
+  {
+   "expediente": "171/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE 9 DE JULIO, PROV. DE BS. AS.: EXPRESA PREOCUPACIÓN Y RECHAZA LAS VERSIONES QUE INDICAN UN CIERRE, TRASLADO O REDUCCIÓN DE LA ESTACIÓN LOCAL DEL SERVICIO METEOROLÓGICO NACIONAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/171.26/OV/CV",
+    "fecha_mesa": "2026-05-26",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/497136/downloadPdf"
+   }
+  },
+  {
+   "expediente": "195/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE SAN ANTONIO DE ARECO, PROV. DE BS.AS.: SOLICITA LA INCORPORACIÓN DEL PARTIDO DE SAN ANTONIO DE ARECO A LOS PROGRAMAS PROVINCIALES DE MEJORAMIENTO DE CAMINOS RURALES, INCLUYENDO LA ELABORACION DE UN PLAN DIRECTOR, ASISTENCIA TENICA Y PROVISIÓN DE MAQUINARIA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/195.26/OV/CV",
+    "fecha_mesa": "2026-06-01",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/497105/downloadPdf"
+   }
+  },
+  {
+   "expediente": "796/26",
+   "tipo": "CC",
+   "origen": "S",
+   "extracto": "AVILA: SOLICITA LA INCORPORACION DE SU FIRMA AL DICTAMEN EN EL MENSAJE N° 81/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, VOCALIA N° 14, A LA DRA. YAMILE SUSANA BERNAN. (REF. P.E. 71/26).",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/796.26/S/CC",
+    "fecha_mesa": "2026-05-14",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Avila , Beatriz Luisa"
+    ],
+    "autores_id": [
+     "541"
+    ],
+    "comisiones": [],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "1299/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "DI TULLIO: FORMULA IMPUGNACION FORMAL Y SOLICITA SE INTIME AL SDOR. JOAQUIN BENEGAS LYNCH A ABSTENERSE DE INTERVENIR EN EL PROCESO PARLAMENTARIO DEL PROYECTO DE LEY SOBRE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA. (REF. P.E. 13/26)",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1299.26/S/CO",
+    "fecha_mesa": "2026-08-05",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Di Tullio , Juliana"
+    ],
+    "autores_id": [
+     "517"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "07-08-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498345/downloadPdf"
+   }
+  },
+  {
+   "expediente": "22/26",
+   "tipo": "PP",
+   "origen": "P",
+   "extracto": "FRADE MONICA EDITH, DIPUTADA DE LA NACION: COMUNICA CARTA DOCUMENTO VINCULADA AL TRATAMIENTO DE LA MODIFICACION DE LA LEY DE INOCENCIA FISCAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/22.26/P/PP",
+    "fecha_mesa": "2026-08-10",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/498607/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [
+  {
+   "expediente": "1331/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "CORROZA: PROYECTO DE LEY QUE IMPLEMENTA UNA CAMPAÑA NACIONAL PERMANENTE DE PREVENCION DE ESTAFAS TELEFONICAS, POR INTERNET Y FRAUDES CIBERASISTIDOS.",
+   "anio": 2026,
+   "cambios": {
+    "extracto": [
+     "TEXTO ANTERIOR DE PRUEBA",
+     "CORROZA: PROYECTO DE LEY QUE IMPLEMENTA UNA CAMPAÑA NACIONAL PERMANENTE DE PREVENCION DE ESTAFAS TELEFONICAS, POR INTERNET Y FRAUDES CIBERASISTIDOS."
+    ]
+   }
+  }
+ ],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2079,
+ "total_ahora": 2099,
+ "prueba": true
+}

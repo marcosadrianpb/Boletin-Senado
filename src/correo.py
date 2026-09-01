@@ -246,19 +246,12 @@ def seccion(codigo: str, grupo: list[dict]) -> str:
 
 
 def asunto(nov: dict) -> str:
-    partes = []
-    for campo, singular, plural in (("altas", "expediente nuevo", "expedientes nuevos"),
-                                    ("reingresos", "reingreso", "reingresos"),
-                                    ("correcciones", "corrección", "correcciones"),
-                                    ("bajas", "baja", "bajas")):
-        n = len(nov.get(campo) or [])
-        if n:
-            partes.append(f"{n} {singular if n == 1 else plural}")
-    d = fecha_corta(nov["fecha"])
-    # "Proyectos ingresados" y no "Boletín del Senado": el asunto tiene que
-    # decir lo mismo que el remitente y que el encabezado, y no dar a entender
-    # que el mail sale del Senado.
-    return f"Proyectos ingresados {d} - {', '.join(partes) or 'sin novedades'}"
+    """Corto y siempre igual: "Proyectos ingresados 01/09/2026".
+
+    Dice lo mismo que el remitente y que el encabezado, y no da a entender que
+    el mail salga del Senado. Las cuentas del dia van adentro, en el tablero.
+    """
+    return f"Proyectos ingresados {fecha_corta(nov['fecha'])}"
 
 
 def _hora(nov: dict) -> str:

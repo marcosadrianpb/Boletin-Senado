@@ -16,6 +16,9 @@ on:
       fecha:
         description: "Dia del boletin a usar (AAAA-MM-DD). Vacio = hoy"
         default: ""
+      archivo:
+        description: "Archivo de novedades a usar en vez del dia (ej: datos/pruebas/20-proyectos.json)"
+        default: ""
       lista:
         description: "Id de la lista de Brevo. Vacio = el de la variable BREVO_LISTA"
         default: ""
@@ -49,18 +52,28 @@ jobs:
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           FECHA: ${{ inputs.fecha }}
+          ARCHIVO: ${{ inputs.archivo }}
+          CORRIDA: ${{ github.run_number }}
           LISTAS: ${{ inputs.lista != '' && inputs.lista || vars.BREVO_LISTA }}
           MANDAR: ${{ inputs.mandar }}
         run: |
-          ARGS=""
-          if [ -n "$FECHA" ]; then ARGS="--fecha $FECHA"; fi
-          for id in $LISTAS; do ARGS="$ARGS --lista $id"; done
-          if [ "$MANDAR" = "true" ]; then ARGS="$ARGS --mandar"; fi
+          # Arreglo y no una cadena: el nombre de la campana lleva espacios y
+          # dentro de una variable el shell lo partiria en pedazos.
+          ARGS=()
+          if [ -n "$FECHA" ]; then ARGS+=(--fecha "$FECHA"); fi
+          # Una prueba no puede pisar ni bloquear la campana del dia, asi que
+          # va con nombre propio y distinto en cada corrida.
+          if [ -n "$ARCHIVO" ]; then
+            ARGS+=(--novedades "$ARCHIVO"
+                   --nombre "Prueba $CORRIDA - $(basename "$ARCHIVO" .json)")
+          fi
+          for id in $LISTAS; do ARGS+=(--lista "$id"); done
+          if [ "$MANDAR" = "true" ]; then ARGS+=(--mandar); fi
           if [ -z "$BREVO_API_KEY" ]; then
             echo "No hay BREVO_API_KEY: se arma el mail pero no se toca Brevo."
-            ARGS="$ARGS --seco"
+            ARGS+=(--seco)
           fi
-          python -m src.envio $ARGS --guardar-html "$RUNNER_TEMP/mail.html"
+          python -m src.envio "${ARGS[@]}" --guardar-html "$RUNNER_TEMP/mail.html"
 
       - name: Subir el mail para poder mirarlo
         if: always()
