@@ -500,6 +500,14 @@ Decisiones, y por qué:
   lleva su nombre escrito, así que la paleta solo refuerza.
 - **La tinta de cada celda se calcula** por contraste real contra el fondo, no a ojo. Sobre
   el naranja, el aqua y el gris, el negro contrasta casi el doble que el blanco.
+- Arriba va una **leyenda** con el color de cada tipo y su cantidad, como en la cabecera de
+  un treemap. Los tipos que quedan fuera del tope de colores comparten el gris y se listan
+  juntos al final de la leyenda.
+
+Queda además la figura alternativa de **barras apiladas** (`--figura barras`), que dice lo
+mismo con largo en vez de área: nombre y total del tipo a la izquierda, la barra segmentada
+por quién lo presentó a la derecha y los nombres con su cuenta abajo. Se elige desde
+`src.correo`, `src.envio` y el banco de pruebas.
 
 ### Lo que no puede entrar en el treemap
 
