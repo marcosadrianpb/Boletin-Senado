@@ -271,11 +271,73 @@ def _treemap(res: dict) -> str:
                   "".join(filas), pie)
 
 
-def _tablero(res: dict) -> str:
+def _segmentos(celdas: list[dict], fondo: str, ancho_barra_pct: int) -> str:
+    """Los pedazos de una barra, uno por quien presento, separados por 2 px."""
+    tinta = _tinta(fondo)
+    suma = sum(c["n"] for c in celdas)
+    px_barra = ANCHO_TREEMAP * 0.62 * ancho_barra_pct / 100
+    partes = []
+    for i, c in enumerate(celdas):
+        pct = round(100 * c["n"] / suma)
+        if i == len(celdas) - 1:
+            pct = 100 - sum(round(100 * x["n"] / suma) for x in celdas[:-1])
+        # El numero solo entra si el pedazo mide algo; si no, va vacio y se
+        # lee en el renglon de abajo.
+        cabe = px_barra * pct / 100 >= 22
+        partes.append(
+            f'<td width="{pct}%" height="22" bgcolor="{fondo}" align="center" '
+            f'style="background:{fondo};color:{tinta};font-size:12px;'
+            f'font-weight:700;line-height:22px;">{c["n"] if cabe else "&nbsp;"}</td>')
+    return "".join(partes)
+
+
+def _barra_apilada(g: dict, maximo: int) -> str:
+    """Un tipo: nombre y total a la izquierda, la barra segmentada a la derecha.
+
+    El largo de la barra es la cantidad del tipo comparada con la del tipo mas
+    grande del dia; los pedazos, quien lo presento.
+    """
+    fondo = _color(g["color"])
+    ancho = max(8, round(100 * g["total"] / maximo))
+    quienes = " &middot; ".join(f'{escape(c["quien"])} {c["n"]}' for c in g["celdas"])
+
+    barra = (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+             f'style="table-layout:fixed;"><tr>'
+             f'<td width="{ancho}%" style="padding-right:2px;">'
+             f'<table role="presentation" width="100%" cellpadding="0" cellspacing="2" '
+             f'style="table-layout:fixed;"><tr>{_segmentos(g["celdas"], fondo, ancho)}'
+             f'</tr></table></td>'
+             f'<td height="22" bgcolor="{BORDE}" style="background:{BORDE};'
+             f'font-size:0;line-height:0;">&nbsp;</td></tr></table>')
+
+    return (f'<tr>'
+            f'<td width="34%" valign="top" style="padding:12px 12px 0 0;">'
+            f'<div style="color:{TEXTO};font-size:12px;line-height:15px;'
+            f'font-weight:700;">{escape(g["tipo_nombre"])}</div>'
+            f'<div style="color:{SUAVE};font-size:11px;">{g["total"]}</div></td>'
+            f'<td width="66%" valign="top" style="padding:12px 0 0;">{barra}'
+            f'<div style="color:{GRIS};font-size:11px;line-height:15px;'
+            f'padding-top:4px;">{quienes}</div></td></tr>')
+
+
+def _barras(res: dict) -> str:
+    """El mismo cruce que el treemap, con largo en vez de area."""
+    grupos = res["cruce"]
+    if not grupos:
+        return ""
+    maximo = max(g["total"] for g in grupos)
+    pie = (f'<div style="color:{SUAVE};font-size:11px;line-height:15px;padding-top:12px;">'
+           f'El largo de cada barra es cuántos entraron de ese tipo, y los pedazos, '
+           f'quién los presentó.</div>')
+    return _panel("Qué entró y quién lo presentó",
+                  "".join(_barra_apilada(g, maximo) for g in grupos), pie)
+
+
+def _tablero(res: dict, figura: str = "treemap") -> str:
     """Los numeros del dia, arriba de todo y separados del listado."""
     L = [_recuadros(res)]
 
-    L.append(_treemap(res))
+    L.append(_barras(res) if figura == "barras" else _treemap(res))
 
     if res["comisiones"] or res["sin_giro"]:
         pie = ""
@@ -344,7 +406,7 @@ def _hora(nov: dict) -> str:
 
 
 def html_cuerpo(nov: dict, senadores: dict | None = None,
-                baja: str = BAJA, tope: int = TOPE) -> str:
+                baja: str = BAJA, tope: int = TOPE, figura: str = "treemap") -> str:
     altas = nov.get("altas") or []
     res = armar(nov, senadores or {})
 
@@ -422,7 +484,7 @@ def html_cuerpo(nov: dict, senadores: dict | None = None,
 </td></tr>
 
 <tr><td style="padding:0 28px 24px;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0">{_tablero(res)}</table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0">{_tablero(res, figura)}</table>
 </td></tr>
 
 <tr><td style="padding:0 28px;border-top:1px solid {BORDE};">
@@ -487,6 +549,8 @@ def main(argv=None) -> int:
     p.add_argument("--html", type=Path, default=None)
     p.add_argument("--texto", type=Path, default=None)
     p.add_argument("--baja", default=BAJA, help="link de baja; Brevo pone el suyo")
+    p.add_argument("--figura", choices=("treemap", "barras"), default="treemap",
+                   help="como se dibuja el cruce de tipo y bloque")
     p.add_argument("--senadores", type=Path, default=Path("datos/senadores.json"),
                    help="padron de senadores, para el panel por bloque")
     a = p.parse_args(argv)
@@ -512,7 +576,7 @@ def main(argv=None) -> int:
 
     html = a.html or Path(f"datos/correos/{nov['fecha']}.html")
     texto = a.texto or html.with_suffix(".txt")
-    for ruta, contenido in ((html, html_cuerpo(nov, senadores, a.baja)),
+    for ruta, contenido in ((html, html_cuerpo(nov, senadores, a.baja, figura=a.figura)),
                             (texto, texto_plano(nov))):
         ruta.parent.mkdir(parents=True, exist_ok=True)
         ruta.write_text(contenido, encoding="utf-8")

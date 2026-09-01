@@ -125,6 +125,8 @@ def main(argv=None) -> int:
     p.add_argument("--senadores", type=Path, default=Path("datos/senadores.json"))
     p.add_argument("--nombre", default=None,
                    help="nombre de la campana en Brevo; por defecto, el del dia")
+    p.add_argument("--figura", choices=("treemap", "barras"), default="treemap",
+                   help="como se dibuja el cruce de tipo y bloque en el mail")
     p.add_argument("--etiqueta", default=None,
                    help="etiqueta de la campana; solo la aceptan los planes pagos")
     p.add_argument("--guardar-html", type=Path, default=None,
@@ -146,7 +148,7 @@ def main(argv=None) -> int:
         salida_actions("mandado", "false")
         return 0
 
-    html = html_cuerpo(nov, cargar_senadores(a.senadores))
+    html = html_cuerpo(nov, cargar_senadores(a.senadores), figura=a.figura)
     if a.guardar_html:
         a.guardar_html.parent.mkdir(parents=True, exist_ok=True)
         a.guardar_html.write_text(html, encoding="utf-8")

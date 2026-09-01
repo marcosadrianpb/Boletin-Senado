@@ -22,6 +22,11 @@ on:
       lista:
         description: "Id de la lista de Brevo. Vacio = el de la variable BREVO_LISTA"
         default: ""
+      figura:
+        description: "Como se dibuja el cruce: treemap o barras"
+        type: choice
+        options: ["treemap", "barras"]
+        default: "treemap"
       mandar:
         description: "Mandarla de verdad. Sin tildar, queda en borrador"
         type: boolean
@@ -56,6 +61,7 @@ jobs:
           CORRIDA: ${{ github.run_number }}
           LISTAS: ${{ inputs.lista != '' && inputs.lista || vars.BREVO_LISTA }}
           MANDAR: ${{ inputs.mandar }}
+          FIGURA: ${{ inputs.figura }}
         run: |
           # Arreglo y no una cadena: el nombre de la campana lleva espacios y
           # dentro de una variable el shell lo partiria en pedazos.
@@ -68,6 +74,7 @@ jobs:
                    --nombre "Prueba $CORRIDA - $(basename "$ARCHIVO" .json)")
           fi
           for id in $LISTAS; do ARGS+=(--lista "$id"); done
+          if [ -n "$FIGURA" ]; then ARGS+=(--figura "$FIGURA"); fi
           if [ "$MANDAR" = "true" ]; then ARGS+=(--mandar); fi
           if [ -z "$BREVO_API_KEY" ]; then
             echo "No hay BREVO_API_KEY: se arma el mail pero no se toca Brevo."
