@@ -121,9 +121,28 @@ nada.
   comunicaciones, resoluciones), después acuerdos y decretos, y al final las comunicaciones
   varias. Si no fuera así, los proyectos de ley quedarían enterrados entre los informes de
   la AGN, que son un tercio del padrón.
-- Cada expediente entra con su número enlazado a la ficha, el origen, la fecha de mesa de
-  entradas, el DAE, el extracto crudo, los autores con nombre completo, los giros a
-  comisiones y el link al PDF del texto. Nada de esto se resume ni se reescribe.
+- Cada expediente entra con su número enlazado a la ficha, una etiqueta con de qué se
+  trata, el origen, la fecha de mesa de entradas, el DAE, el extracto, los autores con
+  nombre completo, los giros a comisiones y el link al PDF del texto.
+- **El extracto se poda, no se reescribe** (`src/extracto.py`). El Senado lo publica con dos
+  cosas adelante que en el boletín sobran porque ya están en otro lado: el apellido del
+  autor, que va abajo en "Autores", y de qué se trata, que sale como etiqueta al lado del
+  número. De `CAPITANICH Y OTROS: PROYECTO DE LEY QUE CREA EL OBSERVATORIO...` queda la
+  etiqueta `Proyecto de ley` y el texto `CREA EL OBSERVATORIO...`, que es lo único que el
+  lector no sabía. Ni una palabra es de cosecha propia.
+
+  Las dos podas son conservadoras, y ante la duda no tocan nada:
+
+  - El apellido se saca **solo si la ficha trae autores y alguno de sus apellidos aparece en
+    ese prefijo**. Los expedientes de oficiales varios y de particulares no tienen autor en
+    la ficha, y ahí el prefijo es lo único que dice quién lo mandó: no se toca.
+  - La etiqueta sale solo si lo que está antes del primer " QUE " mide menos de 42
+    caracteres y arranca con PROYECTO, REPRODUCE, MENSAJE, COMUNICA, REMITE o ANTEPROYECTO.
+    Sin ese filtro, un extracto como `SOLICITA INFORMES SOBRE LOS MOTIVOS POR LOS QUE...`
+    quedaría partido donde no hay ninguna etiqueta.
+
+  Medido sobre los 2079 expedientes del padrón: 1449 quedan con etiqueta y 630 sin ella, y
+  esos 630 es correcto que no la tengan, porque arrancan directamente con el verbo.
 - Los códigos de tipo y de origen se muestran con el nombre que les da el propio formulario
   del Senado (`PL` → proyecto de ley, `OV` → oficiales varios). Si aparece un código que no
   está en la tabla, se muestra el código y el boletín sale igual.

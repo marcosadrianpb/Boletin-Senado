@@ -26,6 +26,7 @@ from datetime import date
 from pathlib import Path
 
 from src import padron as est
+from src.extracto import partir
 from src.senado import url_ficha
 
 # Nombres de los codigos, tal como los lista el formulario de la busqueda
@@ -165,7 +166,13 @@ def _expediente(exp: dict) -> list[str]:
     f = exp.get("ficha") or {}
     url = f.get("url") or url_ficha(exp)
 
+    # El extracto trae el autor y el tipo adelante: el autor ya va abajo y el
+    # tipo sale como etiqueta al lado del numero.
+    etiqueta, texto = partir(exp.get("extracto", ""), f.get("autores"))
+
     cabecera = [f"**[{exp['expediente']}]({url})**"]
+    if etiqueta:
+        cabecera.append(f"`{etiqueta}`")
     if exp.get("origen"):
         cabecera.append(origen_nombre(exp["origen"]))
     if f.get("fecha_mesa"):
@@ -174,8 +181,8 @@ def _expediente(exp: dict) -> list[str]:
         cabecera.append(f"DAE {f['dae']}")
 
     L = [SEP.join(cabecera), ""]
-    if exp.get("extracto"):
-        L += [f"> {exp['extracto']}", ""]
+    if texto:
+        L += [f"> {texto}", ""]
     if f.get("autores"):
         L.append(f"Autores: {'; '.join(f['autores'])}")
     if f.get("comisiones"):

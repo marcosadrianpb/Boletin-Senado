@@ -27,6 +27,7 @@ from pathlib import Path
 from src import padron as est
 from src.boletin import (SIN_DAE, agrupar, fecha_corta, fecha_larga,
                          hay_novedades, numero, origen_nombre, tipo_nombre)
+from src.extracto import partir
 from src.resumen import armar
 from src.treemap import (ANCHO as ANCHO_TREEMAP, acomodar, alto_util,
                          se_subdivide)
@@ -68,14 +69,24 @@ def bloque(exp: dict) -> str:
     f = exp.get("ficha") or {}
     url = f.get("url") or url_ficha(exp)
 
+    # El extracto viene con el autor y el tipo adelante. El autor ya va abajo,
+    # y el tipo sale como etiqueta al lado del numero.
+    etiqueta, texto = partir(exp.get("extracto", ""), f.get("autores"))
+
+    chapa = ""
+    if etiqueta:
+        chapa = (f'&nbsp;&nbsp;<span style="background:#eef2f7;color:{ACENTO};'
+                 f'padding:2px 7px;font-size:11px;font-weight:700;'
+                 f'white-space:nowrap;">{escape(etiqueta)}</span>')
+
     L = [f'<tr><td style="padding:16px 0;border-bottom:1px solid {BORDE};">',
          f'<a href="{escape(url)}" style="color:{ACENTO};font-size:16px;'
-         f'font-weight:700;text-decoration:none;">{escape(exp["expediente"])}</a>',
+         f'font-weight:700;text-decoration:none;">{escape(exp["expediente"])}</a>{chapa}',
          f'<div style="color:{GRIS};font-size:12px;padding-top:3px;">{_meta(exp, f)}</div>']
 
-    if exp.get("extracto"):
+    if texto:
         L.append(f'<div style="color:{TEXTO};font-size:14px;line-height:21px;'
-                 f'padding-top:10px;">{escape(exp["extracto"])}</div>')
+                 f'padding-top:10px;">{escape(texto)}</div>')
 
     pie = []
     if _lista(f, "autores"):
@@ -599,9 +610,13 @@ def texto_plano(nov: dict) -> str:
         L += [f"== {tipo_nombre(codigo, varios=len(grupo) > 1).upper()} ({len(grupo)})", ""]
         for exp in grupo:
             f = exp.get("ficha") or {}
-            L.append(f"{exp['expediente']} - {_meta(exp, f).replace('&middot;', '-')}")
-            if exp.get("extracto"):
-                L.append(exp["extracto"])
+            etiqueta, texto = partir(exp.get("extracto", ""), f.get("autores"))
+            cabecera = f"{exp['expediente']} - {_meta(exp, f).replace('&middot;', '-')}"
+            if etiqueta:
+                cabecera += f" - {etiqueta}"
+            L.append(cabecera)
+            if texto:
+                L.append(texto)
             if _lista(f, "autores"):
                 L.append("Autores: " + "; ".join(f["autores"]))
             if _lista(f, "comisiones"):
