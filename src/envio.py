@@ -123,6 +123,8 @@ def main(argv=None) -> int:
     p.add_argument("--responder-a", default=None,
                    help="por defecto, la misma casilla del remitente")
     p.add_argument("--senadores", type=Path, default=Path("datos/senadores.json"))
+    p.add_argument("--etiqueta", default=None,
+                   help="etiqueta de la campana; solo la aceptan los planes pagos")
     p.add_argument("--guardar-html", type=Path, default=None,
                    help="dejar copia del HTML que se manda")
     a = p.parse_args(argv)
@@ -156,8 +158,11 @@ def main(argv=None) -> int:
         "type": "classic",
         "htmlContent": html,
         "inlineImageActivation": False,
-        "tag": "boletin",
     }
+    # Etiquetar campanas es funcion de los planes pagos: el gratis contesta
+    # 405 "You are not allowed to avail tag option for your campaign".
+    if a.etiqueta:
+        cuerpo["tag"] = a.etiqueta
     if a.lista:
         cuerpo["recipients"] = {"listIds": a.lista}
 

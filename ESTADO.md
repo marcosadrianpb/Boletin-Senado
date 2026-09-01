@@ -439,6 +439,15 @@ mano desde Actions con tres campos: la **fecha** de un boletín ya archivado (po
 arma la campaña y la deja en borrador; sin el secret cargado corre en seco y no toca Brevo.
 En los dos casos sube el HTML como artifact, así se puede bajar y abrir.
 
+Dos cosas que rechazó Brevo en las primeras vueltas, por si reaparecen:
+
+- La clave que va es la de la pestaña **Claves API**, no la de **SMTP**. La de API empieza
+  con `xkeysib-`; la SMTP, con `xsmtpsib-`. Con la equivocada contesta
+  `401 {"message":"Key not found"}`.
+- **Etiquetar campañas es de los planes pagos.** El gratis contesta `405 method_not_allowed:
+  "You are not allowed to avail tag option for your campaign"`. Por eso el campo `tag` no va
+  salvo que se lo pidan con `--etiqueta`.
+
 Ojo con una cosa al probar días viejos: las fichas anteriores al 31/8 no guardan el id del
 autor, así que en esos días el panel por bloque agrupa todo por origen. Los días nuevos sí
 lo traen.
