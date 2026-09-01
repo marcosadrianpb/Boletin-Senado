@@ -469,9 +469,43 @@ El mail abre con las cuentas del día y el listado va abajo, plegado. La idea es
 entienda de un vistazo qué entró, sin tener que leer 27 extractos.
 
 - **Recuadros**: el total y los dos tipos más grandes.
-- **Por tipo, por bloque y por comisión**, con barras.
+- **Un treemap** que cruza qué entró con quién lo presentó (ver abajo).
+- **Por comisión**, en renglones con su cantidad.
 - Después un corte, "DETALLE DE PROYECTOS", y ahí cada tipo en un bloque plegable con la
   ficha completa de siempre: expediente, origen, fecha, DAE, extracto, autores, giros y PDF.
+
+### El treemap
+
+Cada banda es un tipo de expediente y su alto sale de cuántos entraron; adentro, cada celda
+es quién lo presentó y su ancho sale de cuántos presentó. Así el área de cada celda queda
+proporcional a su cantidad, que es lo que un treemap tiene que cumplir, y cada rectángulo es
+un cruce: tipo × bloque.
+
+Decisiones, y por qué:
+
+- **En bandas por tipo, no con el algoritmo "squarified" clásico.** Ese ordena todo por
+  tamaño para que los rectángulos queden cuadrados, y al hacerlo mezcla los tipos. Se probó:
+  quedaban un proyecto de ley, un acuerdo y una comunicación en la misma franja. En un cruce
+  eso es peor que un rectángulo feo, porque el color deja de agrupar.
+- **Alto mínimo de banda y ancho mínimo de celda**, siempre hacia arriba. Sin eso, un tipo
+  con un expediente en un día de cuarenta queda de tres píxeles. La cantidad va escrita en
+  cada celda, así que el número manda sobre el área.
+- El reparto del alto es **proporcional con mínimo**: las bandas que no llegan al mínimo se
+  fijan ahí y el resto se reparte entre las demás, repitiendo hasta que cierre. La primera
+  versión le descontaba a la banda más grande y daba vuelta las proporciones: el tipo de
+  cinco expedientes quedaba más chico que el de tres.
+- **Colores**: los slots de la guía de visualización en su orden fijo, sin saltear ninguno,
+  porque los pares vecinos de esa secuencia están validados para daltonismo. Cinco tipos
+  llevan color y el resto va en gris. **La identidad nunca depende del color**: cada banda
+  lleva su nombre escrito, así que la paleta solo refuerza.
+- **La tinta de cada celda se calcula** por contraste real contra el fondo, no a ojo. Sobre
+  el naranja, el aqua y el gris, el negro contrasta casi el doble que el blanco.
+
+### Lo que no puede entrar en el treemap
+
+**La comisión.** Un expediente se gira a dos o tres a la vez: si se le asigna área, la suma
+da más que el total del día y el dibujo miente. Es una relación de muchos a muchos, no una
+partición. Va como renglones aparte, con su cuenta.
 
 ### Cómo se cuenta
 

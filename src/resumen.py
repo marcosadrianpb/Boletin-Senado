@@ -88,11 +88,58 @@ def por_comision(altas: list[dict]) -> tuple[list[dict], int]:
     return _ordenar(cuentas), sin_giro
 
 
+def quien_presenta(exp: dict, senadores: dict) -> tuple[str, bool]:
+    """Quien presento el expediente: su bloque, o el origen si no tiene autor."""
+    f = exp.get("ficha") or {}
+    ids = f.get("autores_id") or []
+    bloque = next((b for b in (bloque_de(senadores, i) for i in ids) if b), None)
+    if bloque:
+        return bloque, True
+    if f.get("autores"):
+        return "Sin bloque", False
+    return ORIGENES.get(exp.get("origen", ""), exp.get("origen", "")), False
+
+
+def cruce(altas: list[dict], senadores: dict, tope_colores: int = 5) -> list[dict]:
+    """El cruce que dibuja el treemap, agrupado por tipo.
+
+    Cada grupo es un tipo de expediente y adentro trae una celda por cada
+    quien lo presento. El area sale de la cantidad, el color del tipo y la
+    etiqueta de quien. Los tipos mas chicos comparten un color neutro: arriba
+    de cinco o seis, los tonos vecinos se confunden.
+    """
+    por_tipo: dict[str, dict[str, dict]] = {}
+    for exp in altas:
+        tipo = exp.get("tipo", "")
+        quien, propio = quien_presenta(exp, senadores)
+        celdas = por_tipo.setdefault(tipo, {})
+        c = celdas.setdefault(quien, {"quien": quien, "propio": propio, "n": 0})
+        c["n"] += 1
+
+    totales = {t: sum(c["n"] for c in celdas.values()) for t, celdas in por_tipo.items()}
+    ranking = sorted(totales, key=lambda t: (-totales[t], t))
+    color = {t: i for i, t in enumerate(ranking[:tope_colores])}
+
+    grupos = []
+    for tipo in ranking:
+        celdas = sorted(por_tipo[tipo].values(), key=lambda c: (-c["n"], c["quien"]))
+        grupos.append({
+            "tipo": tipo,
+            "tipo_nombre": tipo_nombre(tipo, varios=totales[tipo] > 1),
+            "total": totales[tipo],
+            # -1 es el color neutro: el tipo se lee en la etiqueta de la banda.
+            "color": color.get(tipo, -1),
+            "celdas": celdas,
+        })
+    return grupos
+
+
 def armar(nov: dict, senadores: dict | None = None) -> dict:
     altas = nov.get("altas") or []
     comisiones, sin_giro = por_comision(altas)
     return {
         "total": len(altas),
+        "cruce": cruce(altas, senadores or {}),
         "tipos": por_tipo(altas),
         "bloques": por_bloque(altas, senadores or {}),
         "comisiones": comisiones,

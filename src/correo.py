@@ -28,6 +28,7 @@ from src import padron as est
 from src.boletin import (SIN_DAE, agrupar, fecha_corta, fecha_larga,
                          hay_novedades, numero, origen_nombre, tipo_nombre)
 from src.resumen import armar
+from src.treemap import ANCHO as ANCHO_TREEMAP, bandas
 from src.senado import url_ficha
 from src.senadores import cargar as cargar_senadores
 
@@ -176,22 +177,105 @@ def _resto(filas: list[dict], tope: int, singular: str, plural: str) -> str:
             f'{sum(x["n"] for x in sobran)} en total</div>')
 
 
+# Colores de la guia de visualizacion, en su orden fijo y sin saltear ninguno:
+# los pares vecinos de esa secuencia estan validados para daltonismo. El gris
+# es para los tipos que quedan afuera del tope de colores.
+PALETA = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4"]
+NEUTRO = "#8b93a1"
+
+
+def _color(indice: int) -> str:
+    return PALETA[indice] if 0 <= indice < len(PALETA) else NEUTRO
+
+
+def _luminancia(color: str) -> float:
+    def canal(x: float) -> float:
+        return x / 12.92 if x <= 0.03928 else ((x + 0.055) / 1.055) ** 2.4
+    r, g, b = (canal(int(color[i:i + 2], 16) / 255) for i in (1, 3, 5))
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def _contraste(a: str, b: str) -> float:
+    la, lb = _luminancia(a), _luminancia(b)
+    return (max(la, lb) + 0.05) / (min(la, lb) + 0.05)
+
+
+def _tinta(fondo: str) -> str:
+    """La de las dos que mas contraste da contra ese fondo.
+
+    Se calcula, no se estima: sobre el naranja, el aqua y el gris de la paleta
+    el negro contrasta casi el doble que el blanco, y a ojo se elige mal.
+    """
+    return max(("#ffffff", "#1f2328"), key=lambda c: _contraste(fondo, c))
+
+
+def _recortar(texto: str, ancho_pct: int) -> str:
+    """Lo que entra en la celda: mas o menos un caracter cada 5,5 px."""
+    caben = int(ANCHO_TREEMAP * ancho_pct / 100 / 5.5) - 2
+    if caben < 4:
+        return ""
+    return texto if len(texto) <= caben else texto[:caben - 1].rstrip() + "…"
+
+
+def _celda(c: dict, fondo: str, alto: int, solo: bool, tipo: str) -> str:
+    tinta = _tinta(fondo)
+    # En una banda de una sola celda el nombre del tipo va adentro: no hace
+    # falta gastar un renglon de titulo para el.
+    encabezado = ""
+    if solo:
+        encabezado = (f'<div style="font-size:10px;letter-spacing:.06em;'
+                      f'text-transform:uppercase;">'
+                      f'{escape(_recortar(tipo, c["ancho_pct"]))}</div>')
+    nombre = _recortar(c["quien"], c["ancho_pct"])
+    etiqueta = ""
+    if nombre and alto >= 30:
+        etiqueta = (f'<div style="font-size:11px;line-height:14px;">'
+                    f'{escape(nombre)}</div>')
+    return (f'<td width="{c["ancho_pct"]}%" height="{alto}" bgcolor="{fondo}" '
+            f'valign="top" style="background:{fondo};color:{tinta};'
+            f'padding:6px 8px;font-size:15px;font-weight:700;line-height:17px;">'
+            f'{encabezado}{c["n"]}{etiqueta}</td>')
+
+
+def _treemap(res: dict) -> str:
+    """El cruce del dia: area por cantidad, color por tipo, etiqueta por quien.
+
+    Cada banda es un tipo. Las de mas de una celda llevan un renglon de titulo
+    arriba; las de una sola lo llevan adentro, que ahorra alto.
+    """
+    grupos = bandas(res["cruce"])
+    if not grupos:
+        return ""
+
+    filas = []
+    for g in grupos:
+        fondo = _color(g["color"])
+        solo = len(g["celdas"]) == 1
+        if not solo:
+            filas.append(
+                f'<tr><td style="padding:10px 0 3px;color:{GRIS};font-size:10px;'
+                f'font-weight:700;letter-spacing:.07em;text-transform:uppercase;">'
+                f'{escape(g["tipo_nombre"])}'
+                f'<span style="color:{SUAVE};"> &nbsp;{g["total"]}</span></td></tr>')
+        celdas = "".join(_celda(c, fondo, g["alto_px"], solo, g["tipo_nombre"])
+                         for c in g["celdas"])
+        filas.append(
+            f'<tr><td style="padding-bottom:3px;">'
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="3" '
+            f'style="table-layout:fixed;"><tr>{celdas}</tr></table></td></tr>')
+
+    pie = (f'<div style="color:{SUAVE};font-size:11px;line-height:15px;padding-top:10px;">'
+           f'Cada rectángulo es un tipo de expediente cruzado con quién lo presentó, '
+           f'y su tamaño es la cantidad.</div>')
+    return _panel("Qué entró y quién lo presentó",
+                  "".join(filas), pie)
+
+
 def _tablero(res: dict) -> str:
     """Los numeros del dia, arriba de todo y separados del listado."""
     L = [_recuadros(res)]
 
-    if len(res["tipos"]) > 1:
-        L.append(_panel("Por tipo", "".join(
-            _renglon(t["nombre"], t["n"], res["total"], ACENTO) for t in res["tipos"])))
-
-    if res["bloques"]:
-        # Gris para los que no son un bloque: Poder Ejecutivo, oficiales varios,
-        # particulares. Presentan, pero no son un bloque.
-        L.append(_panel("Por bloque", "".join(
-            _renglon(b["nombre"], b["n"], res["total"],
-                     ACENTO if b["propio"] else SUAVE)
-            for b in res["bloques"][:TOPE_RENGLONES]),
-            _resto(res["bloques"], TOPE_RENGLONES, "bloque", "bloques")))
+    L.append(_treemap(res))
 
     if res["comisiones"] or res["sin_giro"]:
         pie = ""
