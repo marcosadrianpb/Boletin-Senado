@@ -122,8 +122,11 @@ nada.
   varias. Si no fuera así, los proyectos de ley quedarían enterrados entre los informes de
   la AGN, que son un tercio del padrón.
 - Cada expediente entra con su número enlazado a la ficha, una etiqueta con de qué se
-  trata, el origen, la fecha de mesa de entradas, el DAE, el extracto, los autores con
-  nombre completo, los giros a comisiones y el link al PDF del texto.
+  trata, el origen, la fecha de mesa de entradas, el extracto, los autores con nombre
+  completo, los giros a comisiones y el link al PDF del texto.
+- **El número de DAE no se muestra.** Se sigue extrayendo y queda guardado en la ficha
+  dentro del archivo de novedades, por si algún día hace falta; simplemente no se dibuja,
+  ni en el mail ni en el issue.
 - **El extracto se poda, no se reescribe** (`src/extracto.py`). El Senado lo publica con dos
   cosas adelante que en el boletín sobran porque ya están en otro lado: el apellido del
   autor, que va abajo en "Autores", y de qué se trata, que sale como etiqueta al lado del

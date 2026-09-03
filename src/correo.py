@@ -25,9 +25,8 @@ from html import escape
 from pathlib import Path
 
 from src import padron as est
-from src.boletin import (SIN_DAE, agrupar, fecha_corta, fecha_larga,
-                         hay_novedades, numero, origen_nombre, tipo_corto,
-                         tipo_nombre)
+from src.boletin import (agrupar, fecha_corta, fecha_larga, hay_novedades,
+                         numero, origen_nombre, tipo_corto, tipo_nombre)
 from src.extracto import partir
 from src.resumen import armar
 from src.treemap import (ANCHO as ANCHO_TREEMAP, acomodar, alto_util,
@@ -60,8 +59,6 @@ def _meta(exp: dict, f: dict) -> str:
     partes = [origen_nombre(exp.get("origen", ""))]
     if f.get("fecha_mesa"):
         partes.append(f"mesa de entradas {fecha_corta(f['fecha_mesa'])}")
-    if f.get("dae") and f["dae"] not in SIN_DAE:
-        partes.append(f"DAE {f['dae']}")
     return " &middot; ".join(escape(p) for p in partes if p)
 
 

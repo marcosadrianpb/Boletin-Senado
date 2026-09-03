@@ -81,9 +81,6 @@ MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
 
 SEP = " · "
 
-# El DAE no siempre esta asignado cuando el expediente entra al padron.
-SIN_DAE = {"", "-", "Sin asignar"}
-
 
 def tipo_nombre(codigo: str, varios: bool = False) -> str:
     par = TIPOS.get(codigo)
@@ -191,8 +188,6 @@ def _expediente(exp: dict) -> list[str]:
         cabecera.append(origen_nombre(exp["origen"]))
     if f.get("fecha_mesa"):
         cabecera.append(f"mesa de entradas {fecha_corta(f['fecha_mesa'])}")
-    if f.get("dae") and f["dae"] not in SIN_DAE:
-        cabecera.append(f"DAE {f['dae']}")
 
     L = [SEP.join(cabecera), ""]
     if texto:
