@@ -127,7 +127,7 @@ def main(argv=None) -> int:
                    help="nombre de la campana en Brevo; por defecto, el del dia")
     p.add_argument("--figura", choices=("treemap", "barras"), default="treemap",
                    help="como se dibuja el cruce de tipo y bloque en el mail")
-    p.add_argument("--eje", choices=("bloque", "tipo"), default="bloque",
+    p.add_argument("--eje", choices=("bloque", "tipo"), default="tipo",
                    help="que dimension va afuera en el cruce")
     p.add_argument("--etiqueta", default=None,
                    help="etiqueta de la campana; solo la aceptan los planes pagos")

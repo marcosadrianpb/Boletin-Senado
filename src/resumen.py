@@ -101,7 +101,7 @@ def quien_presenta(exp: dict, senadores: dict) -> tuple[str, bool]:
 
 
 def cruce(altas: list[dict], senadores: dict, tope_colores: int = 5,
-          eje: str = "bloque") -> list[dict]:
+          eje: str = "tipo") -> list[dict]:
     """El cruce que dibuja el treemap, agrupado por una de las dos dimensiones.
 
     Con `eje="tipo"` afuera van los tipos de expediente y adentro quien los
@@ -145,7 +145,7 @@ def cruce(altas: list[dict], senadores: dict, tope_colores: int = 5,
     return orden
 
 
-def armar(nov: dict, senadores: dict | None = None, eje: str = "bloque") -> dict:
+def armar(nov: dict, senadores: dict | None = None, eje: str = "tipo") -> dict:
     altas = nov.get("altas") or []
     comisiones, sin_giro = por_comision(altas)
     return {

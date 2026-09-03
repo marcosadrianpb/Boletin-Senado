@@ -31,7 +31,7 @@ on:
         description: "Que dimension va afuera en el cruce: bloque o tipo"
         type: choice
         options: ["bloque", "tipo"]
-        default: "bloque"
+        default: "tipo"
       mandar:
         description: "Mandarla de verdad. Sin tildar, queda en borrador"
         type: boolean

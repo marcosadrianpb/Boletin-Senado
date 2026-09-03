@@ -495,20 +495,17 @@ entienda de un vistazo qué entró, sin tener que leer 27 extractos.
 
 ### El treemap
 
-Es el algoritmo **squarified** clásico, en dos niveles: afuera **el bloque que presenta** y
-adentro **el tipo de expediente**. Cada rectángulo es un cruce bloque × tipo y su área es
-proporcional a la cantidad.
+Es el algoritmo **squarified** clásico, en dos niveles: afuera el tipo de expediente y
+adentro quién lo presentó. Cada rectángulo es un cruce y su área es proporcional a la
+cantidad.
 
-El eje se puede dar vuelta con `--eje tipo`, y así estuvo primero. Se cambió porque en un
-día grande el eje bloque contesta mejor la pregunta que importa: se ve el volumen de cada
-bloque de un vistazo y, adentro, de qué presentó. Con el eje tipo había que ir juntando
-pedazos del mismo color repartidos por todo el dibujo. Los grupos que no son un bloque
-—Poder Ejecutivo, oficiales varios, particulares— nunca llevan color propio: van en gris.
-
-Queda una arista abierta: los bloques son más que los tipos, y como la paleta da para cinco
-colores, un día con catorce bloques deja nueve en gris, indistinguibles entre sí en la
-referencia. La salida es un tope de grupos —los seis más grandes y el resto en "otros
-bloques"—, que todavía no está hecho. Verificado sobre el día de prueba: las nueve áreas dan 25,
+**El eje se puede dar vuelta** con `--eje bloque`: ahí afuera va el bloque y adentro el
+tipo. Está sin decidir cuál queda. A favor del eje bloque: en un día grande se ve el volumen
+de cada bloque de un vistazo y, adentro, de qué presentó; con el eje tipo hay que ir
+juntando pedazos del mismo color repartidos por el dibujo. En contra: los bloques son más
+que los tipos, y como la paleta da para cinco colores, un día con catorce bloques deja nueve
+en gris, indistinguibles entre sí en la referencia. Eso se arregla con un tope de grupos
+—los seis más grandes y el resto en "otros bloques"—, que todavía no está hecho. Verificado sobre el día de prueba: las nueve áreas dan 25,
 20, 15, 10, 10, 5, 5, 5 y 5 por ciento, exactamente lo esperado.
 
 Decisiones, y por qué:

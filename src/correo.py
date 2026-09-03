@@ -525,7 +525,7 @@ def _hora(nov: dict) -> str:
 
 def html_cuerpo(nov: dict, senadores: dict | None = None,
                 baja: str = BAJA, tope: int = TOPE, figura: str = "treemap",
-                eje: str = "bloque") -> str:
+                eje: str = "tipo") -> str:
     altas = nov.get("altas") or []
     res = armar(nov, senadores or {}, eje=eje)
 
@@ -674,7 +674,7 @@ def main(argv=None) -> int:
     p.add_argument("--baja", default=BAJA, help="link de baja; Brevo pone el suyo")
     p.add_argument("--figura", choices=("treemap", "barras"), default="treemap",
                    help="como se dibuja el cruce de tipo y bloque")
-    p.add_argument("--eje", choices=("bloque", "tipo"), default="bloque",
+    p.add_argument("--eje", choices=("bloque", "tipo"), default="tipo",
                    help="que dimension va afuera: el bloque o el tipo")
     p.add_argument("--senadores", type=Path, default=Path("datos/senadores.json"),
                    help="padron de senadores, para el panel por bloque")
