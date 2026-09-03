@@ -26,7 +26,8 @@ from pathlib import Path
 
 from src import padron as est
 from src.boletin import (SIN_DAE, agrupar, fecha_corta, fecha_larga,
-                         hay_novedades, numero, origen_nombre, tipo_nombre)
+                         hay_novedades, numero, origen_nombre, tipo_corto,
+                         tipo_nombre)
 from src.extracto import partir
 from src.resumen import armar
 from src.treemap import (ANCHO as ANCHO_TREEMAP, acomodar, alto_util,
@@ -144,20 +145,11 @@ def _panel(titulo: str, contenido: str, pie: str = "") -> str:
             f'{contenido}</table>{pie}</div></td></tr>')
 
 
-def _corto(nombre: str) -> str:
-    """Para los recuadros: "Proyectos de ley" no entra, "Ley" si."""
-    for prefijo in ("Proyectos de ", "Proyecto de ", "Comunicaciones de ",
-                    "Comunicación de ", "Mensajes de ", "Mensaje de "):
-        if nombre.startswith(prefijo):
-            return nombre[len(prefijo):].capitalize()
-    return nombre
-
-
 def _recuadros(res: dict) -> str:
     """El total y los dos tipos mas grandes. Mas de tres no entran de costado
     en la pantalla de un telefono."""
     cajas = [("Total", res["total"])]
-    cajas += [(_corto(t["nombre"]), t["n"]) for t in res["tipos"][:2]]
+    cajas += [(tipo_corto(t["clave"]), t["n"]) for t in res["tipos"][:2]]
     ancho = 100 // len(cajas)
     celdas = ""
     for i, (nombre, n) in enumerate(cajas):
@@ -305,13 +297,15 @@ def _referencia(color: str, texto: str, cantidad: str = "") -> str:
 
 
 def _leyenda(grupos: list[dict]) -> str:
-    """La referencia de colores, en dos columnas para que quede pareja."""
-    refs = [_referencia(_color(g["color"]), g["tipo_nombre"],
-                        f' <b>{g["total"]}</b>')
-            for g in grupos if g["color"] >= 0]
-    grises = [g["tipo_nombre"].lower() for g in grupos if g["color"] < 0]
-    if grises:
-        refs.append(_referencia(NEUTRO, ", ".join(grises)))
+    """La referencia, en dos columnas para que quede pareja.
+
+    Van todos los grupos con su cantidad, no solo los que llevan color: el
+    nombre de un grupo solo aparece adentro del rectangulo cuando ese grupo
+    tiene una sola celda, asi que sin la referencia completa los grupos
+    partidos en varias celdas quedarian sin nombre.
+    """
+    refs = [_referencia(_color(g["color"]), g["nombre"], f' <b>{g["total"]}</b>')
+            for g in grupos]
 
     filas = ""
     for i in range(0, len(refs), 2):
@@ -338,25 +332,25 @@ def _treemap(res: dict) -> str:
 
     celdas_totales = sum(len(g["celdas"]) for g in grupos)
     alto = alto_util(celdas_totales)
-    por_tipo = {g["tipo"]: g for g in grupos}
-    raiz = acomodar([(g["tipo"], g["total"]) for g in grupos], ANCHO_TREEMAP, alto)
+    por_tipo = {g["clave"]: g for g in grupos}
+    raiz = acomodar([(g["clave"], g["total"]) for g in grupos], ANCHO_TREEMAP, alto)
 
     def dentro(celda, ancho_px, alto_px):
         g = por_tipo[celda["clave"]]
         fondo = _color(g["color"])
         # Si el pedazo da el tamano, se subdivide por quien lo presento.
         if len(g["celdas"]) > 1 and se_subdivide(ancho_px, alto_px):
-            sub = acomodar([(c["quien"], c["n"]) for c in g["celdas"]],
+            sub = acomodar([(c["nombre"], c["n"]) for c in g["celdas"]],
                            ancho_px, alto_px)
-            cuenta = {c["quien"]: c["n"] for c in g["celdas"]}
+            cuenta = {c["nombre"]: c["n"] for c in g["celdas"]}
 
             def hoja(c2, a2, h2):
                 return _hoja(c2["clave"], cuenta[c2["clave"]], fondo, a2, h2), fondo
 
             return _dibujar(sub, hoja), None
         # No entra subdividido: va como un solo pedazo del tipo.
-        nombre = (g["celdas"][0]["quien"] if len(g["celdas"]) == 1
-                  else g["tipo_nombre"])
+        nombre = (g["celdas"][0]["nombre"] if len(g["celdas"]) == 1
+                  else g["nombre"])
         return _hoja(nombre, g["total"], fondo, ancho_px, alto_px), fondo
 
     return _panel("Qué entró y quién lo presentó",
@@ -400,7 +394,7 @@ def _presentan(celdas: list[dict], tope: int = 4) -> str:
                 f'<table role="presentation" width="100%" cellpadding="0" '
                 f'cellspacing="0"><tr>'
                 f'<td style="color:{GRIS};font-size:11px;line-height:15px;">'
-                f'{escape(c["quien"])}</td>'
+                f'{escape(c["nombre"])}</td>'
                 f'<td align="right" width="22" style="color:{TEXTO};font-size:11px;'
                 f'font-weight:700;">{c["n"]}</td></tr></table></td>')
         if len(muestra[i:i + 2]) == 1:
@@ -437,7 +431,7 @@ def _barra_apilada(g: dict, maximo: int) -> str:
     # El total va al lado del titulo y en negro: abajo y en gris claro no se leia.
     titulo = (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">'
               f'<tr><td style="color:{TEXTO};font-size:12px;line-height:16px;'
-              f'font-weight:700;">{escape(g["tipo_nombre"])}</td>'
+              f'font-weight:700;">{escape(g["nombre"])}</td>'
               f'<td align="right" width="24" valign="top" style="color:{TEXTO};'
               f'font-size:12px;font-weight:700;">{g["total"]}</td></tr></table>')
 
@@ -530,9 +524,10 @@ def _hora(nov: dict) -> str:
 
 
 def html_cuerpo(nov: dict, senadores: dict | None = None,
-                baja: str = BAJA, tope: int = TOPE, figura: str = "treemap") -> str:
+                baja: str = BAJA, tope: int = TOPE, figura: str = "treemap",
+                eje: str = "bloque") -> str:
     altas = nov.get("altas") or []
-    res = armar(nov, senadores or {})
+    res = armar(nov, senadores or {}, eje=eje)
 
     detalle, cortadas, largo = [], 0, 0
     for codigo, grupo in agrupar(altas):
@@ -679,6 +674,8 @@ def main(argv=None) -> int:
     p.add_argument("--baja", default=BAJA, help="link de baja; Brevo pone el suyo")
     p.add_argument("--figura", choices=("treemap", "barras"), default="treemap",
                    help="como se dibuja el cruce de tipo y bloque")
+    p.add_argument("--eje", choices=("bloque", "tipo"), default="bloque",
+                   help="que dimension va afuera: el bloque o el tipo")
     p.add_argument("--senadores", type=Path, default=Path("datos/senadores.json"),
                    help="padron de senadores, para el panel por bloque")
     a = p.parse_args(argv)
@@ -704,7 +701,7 @@ def main(argv=None) -> int:
 
     html = a.html or Path(f"datos/correos/{nov['fecha']}.html")
     texto = a.texto or html.with_suffix(".txt")
-    for ruta, contenido in ((html, html_cuerpo(nov, senadores, a.baja, figura=a.figura)),
+    for ruta, contenido in ((html, html_cuerpo(nov, senadores, a.baja, figura=a.figura, eje=a.eje)),
                             (texto, texto_plano(nov))):
         ruta.parent.mkdir(parents=True, exist_ok=True)
         ruta.write_text(contenido, encoding="utf-8")

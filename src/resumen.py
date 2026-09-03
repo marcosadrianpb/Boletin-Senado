@@ -24,7 +24,7 @@ Tres aclaraciones sobre como se cuenta:
 
 from __future__ import annotations
 
-from src.boletin import ORIGENES, tipo_nombre
+from src.boletin import ORIGENES, tipo_corto, tipo_nombre
 from src.senadores import bloque_de
 
 
@@ -100,46 +100,57 @@ def quien_presenta(exp: dict, senadores: dict) -> tuple[str, bool]:
     return ORIGENES.get(exp.get("origen", ""), exp.get("origen", "")), False
 
 
-def cruce(altas: list[dict], senadores: dict, tope_colores: int = 5) -> list[dict]:
-    """El cruce que dibuja el treemap, agrupado por tipo.
+def cruce(altas: list[dict], senadores: dict, tope_colores: int = 5,
+          eje: str = "bloque") -> list[dict]:
+    """El cruce que dibuja el treemap, agrupado por una de las dos dimensiones.
 
-    Cada grupo es un tipo de expediente y adentro trae una celda por cada
-    quien lo presento. El area sale de la cantidad, el color del tipo y la
-    etiqueta de quien. Los tipos mas chicos comparten un color neutro: arriba
-    de cinco o seis, los tonos vecinos se confunden.
+    Con `eje="tipo"` afuera van los tipos de expediente y adentro quien los
+    presento; con `eje="bloque"` es al reves. El area es siempre la cantidad y
+    el color, el grupo de afuera.
+
+    Los grupos que no son un bloque —Poder Ejecutivo, oficiales varios,
+    particulares— nunca llevan color propio: van en gris, porque presentan
+    pero no son un bloque.
     """
-    por_tipo: dict[str, dict[str, dict]] = {}
+    grupos: dict[str, dict] = {}
     for exp in altas:
         tipo = exp.get("tipo", "")
         quien, propio = quien_presenta(exp, senadores)
-        celdas = por_tipo.setdefault(tipo, {})
-        c = celdas.setdefault(quien, {"quien": quien, "propio": propio, "n": 0})
+        if eje == "bloque":
+            clave, nombre_grupo, nombre_celda = quien, quien, tipo_corto(tipo)
+        else:
+            clave, nombre_grupo, nombre_celda = tipo, None, quien
+            propio = True  # el color lo decide el tipo, no quien presenta
+
+        g = grupos.setdefault(clave, {"clave": clave, "nombre": nombre_grupo,
+                                      "propio": propio, "total": 0, "celdas": {}})
+        g["total"] += 1
+        g["propio"] = g["propio"] and propio
+        c = g["celdas"].setdefault(nombre_celda, {"nombre": nombre_celda, "n": 0})
         c["n"] += 1
 
-    totales = {t: sum(c["n"] for c in celdas.values()) for t, celdas in por_tipo.items()}
-    ranking = sorted(totales, key=lambda t: (-totales[t], t))
-    color = {t: i for i, t in enumerate(ranking[:tope_colores])}
-
-    grupos = []
-    for tipo in ranking:
-        celdas = sorted(por_tipo[tipo].values(), key=lambda c: (-c["n"], c["quien"]))
-        grupos.append({
-            "tipo": tipo,
-            "tipo_nombre": tipo_nombre(tipo, varios=totales[tipo] > 1),
-            "total": totales[tipo],
-            # -1 es el color neutro: el tipo se lee en la etiqueta de la banda.
-            "color": color.get(tipo, -1),
-            "celdas": celdas,
-        })
-    return grupos
+    orden = sorted(grupos.values(), key=lambda g: (-g["total"], g["clave"]))
+    # El color solo para los grupos que lo merecen, y en el orden del ranking.
+    slot = 0
+    for g in orden:
+        if g["propio"] and slot < tope_colores:
+            g["color"] = slot
+            slot += 1
+        else:
+            g["color"] = -1
+        if g["nombre"] is None:
+            g["nombre"] = tipo_nombre(g["clave"], varios=g["total"] > 1)
+        g["celdas"] = sorted(g["celdas"].values(),
+                             key=lambda c: (-c["n"], c["nombre"]))
+    return orden
 
 
-def armar(nov: dict, senadores: dict | None = None) -> dict:
+def armar(nov: dict, senadores: dict | None = None, eje: str = "bloque") -> dict:
     altas = nov.get("altas") or []
     comisiones, sin_giro = por_comision(altas)
     return {
         "total": len(altas),
-        "cruce": cruce(altas, senadores or {}),
+        "cruce": cruce(altas, senadores or {}, eje=eje),
         "tipos": por_tipo(altas),
         "bloques": por_bloque(altas, senadores or {}),
         "comisiones": comisiones,

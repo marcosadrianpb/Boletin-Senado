@@ -92,6 +92,20 @@ def tipo_nombre(codigo: str, varios: bool = False) -> str:
     return par[1] if varios else par[0]
 
 
+def tipo_corto(codigo: str) -> str:
+    """El nombre sin el "Proyecto de" adelante: "Ley", "Declaración".
+
+    Para los lugares donde el nombre largo no entra: los recuadros del mail y
+    los rectangulos chicos del treemap.
+    """
+    nombre = tipo_nombre(codigo)
+    # Solo el "Proyecto de": sacarle el "Comunicación de" a CO dejaria
+    # "Senador", que no se entiende suelto.
+    if nombre.startswith("Proyecto de "):
+        return nombre[len("Proyecto de "):].capitalize()
+    return nombre
+
+
 def origen_nombre(codigo: str) -> str:
     return ORIGENES.get(codigo, codigo)
 
