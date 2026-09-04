@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-03T11:39:16-03:00",
+ "actualizado": "2026-09-04T11:25:53-03:00",
  "anios": [
   2026
  ],
- "corridas": 16,
+ "corridas": 17,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -4936,6 +4936,86 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1362/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1362/26",
+   "extracto": "SCHNEIDER: PROYECTO DE LEY QUE MODIFICA SU SIMILAR 17.132 -EJERCICIO DE LA MEDICINA, ODONTOLOGÍA Y ACTIVIDADES DE COLABORACIÓN-, RESPECTO A LA ACTUALIZACIÓN DEL EJERCICIO PROFESIONAL DE LA ODONTOLOGÍA Y LA INCORPORACIÓN DE LA TÉCNICA DE SEDACIÓN CONSCIENTE MEDIANTE ÓXIDO NITROSO-OXÍGENO EN",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1363/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1363/26",
+   "extracto": "BAHL Y KIRCHNER: PROYECTO DE LEY QUE HABILITA AL MINISTERIO PUBLICO FISCAL DE LA NACION A EJERCER ANTE EL TRIBUNAL SUPERIOR DE JUSTICIA DE LA CIUDAD AUTONOMA DE BUENOS AIRES, EN CASOS ESPECIFICOS, LA MISMA REPRESENTACION QUE YA EJERCE ANTE LOS TRIBUNALES NACIONALES EN LAS MISMAS CAUSAS.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1364/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1364/26",
+   "extracto": "BAHL: PROYECTO DE COMUNICACIÓN QUE ADHIERE A LA RESOLUCION N°1.191 SANCIONADA POR EL CONCEJO DELIBERANTE DE LA CDAD. DE FEDERACION, PROV. DE ENTRE RIOS, SOBRE EL FINANCIAMIENTO, PLAN DE CONTINGENCIA Y RECONSTRUCCION DE LA INFRAESTRUCTURA DE DEFENSA COSTERA Y OTRAS CUESTIONES CONEXAS.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1365/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1365/26",
+   "extracto": "BAHL Y KIRCHNER: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RELACIONADOS CON EL MINISTERIO PÚBLICO FISCAL, EL MINISTERIO PÚBLICO DE LA DEFENSA, Y OTRAS CUESTIONES CONEXAS.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1366/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1366/26",
+   "extracto": "DE PEDRO Y OTROS: PROYECTO DE LEY QUE DECLARA LA EMERGENCIA PRESUPUESTARIA Y FINANCIERA DEL SISTEMA NACIONAL DE CIENCIA Y TECNOLOGIA NACIONAL HASTA EL 31 DE DICIEMBRE DE 2027.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1367/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1367/26",
+   "extracto": "DE PEDRO Y OTROS : PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE EL ESTADO DE SITUACION TECNICO, DE SEGURIDAD Y DE AVANCE DE LAS OBRAS DEL PROTOTIPO DEL REACTOR NUCLEAR CAREM-25.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1368/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1368/26",
+   "extracto": "DE PEDRO: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LAS \"I JORNADAS SOBRE MODELOS, ALGORITMOS Y PLANIFICACION DEL DESARROLLO\", A REALIZARSE EN LA FACULTAD DE CIENCIAS EXACTAS Y NATURALES DE LA UBA, CABA, EL 20 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1369/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1369/26",
+   "extracto": "DE PEDRO: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA REALIZACION DE LA PRIMERA PEREGRINACION DE VETERANOS DE GUERRA DE MALVINAS A LA BASILICA DE LUJAN, EL 20 DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
   "137/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -4965,6 +5045,106 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1370/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1370/26",
+   "extracto": "CAPITANICH Y RECALDE: PROYECTO DE LEY QUE DECLARA MONUMENTO HISTORICO NACIONAL A LA BASILICA DEL SANTISIMO SACRAMENTO, SITA EN LA CIUDAD DE BUENOS AIRES, EN LOS TERMINOS DE LA LEY 12.665.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1371/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1371/26",
+   "extracto": "CAPITANICH: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE LA GESTION Y DESTINO DE LOS RECURSOS DEL FIDEICOMISO DE INFRAESTRUCTURA DE TRANSPORTE CREADO POR EL DCTO 976/2001, CORRESPONDIENTE AL SISTEMA VIAL INTEGRADO (SISVIAL) SOBRE LOS EJERCICIOS 2024, 2025 Y LO TRANSCURRIDO DE 2026",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1372/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1372/26",
+   "extracto": "AVILA: PROYECTO DE COMUNICACION QUE SOLICITA INFORME SOBRE LA ADMINISTRACION, DISPONIBILIDAD, DESTINO Y EJECUCIÓN DE LOS RECURSOS AFECTADOS AL FINANCIAMIENTO DEL SISTEMA VIAL Y OTRAS CUESTIONES CONEXAS.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1373/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1373/26",
+   "extracto": "VALENZUELA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS EL 5° ENCUENTRO NACIONAL DE MUJERES DIFUSORAS DE CHAMAMÉ EN CORRIENTES, EN LA CDAD. DE MERCEDES, PROV. DE CORRIENTES, EL 22 Y 23 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1374/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1374/26",
+   "extracto": "VALENZUELA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS EL DESFILE DE MODA Y MUESTRA CULTURAL \"FUSIÓN CULTURAL FEDERAL - EDICIÓN CORRIENTES\", A REALIZARSE EN EL MUSEO DEL MATE, CABA, EL 20 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1375/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1375/26",
+   "extracto": "BAHL: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE ASPECTOS VINCULADOS CON EL SISTEMA VIAL INTEGRADO (SISVIAL), Y OTRAS CUESTIONES CONEXAS.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1376/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1376/26",
+   "extracto": "AVILA: PROYECTO DE LEY SOBRE UTILIZACION DE BIOCOMBUSTIBLES EN VEHICULOS OFICIALES.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1377/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1377/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE CREA EL REGIMEN FEDERAL DE BOLETO EDUCATIVO GRATUITO.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1378/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1378/26",
+   "extracto": "CAPITANICH: PROYECTO DE RESOLUCION QUE CREA EN EL AMBITO DEL HONORABLE SENADO DE LA NACION LA DISTINCION \"MENCION DE HONOR HEROES DE LA PATRIA\".",
+   "origen": "S",
+   "tipo": "PR",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1379/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1379/26",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL 40° ANIVERSARIO DE LA PRESENTACION PUBLICA DEL MURAL \"ARGENTINA, DOLOR Y ESPERANZA\", A REALIZARSE EN EL AULA MAGNA DE LA UNIVERSIDAD NACIONAL DEL NORDESTE (UNNE), EL 15 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
   },
   "138/26|OV": {
    "actualizado": "2026-08-19",
@@ -4996,6 +5176,106 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1380/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1380/26",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL 89° ANIVERSARIO DE LA LOC. DE TRES ISLETAS, PROV. DEL CHACO, A CONMEMORARSE EL 19 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1381/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1381/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 100° ANIVERSARIO DE LA ESCUELA DE EDUCACION PRIMARIA N° 105 \"PADRE MARIO LUIS MIGONE\", EN LA LOC. DE PRESIDENCIA ROQUE SAENZ PEÑA, PROV. DEL CHACO, EL 18 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1382/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1382/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO AL CELEBRARSE EL 89° ANIVERSARIO DE LA LOC. DE TRES ISLETAS, PROV. DEL CHACO, EL 19 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1383/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1383/26",
+   "extracto": "MARKS Y KIRCHNER: PROYECTO DE LEY QUE INCORPORA EL ART. 12 BIS DE SU SIMILAR 27.654 - PARA INSTITUIR A LA TERCERA SEMANA DE AGOSTO DE CADA AÑO, COMO LA SEMANA DE VISIBILIZACION DE LOS DERECHOS DE LAS PERSONAS EN SITUACION DE CALLE.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1384/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1384/26",
+   "extracto": "COTO: PROYECTO DE DECLARACIÓN QUE EXPRESA PREOCUPACION Y RECHAZA EL PROYECTO IMPULSADO PARA DESARROLLAR LA PRODUCCION DE SALMON A GRAN ESCALA EN LAS ISLAS MALVINAS.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1385/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1385/26",
+   "extracto": "VALENZUELA Y MORENO: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL IV CONGRESO NACIONAL E INTERNACIONAL BELGRANIANO \"MANUEL BELGRANO Y SU PROYECTO DE PAIS\", A REALIZARSE EN LA CDAD. DE CORRIENTES, DEL 1 AL 4 DE OCTUBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1386/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1386/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR EL 83° ANIVERSARIO DE \"EL FOGON DE LOS ARRIEROS\", INSTITUCION CULTURAL FUNDADA POR ALDO BOGLIETTI, EN LA CDAD. DE RESISTENCIA, PROV. DEL CHACO, EL 20 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1387/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1387/26",
+   "extracto": "ROYON: PROYECTO DE DECLARACION QUE EXPRESA PREOCUPACIÓN POR LA RES. 114/26 DE LA SEC. DE AGRICULTURA, GANADERIA Y PESCA DE LA NACIÓN, QUE DEROGA LA RES. 99/1994, POR LA QUE SE PROHIBÍA EL INGRESO A LA REGIÓN DEL NOA DE BANANAS ORIGINARIAS DE PAISES CON PRESENCIA DE DETERMINADAS PLAGAS CUARENTENA",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1388/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1388/26",
+   "extracto": "ARCE: COMUNICA SU INCORPORACIÓN AL BLOQUE \"MOVIMIENTO POR MISIONES\", A PARTIR DEL 18 DE AGOSTO.",
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1389/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1389/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA REALIZACION DEL CERTAMEN INTERCOLEGIAL DE PREGUNTAS Y RESPUESTAS \"JUSTA DEL SABER INMIGRANTES 2026\", EN LA CDAD. DE LAS BREÑAS, PROV. DEL CHACO, EL 21 Y 22 DE AGOSTO.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
   "139/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -5025,6 +5305,106 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1390/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1390/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL VIII CONGRESO NACIONAL DE FOLKLORE \"MIRADAS INTERDISCIPLINARIAS EN TORNO AL FOLKLORE EN LA REGION DEL NEA\", A REALIZARSE EN LA CDAD. DE RESISTENCIA, PROV. DEL CHACO, DEL 19 AL 21 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1391/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1391/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL \"100° ANIVERSARIO DEL CLUB UNION PROGRESISTA DE VILLA ANGELA\", PROV. DEL CHACO, EL 24 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1392/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1392/26",
+   "extracto": "RECALDE: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSAS CUESTIONES RELACIONADAS CON LA DISOLUCIÓN DEL CORO NACIONAL DE NIÑOS, DISPUESTA MEDIANTE DECRETO N° 687/2026.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1393/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1393/26",
+   "extracto": "SORIA Y OTROS: PROYECTO DE LEY QUE MODIFICA SU SIMILAR LEY 25.570 - COPARTICIPACION FEDERAL DE IMPUESTOS - RESPECTO DE LA PROTECCIÓN Y AFECTACIÓN ESPECÍFICA DE LOS RECURSOS DEL FONDO NACIONAL DE LA VIVIENDA (FONAVI).",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1394/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1394/26",
+   "extracto": "KIRCHNER: PROYECTO DE LEY QUE DESIGNA \"RUTA ESCÉNICA MONTE ZEBALLOS\" A LA RUTA PROVINCIAL N° 41, QUE NACE EN EL KILÓMETRO CERO (KM. 0) EN LA LOC. DE LOS ANTIGUOS HASTA EL KILOMETRO CIENTO QUINCE (KM. 115), PROV. DE SANTA CRUZ.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1395/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1395/26",
+   "extracto": "KIRCHNER: PROYECTO DE DECLARACION QUE DECLARA DE INTERÉS LA RUTA PROVINCIAL N° 41, CONOCIDA COMO \"RUTA ESCÉNICA MONTE ZEBALLOS\" QUE SE INICIA EN EL KILÓMETRO CERO (KM. 0) EN LA LOC. DE LOS ANTIGUOS HASTA EL KILOMETRO CIENTO QUINCE (KM. 115), PROV. DE SANTA CRUZ.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1396/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1396/26",
+   "extracto": "KIRCHNER: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSAS CUESTIONES VINCULADAS A LA DIFUSION DEL CURSO BASICO DE IDIOMA HEBREO PARA LOS AGENTES DE LA POLICIA DE SEGURIDAD AEROPORTUARIA (PSA).",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1397/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1397/26",
+   "extracto": "ROYON: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL \"2DO. SEMINARIO INTERNACIONAL EN INVESTIGACIONES SOBRE TRATA DE PERSONAS\" A REALIZARSE EN LA CDAD. DE SALTA, PROV. HOMÓNIMA, ENTRE LOS DIAS 19 Y 22 DE OCTUBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1398/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1398/26",
+   "extracto": "CERVI: EN SU CARÁCTER DE PRESIDENTE DE LA COMISIÓN BICAMERAL DE REFORMA DEL ESTADO Y SEGUIMIENTO DE LAS PRIVATIZACIONES (LEY 23.696), COMUNICA LA RESOLUCIÓN N° 1/26, RESPECTO DE LOS PEDIDOS DE INFORMES AL P.E.N. SOBRE DIVERSOS PROCESOS DE PRIVATIZACIÓN.",
+   "origen": "S",
+   "tipo": "CC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1399/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1399/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACION EXPRESA BENEPLACITO POR LA REALIZACION DE LA 95° EXPOSICION NACIONAL DE GANADERIA, AGRICULTURA, INDUSTRIA, COMERCIO Y SERVICIOS DE LA SOCIEDAD RURAL DEL CHACO, EN LA LOCALIDAD DE MARGARITA BELEN, PROV. DEL CHACO, DEL 19 AL 23 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
   },
   "14/26|OV": {
    "actualizado": "2026-08-19",
@@ -5096,6 +5476,106 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1400/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1400/26",
+   "extracto": "ABDALA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES CULTURAL EL \"II ENCUENTRO NACIONAL E INTERNACIONAL DE FOLKLORE - ABRIENDO FRONTERAS A NUESTRO PAIS - ECO´S 2026\", EN LA CDAD. DE LA PUNTA, PROV. DE SAN LUIS, DEL 21 AL 23 DE AGOSTO.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1401/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1401/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACION QUE EXPRESA BENEPLÁCITO POR LA REALIZACIÓN DE LA 24° EXPOSICIÓN GANADERA, AGRÍCOLA, INDUSTRIAL Y COMERCIAL ORGANIZADA POR LA SOCIEDAD RURAL DE QUITILIPI, PROV. DEL CHACO, DEL 20 AL 22 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1402/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1402/26",
+   "extracto": "KIRCHNER Y LINARES: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE LA SITUACION ACTUAL DE INTERCARGO S.A.U. Y OTRAS CUESTIONES CONEXAS.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1403/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1403/26",
+   "extracto": "TERENZI: PROYECTO DE COMUNICACIÓN QUE SOLICITA LA CREACION DE AREAS MARINAS PROTEGIDAS (AMP) EN LA ANTÁRTIDA, EN PARTICULAR LA PROPUESTA ARGENTINO-CHILENA PARA LA PENINSULA ANTARTICA.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1404/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1404/26",
+   "extracto": "LEWANDOWSKI: PROYECTO DE LEY SOBRE REGIMEN DE DEVOLUCION AUTOMATICA Y AGILIZACION DE SALDOS A FAVOR DEL IMPUESTO AL VALOR AGREGADO (IVA) PARA MICRO, PEQUEÑAS Y MEDIANAS EMPRESAS.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1405/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1405/26",
+   "extracto": "LEWANDOWSKI: PROYECTO DE LEY QUE MODIFICA LOS ART. 2°, 4° Y 5° DE SU SIMILAR 27.098 - REGIMEN DE PROMOCION DE LOS CLUBES DE BARRIO Y DE PUEBLO - RESPECTO DE LA DEFINICIÓN, REGISTRO E INSCRIPCIÓN DE LOS MISMOS.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1406/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1406/26",
+   "extracto": "MONTEVERDE: EN SU CARÁCTER DE PRESIDENTE DE LA COMISION DE PRESUPUESTO Y HACIENDA, COMUNICA LA DESIGNACION COMO VICEPRESIDENTE AL SENADOR FERNANDO SALINO, Y ADJUNTA COPIA DEL ACTA CORRESPONDIENTE.",
+   "origen": "S",
+   "tipo": "CC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1407/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1407/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA \"EDICION XVII DE LOS JUEGOS DEPORTIVOS DEL CONICET\" A REALIZARSE EN LA PROV. DE MENDOZA, DEL 10 AL 12 DE OCTUBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1408/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1408/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE MODIFICA SU SIMILAR 20.655 - DEPORTE - RESPECTO DE ESTABLECER LA OBLIGATORIEDAD A LAS ASOCIACIONES CIVILES DEPORTIVAS DEL DICTADO DE PROTOCOLOS DE PREVENCION E INTERVENCION ANTE SITUACIONES DE DISCRIMINACION Y VIOLENCIA DE GENERO",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1409/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1409/26",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA REALIZACION DE LA JORNADA DE CUIDADOS PALIATIVOS EN PERSONAS MAYORES \"CUIDADOS PALIATIVOS, CUIDADOS DE VIDA\", EN LA SEDE CENTRAL DEL B.N.A. DE LA CDAD. DE BS.AS., EL 15 Y 16 DE OCTUBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
   "141/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -5125,6 +5605,106 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1410/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1410/26",
+   "extracto": "CARAMBIA: PROYECTO DE COMUNICACION QUE SOLICITA INFORME SOBRE LAS MEDIDAS ADOPTADAS PARA GARANTIZAR LA CONTINUIDAD DEL SERVICIO ESENCIAL AEROPORTUARIO DE RAMPA, EN LOS AEROPUERTOS DE LA CDAD. DE RIO GALLEGOS Y DE COMODORO RIVADAVIA, PROV. DEL CHUBUT, ANTE EL CESE DE OPERACIONES INTERCARGO S.A.U. A P",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1411/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1411/26",
+   "extracto": "LINARES: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RELACIONADOS CON LA SITUACION PRESTACIONAL, ADMINISTRATIVA E INSTITUCIONAL QUE ATRAVIESAN LOS AFILIADOS DE PAMI DE LA CDAD. DE COMODORO RIVADAVIA, Y DE LA PROV. DEL CHUBUT.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1412/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1412/26",
+   "extracto": "CORROZA: PROYECTO DE DECLARACION QUE ADHIERE AL 57° ANIVERSARIO DE LA LOC. DE TAQUIMILAN, PROV. DEL NEUQUEN, CELEBRADO EL 30 DE MAYO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1413/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1413/26",
+   "extracto": "CORROZA: PROYECTO DE DECLARACION QUE ADHIERE AL 139° ANIVERSARIO DE LA LOC. DE CHOS MALAL, PROV. DEL NEUQUEN, CELEBRADO EL 4 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1414/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1414/26",
+   "extracto": "CORROZA: PROYECTO DE DECLARACION QUE ADHIERE AL 29° ANIVERSARIO DE LA LOC. DE LOS CATUTOS, PROV. DEL NEUQUEN, CELEBRADO EL 15 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1415/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1415/26",
+   "extracto": "CORROZA: PROYECTO DE DECLARACION QUE ADHIERE AL 29° ANIVERSARIO DE LA LOC. DE COVUNCO ABAJO, PROV. DEL NEUQUEN, CELEBRADO EL 15 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1416/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1416/26",
+   "extracto": "CORROZA: PROYECTO DE DECLARACION QUE ADHIERE AL 54° ANIVERSARIO DE LA LOC. DE BARRANCAS, PROV. DEL NEUQUEN, CELEBRADO EL 1° DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1417/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1417/26",
+   "extracto": "CORROZA: PROYECTO DE DECLARACION QUE ADHIERE AL 113° ANIVERSARIO DE LA LOC. DE ZAPALA, PROV. DEL NEUQUEN, CELEBRADO EL 12 DE JULIO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1418/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1418/26",
+   "extracto": "CORROZA: PROYECTO DE DECLARACION QUE ADHIERE AL 75° ANIVERSARIO DE LA LOC. DE SENILLOSA, PROV. DEL NEUQUEN, CELEBRADO EL 26 DE JULIO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1419/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1419/26",
+   "extracto": "CORROZA: PROYECTO DE DECLARACION QUE ADHIERE AL 89° ANIVERSARIO DE LA LOC. DE LAS OVEJAS, PROV. DEL NEUQUEN, CELEBRADO EL 21 DE MAYO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
   },
   "142/26|OV": {
    "actualizado": "2026-08-19",
@@ -5156,6 +5736,106 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1420/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1420/26",
+   "extracto": "CORROZA: PROYECTO DE DECLARACION QUE ADHIERE AL 53° ANIVERSARIO DE LA LOC. DE SAN PATRICIO DEL CHAÑAR, PROV. DEL NEUQUEN, CELEBRADO EL 21 DE MAYO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1421/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1421/26",
+   "extracto": "CORROZA: PROYECTO DE DECLARACION QUE ADHIERE AL 38° ANIVERSARIO DE LA LOC. DE EL SAUCE, PROV. DEL NEUQUEN, CELEBRADO EL 27 DE MAYO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1422/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1422/26",
+   "extracto": "LEWANDOWSKI: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RELACIONADOS CON EL GRADO DE IMPLEMENTACION Y CUMPLIMIENTO DE LA LEY 27.675 - RESPUESTA INTEGRAL AL VIH, HEPATITIS VIRALES, OTRAS INFECCIONES DE TRANSMISION SEXUAL (ITS) Y TUBERCULOSIS (TBC)\".",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1423/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1423/26",
+   "extracto": "LEWANDOWSKI: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA PUBLICACION DE LA OBRA COLECTIVA INTERNACIONAL \"EL ESTADO AMBIENTAL EN EL DERECHO Y EL ACCESO A LA INFORMACION, PARTICIPACION PUBLICA Y LA JUSTICIA. LOS DERECHOS HUMANOS EN EL ACUERDO DE ESCAZU Y EL CONVENIO DE AARHUS\", DIRIGIDA POR EL P",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1424/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1424/26",
+   "extracto": "MENDOZA Y OTROS: PROYECTO DE LEY QUE CREA EL PROGRAMA NACIONAL DE INCLUSION Y ASISTENCIA DIGITAL PARA PERSONAS MAYORES.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1425/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1425/26",
+   "extracto": "MARKS: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA APLICACIÓN GRATUITA INTERACTIVA \"CLARITA EN LA ESCUELA\" QUE PROPONE CONTENIDOS Y ACTIVIDADES INTEGRALES DE CIENCIAS SOCIALES, CIENCIAS NATURALES, LITERATURA Y ESI.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1426/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1426/26",
+   "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA 46° EDICION DE LA \"FIESTA NACIONAL DEL INMIGRANTE\", EN LA CDAD. DE OBERA, PROV. DE MISIONES, DEL 3 AL 13 DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1427/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1427/26",
+   "extracto": "FAMA Y OTRAS: PROYECTO DE LEY QUE CREA EL REGIMEN FEDERAL DE PROMOCION DE LA COMPETITIVIDAD E INTERNACIONALIZACION DE LOS PROVEEDORES MINEROS ARGENTINOS.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1428/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1428/26",
+   "extracto": "MENDOZA: PROYECTO DE DECLARACIÓN QUE RINDE HOMENAJE A LA CDAD. DE MONTEROS, PROV. DE TUCUMAN, AL CUMPLIRSE UN NUEVO ANIVERSARIO DE SU FUNDACION, EL 28 DE AGOSTO DE 2026.-",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1429/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1429/26",
+   "extracto": "MENDOZA: PROYECTO DE DECLARACION QUE ADHIERE A LA CONMEMORACION DE UN NUEVO ANIVERSARIO DE LA EMISIÓN DEL DCTO. LEY N° 16.926, QUE ORDENO EL CIERRE E INTERVENCION MASIVA DE LOS INGENIOS AZUCAREROS EN LA PROV. DE TUCUMAN, EL 22 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
   "143/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -5185,6 +5865,106 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1430/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1430/26",
+   "extracto": "MENDOZA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LAS JORNADAS \"AGOSTO EN EL INGENIO\", A REALIZARSE EN LA LOC. DE LASTENIA, PROV. DE TUCUMAN, DEL 20 AL 22 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1431/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1431/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE LEY QUE PRORROGA LA VIGENCIA DE SU SIMILAR 27.793 - EMERGENCIA NACIONAL EN DISCAPACIDAD. -",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1432/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1432/26",
+   "extracto": "LOPEZ C. Y LINARES: PROYECTO DE LEY QUE DEROGA EL DCTO N° 764/26 QUE AUTORIZA A LA AGENCIA DE ADMINISTRACIÓN DE BIENES DEL ESTADO (AABE) A DISPONER Y ENAJENAR CUATRO INMUEBLES ESTATALES CONSIDERADOS INNECESARIOS PARA REDUCIR COSTOS DE MANTENIMIENTO Y GENERAR INGRESOS",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1433/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1433/26",
+   "extracto": "LOPEZ C. Y LINARES: PROYECTO DE RESOLUCION QUE CITA AL JEFE DE GABINETE DE MINISTROS, CPN DIEGO CESAR SANTILLI, DE CONFORMIDAD AL ART. 71 DE LA C.N. Y EL ART. 214 DEL REGLAMENTO DE LA H. CAMARA, A FIN DE BRINDAR INFORME SOBRE EL DECRETO N° 764/2026 QUE DISPONE Y ENAJENA INMUEBLES DEL ESTADO NACIONA",
+   "origen": "S",
+   "tipo": "PR",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1434/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1434/26",
+   "extracto": "LOPEZ C. Y LINARES: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RELACIONADOS CON EL INMUEBLE DEL ESTADO NACIONAL UBICADO EN LA CDAD. DE USHUAIA, PROV. DE TIERRA DEL FUEGO, A.I.A.S., INDIVIDUALIZADO EN EL ANEXO DEL DCTO N° 764/26, QUE AUTORIZA SU DISPOSICION Y ENAJENACION.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1435/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1435/26",
+   "extracto": "LOPEZ, C. Y LINARES: PROYECTO DE DECLARACIÓN QUE RECHAZA LA DECISIÓN DEL DECRETO N° 764/2026, QUE AUTORIZA A LA AGENCIA DE ADMINISTRACION DE BIENES DEL ESTADO (AABE) A DISPONER Y ENAJENAR INMUEBLES DEL ESTADO NACIONAL DE LA PROV. DE TIERRA DEL FUEGO, A.I.A.S.-",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1436/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1436/26",
+   "extracto": "ABDALA: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 432° ANIVERSARIO DE LA FUNDACIÓN DE LA CDAD. DE SAN LUIS, PROV. HOMÓNIMA, EL 25 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1437/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1437/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE LEY QUE SUSTITUYE EL ART. 9° APROBADO POR EL ART. 6° DE SU SIMILAR 27.346 -IMPUESTO INDIRECTO SOBRE APUESTAS ONLINE-, RESPECTO DE REDISTRIBUIR EL GRAVAMEN SOBRE EL CONSUMO DE APUESTAS Y JUEGOS DE AZAR ONLINE.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1438/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1438/26",
+   "extracto": "SCHNEIDER Y FAMA: PROYECTO DE LEY QUE CREA EL REGIMEN ESPECIAL DE REGULARIZACION FISCAL Y ALIVIO FINANCIERO PARA PEQUEÑOS CONTRIBUYENTES Y MICRO, PEQUEÑAS Y MEDIANAS EMPRESAS.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1439/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1439/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY DE NEGOCIACION, APROBACION Y CONTROL DE LOS PROGRAMAS CON EL FONDO MONETARIO INTERNACIONAL.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
   },
   "144/26|OV": {
    "actualizado": "2026-08-19",
@@ -5216,6 +5996,106 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1440/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1440/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE ESTABLECE UN MARCO JURÍDICO PARA LA GARANTÍA DE EJECUCIÓN DE PROYECTOS PÚBLICOS ESTRATÉGICOS DE LA NACIÓN ARGENTINA.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1441/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1441/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY SOBRE RÉGIMEN DE PROTECCIÓN DE LA CIUDADANÍA ARGENTINA Y PROHIBICIÓN DE SU OTORGAMIENTO POR INVERSIÓN.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1442/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1442/26",
+   "extracto": "MARKS: PROYECTO DE LEY QUE INCLUYE LA EDUCACIÓN FINANCIERA EN LA CURRICULA DE LOS ESTABLECIMIENTOS EDUCATIVOS DE GESTION ESTATAL Y PRIVADA, COOPERATIVA Y SOCIAL, DE TODO EL PAIS Y EN LOS DISTINTOS NIVELES DE LA EDUCACIÓN.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1443/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1443/26",
+   "extracto": "MARKS: PROYECTO DE DECLARACIÓN QUE EXPRESA PREOCUPACION Y RECHAZA LA ADHESION A LA DECLARACION DEL CONCENSO DE GINEBRA SOBRE LA PROMOCION DE LA SALUD DE LA MUJER Y EL FORTALECIMIENTO DE LA FAMILIA.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1444/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1444/26",
+   "extracto": "CAPITANICH: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME, EN UN PLAZO DE TREINTA (30) DIAS, SOBRE EL SISTEMA DE ARMAS C-130 HERCULES DE LA FUERZA AEREA ARGENTINA, Y OTRAS CUESTIONES CONEXAS.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1445/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1445/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE INSTITUYE EL 26 DE AGOSTO DE CADA AÑO COMO \"DIA NACIONAL DEL VETERANO Y CAIDOS INDIGENAS EN LA GUERRA DE MALVINAS\".",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1446/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1446/26",
+   "extracto": "ZAMORA Y OTROS: PROYECTO DE LEY QUE MODIFICA EL CODIGO DE MINERIA RESPECTO DE INCORPORAR \"TIERRAS RARAS Y SUS ELEMENTOS ASOCIADOS\" AL REGIMEN DE SUSTANCIAS MINERALES DE PRIMERA CATEGORIA.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1447/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1447/26",
+   "extracto": "LOPEZ C. Y OTROS: PROYECTO DE DECLARACIÓN QUE REPUDIA EL INGRESO Y AMARRE EN EL PUERTO DE LA CDAD. DE USHUAIA, PROV. DE TIERRA DEL FUEGO Y A.I.A.S., DEL BUQUE PETROLERO VS PROMISE (IMO 9351438) REGISTRADO BAJO BANDERA DE LA ISLA DE MAN, DEPENDENCIA DE LA CORONA BRITANICA",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1448/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1448/26",
+   "extracto": "CAPITANICH: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS ASPECTOS RELACIONADOS AL INGRESO Y DEMAS OPERACIONES REALIZADAS POR EL BUQUE PETROLERO VS PROMISE, IMO 9351438, REGISTRADO BAJO BANDERA DE LA ISLA DE MAN, DEPENDENCIA DE LA CORONA BRITANICA, EN EL PUERTO DE USHUAIA, PROV. DE T",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1449/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1449/26",
+   "extracto": "MONTE DE OCA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA 37° REUNION DE ADMINISTRADORES DE PROGRAMAS ANTARTICOS LATINOAMERICANOS - RAPAL -, A REALIZARSE EN LA CDAD. DE USHUAIA, PROV. DE TIERRA DEL FUEGO , A.I.A.S, DEL 5 AL 8 DE OCTUBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
   "145/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -5245,6 +6125,106 @@
    "tipo": "PC",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1450/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1450/26",
+   "extracto": "LOSADA Y OTROS: PROYECTO DE LEY QUE INCORPORA UN ART. SIN NUMERO A CONTINUACION DEL ART. 39 DE SU SIMILAR 11.683 - PROCEDIMIENTO TRIBUTARIO (T.O. 1998 Y S/M), RESPECTO DE UN REGIMEN DE PROPORCIONALIDAD, INCENTIVO Y SUBSANACION, SOBRE LAS MULTAS APLICABLES A LAS MICRO, PEQUEÑAS Y MEDIANAS EMPRESAS Y",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1451/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1451/26",
+   "extracto": "JUEZ Y OTROS: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LAS TAREAS REALIZADAS POR LA COMISION NACIONAL DE ACTIVIDADES ESPACIALES (CONAE), EN CONJUNTO CON DIVERSAS INSTITUCIONES, EN EL DESARROLLO DEL MICROSATELITE ARGENTINO ATENEA, PARA LA MISION ESPACIAL DE LA NASA ARTEMIS II.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1452/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1452/26",
+   "extracto": "ROJAS DECUT: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA PLATAFORMA DIGITAL \"DIGESTO EDUCATIVO\" DE LA PROV. DE MISIONES.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1453/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1453/26",
+   "extracto": "ROJAS DECUT: PROYECTO DE LEY QUE MODIFICA EL ART. 28, INCISO A) DE SU SIMILAR 23.349 -IMPUESTO AL VALOR AGREGADO-, RESPECTO DE INCORPORAR A LA FECULA, HARINA Y FARIÑA DE MANDIOCA (YUCA) Y SUS DERIVADOS FARINACEOS, AL REGIMEN DE ALÍCUOTA REDUCIDA.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1454/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1454/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 88° ANIVERSARIO DE LA FUNDACION DE LA LOC. CHAQUEÑA DE \"CIERVO PETISO\", EL 1° DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1455/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1455/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 82° ANIVERSARIO DE LA FUNDACION DE LA LOC. DE LAGUNA LIMPIA, PROV. DEL CHACO, EL 4 DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1456/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1456/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL CENTENARIO DE LA ESCUELA DE EDUCACION PRIMARIA N° 137, DE LA LOC. DE CAMPO LARGO, PROV. DEL CHACO, EL 1 DE SEPTIEMBRE DE 2026",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1457/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1457/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 82° ANIVERSARIO DE LA FUNDACION DE \"LA CLOTILDE\", LOC. DE LA PROV. DEL CHACO, EL 4 DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1458/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1458/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LA CONMEMORACION EN HONOR A SAN FERNANDO REY, EL SANTO PATRONO DE LA CIUDAD DE RESISTENCIA Y EL DPTO. SAN FERNANDO, EN LA PROV. DEL CHACO, EL 27 DE AGOSTO DE 2026",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1459/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1459/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE LEY QUE CREA EN EL AMBITO DEL REGIMEN SIMPLIFICADO PARA PEQUEÑOS CONTRIBUYENTES ESTABLECIDO POR SU SIMILAR 24.977 S/M, EL SEGURO VOLUNTARIO DE CUIDADOS PARA LA PRIMERA INFANCIA.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
   },
   "146/26|OV": {
    "actualizado": "2026-08-19",
@@ -5276,6 +6256,106 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1460/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1460/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE LEY SOBRE REGIMEN DE LICENCIAS ESPECIALES PARA EL PERSONAL DE CASAS PARTICULARES.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1461/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1461/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE LEY QUE MODIFICA SU SIMILAR 24.714 -ASIGNACIONES FAMILIARES- RESPECTO DE INCORPORAR EL DERECHO A LA ASIGNACION POR MATERNIDAD PARA AQUELLAS MUJERES INSCRIPTAS EN EL REGIMEN SIMPLIFICADO PARA PEQUEÑOS CONTRIBUYENTES.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1462/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1462/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY DE INTEGRIDAD DIGITAL, TRANSPARENCIA Y PREVENCION DE LA MANIPULACION AUTOMATIZADA.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1463/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1463/26",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL 88° ANIVERSARIO DE LA LOC. DE CIERVO PETISO, PROV. DEL CHACO, EL 1 DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1464/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1464/26",
+   "extracto": "CARAMBIA Y ABDALA: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA PARTICIPACION DE ATLETAS DEL CENTRO ANDINO EL CHALTEN, PROV. DE SANTA CRUZ, EN EL CAMPEONATO MUNDIAL JUVENIL DE ESCALADA DEPORTIVA CELEBRADO EN ARCO, ITALIA, DEL 18 AL 25 DE JULIO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1465/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1465/26",
+   "extracto": "BENSUSAN: PROYECTO DE LEY QUE SUSTITUYE EL INC. 6 DEL ART. 3 DEL CONVENIO SOBRE COMUNICACIONES ENTRE TRIBUNALES DE DISTINTA JURISDICCIÓN TERRITORIAL, RESPECTO DE LOS REQUISITOS DE SELLO Y FIRMA EN LOS OFICIOS EMITIDOS EN FORMATO ELECTRÓNICO.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1466/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1466/26",
+   "extracto": "BENSUSAN: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE EL ESTADO DE EJECUCION DEL FONDO NACIONAL PARA LA INCLUSION SOCIAL DE LAS PERSONAS CON DISCAPACIDAD (FONADIS).",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1467/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1467/26",
+   "extracto": "ARRASCAETA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL TRABAJO ARTICULADO DE LA FACULTAD DE CIENCIAS ECONOMICAS, JURIDICAS Y SOCIALES (FCEJS) Y DE DIVERSAS ORGANIZACIONES DE LA SOCIEDAD CIVIL, QUE LOGRARON INSTAURAR POR LEY LA \"SEMANA PROVINCIAL DE PREVENCION, CONCIENTIZACION Y SENSIBILIZACI",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1468/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1468/26",
+   "extracto": "LINARES: PROYECTO DE LEY QUE MODIFICA SU SIMILAR 26.485 - PROTECCION INTEGRAL A LAS MUJERES- RESPECTO A INCORPORAR LA VIOLENCIA VICARIA Y AGRAVANDO LAS PENAS EN EL CODIGO PENAL.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1469/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1469/26",
+   "extracto": "ROYON: PROYECTO DE LEY QUE CREA EL PROGRAMA NACIONAL DE ACCESO A LA VIVIENDA UNICA, FAMILIAR Y PERMANENTE, \"PROGRAMA HABITAR TU FUTURO\"",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
   "147/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -5305,6 +6385,36 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1470/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1470/26",
+   "extracto": "ROYON: PROYECTO DE LEY DE AMPLIACION DEL REGIMEN DE INCENTIVO PARA GRANDES INVERSIONES A LAS NUEVAS ACTIVIDADES TECNOLÓGICAS ESTRATÉGICAS Y DE FORTALECIMIENTO DE SUS DISPOSICIONES GENERALES DE TRANSPARENCIA, INFORMACION AMBIENTAL Y ESTABILIDAD NORMATIVA.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1471/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1471/26",
+   "extracto": "SORIA: PROYECTO DE LEY QUE SUSTITUYE EL ART. 19 DE SU SIMILAR 23.966 - COMBUSTIBLES LIQUIDOS Y GAS NATURAL- SOBRE LA DISTRIBUCIÓN DE LOS FONDOS RECAUDADOS.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1472/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1472/26",
+   "extracto": "CAPITANICH Y OTROS: PROYECTO DE LEY QUE PRORROGA POR EL TERMINO DE UN (1) AÑO, A PARTIR DEL 1° DE ENERO DE 2027, LA VIGENCIA DE SU SIMILAR N° 12.908 - ESTATUTO DEL PERIODISTA PROFESIONAL- Y DEL DCTO. LEY N° 13.839/46- ESTATUTO DEL EMPLEADO ADMINISTRATIVO DE EMPRESAS PERIODISTICAS-.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
   },
   "1473/26|S": {
    "actualizado": "2026-08-27",
@@ -5366,6 +6476,16 @@
    "vigente": true,
    "visto": "2026-08-27"
   },
+  "1479/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1479/26",
+   "extracto": "GADANO: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RELACIONADOS AL FUNCIONAMIENTO DE LAS DEPENDENCIAS DEL INSTITUTO NACIONAL DE SERVICIOS SOCIALES PARA JUBILADOS Y PENSIONADOS (PAMI) EN LA PROVINCIA DE SANTA CRUZ.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
   "148/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -5396,6 +6516,106 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1480/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1480/26",
+   "extracto": "COMISION SUPERVISION PARLAMENTARIA OFICINA DE PRESUPUESTO DEL CONGRESO DE LA NACION LEY 27.343: COMUNICA RESOLUCION N° 8-CSP-2026, QUE TIENE POR PRESENTADA FORMALMENTE LA RENUNCIA DEL LIC. CLAUDIO GABRIEL ESTERELLES AL CARGO DE DIRECTOR GENERAL DE LA OFICINA DE PRESUPUESTO DEL CONGRESO A PARTIR DEL",
+   "origen": "S",
+   "tipo": "CC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1481/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1481/26",
+   "extracto": "COMISION SUPERVISION PARLAMENTARIA OFICINA DE PRESUPUESTO DEL CONGRESO DE LA NACION LEY 27.343: COMUNICA RES. N° 9-CSP-2026, QUE TIENE POR ACEPTADA LAS RENUNCIAS PRESENTADAS POR LA SRA. NATALIA LARIA AL CARGO DE COORD. DE RELACIONES INSTITUC. Y PARLAMENTARIAS DE LA OF. DE PRESUP. DEL CONGRESO, Y PO",
+   "origen": "S",
+   "tipo": "CC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1482/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1482/26",
+   "extracto": "COMISION SUPERVISION PARLAMENTARIA OFICINA DE PRESUPUESTO DEL CONGRESO DE LA NACION LEY 27.343: COMUNICA RES. N° 10-CSP-2026, QUE DESIGNA A LA DIR. DE ESTUDIOS, ANALISIS Y EVALUACION, MARIA EUGENIA DAVID DU MUTEL DE PIERREPONT, PARA EJERCER TRANSITORIAMENTE LAS FUNCIONES DE DIR. GENERAL DE LA OF. D",
+   "origen": "S",
+   "tipo": "CC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1483/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1483/26",
+   "extracto": "CARAMBIA: PROYECTO DE LEY QUE SUSTITUYE EL ART. 150 DEL CODIGO PENAL, RESPECTO A LA INCORPORACION DE LOS ESTABLECIMIENTOS RURALES DENTRO DE LOS ESPACIOS PROTEGIDOS POR EL MISMO.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1484/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1484/26",
+   "extracto": "LINARES: PROYECTO DE LEY QUE PRORROGA LA EMERGENCIA NACIONAL EN DISCAPACIDAD -DECLARADA POR LEY 27.793- EN TODO EL TERRITORIO NACIONAL HASTA EL 31 DE DICIEMBRE DE 2027- INCLUSIVE.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1485/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1485/26",
+   "extracto": "ALVAREZ RIVERO Y JUEZ: PROYECTO DE LEY QUE DECLARA DE INTERES LA VISITA APOSTOLICA DE SU SANTIDAD EL PAPA LEON XIV A LA REPUBLICA ARGENTINA, ENTRE EL 8 Y EL 11 DE NOVIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1486/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1486/26",
+   "extracto": "RECALDE Y OTROS: PROYECTO DE LEY QUE DEROGA EL DECRETO N° 687/26, QUE DISUELVE EL CORO NACIONAL DE NIÑOS Y RESTABLECE EL ART. 1° DEL DCTO. N° 8557/1967 QUE CREA EL CORO POLIFÓNICO NACIONAL.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1487/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1487/26",
+   "extracto": "KIRCHNER: PROYECTO DE LEY QUE DECLARA NULO DE NULIDAD ABSOLUTA EL DNU N° 274/26 - RÉGIMEN DE PRESTACIÓN DEL SERVICIO METEOROLÓGICO PARA LA NAVEGACIÓN AÉREA (MET).",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1488/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1488/26",
+   "extracto": "BAHL: PROYECTO DE LEY QUE SUSTITUYE EL ART. 19 DE SU SIMILAR 23.966 - COMBUSTIBLES LIQUIDOS Y GAS NATURAL- SOBRE LA DISTRIBUCIÓN DE LOS FONDOS RECAUDADOS.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1489/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1489/26",
+   "extracto": "LEWANDOWSKI: PROYECTO DE DECLARACION QUE DECLARA DE INTERÉS EL \"31° CONGRESO NACIONAL, 23° NACIONAL E INTERNACIONAL, 19° DEL MERCOSUR Y 16° LATINOAMERICANO DE ENTIDADES VECINALES\", A REALIZARSE EN LA CDAD. DE ROSARIO, PROV. DE SANTA FE, DEL 13 AL 15 DE NOVIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
   "149/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -5425,6 +6645,106 @@
    "tipo": "PC",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1490/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1490/26",
+   "extracto": "LEWANDOWSKI: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE EL ESTADO ACTUAL DE DISTINTOS FONDOS FIDUCIARIOS, CORRESPONDIENTE AL EJERCICIO 2026.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1491/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1491/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE LEY QUE PROMUEVE Y GARANTIZA EL ACCESO DE LA POBLACION A LA INFORMACION SOBRE LA PUERICULTURA.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1492/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1492/26",
+   "extracto": "REJAL Y OTROS: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LA VISITA DE SU SANTIDAD EL PAPA LEON XIV, A LA REPUBLICA ARGENTINA, ENTRE EL 8 Y 11 DE NOVIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1493/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1493/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE LEY QUE MODIFICA SU SIMILAR 25.065 -TARJETAS DE CRÉDITO-, RESPECTO DEL CARÁCTER DE ORDEN PÚBLICO, LOS INTERESES, COMISIONES Y LA TRANSPARENCIA EN LOS SERVICIOS FINANCIEROS Y DE CRÉDITO PARA EL CONSUMO; Y DEROGA DIVERSOS ARTÍCULOS DEL DNU 70/23.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1494/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1494/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE LEY DE TRANSPARENCIA DIGITAL, REGULACION DE CONTENIDOS SINTÉTICOS Y PROTECCION DE LA INTEGRIDAD ELECTORAL.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1495/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1495/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA REALIZACION DEL PRE LABORDE CHACO 2027, EN LA LOC. DE CHARATA, PROV. DEL CHACO, EL 5 Y 6 DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1496/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1496/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR EL 150° ANIVERSARIO DE LA FUNDACION DE LA LOC. DE ISLA DEL CERRITO, PROV. DEL CHACO, EL 8 DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1497/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1497/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA REALIZACION DEL 5° CONGRESO DE MUJERES UNIDAS PARA EDIFICAR, EN LA CDAD. DE RESISTENCIA, PROV. DEL CHACO, EL 5 DE SEPTIEMBRE.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1498/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1498/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA REALIZACION DE LA XXII EDICION DEL TORNEO INTERNACIONAL DE PESCA DEL DORADO CON DEVOLUCION, EN LA LOC. DE ISLA DEL CERRITO, PROV. DEL CHACO, DEL 4 AL 6 DE SEPTIEMBRE.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1499/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1499/26",
+   "extracto": "FERNANDEZ SAGASTI: SOLICITA RETIRO DEL PROYECTO DE LEY QUE MODIFICA SU SIMILAR 25.065 -TARJETAS DE CRÉDITO-, RESPECTO DEL CARÁCTER DE ORDEN PÚBLICO, LOS INTERESES, COMISIONES Y LA TRANSPARENCIA EN LOS SERVICIOS FINANCIEROS Y DE CRÉDITO PARA EL CONSUMO; Y DEROGA DIVERSOS ARTÍCULOS DEL DNU 70/23.",
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-09-04"
   },
   "15/26|OV": {
    "actualizado": "2026-08-19",
@@ -5496,6 +6816,106 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1500/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1500/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE LEY QUE MODIFICA SU SIMILAR 25.065 TARJETAS DE CRÉDITO-, RESPECTO DEL CARÁCTER DE ORDEN PÚBLICO, LOS INTERESES, COMISIONES Y LA TRANSPARENCIA EN LOS SERVICIOS FINANCIEROS Y DE CRÉDITO PARA EL CONSUMO; Y DEROGA DIVERSOS ARTÍCULOS DEL DNU 70/23.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1501/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1501/26",
+   "extracto": "GUZMAN CORAITA: PROYECTO DE LEY QUE ESTABLECE UN MARCO JURIDICO DE PROTECCION INTEGRAL DE LOS DERECHOS DE NIÑAS, NIÑOS Y ADOLESCENTES EN ENTORNOS DIGITALES.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1502/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1502/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE ESTABLECE UN MARCO DE PROMOCION DEL JUEGO VIRTUAL RESPONSABLE.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1503/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1503/26",
+   "extracto": "CAPITANICH: PROYECTO DE COMUNICACIÓN QUE SOLICITA SE MODIFIQUEN Y PRECISEN LOS PLIEGOS DEL TRAMO LITORAL DE LA RED FEDERAL DE CONCESIONES, ADJUDICADO POR RES. 1379/2026, A FIN DE GARANTIZAR EL CUADRO TARIFARIO BASE Y LA PERMANENCIA DEL SISTEMA DE PASE CON VIGENCIA DE 24 HORAS EN EL PUENTE GENERAL B",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1504/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1504/26",
+   "extracto": "COMISION DE SUPERVISION PARLAMENTARIA OFICINA DE PRESUPUESTO DEL CONGRESO DE LA NACION - LEY 27.343 -: COMUNICA RESOLUCION N° 011/2026, POR LA CUAL DA POR RECIBIDO EL INFORME ELEVADO POR LA DIR. GRAL. DE AUDITORIA INTERNA DE LA H. CAMARA DE DIPUTADOS DE LA NACION, DISPUESTO POR RES. N° 006-CSP-202",
+   "origen": "S",
+   "tipo": "CC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1505/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1505/26",
+   "extracto": "COMISION DE SUPERVISION PARLAMENTARIA OFICINA DE PRESUPUESTO DEL CONGRESO DE LA NACION - LEY 27.343 -: COMUNICA RESOLUCION N° 012/2026, POR LA CUAL DESIGNA A ALEJANDRA GABRIELA SAUDINO, COMO COORDINADORA ADM. Y TECNICA DE LA OFICINA DE PRESUPUESTO DEL CONGRESO CON RANGO DE DIRECTOR GENERAL DE CAMAR",
+   "origen": "S",
+   "tipo": "CC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1506/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1506/26",
+   "extracto": "COMISION DE SUPERVISION PARLAMENTARIA OFICINA DE PRESUPUESTO DEL CONGRESO DE LA NACION - LEY 27.343 -: COMUNICA RESOLUCION N° 013/2026, POR LA CUAL DESIGNA A GABRIELA FERNANDA LOZA, COMO COORDINADORA DE RELACIONES INSTITUCIONALES Y PARLAMENTARIAS DE LA OFICINA DE PRESUPUESTO DEL CONGRESO CON RANGO",
+   "origen": "S",
+   "tipo": "CC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1507/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1507/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE COMUNICACIÓN QUE SOLICITA AL BCRA QUE DEJE SIN EFECTO LA COMUNICACIÓN \"A\" 8406, QUE REGULA EL MECANISMO DE \"COBRO CON TRANSFERENCIA\" (CCT), PARA EL DEBITO AUTOMATICO DE PRÉSTAMOS SOBRE CUENTAS BANCARIAS Y DE PAGO.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1508/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1508/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE LEY QUE MODIFICA EL CODIGO PENAL DE LA NACION, RESPECTO DE INCORPORAR LA FIGURA DE MALTRATO HABITUAL-",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1509/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1509/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACION DEL DIA DE LA INDUSTRIA, EL 2 DE SEPTIEMBRE DE CADA AÑO.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
   "151/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -5525,6 +6945,106 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1510/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1510/26",
+   "extracto": "AVILA: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA CONMEMORACION DEL 60° ANIVERSARIO DEL PROCESO DE CIERRE MASIVO DE INGENIOS AZUCAREROS EN LA PROV. DE TUCUMAN.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1511/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1511/26",
+   "extracto": "ANDRADA: PROYECTO DE COMUNICACIÓN QUE SOLICITA SE HAGA EFECTIVA LA CESION GRATUTITA DE LA AERONAVE DASSAULT- BREGUET SUPER ETENDART 0755/3-A-205 A LA PROV. DE CATAMARCA, Y OTRAS CUESTIONES CONEXAS.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1512/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1512/26",
+   "extracto": "COTO: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL PROYECTO AUDIOVISUAL \"BROWN: ENTRE DOS MARES\" PRODUCIDO POR EL ROMPEHIELOS, PRODUCTORA ARGENTINA FUNDADA POR EL CINEASTA MANUEL FERNANDEZ ARROYO.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1513/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1513/26",
+   "extracto": "MENDOZA Y OTROS: PROYECTO LEY QUE CREA EN EL ÁMBITO DEL SISTEMA NACIONAL PARA LA GESTIÓN INTEGRAL DEL RIESGO Y LA PROTECCIÓN CIVIL (SINAGIR), EL SISTEMA FEDERAL DE ALERTA TEMPRANA PARA CRECIDAS REPENTINAS Y ALUVIONES.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1514/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1514/26",
+   "extracto": "MENDOZA Y OTROS: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE LA COBERTURA Y FUNCIONAMIENTO DE LOS SISTEMAS DE MONITOREO Y ALERTA TEMPRANA DESTINADOS A DETECTAR CRECIDAS REPENTINAS, INUNDACIONES SÚBITAS Y ALUVIONES EN EL TERRITORIO NACIONAL, Y OTRAS CUESTIONES CONEXAS.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1515/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1515/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE CREA UN REGIMEN DE FOMENTO, INCENTIVO Y SIMPLIFICACION TRIBUTARIA PARA MICRO, PEQUEÑAS Y MEDIANAS EMPRESAS (RF-MIPYME).",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1516/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1516/26",
+   "extracto": "BENSUSÁN: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RELACIONADOS CON EL ESTADO DE RECAUDACION, EJECUCION Y DISPONIBILIDAD DE LOS RECURSOS DEL FONDO FIDUCIARIO DE INFRAESTRUCTURA HIDRICA, Y OTRAS CUESTIONES CONEXAS.",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1517/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1517/26",
+   "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE LEY QUE CREA EL PROGRAMA NACIONAL DE ABORDAJE INTEGRAL DE LA PATOLOGÍA LINFOVENOSA.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1518/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1518/26",
+   "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO POR EL CENTENARIO DE LA FUNDACIÓN DEL CLUB ATLÉTICO INDEPENDIENTE DE POSADAS, PROV. DE MISIONES, CELEBRADO EL 30 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1519/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1519/26",
+   "extracto": "SALINO: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR EL 120° ANIVERSARIO DE LA ESCUELA N° 148 \"PROVINCIA DE CHUBUT\" DE LA CDAD. DE VILLA MERCEDES, PROV. DE SAN LUIS, EL 6 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
   },
   "152/26|OV": {
    "actualizado": "2026-08-19",
@@ -5556,6 +7076,106 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1520/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1520/26",
+   "extracto": "SALINO: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR EL 98° ANIVERSARIO DE LA ESCUELA N° 393 \"GRANADERO JUAN MANUEL MORENO\", DEL PJE. LAS LOMITAS, DPTO. JUNIN, PROV. DE SAN LUIS, EL 7 DE AGOSTO DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1521/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1521/26",
+   "extracto": "SALINO: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR EL 120° ANIVERSARIO DE LA ESCUELA PROVINCIAL N° 172 \"MISIONES\", DE LA CDAD. DE SAN LUIS, PROV. HOMONIMA, EL 26 DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1522/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1522/26",
+   "extracto": "SALINO: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR EL 10° ANIVERSARIO DE LA ESCUELA GENERATIVA \"CORAZON VICTORIA\", DE LA CDAD. DE SAN LUIS, PROV. HOMONIMA, EL 28 DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1523/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1523/26",
+   "extracto": "DE PEDRO: PROYECTO DE DECLARACION QUE EXPRESA PREOCUPACION POR LA CRISIS MANUFACTURERA ARGENTINA, Y OTRAS CUESTIONES CONEXAS.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1524/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1524/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RELACIONADOS AL CUMPLIMIENTO DE LA LEY NACIONAL DE TURISMO N° 25.997",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1525/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1525/26",
+   "extracto": "HUALA: PROYECTO DE LEY QUE INCORPORA COMO ART. 21 TER DE SU SIMILAR 24449 -TRANSITO- LA SEÑALIZACIÓN E ILUMINACIÓN SEGURA EN INTERSECCIONES Y EMPALMES DE LA RED VIAL NACIONAL.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1526/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1526/26",
+   "extracto": "VALENZUELA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LOS LIBROS \"Y UN DIA TE CONVERTISTE EN ANGEL\" Y \"TRANSFORMANDO EL DOLOR EN AMOR\" DE LA AUTORA NATALIA SCHELLER.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1527/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1527/26",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL 82° ANIVERSARIO DE LA LOC. DE LA CLOTILDE, PROV. DEL CHACO, A CONMEMORARSE EL 4 DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1528/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1528/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE GARANTIZA LA EFECTIVA APLICACIÓN DE LOS RECURSOS AFECTADOS AL FONDO HIDRICO DE INFRAESTRUCTURA.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1529/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1529/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE DECLARA LA EMERGENCIA HÍDRICA PREVENTIVA Y ESTABLECE UN MARCO FEDERAL DE PREVENCIÓN EN LAS PROVINCIAS DE LA CUENCA DEL PLATA, POR EL TÉRMINO DE TRESCIENTOS SESENTA Y CINCO (365) DÍAS.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
   "153/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -5586,6 +7206,106 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1530/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1530/26",
+   "extracto": "KIRCHNER: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RELACIONADOS CON LA IMPLEMENTACION DEL SISTEMA SOCIAL (SISOC).",
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1531/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1531/26",
+   "extracto": "ROYÓN: PROYECTO DE LEY QUE DECLARA AL HOTEL TERMAS DE ROSARIO DE LA FRONTERA, PROV. DE SALTA, COMO \"KILÓMETRO 0 DEL TERMALISMO ARGENTINO\".",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1532/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1532/26",
+   "extracto": "MORENO Y OTROS: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS AL ESPACIO CULTURAL \"LA CASA DE LA CHACARERA ITINERANTE-MOVIL\", IMPULSADO POR LA ASOCIACION CIVIL LA CASA DE LA CHACARERA, DE LA PROV. DE SANTIAGO DEL ESTERO.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1533/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1533/26",
+   "extracto": "MORENO Y OTROS: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS Y EXPRESA BENEPLÁCITO POR LA VISITA APOSTÓLICA DE SU SANTIDAD EL PAPA LEÓN XIV A LA REPÚBLICA ARGENTINA, ENTRE EL 8 Y 11 DE NOVIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1534/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1534/26",
+   "extracto": "ROYÓN: EN SU CARÁCTER DE PRESIDENTE DE LA COMISIÓN DE MINERÍA, ENERGÍA Y COMBUSTIBLES, COMUNICA LA DESIGNACIÓN DE AUTORIDADES, Y ADJUNTA COPIA DEL ACTA CORRESPONDIENTE.",
+   "origen": "S",
+   "tipo": "CC",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1535/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1535/26",
+   "extracto": "TERENZI: PROYECTO DE LEY QUE ESTABLECE EL DESACOPLAMIENTO DE LA FINANCIACIÓN Y REFORMA EL SISTEMA DE TARJETAS DE CRÉDITO.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1536/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1536/26",
+   "extracto": "TERENZI: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS EL SEGUNDO \"CONGRESO PATAGÓNICO DE DERECHO PÚBLICO, ADMINISTRACIÓN PÚBLICA Y ACTUALIDAD\", A REALIZARSE EN LA CDAD. TREVELIN, PROV. DEL CHUBUT, EL 13 Y 14 DE NOVIEMBRE DE 2026",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1537/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1537/26",
+   "extracto": "CARAMBIA: PROYECTO DE LEY QUE PROMUEVE EL DESARROLLO ECONOMICO Y LA GENERACION DE EMPLEO EN LAS PROVINCIAS PRODUCTORAS DE MINERALES, EN EL MARCO ESTABLECIDO POR LA LEY 24.196.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1538/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1538/26",
+   "extracto": "FERNANDEZ SAGASTI: PROYECTO DE LEY QUE CREA UN REGIMEN GRATUITO Y SIMPLIFICADO PARA LA CONSTITUCIÓN DE CLUBES DE BARRIO Y DE PUEBLO Y CENTROS DE JUBILADOS Y PENSIONADOS.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1539/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1539/26",
+   "extracto": "CRISTINA: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 60° ANIVERSARIO DEL INSTITUTO PREUNIVERSITARIO LICEO MILITAR \"GENERAL ROCA\", EN LA CDAD. DE COMODORO RIVADAVIA, PROV. DEL CHUBUT, EL 23 DE SEPTIEMBRE DE 2026.",
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
   "154/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -5615,6 +7335,36 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1540/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1540/26",
+   "extracto": "OLIVERA LUCERO: PROYECTO DE LEY QUE ESTABLECE EL PRINCIPIO DE NO REDUNDANCIA EN LA INFORMACION PUBLICA EN EL AMBITO DE LA ADMINISTRACION PUBLICA NACIONAL.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1541/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1541/26",
+   "extracto": "OLIVERA LUCERO: PROYECTO DE LEY QUE ESTABLECE UN REGIMEN FEDERAL DE TRANSPARENCIA Y PROTECCION DE MENORES EN EL JUEGO Y APUESTAS ONLINE",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
+  },
+  "1542/26|S": {
+   "actualizado": "2026-09-04",
+   "anio": 2026,
+   "expediente": "1542/26",
+   "extracto": "OLIVERA LUCERO: PROYECTO DE LEY QUE GARANTIZA EL DERECHO DEL PACIENTE A CONOCER EL COSTO DE SU ATENCION EN SALUD.",
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-09-04"
   },
   "155/26|OV": {
    "actualizado": "2026-08-19",
