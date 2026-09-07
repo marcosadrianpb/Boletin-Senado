@@ -1,0 +1,924 @@
+{
+ "fecha": "2026-09-07",
+ "generado": "2026-09-07T12:57:16-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "1552/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "ROJAS DECUT: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES A LA \"EXPO FERIA YERBA MATE Y ALFAJORES 2026\", A REALIZARSE EN LA CDAD. DE RESISTENCIA, PROV. DEL CHACO, EL 12 Y 13 DE SEPTIEMBRE DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1552.26/S/PD",
+    "fecha_mesa": "2026-09-04",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Rojas Decut , Sonia Elizabeth"
+    ],
+    "autores_id": [
+     "559"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499410/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1551/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "ROJAS DECUT: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA REALIZACION DE LA 47° CONVENCION ANUAL DEL INSTITUTO ARGENTINO DE EJECUTIVOS DE FINANZAS (IAEF), A REALIZARSE EN LA CDAD. DE PUERTO IGUAZU, PROV. DE MISIONES, DEL 3 AL 6 DE SEPTIEMBRE DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1551.26/S/PD",
+    "fecha_mesa": "2026-09-04",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Rojas Decut , Sonia Elizabeth"
+    ],
+    "autores_id": [
+     "559"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ECONOMÍA NACIONAL E INVERSIÓN",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499409/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1550/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "ROJAS DECUT: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL \"X CONGRESO INTERNACIONAL DE LAS RELACIONES INTERPERSONALES: HACIA UNA CULTURA DEL CUIDADO; SOCIEDADES MAS HUMANAS, SOSTENIBLES, SOLIDARIAS\", A REALIZARSE EN EL CAMPUS PILAR DE LA UNIVERSIDAD AUSTRAL, EL 29 Y 30 DE SEPTIEMBRE DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1550.26/S/PD",
+    "fecha_mesa": "2026-09-04",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Rojas Decut , Sonia Elizabeth"
+    ],
+    "autores_id": [
+     "559"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499408/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1549/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "MORENO: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO Y RECONOCE A LA SELECCIÓN ARGENTINA FEMENINA DE HOCKEY SOBRE CESPED \"LAS LEONAS\", POR HABERSE CONSAGRADO CAMPEONAS DE LA COPA DEL MUNDO FIH 2026, EN LOS PAISES BAJOS, EL 29 DE AGOSTO DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1549.26/S/PD",
+    "fecha_mesa": "2026-09-03",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Moreno , Elia Esther Del Carmen"
+    ],
+    "autores_id": [
+     "594"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE DEPORTE",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499407/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1548/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "MORENO: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO Y RECONOCE A LA SELECCIÓN ARGENTINA MASCULINA DE HOCKEY SOBRE CESPED \"LOS LEONES\" POR LA OBTENCION DE LA MEDALLA DE BRONCE, EN LA COPA DEL MUNDO FIH DE HOCKEY 2026, EN BELGICA, EL 30 DE AGOSTO DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1548.26/S/PD",
+    "fecha_mesa": "2026-09-03",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Moreno , Elia Esther Del Carmen"
+    ],
+    "autores_id": [
+     "594"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE DEPORTE",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499406/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1547/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "MORENO: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO Y RECONOCE A LA SELECCIÓN ARGENTINA MASCULINA SUB-17 POR HABERSE CONSAGRADO CAMPEONA DE LA CONMEBOL SUDAMERICANO SUB-17 DE FUTSAL 2026, EN LA CDAD. DE LUQUE, REPUBLICA DEL PARAGUAY, EL 16 DE AGOSTO DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1547.26/S/PD",
+    "fecha_mesa": "2026-09-03",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Moreno , Elia Esther Del Carmen"
+    ],
+    "autores_id": [
+     "594"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE DEPORTE",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499405/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1546/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "LINARES: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO Y RECONOCE A LA SELECCIÓN ARGENTINA FEMENINA DE HOCKEY SOBRE CESPED, \"LAS LEONAS\", POR SU CONSAGRACION COMO CAMPEONAS DE LA COPA MUNDIAL DE HOCKEY FEMENINO 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1546.26/S/PD",
+    "fecha_mesa": "2026-09-03",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Linares , Carlos Alberto"
+    ],
+    "autores_id": [
+     "529"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE DEPORTE",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499404/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1545/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "PAGOTTO: PROYECTO DE DECLARACION QUE EXPRESA PESAR POR EL FALLECIMIENTO DE EDUARDO GROH RIEMERSMA, DESTACADO REFERENTE DEL PROTECCIONISMO ANIMAL Y CREADOR DEL REFUGIO \"EL MONTECITO\", EN LA PROV. DE SANTIAGO DEL ESTERO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1545.26/S/PD",
+    "fecha_mesa": "2026-09-03",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Pagotto , Juan Carlos"
+    ],
+    "autores_id": [
+     "557"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499403/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1544/26",
+   "tipo": "PC",
+   "origen": "S",
+   "extracto": "HUALA: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSAS CUESTIONES RELACIONADAS CON LA SITUACION ACTUAL DE LAS PYMES PRODUCTORAS DE BIODIESEL EN LA REPUBLICA ARGENTINA",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1544.26/S/PC",
+    "fecha_mesa": "2026-09-03",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Huala , María Victoria"
+    ],
+    "autores_id": [
+     "531"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE MINERÍA, ENERGÍA Y COMBUSTIBLES",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499402/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1543/26",
+   "tipo": "PC",
+   "origen": "S",
+   "extracto": "CAPITANICH: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE EL ESTADO Y PRESERVACION DEL SUBMARINO ARA \"SAN LUIS\".",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1543.26/S/PC",
+    "fecha_mesa": "2026-09-03",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE DEFENSA NACIONAL",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499401/downloadPdf"
+   }
+  },
+  {
+   "expediente": "405/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE LAGO PUELO, PROV. DEL CHUBUT: EXPRESA PREOCUPACIÓN POR LAS MODIFICACIONES PROPUESTAS A LA LEY 26.737 -TIERRAS RURALES-.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/405.26/OV/CV",
+    "fecha_mesa": "2026-09-03",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499386/downloadPdf"
+   }
+  },
+  {
+   "expediente": "404/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE ENSENADA, PROV. DE BS. AS.: REPUDIA LAS MEDIDAS POLÍTICAS Y ECONÓMICAS DEL GOBIERNO NACIONAL QUE INCREMENTAN EL ENDEUDAMIENTO Y LA MOROSIDAD DE LOS ARGENTINOS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/404.26/OV/CV",
+    "fecha_mesa": "2026-09-02",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499385/downloadPdf"
+   }
+  },
+  {
+   "expediente": "403/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE LOBOS, PROV. DE BS. AS.: REPUDIA LA DISOLUCIÓN DEL CORO NACIONAL DE NIÑOS, DISPUESTA MEDIANTE DECRETO N° 687/26.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/403.26/OV/CV",
+    "fecha_mesa": "2026-09-02",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499383/downloadPdf"
+   }
+  },
+  {
+   "expediente": "402/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE VILLARINO, PROV. DE BUENOS AIRES: SOLICITA LA URGENTE REPARACION Y MANTENIMIENTO DE LA RUTA NACIONAL N° 22 Y N° 3.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/402.26/OV/CV",
+    "fecha_mesa": "2026-09-01",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499382/downloadPdf"
+   }
+  },
+  {
+   "expediente": "401/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE TRENQUE LAUQUEN, PROV. DE BS.AS.: EXPRESA ACOMPAÑAMIENTO AL PROYECTO DE LEY \"GARANTÍA DE LIBRE CIRCULACION ENTRE BERUTI Y TRENQUE LAUQUEN\".",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/401.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499381/downloadPdf"
+   }
+  },
+  {
+   "expediente": "400/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE CORONEL PRINGLES, PROV. DE BS. AS.: APOYA LA IMPLEMENTACION DEL SISTEMA DE MONITOREO Y ALERTA HIDROMETEOROLOGICO, DESTINADO A FORTALECER LA PREVENCIÓN Y RESPUESTA FRENTE A FENOMENOS CLIMATICOS EXTREMOS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/400.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499380/downloadPdf"
+   }
+  },
+  {
+   "expediente": "399/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE MERCEDES, PROV. DE BUENOS AIRES: EXPRESA PREOCUPACIÓN Y RECHAZO ANTE EL USO DESPROPORCIONADO DE LAS FUERZAS DE SEGURIDAD EL PASADO 6 DE AGOSTO EN LAS INMEDIACIONES AL CONGRESO NACIONAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/399.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499378/downloadPdf"
+   }
+  },
+  {
+   "expediente": "398/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE PUERTO MADRYN, PROV. DEL CHUBUT: SOLICITA EL ANALISIS, TRATAMIENTO E INCORPORACION DENTRO DE LA LEGISLACION NACIONAL DE HERRAMIENTAS DE IDENTIFICACION VOLUNTARIA PARA PERSONAS CON DISCAPACIDADES NO VISIBLES.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/398.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499377/downloadPdf"
+   }
+  },
+  {
+   "expediente": "397/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE SAN RAFAEL, PROV. DE MENDOZA: REPUDIA EL PROYECTO QUE PRETENDE LA DEROGACION DE LA LEY 25.542 DE DEFENSA DE LA ACTIVIDAD LIBRERA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/397.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499376/downloadPdf"
+   }
+  },
+  {
+   "expediente": "396/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE MERCEDES, PROV. DE BUENOS AIRES: EXPRESA PREOCUPACION POR LA CONCESIÓN DEL \"TRAMO PAMPA\" DE LA RUTA NACIONAL N° 5, LA CUAL NO CONTEMPLA LA CONSTRUCCIÓN DE LA AUTOVÍA NI OBRAS DE INFRAESTRUCTURA NECESARIAS PARA MEJORAR LA SEGURIDAD VIAL DEL CORREDOR.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/396.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499375/downloadPdf"
+   }
+  },
+  {
+   "expediente": "395/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE TIGRE, PROV. DE BUENOS AIRES: EXPRESA REPUDIO AL PROYECTO DE LEY DE \"INVIOLABILIDAD DE LA PROPIEDAD PRIVADA\".",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/395.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499373/downloadPdf"
+   }
+  },
+  {
+   "expediente": "394/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "PODER LEGISLATIVO DE LA PROV. DEL CHACO: DECLARA DE INTERÉS EL 10° ENCUENTRO DE COMISIONES FEDERALES DE LEGISLATURAS CONECTADAS, LOS DÍAS 31 DE AGOSTO Y 1° DE SEPTIEMBRE.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/394.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499372/downloadPdf"
+   }
+  },
+  {
+   "expediente": "393/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "UNIVERSIDAD NACIONAL DE LAS ARTES: REPUDIA LA DISOLUCION DEL CORO NACIONAL DE NIÑOS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/393.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499371/downloadPdf"
+   }
+  },
+  {
+   "expediente": "392/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE LUJAN, PROV. DE BS. AS.: RECHAZA TODA INICIATIVA DE REFORMA PREVISIONAL QUE IMPLIQUE LA PERDIDA DE DERECHOS ADQUIRIDOS POR LOS TRABAJADORES DOCENTES Y ESTATALES DE LA PROV. DE BUENOS AIRES.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/392.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499370/downloadPdf"
+   }
+  },
+  {
+   "expediente": "391/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "UNIVERSIDAD NACIONAL DE LAS ARTES: EXPRESA PREOCUPACIÓN RESPECTO DEL PROYECTO DE LEY DE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/391.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499369/downloadPdf"
+   }
+  },
+  {
+   "expediente": "390/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE GENERAL BELGRANO, PROV. DE BUENOS AIRES: RECHAZA EL PROYECTO DE LEY DE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/390.26/OV/CV",
+    "fecha_mesa": "2026-08-31",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499367/downloadPdf"
+   }
+  },
+  {
+   "expediente": "389/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "MUNICIPALIDAD DE GENERAL RODRIGUEZ, PROV. DE BS. AS.: SOLICITA EL RECHAZO AL PROYECTO DE MODIFICIACION DEL REGIMEN DE ZONA FRÍA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/389.26/OV/CV",
+    "fecha_mesa": "2026-08-28",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499364/downloadPdf"
+   }
+  },
+  {
+   "expediente": "388/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE JUNIN, PROV. DE BUENOS AIRES: SOLICITA MEDIDAS PARA GARANTIZAR CONDICIONES SEGURAS DE CIRCULACIÓN EN LA RUTA NACIONAL N° 188, Y OTRAS CUESTIONES CONEXAS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/388.26/OV/CV",
+    "fecha_mesa": "2026-08-25",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "296/26",
+   "tipo": "DC",
+   "origen": "PE",
+   "extracto": "JEFATURA DE GABINETE: REMITE MENSAJE Nº 41/26 QUE COMUNICA EL DICTADO DEL DECRETO DE NECESIDAD Y URGENCIA Nº 771/26, POR EL QUE MODIFICA LA LEY DE MINISTERIOS - COMPETENCIAS DEL MINISTERIO DE ECONOMÍA Y MINISTERIO DE SALUD",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/296.26/PE/DC",
+    "fecha_mesa": "2026-09-03",
+    "dae": "67/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE DE TRÁMITE LEGISLATIVO (LEY 26.122)",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499389/downloadPdf"
+   }
+  },
+  {
+   "expediente": "17/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE DISPONE LA OBLIGATORIEDAD DE MEDIDAS DE SEGURIDAD EN DEPORTE Y ACTIVIDADES RECREATIVAS \"LEY JOAQUIN\"",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/17.26/CD/PL",
+    "fecha_mesa": "2026-08-31",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE DEPORTE",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "orden": "2",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499414/downloadPdf"
+   }
+  },
+  {
+   "expediente": "16/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE DECLARA CAPITAL NACIONAL DE LA PRODUCCION BUBALINA A LA CIUDAD DE CAÁ CATÍ, DPTO. DE GENERAL PAZ, PROV. DE CORRIENTES.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/16.26/CD/PL",
+    "fecha_mesa": "2026-08-27",
+    "dae": "67/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE AGRICULTURA, GANADERÍA Y PESCA",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499368/downloadPdf"
+   }
+  },
+  {
+   "expediente": "15/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE DECLARA AL MUNICIPIO DE SAN JOSE DE LOS CERRILLOS, PROV. DE SALTA, \"CAPITAL NACIONAL DEL CERDO NEGRO\".",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/15.26/CD/PL",
+    "fecha_mesa": "2026-08-27",
+    "dae": "67/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE AGRICULTURA, GANADERÍA Y PESCA",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499366/downloadPdf"
+   }
+  },
+  {
+   "expediente": "14/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE DECLARA CAPITAL NACIONAL DEL ECOTURISMO A LA PROV. DE TUCUMAN.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/14.26/CD/PL",
+    "fecha_mesa": "2026-08-27",
+    "dae": "67/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499365/downloadPdf"
+   }
+  },
+  {
+   "expediente": "13/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE DECLARA A LA PROV. DE SANTA CRUZ COMO CAPITAL NACIONAL DE LA NATACION DE AGUAS FRIAS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/13.26/CD/PL",
+    "fecha_mesa": "2026-08-27",
+    "dae": "67/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499363/downloadPdf"
+   }
+  },
+  {
+   "expediente": "12/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE INSTITUYE A LA PROV. DE SAN JUAN COMO CUNA DE DOMINGO FAUSTINO SARMIENTO Y CAPITAL NACIONAL DE LA EDUCACION.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/12.26/CD/PL",
+    "fecha_mesa": "2026-08-27",
+    "dae": "67/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499362/downloadPdf"
+   }
+  },
+  {
+   "expediente": "11/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE DECLARA CAPITAL NACIONAL DEL COLECCIONISMO A LA CIUDAD DE CHIVILCOY, PROV. DE BUENOS AIRES",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/11.26/CD/PL",
+    "fecha_mesa": "2026-08-27",
+    "dae": "67/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499361/downloadPdf"
+   }
+  },
+  {
+   "expediente": "10/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE DECLARA A LA CIUDAD AUTONOMA DE BUENOS AIRES COMO CAPITAL NACIONAL DEL TEATRO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/10.26/CD/PL",
+    "fecha_mesa": "2026-08-27",
+    "dae": "67/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499360/downloadPdf"
+   }
+  },
+  {
+   "expediente": "9/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE MODIFICA SU SIMILAR 23.349 - IMPUESTO AL VALOR AGREGADO -, SOBRE REDUCCION DE LA ALICUOTA A LA FECULA DE MANDIOCA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/9.26/CD/PL",
+    "fecha_mesa": "2026-08-27",
+    "dae": "67/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499359/downloadPdf"
+   }
+  },
+  {
+   "expediente": "8/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE MODIFICA LAS LEYES 11683 Y 27799 (T.O. 1998 Y S/M) RELATIVAS A LA MODALIDAD SIMPLIFICADA DE DECLARACION JURADA DEL IMPUESTO A LAS GANANCIAS Y EN MATERIA DE PRESCRIPCION TRIBUTARIA, Y 25.191 REFERENTE AL REGIMEN SANCIONATORIO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/8.26/CD/PL",
+    "fecha_mesa": "2026-08-27",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE JUSTICIA Y ASUNTOS PENALES",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "orden": "2",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499416/downloadPdf"
+   }
+  },
+  {
+   "expediente": "7/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE MODIFICA LA CARTA ORGANICA DEL BANCO CENTRAL DE LA REPUBLICA ARGENTINA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/7.26/CD/PL",
+    "fecha_mesa": "2026-08-26",
+    "dae": "69/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ECONOMÍA NACIONAL E INVERSIÓN",
+      "orden": "1",
+      "ingreso": "04-09-2026"
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "orden": "2",
+      "ingreso": "04-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499415/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [
+  {
+   "expediente": "1535/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "TERENZI: PROYECTO DE LEY QUE ESTABLECE EL DESACOPLAMIENTO DE LA FINANCIACIÓN Y REFORMA AL SISTEMA DE TARJETAS DE CRÉDITO.",
+   "anio": 2026,
+   "cambios": {
+    "extracto": [
+     "TERENZI: PROYECTO DE LEY QUE ESTABLECE EL DESACOPLAMIENTO DE LA FINANCIACIÓN Y REFORMA EL SISTEMA DE TARJETAS DE CRÉDITO.",
+     "TERENZI: PROYECTO DE LEY QUE ESTABLECE EL DESACOPLAMIENTO DE LA FINANCIACIÓN Y REFORMA AL SISTEMA DE TARJETAS DE CRÉDITO."
+    ]
+   }
+  },
+  {
+   "expediente": "1472/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "CAPITANICH Y OTROS: PROYECTO DE LEY QUE PRORROGA POR EL TERMINO DE UN (1) AÑO, A PARTIR DEL 1° DE ENERO DE 2027, LA VIGENCIA DE SU SIMILAR N° 12.908 - ESTATUTO DEL PERIODISTA PROFESIONAL- Y DEL DCTO. LEY N° 13.839/46- ESTATUTO DEL EMPLEADO ADMINISTRATIVO DE EMPRESAS PERIODISTICAS-.Y S/ MOD. Y CO",
+   "anio": 2026,
+   "cambios": {
+    "extracto": [
+     "CAPITANICH Y OTROS: PROYECTO DE LEY QUE PRORROGA POR EL TERMINO DE UN (1) AÑO, A PARTIR DEL 1° DE ENERO DE 2027, LA VIGENCIA DE SU SIMILAR N° 12.908 - ESTATUTO DEL PERIODISTA PROFESIONAL- Y DEL DCTO. LEY N° 13.839/46- ESTATUTO DEL EMPLEADO ADMINISTRATIVO DE EMPRESAS PERIODISTICAS-.",
+     "CAPITANICH Y OTROS: PROYECTO DE LEY QUE PRORROGA POR EL TERMINO DE UN (1) AÑO, A PARTIR DEL 1° DE ENERO DE 2027, LA VIGENCIA DE SU SIMILAR N° 12.908 - ESTATUTO DEL PERIODISTA PROFESIONAL- Y DEL DCTO. LEY N° 13.839/46- ESTATUTO DEL EMPLEADO ADMINISTRATIVO DE EMPRESAS PERIODISTICAS-.Y S/ MOD. Y CO"
+    ]
+   }
+  },
+  {
+   "expediente": "1443/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "MARKS: PROYECTO DE DECLARACIÓN QUE EXPRESA PREOCUPACION Y RECHAZA LA ADHESION A LA DECLARACION DEL CONSENSO DE GINEBRA SOBRE LA PROMOCION DE LA SALUD DE LA MUJER Y EL FORTALECIMIENTO DE LA FAMILIA.",
+   "anio": 2026,
+   "cambios": {
+    "extracto": [
+     "MARKS: PROYECTO DE DECLARACIÓN QUE EXPRESA PREOCUPACION Y RECHAZA LA ADHESION A LA DECLARACION DEL CONCENSO DE GINEBRA SOBRE LA PROMOCION DE LA SALUD DE LA MUJER Y EL FORTALECIMIENTO DE LA FAMILIA.",
+     "MARKS: PROYECTO DE DECLARACIÓN QUE EXPRESA PREOCUPACION Y RECHAZA LA ADHESION A LA DECLARACION DEL CONSENSO DE GINEBRA SOBRE LA PROMOCION DE LA SALUD DE LA MUJER Y EL FORTALECIMIENTO DE LA FAMILIA."
+    ]
+   }
+  }
+ ],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2254,
+ "total_ahora": 2294
+}
