@@ -1,0 +1,40 @@
+{
+ "fecha": "2026-09-08",
+ "generado": "2026-09-08T11:39:37-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "297/26",
+   "tipo": "CE",
+   "origen": "PE",
+   "extracto": "JEFATURA DE GABINETE: REMITE RESPUESTA A LA COMISION BIC. DE REF. DEL ESTADO Y DEL SEG. DE LAS PRIVATIZACIONES. - LEY N° 26.696 -, EN RELACION CON LO DISPUESTO POR EL ART. 2° DE LA RESOLUCION N° 1/26.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/297.26/PE/CE",
+    "fecha_mesa": "2026-09-08",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL DE REFORMA DEL ESTADO Y DEL SEGUIMIENTO DE LAS PRIVATIZACIONES (LEY 23.696)",
+      "orden": "1",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": null
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2294,
+ "total_ahora": 2295
+}
