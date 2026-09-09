@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-08T11:39:38-03:00",
+ "actualizado": "2026-09-09T11:41:13-03:00",
  "anios": [
   2026
  ],
- "corridas": 19,
+ "corridas": 20,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -2087,10 +2087,10 @@
    "visto": "2026-08-19"
   },
   "1149/26|S": {
-   "actualizado": "2026-08-19",
+   "actualizado": "2026-09-09",
    "anio": 2026,
    "expediente": "1149/26",
-   "extracto": "ATAUCHE: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACION DEL DIA MUNDIAL EN RECUERDO DE LAS VICTIMAS DE ACCIDENTE DE TRAFICO, EL 15 DE NOVIEMBRE DE 2026.",
+   "extracto": "ATAUCHE: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACION DEL DIA MUNDIAL EN RECUERDO DE LAS VICTIMAS DE ACCIDENTES DE TRAFICO, EL 15 DE NOVIEMBRE DE 2026.",
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -7556,6 +7556,36 @@
    "vigente": true,
    "visto": "2026-09-07"
   },
+  "1559/26|S": {
+   "actualizado": "2026-09-09",
+   "anio": 2026,
+   "expediente": "1559/26",
+   "extracto": "MOISES: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA 20° EDICION DE LA CAMINATA AVON PARA GANARLE AL CÁNCER DE MAMA, A REALIZARSE EN CABA, EL 27 DE SEPTIEMBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Moises , María Carolina"
+    ],
+    "autores_id": [
+     "554"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE SALUD",
+      "ingreso": "08-09-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-09-07",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499449/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1559.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-09-09"
+  },
   "156/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -12387,26 +12417,10 @@
    "visto": "2026-08-27"
   },
   "297/26|PE": {
-   "actualizado": "2026-09-08",
+   "actualizado": "2026-09-09",
    "anio": 2026,
    "expediente": "297/26",
-   "extracto": "JEFATURA DE GABINETE: REMITE RESPUESTA A LA COMISION BIC. DE REF. DEL ESTADO Y DEL SEG. DE LAS PRIVATIZACIONES. - LEY N° 26.696 -, EN RELACION CON LO DISPUESTO POR EL ART. 2° DE LA RESOLUCION N° 1/26.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL DE REFORMA DEL ESTADO Y DEL SEGUIMIENTO DE LAS PRIVATIZACIONES (LEY 23.696)",
-      "ingreso": null,
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-08",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/297.26/PE/CE"
-   },
+   "extracto": "JEFATURA DE GABINETE: REMITE RESPUESTA A LA COMISION BIC. DE REF. DEL ESTADO Y DEL SEG. DE LAS PRIVATIZACIONES. - LEY N° 23.696 -, EN RELACION CON LO DISPUESTO POR EL ART. 2° DE LA RESOLUCION N° 1/26.",
    "origen": "PE",
    "tipo": "CE",
    "vigente": true,
@@ -12432,6 +12446,32 @@
    "vigente": true,
    "visto": "2026-08-27"
   },
+  "298/26|PE": {
+   "actualizado": "2026-09-09",
+   "anio": 2026,
+   "expediente": "298/26",
+   "extracto": "JEFATURA DE GABINETE: REMITE MENSAJE Nº 42/26 QUE COMUNICA EL DICTADO DEL DECRETO DE NECESIDAD Y URGENCIA Nº 867/26, DE MODIFICACION PRESUPUESTARIA DE VARIAS JURISDICCIONES - EJERCICIO 2026 -.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE DE TRÁMITE LEGISLATIVO (LEY 26.122)",
+      "ingreso": "09-09-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-09-09",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/298.26/PE/DC"
+   },
+   "origen": "PE",
+   "tipo": "DC",
+   "vigente": true,
+   "visto": "2026-09-09"
+  },
   "298/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -12451,6 +12491,37 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-27"
+  },
+  "299/26|PE": {
+   "actualizado": "2026-09-09",
+   "anio": 2026,
+   "expediente": "299/26",
+   "extracto": "JEFATURA DE GABINETE: REMITE NOTA POR LA CUAL SE ACOMPAÑA COPIA DE LA DECISIÓN ADMINISTRATIVA N° 26/26 QUE MODIFICO EL PRESUPUESTO DE LA ADMINISTRACIÓN PÚBLICA NACIONAL, EN VIRTUD DE LO DISPUESTO EN EL ART. 37 DE LA LEY 24.156 - ADMINISTRACIÓN FINANCIERA Y DE LOS SISTEMAS DE CONTROL DEL SECTOR",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE SUPERVISIóN PARLAMENTARIA DE LA OFICINA DE PRESUPUESTO DEL CONGRESO (LEY 27.343) Solo para conocimiento : 2",
+      "ingreso": null,
+      "orden": null
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "ingreso": "09-09-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-09-09",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/299.26/PE/CE"
+   },
+   "origen": "PE",
+   "tipo": "CE",
+   "vigente": true,
+   "visto": "2026-09-09"
   },
   "299/26|S": {
    "actualizado": "2026-08-19",
