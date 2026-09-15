@@ -1,0 +1,49 @@
+{
+ "fecha": "2026-09-15",
+ "generado": "2026-09-15T12:06:45-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "1599/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "FAMA: PROYECTO DE LEY QUE MODIFICA SU SIMILAR 27.742 -BASES Y PUNTOS DE PARTIDA PARA LA LIBERTAD DE LOS ARGENTINOS-, RESPECTO DE INCLUIR EN EL RÉGIMEN DE INCENTIVO PARA GRANDES INVERSIONES (RIGI) LAS INVERSIONES DESTINADAS A EXTENDER LA VIDA ÚTIL DE PROYECTOS MINEROS EN PRODUCCIÓN.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1599.26/S/PL",
+    "fecha_mesa": "2026-09-11",
+    "dae": "72/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Fama , Flavio Sergio"
+    ],
+    "autores_id": [
+     "520"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE MINERÍA, ENERGÍA Y COMBUSTIBLES",
+      "orden": "1",
+      "ingreso": "14-09-2026"
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "orden": "2",
+      "ingreso": "14-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499666/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2367,
+ "total_ahora": 2368
+}
