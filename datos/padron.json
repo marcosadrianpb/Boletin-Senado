@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-15T12:06:45-03:00",
+ "actualizado": "2026-09-16T12:03:35-03:00",
  "anios": [
   2026
  ],
- "corridas": 24,
+ "corridas": 25,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -8121,31 +8121,6 @@
    "anio": 2026,
    "expediente": "1599/26",
    "extracto": "FAMA: PROYECTO DE LEY QUE MODIFICA SU SIMILAR 27.742 -BASES Y PUNTOS DE PARTIDA PARA LA LIBERTAD DE LOS ARGENTINOS-, RESPECTO DE INCLUIR EN EL RÉGIMEN DE INCENTIVO PARA GRANDES INVERSIONES (RIGI) LAS INVERSIONES DESTINADAS A EXTENDER LA VIDA ÚTIL DE PROYECTOS MINEROS EN PRODUCCIÓN.",
-   "ficha": {
-    "autores": [
-     "Fama , Flavio Sergio"
-    ],
-    "autores_id": [
-     "520"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE MINERÍA, ENERGÍA Y COMBUSTIBLES",
-      "ingreso": "14-09-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE PRESUPUESTO Y HACIENDA",
-      "ingreso": "14-09-2026",
-      "orden": "2"
-     }
-    ],
-    "dae": "72/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-09-11",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499666/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1599.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13180,6 +13155,27 @@
    "tipo": "CA",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "305/26|PE": {
+   "actualizado": "2026-09-16",
+   "anio": 2026,
+   "expediente": "305/26",
+   "extracto": "JEFATURA DE GABINETE: REMITE COPIA DEL MENSAJE N° 43/26 Y PROYECTO DE LEY, INGRESADO POR LA H. CAMARA DE DIPUTADOS, DE PRESUPUESTO GENERAL DE LA ADMINISTRACION NACIONAL PARA EL EJERCICIO FISCAL 2027.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": null,
+    "dae_tipo": null,
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "fecha_mesa": null,
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/305.26/PE/MD"
+   },
+   "origen": "PE",
+   "tipo": "MD",
+   "vigente": true,
+   "visto": "2026-09-16"
   },
   "305/26|S": {
    "actualizado": "2026-08-19",

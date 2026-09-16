@@ -1,0 +1,35 @@
+{
+ "fecha": "2026-09-16",
+ "generado": "2026-09-16T12:03:35-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "305/26",
+   "tipo": "MD",
+   "origen": "PE",
+   "extracto": "JEFATURA DE GABINETE: REMITE COPIA DEL MENSAJE N° 43/26 Y PROYECTO DE LEY, INGRESADO POR LA H. CAMARA DE DIPUTADOS, DE PRESUPUESTO GENERAL DE LA ADMINISTRACION NACIONAL PARA EL EJERCICIO FISCAL 2027.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/305.26/PE/MD",
+    "fecha_mesa": null,
+    "dae": null,
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": null,
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2368,
+ "total_ahora": 2369
+}
