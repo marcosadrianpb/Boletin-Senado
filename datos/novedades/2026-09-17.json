@@ -1,0 +1,119 @@
+{
+ "fecha": "2026-09-17",
+ "generado": "2026-09-17T12:06:38-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "430/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE VILLARINO, PROV. DE BS.AS.: ADHIERE A LAS PALABRAS DEL PTE. JAVIER MILEI, MEDIANTE LAS CUALES REAFIRMO LOS DERECHOS SOBERANOS DE LA REPUBLICA ARGENTINA, SOBRE LA TOTALIDAD DE SU TERRITORIO NACIONAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/430.26/OV/CV",
+    "fecha_mesa": "2026-09-15",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499709/downloadPdf"
+   }
+  },
+  {
+   "expediente": "429/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE ARRECIFES, PROV. DE BS.AS.: ADHIERE A LA DEFENSA DE LOS LEGITIMOS DERECHOS DE SOBERANIA DE LA REP. ARGENTINA SOBRE LAS MALVINAS, GEORGIAS DEL SUR Y SANDWICH DEL SUR Y LOS ESPACIOS MARITIMOS E INSULARES.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/429.26/OV/CV",
+    "fecha_mesa": "2026-09-15",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499708/downloadPdf"
+   }
+  },
+  {
+   "expediente": "428/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE LOBOS, PROV. DE BUENOS AIRES: ADHIERE A LAS PALABRAS DEL PTE. JAVIER MILEI, MEDIANTE LAS CUALES REAFIRMO LOS DERECHOS SOBERANOS DE LA REPUBLICA ARGENTINA, SOBRE LA TOTALIDAD DE SU TERRITORIO NACIONAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/428.26/OV/CV",
+    "fecha_mesa": "2026-09-15",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499707/downloadPdf"
+   }
+  },
+  {
+   "expediente": "427/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "O.V. 427/26 - MUNICIPALIDAD DE CORONEL DORREGO, PROV. DE BUENOS AIRES: ADHIERE A LAS PALABRAS DEL PTE. JAVIER MILEI, MEDIANTE LAS CUALES REAFIRMO LOS DERECHOS SOBERANOS DE LA REPUBLICA ARGENTINA, SOBRE LA TOTALIDAD DE SU TERRITORIO NACIONAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/427.26/OV/CV",
+    "fecha_mesa": "2026-09-15",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499706/downloadPdf"
+   }
+  },
+  {
+   "expediente": "307/26",
+   "tipo": "MD",
+   "origen": "PE",
+   "extracto": "JEFATURA DE GABINETE: REMITE COPIA DEL MENSAJE N° 275/26 Y PROYECTO DE LEY, INGRESADO POR LA H. CAMARA DE DIPUTADOS, DE DEFENSA DE LA SOBERANIA NACIONAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/307.26/PE/MD",
+    "fecha_mesa": "2026-09-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499712/downloadPdf"
+   }
+  },
+  {
+   "expediente": "306/26",
+   "tipo": "MD",
+   "origen": "PE",
+   "extracto": "JEFATURA DE GABINETE: REMITE COPIA DEL MENSAJE N° 274/26 Y PROYECTO DE LEY, INGRESADO POR LA H. CAMARA DE DIPUTADOS, QUE AUTORIZA LA ENTRADA DE TROPAS EXTRANJERAS Y SALIDA DE TROPAS NACIONALES DEL TERRITORIO NACIONAL, PARA PARTICIPAR EN EL PROGRAMA DE EJERCITACIONES COMBINADAS A REALIZARSE DEL 1 DE",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/306.26/PE/MD",
+    "fecha_mesa": "2026-09-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499713/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2369,
+ "total_ahora": 2375
+}
