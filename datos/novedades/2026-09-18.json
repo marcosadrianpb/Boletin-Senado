@@ -1,0 +1,254 @@
+{
+ "fecha": "2026-09-18",
+ "generado": "2026-09-18T11:34:04-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "1630/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "MONTEVERDE: PLANTEA CUESTION DE PRIVILEGIO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1630.26/S/CO",
+    "fecha_mesa": "2026-09-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Monteverde , Agustín Aníbal"
+    ],
+    "autores_id": [
+     "581"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "17-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499740/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1629/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "ABAD: PLANTEA CUESTION DE PRIVILEGIO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1629.26/S/CO",
+    "fecha_mesa": "2026-09-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Abad , Maximiliano"
+    ],
+    "autores_id": [
+     "546"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "17-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499739/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1628/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "BENSUSAN: PLANTEA CUESTION DE PRIVILEGIO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1628.26/S/CO",
+    "fecha_mesa": "2026-09-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Bensusán , Daniel Pablo"
+    ],
+    "autores_id": [
+     "532"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "17-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499738/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1627/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "LOPEZ C.: PLANTEA CUESTION DE PRIVILEGIO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1627.26/S/CO",
+    "fecha_mesa": "2026-09-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "López , Cándida Cristina"
+    ],
+    "autores_id": [
+     "574"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "17-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499737/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1626/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "LOPEZ FLORENCIA: PLANTEA CUESTION DE PRIVILEGIO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1626.26/S/CO",
+    "fecha_mesa": "2026-09-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "López , María Florencia"
+    ],
+    "autores_id": [
+     "555"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "17-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499736/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1625/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "SORIA: PLANTEA CUESTION DE PRIVILEGIO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1625.26/S/CO",
+    "fecha_mesa": "2026-09-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Soria , Martin Ignacio"
+    ],
+    "autores_id": [
+     "588"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "17-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499735/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1624/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "DE PEDRO: PLANTEO CUESTION DE PRIVILEGIO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1624.26/S/CO",
+    "fecha_mesa": "2026-09-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "de Pedro , Eduardo Enrique"
+    ],
+    "autores_id": [
+     "545"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "17-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499734/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1623/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "KIRCHNER: PLANTEA CUESTION DE PRIVILEGIO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1623.26/S/CO",
+    "fecha_mesa": "2026-09-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Kirchner , Alicia Margarita Antonia"
+    ],
+    "autores_id": [
+     "366"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "17-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499742/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1617/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "FERNANDEZ SAGASTI: SOLICITA LICENCIA POR MATERNIDAD.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1617.26/S/CO",
+    "fecha_mesa": "2026-09-16",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Fernández Sagasti , Anabel"
+    ],
+    "autores_id": [
+     "468"
+    ],
+    "comisiones": [],
+    "texto_pdf": null
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2375,
+ "total_ahora": 2384
+}
