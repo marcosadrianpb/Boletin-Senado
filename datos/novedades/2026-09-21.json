@@ -1,0 +1,494 @@
+{
+ "fecha": "2026-09-21",
+ "generado": "2026-09-21T13:31:27-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "1619/26",
+   "tipo": "PR",
+   "origen": "S",
+   "extracto": "CAPITANICH: PROYECTO DE RESOLUCION QUE CREA LA COMISION PERMANENTE DE CONTROL, SEGUIMIENTO Y ESTRATEGIA SOBRE LA CUESTION MALVINAS, ANTARTIDA Y ATLANTICO SUR.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1619.26/S/PR",
+    "fecha_mesa": "2026-09-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "18-09-2026"
+     },
+     {
+      "comision": "DE RELACIONES EXTERIORES Y CULTO",
+      "orden": "2",
+      "ingreso": "18-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499806/downloadPdf"
+   }
+  },
+  {
+   "expediente": "1603/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE CREA LA COMISIÓN BICAMERAL PERMANENTE DE LA CUESTIÓN MALVINAS Y ESPACIOS ESTRATÉGICOS DEL ATLÁNTICO SUR, ANTÁRTIDA Y PASAJES INTEROCEÁNICOS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1603.26/S/PL",
+    "fecha_mesa": "2026-09-14",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "18-09-2026"
+     },
+     {
+      "comision": "DE RELACIONES EXTERIORES Y CULTO",
+      "orden": "2",
+      "ingreso": "18-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499779/downloadPdf"
+   }
+  },
+  {
+   "expediente": "449/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE 9 DE JULIO, PROV. DE B.S. AS.: RECHAZA LAS CONDICIONES DE LA NUEVA CONCESIÓN DE LA RUTA NACIONAL N° 5, LA CUAL PRIORIZA LA INSTALACION DE NUEVOS PEAJES Y EL AUMENTO DE TARIFAS SOBRE LA URGENTE REALIZACION DE LA AUTOVÍA EN TODO SU TRAZADO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/449.26/OV/CV",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "448/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE GENERAL LA MADRID, PROV. DE BS. AS.: SOLICITA SE IMPULSE LA RESTITUCIÓN DE LOS FONDOS ESTABLECIDOS EN EL ART. 52 DE LA LEY 26.058 DE EDUCACION TECNICO PROFESIONAL, DISPUESTO EN EL PRESUPUESTO NACIONAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/448.26/OV/CV",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "447/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE MERCEDES, PROV. DE BUENOS AIRES: SOLICITA EL TRATAMIENTO Y APROBACIÓN DEL PROYECTO DE LEY QUE GARANTIZA Y PROMUEVE LA PESQUISA, DETECCIÓN TEMPRANA, DIAGNÓSTICO Y TRATAMIENTO DE LA ENDOMETRIOSIS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/447.26/OV/CV",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "446/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "PODER LEGISLATIVO DE LA PROV. DEL CHACO: SOLICITA RECORDAR EL CENTENARIO DEL NACIMIENTO DE FIDEL CASTRO RUZ.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/446.26/OV/CV",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "445/26",
+   "tipo": "CM",
+   "origen": "OV",
+   "extracto": "MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO: REMITE NOTA ENVIADA POR EL CIUDADANO ARGENTINO, PABLO ANTONIO SMON, POR LA CUAL SOLICITA AUTORIZACION PARA DESEMPEÑARSE EN EL CARGO DE CONSUL HONORARIO DE ESLOVENIA, EN LA CDAD. DE MENDOZA, CON CIRCUNSCRIPCION EN LAS PROV. DE MEND",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/445.26/OV/CM",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499785/downloadPdf"
+   }
+  },
+  {
+   "expediente": "444/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 188/26, POR LA CUAL SE RECTIFICA LA RES. N° 174/2026 - AGN, LA QUE APROBO EL INFORME REFERIDO A LA GESTION Y APLICACIÓN DE LOS FONDOS TRANSFERIDOS EN EL MARCO DEL PROGRAMA 26 - POLITICAS ALIMENTARIAS, ACTIVIDAD 1 - PRESTACION ALIMENTAR PERIOD",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/444.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "443/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 187/26, QUE APRUEBA EL INFORME DE AUDITORIA ESPECIALIZADA EN DEUDA PUBLICA REALIZADA EN EL AMBITO DEL MIN. DE ECONOMIA, CUYO OBJETO ES \"DEUDA CONTINGENTE- ESTADO DE LA DEUDA PROVINCIAL\"- PERIODO AUDITADO: 01/01/2023 AL 31/12/2024",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/443.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "442/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 186/26, QUE APRUEBA EL INFORME REALIZADO EN EL AMBITO DE LA EX ADM. FEDERAL DE INGRESOS PUBLICOS SOBRE COMPRAS Y CONTRATACIONES DE BIENES Y SERVICIOS DE LA AFIP - PERIODO AUDITADO: 01/01/2016 AL 31/12/2019 Y ADJUNTA SOBRE RESERVADO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/442.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "441/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 185/26, QUE APRUEBA EL INFORME CORRESPONDIENTE AL 2DO. TRIMESTRE DE 2026 DE LA AGN.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/441.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "440/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 184/26, QUE APRUEBA EL INFORME RESPECTO DE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL \"PROGRAMA DE INSERCION ECONOMICA DE LOS PRODUCTORES FAMILIARES DEL NORTE ARGENTINO\" DEL MIN. DE ECONOMIA (CP FIDA N° 2000000642 Y DONACION N° 20000001444)",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/440.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "439/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "439/26- AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 183/26, QUE APRUEBA EL INFORME RESPECTO DE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL \"PROGRAMA DE DESARROLLO DE LAS CADENAS CAPRINAS\" DEL MIN. DE ECONOMIA (CP FIDA N° 20000001744 Y DONACION N° 20000001745) - EJERCICIO N° 7 INICIADO",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/439.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "438/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 182/26, QUE APRUEBA EL INFORME REALIZADO EN EL AMBITO DE LA AGENCIA NACIONAL DE SEGURIDAD VIAL REFERIDO A LA GESTION DEL PROGRAMA 16 \"ACCIONES DE SEGURIDAD VIAL\"- ACCIONES Y POLITICAS DE SEGURIDAD VIAL - ARMONIZACION Y COORDINACION ENTRE DISTIN",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/438.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "437/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 181/26, QUE APRUEBA EL INFORME REALIZADO EN EL AMBITO DE LA SECRETARIA NACIONAL DE NIÑEZ, ADOLESCENCIA Y FAMILIA DEL MINISTERIO DE CAPITAL HUMANO, REFERIDO A LAS TRANSFERENCIAS EFECTUADAS EN EL MARCO DEL PROGRAMA 26 \"POLITICAS ALIMENTARIAS\" AC",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/437.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "436/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 180/26, QUE APRUEBA EL INFORME REALIZADO EN EL AMBITO DE LA SECRETARIA DE AGRICULTURA, GANADERIA Y PESCA REFERIDO AL PROGRAMA DE GESTION INTEGRAL DE LOS RIESGOS EN EL SISTEMA AGROINDUSTRIAL RURAL (GIRSAR)- PERIODO AUDITADO 01/01/2020 AL 31/03/2",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/436.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "435/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 179/26, QUE APRUEBA EL INFORME REALIZADO EN EL AMBITO DE LA PROCURACION DEL TESORO DE LA NACION SOBRE \"GESTION DE TI-SISTEMAS DE INFORMACION - REGISTRO DE JUICIOS DEL ESTADO NACIONAL - SISTEMA UNICO INFORMATICO PARA LA GESTION JUDICIAL -SIGEJ-",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/435.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "434/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 178/26, QUE APRUEBA EL INFORME REALIZADO EN EL AMBITO DE LA SECRETARIA DE AGRICULTURA, GANADERIA Y PESCA SOBRE \"GESTION DE LA SUBSECRETARIA DE RECURSOS ACUATICOS Y PESCA PARA ASEGURAR LA EXPLOTACION DEL RECURSO PESQUERO MERLUZA NEGRA\", PERIODO",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/434.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499811/downloadPdf"
+   }
+  },
+  {
+   "expediente": "433/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 177/26, QUE APRUEBA EL INFORME REALIZADO EN EL AMBITO DE LA JEFATURA DE GABINETE DE MINISTROS - SECRETARIA DE INNOVACION, CIENCIA Y TECNOLOGIA - SUBSECRETARIA DE INNOVACION SOBRE \"GESTION DE TI - SISTEMAS DE INFORMACION - PLATAFORMA DE TRAMITES",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/433.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499809/downloadPdf"
+   }
+  },
+  {
+   "expediente": "432/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 176/26, QUE APRUEBA EL INFORME REALIZADO EN EL AMBITO DE LA PREFECTURA NAVAL ARGENTINA SOBRE \"GESTION DE TI- SISTEMAS DE INFORMACION- SISTEMA GUARDACOSTAS Y SISTEMAS RELACIONADOS\"- PERIODO AUDITADO 01/01/2023 AL 30/06/2024, Y ADJUNTA SOBRE RESE",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/432.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499808/downloadPdf"
+   }
+  },
+  {
+   "expediente": "431/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 175/26, QUE APRUEBA EL INFORME REFERIDO AL ODS 3 META 3.3. INDICADOR 3.3.5.7 , PROGRAMA NACIONAL DE CHAGAS, REALIZADO EN EL AMBITO DEL MINISTERIO DE SALUD - PERIODO AUDITADO 01/01/2023 AL 31/12/2024.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/431.26/OV/CA",
+    "fecha_mesa": "2026-09-18",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "21-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499807/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2384,
+ "total_ahora": 2405
+}
