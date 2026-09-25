@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-24T12:17:47-03:00",
+ "actualizado": "2026-09-25T12:21:49-03:00",
  "anios": [
   2026
  ],
- "corridas": 31,
+ "corridas": 32,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -9246,6 +9246,36 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1693/26|S": {
+   "actualizado": "2026-09-25",
+   "anio": 2026,
+   "expediente": "1693/26",
+   "extracto": "ABAD: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Abad , Maximiliano"
+    ],
+    "autores_id": [
+     "546"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": "25-09-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-09-24",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499987/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1693.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-09-25"
+  },
   "17/26|CD": {
    "actualizado": "2026-09-07",
    "anio": 2026,
@@ -12721,16 +12751,6 @@
    "anio": 2026,
    "expediente": "27/26",
    "extracto": "BILIK IVAN C. Y TONIL LUIS M.: REMITEN ANTEPROYECTO DE LEY QUE GARANTIZA EL DERECHO DE ASOCIACION Y SINDICALIZACION A LAS FUERZAS DE SEGURIDAD.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-21",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/27.26/P/PP"
-   },
    "origen": "P",
    "tipo": "PP",
    "vigente": true,
@@ -17097,10 +17117,10 @@
    "visto": "2026-08-19"
   },
   "439/26|OV": {
-   "actualizado": "2026-09-21",
+   "actualizado": "2026-09-25",
    "anio": 2026,
    "expediente": "439/26",
-   "extracto": "439/26- AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 183/26, QUE APRUEBA EL INFORME RESPECTO DE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL \"PROGRAMA DE DESARROLLO DE LAS CADENAS CAPRINAS\" DEL MIN. DE ECONOMIA (CP FIDA N° 20000001744 Y DONACION N° 20000001745) - EJERCICIO N° 7 INICIADO",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 183/26, QUE APRUEBA EL INFORME RESPECTO DE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL \"PROGRAMA DE DESARROLLO DE LAS CADENAS CAPRINAS\" DEL MIN. DE ECONOMIA (CP FIDA N° 2000001744 Y DONACION N° 2000001745) - EJERCICIO N° 7 INICIADO EL 01/01/",
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
@@ -17147,10 +17167,10 @@
    "visto": "2026-08-19"
   },
   "440/26|OV": {
-   "actualizado": "2026-09-21",
+   "actualizado": "2026-09-25",
    "anio": 2026,
    "expediente": "440/26",
-   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 184/26, QUE APRUEBA EL INFORME RESPECTO DE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL \"PROGRAMA DE INSERCION ECONOMICA DE LOS PRODUCTORES FAMILIARES DEL NORTE ARGENTINO\" DEL MIN. DE ECONOMIA (CP FIDA N° 2000000642 Y DONACION N° 20000001444)",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 184/26, QUE APRUEBA EL INFORME RESPECTO DE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL \"PROGRAMA DE INSERCION ECONOMICA DE LOS PRODUCTORES FAMILIARES DEL NORTE ARGENTINO\" DEL MIN. DE ECONOMIA (CP FIDA N° 2000000642 Y DONACION N° 2000001444) -",
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
