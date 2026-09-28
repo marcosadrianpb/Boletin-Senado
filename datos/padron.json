@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-25T12:21:49-03:00",
+ "actualizado": "2026-09-28T15:12:28-03:00",
  "anios": [
   2026
  ],
- "corridas": 32,
+ "corridas": 33,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -9251,26 +9251,6 @@
    "anio": 2026,
    "expediente": "1693/26",
    "extracto": "ABAD: PLANTEA CUESTION DE PRIVILEGIO.",
-   "ficha": {
-    "autores": [
-     "Abad , Maximiliano"
-    ],
-    "autores_id": [
-     "546"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS CONSTITUCIONALES",
-      "ingreso": "25-09-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-24",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/499987/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1693.26/S/CO"
-   },
    "origen": "S",
    "tipo": "CO",
    "vigente": true,
@@ -14066,6 +14046,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "308/26|PE": {
+   "actualizado": "2026-09-28",
+   "anio": 2026,
+   "expediente": "308/26",
+   "extracto": "MENSAJE N° 276/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 1 DE SAN JUAN, PROVINCIA DE SAN JUAN, AL DR. GONZALO LUIS GASSULL.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "28-09-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "31/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-09-28",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500009/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/308.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-09-28"
+  },
   "308/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -14085,6 +14091,32 @@
    "tipo": "CA",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "309/26|PE": {
+   "actualizado": "2026-09-28",
+   "anio": 2026,
+   "expediente": "309/26",
+   "extracto": "MENSAJE N° 277/26 QUE SOLICITA ACUERDO PARA DESIGNAR DEFENSORA PUBLICA OFICIAL ANTE LOS JUZGADOS Y CAMARA NACIONAL DE APELACIONES EN LO CIVIL, COMERCIAL Y DEL TRABAJO DE LA CAPITAL FEDERAL, DEFENSORIA N° 4, A LA DRA. ANALIA ISABEL CASCONE.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "28-09-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "31/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-09-28",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500010/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/309.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-09-28"
   },
   "309/26|S": {
    "actualizado": "2026-08-19",
@@ -14136,6 +14168,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "310/26|PE": {
+   "actualizado": "2026-09-28",
+   "anio": 2026,
+   "expediente": "310/26",
+   "extracto": "MENSAJE N° 278/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 1 DE CORRIENTES, PROVINCIA DE CORRIENTES, AL DR. JUAN CARLOS VALLEJOS.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "28-09-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "31/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-09-28",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500011/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/310.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-09-28"
+  },
   "310/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -14156,6 +14214,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "311/26|PE": {
+   "actualizado": "2026-09-28",
+   "anio": 2026,
+   "expediente": "311/26",
+   "extracto": "MENSAJE N° 279/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 22 DE LA CAPITAL FEDERAL, A LA DRA. LAURA BELLOQUI.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "28-09-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "31/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-09-28",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500012/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/311.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-09-28"
+  },
   "311/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -14175,6 +14259,32 @@
    "tipo": "CA",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "312/26|PE": {
+   "actualizado": "2026-09-28",
+   "anio": 2026,
+   "expediente": "312/26",
+   "extracto": "MENSAJE N° 280/26 QUE SOLICITA ACUERDO PARA DESIGNAR FISCAL FEDERAL DE LA UNIDAD FISCAL MENDOZA, PROVINCIA DE MENDOZA, AL DR. PABLO GARCIARENA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "28-09-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "31/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-09-28",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500013/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/312.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-09-28"
   },
   "312/26|S": {
    "actualizado": "2026-08-19",
