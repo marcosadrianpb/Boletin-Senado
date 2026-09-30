@@ -1,0 +1,40 @@
+{
+ "fecha": "2026-09-30",
+ "generado": "2026-09-30T13:27:11-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "313/26",
+   "tipo": "DC",
+   "origen": "PE",
+   "extracto": "JEFATURA DE GABINETE: REMITE MENSAJE Nº 44/26 QUE COMUNICA EL DICTADO DEL DECRETO DE NECESIDAD Y URGENCIA Nº 1103/26, QUE DECLARA DE INTERÉS NACIONAL LA VISITA OFICIAL A LA REPÚBLICA ARGENTINA DE SU SANTIDAD EL PAPA LEÓN XIV, Y OTRAS CUESTIONES CONEXAS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/313.26/PE/DC",
+    "fecha_mesa": "2026-09-29",
+    "dae": "77/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE DE TRÁMITE LEGISLATIVO (LEY 26.122)",
+      "orden": "1",
+      "ingreso": "29-09-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500050/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2482,
+ "total_ahora": 2483
+}
