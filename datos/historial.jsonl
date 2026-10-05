@@ -35,3 +35,4 @@
 {"fecha": "2026-09-30", "generado": "2026-09-30T13:27:11-03:00", "anios": [2026], "total": 2483, "altas": 1, "bajas": 0, "reingresos": 0, "correcciones": 0, "linea_base": false}
 {"fecha": "2026-10-01", "generado": "2026-10-01T14:04:12-03:00", "anios": [2026], "total": 2483, "altas": 0, "bajas": 0, "reingresos": 0, "correcciones": 0, "linea_base": false}
 {"fecha": "2026-10-02", "generado": "2026-10-02T13:19:46-03:00", "anios": [2026], "total": 2538, "altas": 55, "bajas": 0, "reingresos": 0, "correcciones": 0, "linea_base": false}
+{"fecha": "2026-10-05", "generado": "2026-10-05T16:21:04-03:00", "anios": [2026], "total": 2578, "altas": 40, "bajas": 0, "reingresos": 0, "correcciones": 2, "linea_base": false}
