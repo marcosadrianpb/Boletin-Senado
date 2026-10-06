@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-05T16:21:04-03:00",
+ "actualizado": "2026-10-06T13:51:54-03:00",
  "anios": [
   2026
  ],
- "corridas": 38,
+ "corridas": 39,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -9931,26 +9931,6 @@
    "anio": 2026,
    "expediente": "1729/26",
    "extracto": "ROJAS DECUT: PROYECTO DE DECLARACION QUE ADHIERE A LA SEMANA PROVINCIAL DE CONCIENTIZACIÓN TURISTICA, A CELEBRARSE DEL 1 AL 7 DE NOVIEMBRE DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Rojas Decut , Sonia Elizabeth"
-    ],
-    "autores_id": [
-     "559"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE TURISMO",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1729.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -9991,26 +9971,6 @@
    "anio": 2026,
    "expediente": "1730/26",
    "extracto": "ROJAS DECUT: PROYECTO DE DECLARACION QUE ADHIERE AL DIA DEL PROVINCIANO MISIONERO, EL 17 DE NOVIEMBRE DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Rojas Decut , Sonia Elizabeth"
-    ],
-    "autores_id": [
-     "559"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1730.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -10021,26 +9981,6 @@
    "anio": 2026,
    "expediente": "1731/26",
    "extracto": "ROJAS DECUT: PROYECTO DE DECLARACION QUE ADHIERE AL ANIVERSARIO DE LA FUNDACION DE LA CDAD. DE POSADAS, PROV. DE MISIONES, EL 8 DE NOVIEMBRE DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Rojas Decut , Sonia Elizabeth"
-    ],
-    "autores_id": [
-     "559"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1731.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -10051,28 +9991,6 @@
    "anio": 2026,
    "expediente": "1732/26",
    "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA XV JORNADA DE CONCIENTIZACION Y PREVENCION DEL CANCER DE MAMA, A REALIZARSE EN LA CDAD. DE POSADAS, PROV. DE MISIONES, EL 17 DE OCTUBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Arce , Carlos Omar",
-     "Rojas Decut , Sonia Elizabeth"
-    ],
-    "autores_id": [
-     "558",
-     "559"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE SALUD",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1732.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -10083,28 +10001,6 @@
    "anio": 2026,
    "expediente": "1733/26",
    "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA XV JORNADA DE CONCIENTIZACION Y PREVENCION DEL CANCER DE MAMA, A REALIZARSE EN LA CDAD. DE POSADAS, PROV. DE MISIONES, EL 17 DE OCTUBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Arce , Carlos Omar",
-     "Rojas Decut , Sonia Elizabeth"
-    ],
-    "autores_id": [
-     "558",
-     "559"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE SALUD",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1733.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -10115,28 +10011,6 @@
    "anio": 2026,
    "expediente": "1734/26",
    "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA MISION HUMANITARIA DE ATENCION GRATUITA EN FLEBOLOGIA, LINFOLOGIA Y ESTETICA, EN EL HOSPITAL ESCUELA DE AGUDOS DR. RAMON MADARIAGA, EN LA CDAD. DE POSADAS, PROV. DE MISIONES, EL 5 DE NOVIEMBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Arce , Carlos Omar",
-     "Rojas Decut , Sonia Elizabeth"
-    ],
-    "autores_id": [
-     "558",
-     "559"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE SALUD",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1734.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -10147,26 +10021,6 @@
    "anio": 2026,
    "expediente": "1735/26",
    "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA REALIZACION DE LA III EXPOSICION NACIONAL DE PRIMAVERA BRAFORD 2026, EN LA LOC. DE MARGARITA BELEN, PROV. DEL CHACO, LOS DIAS 6, 7 Y 8 DE OCTUBRE.",
-   "ficha": {
-    "autores": [
-     "Schneider , Silvana Lorena"
-    ],
-    "autores_id": [
-     "579"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE AGRICULTURA, GANADERÍA Y PESCA",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1735.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -10177,26 +10031,6 @@
    "anio": 2026,
    "expediente": "1736/26",
    "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 75° ANIVERSARIO DE LA ESCUELA DE EDUCACION PRIMARIA N° 527 \"LUIS PASTEUR\", EN LA LOC. DE CORONEL DU GRATY, PROV. DEL CHACO, EL 7 DE OCTUBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Schneider , Silvana Lorena"
-    ],
-    "autores_id": [
-     "579"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1736.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -10207,34 +10041,6 @@
    "anio": 2026,
    "expediente": "1737/26",
    "extracto": "GODOY Y OTROS: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL XII CONGRESO INTERNACIONAL TRIANUAL DE LA SOCIEDAD INTERNACIONAL PARA LA FISICA-QUIMICA TEORICA (ISTCP), A REALIZARSE EN LA CDAD. DE CORRIENTES, PROV. HOMONIMA, DEL 29 DE AGOSTO AL 3 DE SEPTIEMBRE DE 2027.",
-   "ficha": {
-    "autores": [
-     "Godoy , Juan Cruz",
-     "Valenzuela , Mercedes Gabriela",
-     "Schneider , Silvana Lorena",
-     "Espínola , Carlos Mauricio",
-     "Vischi , Eduardo Alejandro"
-    ],
-    "autores_id": [
-     "578",
-     "525",
-     "579",
-     "461",
-     "524"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1737.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -10245,28 +10051,6 @@
    "anio": 2026,
    "expediente": "1738/26",
    "extracto": "GODOY Y SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONSAGRACION DE LA JUDOCA ADRIANA DELGADO COMO CAMPEONA PANAMERICANA EN EL TOUR PANAMERICANO DE JUDO, REALIZADO EN LA CDAD DE SANTO DOMINGO, REP. DOMINICANA, DEL 10 AL 13 DE SEPTIEMBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Godoy , Juan Cruz",
-     "Schneider , Silvana Lorena"
-    ],
-    "autores_id": [
-     "578",
-     "579"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE DEPORTE",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1738.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -15167,22 +14951,6 @@
    "anio": 2026,
    "expediente": "316/26",
    "extracto": "JEFATURA DE GABINETE: REMITE RESPUESTA EN RELACION A LA AUDIENCIA PUBLICA LLEVADA A CABO EL PASADO 23 DE SEPTIEMBRE SOBRE EL PROCESO DE PRIVATIZACION DE AGUAS Y SANEAMIENTOS ARGENTINOS SA. (AYSA)",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL DE REFORMA DEL ESTADO Y DEL SEGUIMIENTO DE LAS PRIVATIZACIONES (LEY 23.696)",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/316.26/PE/RP"
-   },
    "origen": "PE",
    "tipo": "RP",
    "vigente": true,
@@ -18393,16 +18161,6 @@
    "anio": 2026,
    "expediente": "453/26",
    "extracto": "CONCEJO DELIBERANTE DE MUNIC. DE GRAL. MOSCONI, PROV. DE SALTA: SOLICITA LA CONCRECION DE UNA CONEXIÓN VIAL DIRECTA ENTRE CAMPAMENTO VESPUCIO HACIA MADREJONES.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-25",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/453.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -18423,16 +18181,6 @@
    "anio": 2026,
    "expediente": "454/26",
    "extracto": "CONCEJO DELIBERANTE DE LUJAN, PROV. DE BS. AS.: EXPRESA PREOCUPACION Y RECHAZO AL PROYECTO DE LEY DE PRESUPUESTO GENERAL DE LA ADMINISTRACION NACIONAL PARA EJERCICIO 2027, QUE MODIFICA LA LEY N° 27.793 DE EMERGENCIA NACIONAL EN DISCAPACIDAD.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-25",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/454.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -18453,16 +18201,6 @@
    "anio": 2026,
    "expediente": "455/26",
    "extracto": "CONCEJO DELIBERANTE DE SAN RAFAEL, PROV. DE MENDOZA: RECHAZA LAS DECLARACIONES FORMULADAS POR EL EMBAJADOR DE LOS EE.UU. DE AMERICA EN LA REP. ARGENTINA, SR. PETER LAMELAS, AL REFERIRSE AL FUTURO DE VACA MUERTA Y DE NUESTRO PAIS.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-25",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/455.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -18483,16 +18221,6 @@
    "anio": 2026,
    "expediente": "456/26",
    "extracto": "CAMARA DE CASACION Y APELACIONES EN LO PENAL, PENAL JUVENIL, CONTRAVENCIONAL Y DE FALTAS DE LA CIUDAD AUTONOMA DE BUENOS AIRES: EXPRESA PREOCUPACION RESPECTO A LA APLICACIÓN DE LA LEY 27801 - REGIMEN PENAL JUVENIL.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-25",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/456.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -18513,16 +18241,6 @@
    "anio": 2026,
    "expediente": "457/26",
    "extracto": "MUNICIPALIDAD DE CORONEL DORREGO, PROV. DE BUENOS AIRES: SOLICITA EL PRONTO TRATAMIENTO A LOS PROYECTOS VINCULADOS CON EL RECLAMO CONOCIDO COMO \"LEY SEGOVIA\".",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-28",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/457.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -18543,16 +18261,6 @@
    "anio": 2026,
    "expediente": "458/26",
    "extracto": "CONCEJO DELIBERANTE DE LUJAN, PROV. DE BUENOS AIRES: EXPRESA BENEPLÁCITO Y ACOMPAÑAMIENTO AL PROYECTO DE LEY , RESPECTO A INSTITUIR UNA AYUDA ECONÓMICA PREVISIONAL MENSUAL Y PERMANENTE PARA LOS TITULARES DELSIPA, DE LA MAYOR PUAM Y DE LAS PENSIONES NO CONTRIBUTIVAS.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-28",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/458.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -18573,16 +18281,6 @@
    "anio": 2026,
    "expediente": "459/26",
    "extracto": "CONCEJO DELIBERANTE DE BRANDSEN, PROV. DE BUENOS AIRES: RECHAZA EL PROYECTO DE LEY DE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-28",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/459.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -18633,16 +18331,6 @@
    "anio": 2026,
    "expediente": "460/26",
    "extracto": "CONCEJO DELIBERANTE DE VILLA GESELL, PROV. DE BUENOS AIRES: REPUDIA LAS EXPRESIONES DEL EX PRESIDENTE ALBERTO FERNÁNDEZ, SOBRE LA ADQUISICIÓN DE AERONAVES MULTIRROL F-16.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-28",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/460.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -18663,16 +18351,6 @@
    "anio": 2026,
    "expediente": "461/26",
    "extracto": "CONCEJO DELIBERANTE DE CAPITAN SARMIENTO, PROV. DE BUENOS AIRES: ADHIERE A LAS DECLARACIONES DEL PRESIDENTE DE LA NACIÓN, JAVIER MILEI, RESPECTO A LOS DERECHOS SOBERANOS DE LA REPÚBLICA ARGENTINA SOBRE LA TOTALIDAD DE SU TERRITORIO.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-09-28",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/461.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -18693,22 +18371,6 @@
    "anio": 2026,
    "expediente": "462/26",
    "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 190/26, QUE APRUEBA EL EXAMEN ESPECIAL SOBRE LA EJECUCIÓN PRESUPUESTARIA CORRESPONDIENTE AL PRIMER SEMESTRE DE 2025 EN EL AMBITO DE LA SECRETARIA DE HACIENDA DEL MIN. DE ECONOMIA.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/462.26/OV/CA"
-   },
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
@@ -18729,22 +18391,6 @@
    "anio": 2026,
    "expediente": "463/26",
    "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 191/26, QUE APRUEBA EL INFORME RESPECTO DE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL \"PROYECTO DE FORTALECIMIENTO DE LA POLITICA ALIMENTARIA PARA POBLACIONES VULNERABLES\", DEL MIN. DE CAPITAL HUMANO (CP N° 9588-AR BIRF), POR EL EJERCICIO N°",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/463.26/OV/CA"
-   },
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
@@ -18765,22 +18411,6 @@
    "anio": 2026,
    "expediente": "464/26",
    "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 192/26, QUE TOMA CONOCIMIENTO DEL INFORME DE REVISION SOBRE LOS ESTADOS CONTABLES DE PERIODOS INTERMEDIOS FINALIZADOS EL 30/06/2026 DE AGUA Y SANEAMIENTOS ARGENTINOS S.A. (AYSA).",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/464.26/OV/CA"
-   },
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
@@ -18801,22 +18431,6 @@
    "anio": 2026,
    "expediente": "465/26",
    "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 193/26, QUE APRUEBA EL INFORME CONJUNTO DE LOS AUDITORES INDEPENDIENTES SOBRE LA AUDITORIA DE LOS ESTADOS FINANCIEROS POR EL EJERCICIO FINALIZADO EL 30/06/2024 DE LA ENTIDAD BINACIONAL YACYRETÁ.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/465.26/OV/CA"
-   },
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
@@ -18837,22 +18451,6 @@
    "anio": 2026,
    "expediente": "466/26",
    "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 194/26, QUE APRUEBA EL INFORME REALIZADO EN EL AMBITO DEL ENTONCES MIN. DE LAS MUJERES, GENEROS Y DIVERSIDAD Y DEL MIN. DE CAPITAL HUMANO, REFERIDO A LAS TRANSFERENCIAS DESTINADAS A ATENDER EL PROGRAMA 18 - FORMULACION DE POLITICAS CONTRA LA VI",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/466.26/OV/CA"
-   },
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
@@ -18873,22 +18471,6 @@
    "anio": 2026,
    "expediente": "467/26",
    "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 195/26, QUE APRUEBA EL INFORME REALIZADO EN EL AMBITO DE LA GENDARMERIA NACIONAL ARGENTINA RESPECTO AL RELEVAMIENTO DE LA GESTION DE LA SEGURIDAD INTERIOR Y LA DEFENSA NACIONAL - PERIODO AUDITADO 01/01/2019 AL 31/12/2020.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/467.26/OV/CA"
-   },
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
@@ -18909,22 +18491,6 @@
    "anio": 2026,
    "expediente": "468/26",
    "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 196/26, QUE APRUEBA EL INFORME REFERIDO A LOS ESTADOS CONTABLES DE LA EX ADMINISTRACION FEDERAL DE INGRESOS PUBLICOS (AFIP), ACTUAL AGENCIA DE RECAUDACION Y CONTROL ADUANERO, CORRESPONDIENTE AL EJERCICIO CERRADO EL 31/12/2023.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/468.26/OV/CA"
-   },
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
@@ -18945,22 +18511,6 @@
    "anio": 2026,
    "expediente": "469/26",
    "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 197/26, QUE APRUEBA EL MEMORANDUM SOBRE EL SISTEMA DE CONTROL INTERNO CONTABLE CORRESPONDIENTE DE LOS ESTADOS CONTABLES DE LA EX ADMINISTRACION FEDERAL DE INGRESOS PUBLICOS (AFIP)- ACTUAL AGENCIA DE RECAUDACION Y CONTROL ADUANERO- CORRESPONDIEN",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/469.26/OV/CA"
-   },
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
@@ -19011,22 +18561,6 @@
    "anio": 2026,
    "expediente": "470/26",
    "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 198/26, QUE TOMA CONOCIMIENTO DE LOS INFORMES DE REVISION DE LOS AUDITORES INDEPENDIENTES DE LOS ESTADOS FINANCIEROS CONSOLIDADOS CONDENSADOS Y SEPARADOS CONDENSADOS DE PERIODO INTERMEDIO AL 30/06/2026, REFERIDOS AL BANCO DE INVERSION Y COMERCI",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/470.26/OV/CA"
-   },
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
@@ -19047,22 +18581,6 @@
    "anio": 2026,
    "expediente": "471/26",
    "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 199/26, QUE TOMA CONOCIMIENTO DE LOS INFORMES DE REVISION DE LOS AUDITORES INDEPENDIENTES DE LOS ESTADOS FINANCIEROS CONSOLIDADOS CONDENSADOS Y SEPARADOS CONDENSADOS DE PERIODO INTERMEDIO AL 30/06/2026, REFERIDOS AL BANCO DE LA NACION ARGENTINA",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
-      "ingreso": "05-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/471.26/OV/CA"
-   },
    "origen": "OV",
    "tipo": "CA",
    "vigente": true,
@@ -19083,16 +18601,6 @@
    "anio": 2026,
    "expediente": "472/26",
    "extracto": "MUNICIPALIDAD DE LAGO PUELO, PROV. DEL CHUBUT: ADHIERE A LA INICIATIVA DEL CONCEJO DELIBERANTE DE PUERTO MADRYN, SOBRE LA INCORPORACION DE HERRAMIENTAS DE IDENTIFICACION VOLUNTARIA PARA PERSONAS CON DISCAPACIDAD NO VISIBLES.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/472.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -19113,16 +18621,6 @@
    "anio": 2026,
    "expediente": "473/26",
    "extracto": "CONCEJO DELIBERANTE DE PERGAMINO, PROV. DE BUENOS AIRES: ADHIERE A LAS PALABRAS DEL PTE. JAVIER MILEI, MEDIANTE LAS CUALES REAFIRMÓ LOS DERECHOS SOBERANOS DE LA REPUBLICA ARGENTINA, SOBRE LA TOTALIDAD DE SU TERRITORIO NACIONAL.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/473.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -19143,16 +18641,6 @@
    "anio": 2026,
    "expediente": "474/26",
    "extracto": "CONCEJO DELIBERANTE DE ARRECIFES, PROV. DE BUENOS. AIRES: ADHIERE A LOS PROYECTOS DE LEY QUE PROPONEN LA PRÓRROGA DE LA EMERGENCIA NACIONAL EN DISCAPACIDAD HASTA EL 31 DE DICIEMBRE DE 2027.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/474.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -19173,16 +18661,6 @@
    "anio": 2026,
    "expediente": "475/26",
    "extracto": "CONCEJO DELIBERANTE DE GUAMINÍ, PROV. DE BUENOS AIRES: SOLICITA SE IMPULSE LA RESTITUCIÓN DE LOS FONDOS ESTABLECIDOS EN EL ART. 52 DE LA LEY 26.058 DE EDUCACION TECNICO PROFESIONAL, DISPUESTO EN EL PRESUPUESTO NACIONAL.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/475.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -19203,16 +18681,6 @@
    "anio": 2026,
    "expediente": "476/26",
    "extracto": "CONCEJO DELIBERANTE DE BENITO JUAREZ, PROV. DE BUENOS AIRES: ADHIERE A LA SOLICITUD ENVIADA POR EL GRUPO \"VECINOS AUTOCONVOCADOS DE AZUL AUTOVÍA YA\", SOBRE LA REPARACIÓN, MANTENIMIENTO Y CONSTRUCCIÓN DE AUTOVÍA EN LA RUTA NACIONAL N° 3.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/476.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -19233,16 +18701,6 @@
    "anio": 2026,
    "expediente": "477/26",
    "extracto": "CONCEJO DELIBERANTE DE CORONEL PRINGLES, PROV. DE BUENOS AIRES: ADHIERE A LAS PALABRAS DEL PTE. JAVIER MILEI, MEDIANTE LAS CUALES REAFIRMÓ LOS DERECHOS SOBERANOS DE LA REPUBLICA ARGENTINA, SOBRE LA TOTALIDAD DE SU TERRITORIO NACIONAL.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-01",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/477.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -19263,16 +18721,6 @@
    "anio": 2026,
    "expediente": "478/26",
    "extracto": "CONCEJO DELIBERANTE DE MERCEDES, PROV. DE BUENOS AIRES: RECHAZA TODA INICIATIVA DE REFORMA PROVISIONAL QUE IMPLIQUE LA PÉRDIDA DE DERECHOS ADQUIRIDOS POR LOS TRABAJADORES DOCENTES DE LA PROV. DE BUENOS AIRES.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/478.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -19293,16 +18741,6 @@
    "anio": 2026,
    "expediente": "479/26",
    "extracto": "CONCEJO DELIBERANTE DE VENADO TUERTO, PROV. DE SANTA FE: EXPRESA REPUDIO AL PROYECTO DE LEY DE \"INVIOLABILIDAD DE LA PROPIEDAD PRIVADA\".",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/479.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -19353,16 +18791,6 @@
    "anio": 2026,
    "expediente": "480/26",
    "extracto": "CAMARA DE DIPUTADOS DE LA PROV. DEL CHACO: DECLARA DE INTERES PROVINCIAL EDUCATIVO Y CULTURAL EL PROYECTO \"SUEÑOS ARRANCADOS: ¿QUIÉNES FUERON ANTES DE SER VICTIMAS? INICIATIVA DE ESTUDIANTES DE LA UNIVERSIDAD NACIONAL DE NORDESTE.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/480.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -19383,16 +18811,6 @@
    "anio": 2026,
    "expediente": "481/26",
    "extracto": "CONCEJO DELIBERANTE DE PASO DE LOS LIBRES, PROV. DE CORRIENTES: EXPRESA BENEPLACITO AL PROYECTO DE LEY QUE DECLARA A LAS ISLAS MALVINAS COMO SIMBOLO NACIONAL, COMO EXPRESION DE REIVINDICACION Y REAFIRMACION DE LOS LEGITIMOS DERECHOS ARGENTINOS SOBRE LAS ISLAS MALVINAS, GEORGIAS DEL SUR Y SANDWICH DE",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-02",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/481.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
