@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-06T13:51:54-03:00",
+ "actualizado": "2026-10-07T14:29:16-03:00",
  "anios": [
   2026
  ],
- "corridas": 39,
+ "corridas": 40,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -9997,10 +9997,10 @@
    "visto": "2026-10-05"
   },
   "1733/26|S": {
-   "actualizado": "2026-10-05",
+   "actualizado": "2026-10-07",
    "anio": 2026,
    "expediente": "1733/26",
-   "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA XV JORNADA DE CONCIENTIZACION Y PREVENCION DEL CANCER DE MAMA, A REALIZARSE EN LA CDAD. DE POSADAS, PROV. DE MISIONES, EL 17 DE OCTUBRE DE 2026.",
+   "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL XII CONGRESO INTERUNIVERSITARIO MUNDIAL DE AVANCES EN FLEBOLOGIA, LINFOLOGIA Y ESTETICA, A REALIZARSE EN LA CDAD. DE POSADAS, PROV. DE MISIONES, DEL 4 AL 7 DE NOVIEMBRE DE 2026.",
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14947,10 +14947,10 @@
    "visto": "2026-08-19"
   },
   "316/26|PE": {
-   "actualizado": "2026-10-05",
+   "actualizado": "2026-10-07",
    "anio": 2026,
    "expediente": "316/26",
-   "extracto": "JEFATURA DE GABINETE: REMITE RESPUESTA EN RELACION A LA AUDIENCIA PUBLICA LLEVADA A CABO EL PASADO 23 DE SEPTIEMBRE SOBRE EL PROCESO DE PRIVATIZACION DE AGUAS Y SANEAMIENTOS ARGENTINOS SA. (AYSA)",
+   "extracto": "JEFATURA DE GABINETE: PONE EN CONOCIMIENTO EL PEDIDO DE INFORME POR INTEGRANTES DE LA BIC. DE REF. DEL ESTADO Y DEL SEG. DE LAS PRIV. (LEY 23.696) QUE SURGEN DE LA REUNION DE LA COMISION DEL 23 DE SEPTIEMBRE DEL CTE.",
    "origen": "PE",
    "tipo": "RP",
    "vigente": true,
@@ -14975,6 +14975,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "317/26|PE": {
+   "actualizado": "2026-10-07",
+   "anio": 2026,
+   "expediente": "317/26",
+   "extracto": "JEFATURA DE GABINETE: REMITE MENSAJE N° 45/26 QUE COMUNICA EL DICTADO DEL DECRETO N° 1107/26, SOBRE LA SEGUNDA ETAPA DE PRIVATIZACIÓN ENARSA - TERMOELÉCTRICA MANUEL BELGRANO S.A., TERMOELÉCTRICA JOSÉ DE SAN MARTÍN S.A. Y CENTRAL TERMOELÉCTRICA GUILLERMO BROWN S.A.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL DE REFORMA DEL ESTADO Y DEL SEGUIMIENTO DE LAS PRIVATIZACIONES (LEY 23.696)",
+      "ingreso": "07-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-07",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500218/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/317.26/PE/DC"
+   },
+   "origen": "PE",
+   "tipo": "DC",
+   "vigente": true,
+   "visto": "2026-10-07"
   },
   "317/26|S": {
    "actualizado": "2026-08-19",
