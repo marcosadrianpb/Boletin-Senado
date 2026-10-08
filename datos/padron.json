@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-07T14:29:16-03:00",
+ "actualizado": "2026-10-08T14:27:14-03:00",
  "anios": [
   2026
  ],
- "corridas": 40,
+ "corridas": 41,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -14981,22 +14981,6 @@
    "anio": 2026,
    "expediente": "317/26",
    "extracto": "JEFATURA DE GABINETE: REMITE MENSAJE N° 45/26 QUE COMUNICA EL DICTADO DEL DECRETO N° 1107/26, SOBRE LA SEGUNDA ETAPA DE PRIVATIZACIÓN ENARSA - TERMOELÉCTRICA MANUEL BELGRANO S.A., TERMOELÉCTRICA JOSÉ DE SAN MARTÍN S.A. Y CENTRAL TERMOELÉCTRICA GUILLERMO BROWN S.A.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL DE REFORMA DEL ESTADO Y DEL SEGUIMIENTO DE LAS PRIVATIZACIONES (LEY 23.696)",
-      "ingreso": "07-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-07",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500218/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/317.26/PE/DC"
-   },
    "origen": "PE",
    "tipo": "DC",
    "vigente": true,
