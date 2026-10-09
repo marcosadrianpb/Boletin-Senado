@@ -1,0 +1,40 @@
+{
+ "fecha": "2026-10-09",
+ "generado": "2026-10-09T14:04:54-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "489/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 205/26 QUE APRUEBA EL INFORME REFERIDO AL BCRA - ESTADOS CONTABLES AL 31/12/2025- PERIODO AUDITADO 01/01/2025 AL 31/12/2025",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/489.26/OV/CA",
+    "fecha_mesa": "2026-10-08",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "08-10-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2579,
+ "total_ahora": 2580
+}
