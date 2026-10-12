@@ -1,0 +1,416 @@
+{
+ "fecha": "2026-10-12",
+ "generado": "2026-10-12T16:54:26-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "1775/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "LOPEZ C.: PROYECTO DE DECLARACION QUE EXPRESA BENEPLÁCITO POR LA CONMEMORACION DEL 54° ANIVERSARIO DE LA FUNDACION DE LA CIUDAD DE TOLHUIN, PROV. DE TIERRA DEL FUEGO, A.I.A.S, EL 9 DE OCTUBRE DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1775.26/S/PD",
+    "fecha_mesa": "2026-10-09",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "López , Cándida Cristina"
+    ],
+    "autores_id": [
+     "574"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "orden": "1",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "1774/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "LOPEZ C.: PROYECTO DE DECLARACION QUE EXPRESA BENEPLÁCITO POR LA CONMEMORACION DEL 142° ANIVERSARIO DE LA FUNDACION DE LA CIUDAD DE USHUAIA, PROV. DE TIERRA DEL FUEGO, A.I.A.S, EL 12 DE OCTUBRE DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1774.26/S/PD",
+    "fecha_mesa": "2026-10-09",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "López , Cándida Cristina"
+    ],
+    "autores_id": [
+     "574"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "orden": "1",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "1773/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL V CONGRESO NACIONAL DEL CONSEJO DE OBRAS Y SERVICIOS SOCIALES PROVINCIALES DE LA REPUBLICA ARGENTINA (COSSPRA), QUE SE REALIZARA EN PUERTO IGUAZU, PROV. DE MISIONES LOS DÍAS 28 Y 29 DE OCTUBRE DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1773.26/S/PD",
+    "fecha_mesa": "2026-10-09",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Arce , Carlos Omar",
+     "Rojas Decut , Sonia Elizabeth"
+    ],
+    "autores_id": [
+     "558",
+     "559"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE TRABAJO Y PREVISIÓN SOCIAL",
+      "orden": "1",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "1772/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "AVILA: PROYECTO DE LEY DE CREACION DEL COMPLEJO PENITENCIARIO FEDERAL DE TUCUMAN.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1772.26/S/PL",
+    "fecha_mesa": "2026-10-09",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Avila , Beatriz Luisa"
+    ],
+    "autores_id": [
+     "541"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE JUSTICIA Y ASUNTOS PENALES",
+      "orden": "1",
+      "ingreso": null
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "orden": "2",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "1771/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 142° ANIVERSARIO DE PUERTO BERMEJO, LOC. DE LA PROV. DEL CHACO, EL 9 DE OCTUBRE DE 2026.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1771.26/S/PD",
+    "fecha_mesa": "2026-10-09",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Schneider , Silvana Lorena"
+    ],
+    "autores_id": [
+     "579"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "orden": "1",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "495/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 207/26, QUE APRUEBA EL INFORME ESPECIAL SOBRE LA EXISTENCIA Y FUNCIONAMIENTO DE LOS PROCEDIMIENTOS DE CONTROL INTERNO QUE APLICA EL BCRA PARA CUMPLIR CON LAS NORMAS DE LA UNIDAD DE INFORMACION FINANCIERA EN MATERIA DE PREVENCION DEL LAVADO DE A",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/495.26/OV/CA",
+    "fecha_mesa": "2026-10-09",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "09-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500245/downloadPdf"
+   }
+  },
+  {
+   "expediente": "494/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION Nº 206/26, QUE APRUEBA EL MEMORANDO SOBRE EL SISTEMA DE CONTROL INTERNO CONTABLE DEL BANCO CENTRAL DE LA REPUBLICA ARGENTINA (BCRA) AL 31/12/2025 Y ADJUNTA SOBRE RESERVADO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/494.26/OV/CA",
+    "fecha_mesa": "2026-10-09",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "09-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500244/downloadPdf"
+   }
+  },
+  {
+   "expediente": "493/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 204/26 QUE APRUEBA EL INFORME REALIZADO EN EL AMBITO DE LA EX SUBSECRETARIA DE PUERTOS Y VIAS NAVEGABLES, ACTUAL AGENCIA NACIONAL DE PUERTOS Y NAVEGACION- MINISTERIO DE ECONOMIA- SUBSECRETARIA DE TRANSPORTE, REFERIDO A EVALUAR LA \"FISCALIZACION",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/493.26/OV/CV",
+    "fecha_mesa": "2026-10-09",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "09-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500243/downloadPdf"
+   }
+  },
+  {
+   "expediente": "492/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 203/26 QUE APRUEBA EL INFORME SOBRE CONTROLES -INTERNO Y CONTABLE- RESPECTO DE LOS ESTADOS FINANCIEROS DEL \"PROGRAMA DE AMPLIACION, REHABILITACION Y OPTIMIZACION DE PLANTAS DE TRATAMIENTO Y EXTENSION DE REDES EN EL AREA METROPOLITANA DE BUENOS",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/492.26/OV/CA",
+    "fecha_mesa": "2026-10-09",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "09-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500242/downloadPdf"
+   }
+  },
+  {
+   "expediente": "491/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 202/26 QUE APRUEBA EL INFORME SOBRE LOS ESTADOS FINANCIEROS DEL \"PROGRAMA DE AMPLIACION, REHABILITACION Y OPTIMIZACION DE PLANTAS DE TRATAMIENTO Y EXTENSION DE REDES EN EL AREA METROPOLITANA DE BUENOS AIRES\" (CP BEI N° 659/2016) AL 31/12/25, C",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/491.26/OV/CA",
+    "fecha_mesa": "2026-10-09",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "09-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500241/downloadPdf"
+   }
+  },
+  {
+   "expediente": "490/26",
+   "tipo": "CA",
+   "origen": "OV",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 201/26 QUE APRUEBA EL INFORME SOBRE LOS ESTADOS FINANCIEROS DEL \"SEGUNDO FINANCIAMIENTO ADICIONAL PARA EL PROYECTO DE DESARROLLO SUSTENTABLE DE LA CUENCA MATANZA -RIACHUELO\" (CP N° 9252 -AR BIRF) EJERCICIO N° 4 INICIADO EL 01/01/2025 Y FINALI",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/490.26/OV/CA",
+    "fecha_mesa": "2026-10-09",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "orden": "1",
+      "ingreso": "09-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500240/downloadPdf"
+   }
+  },
+  {
+   "expediente": "488/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE GENERAL RODRIGUEZ, PCIA. DE BS. AS: RATIFICA LA LEGITIMA E IMPRESCRIPTIBLE SOBERANIA DE LAS ISLAS MALVINAS, GEORGIAS DEL SUR Y SANDWICH DEL SUR Y LOS ESPACIOS MARITIMOS E INSULARES CORRESPONDIENTES.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/488.26/OV/CV",
+    "fecha_mesa": "2026-10-08",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500239/downloadPdf"
+   }
+  },
+  {
+   "expediente": "487/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE LUIS BELTRAN, PROV. DE RIO NEGRO: SOLICITA TRATAMIENTO DE LOS PROYECTOS SOBRE PREVENCIÓN Y SANEAMIENTO DEL SOBREENDEUDAMIENTO DE CONSUMIDORES.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/487.26/OV/CV",
+    "fecha_mesa": "2026-10-06",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500238/downloadPdf"
+   }
+  },
+  {
+   "expediente": "486/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE SAN RAFAEL, PROV. DE MENDOZA: ADHIERE AL \"DOCUMENTO SOBRE CONSUMOS PROBLEMATICOS DIGITALES EN JOVENES Y ADOLESCENTES\", REALIZADO POR LA RED DE CONCEJOS DELIBERANTES DE ARGENTINA",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/486.26/OV/CV",
+    "fecha_mesa": "2026-10-06",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500237/downloadPdf"
+   }
+  },
+  {
+   "expediente": "485/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE LA PAZ, PROV. DE MENDOZA: RECHAZA LA LEY N° 27.804 -PROTECCIÓN DE LOS GLACIARES Y DEL AMBIENTE PERIGLACIAL-.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/485.26/OV/CV",
+    "fecha_mesa": "2026-10-06",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500236/downloadPdf"
+   }
+  },
+  {
+   "expediente": "484/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE CORONEL PRINGLES, PROV. DE BUENOS AIRES: RECHAZA TODA INICIATIVA DE REFORMA PREVISIONAL QUE IMPLIQUE LA PÉRDIDA DE DERECHOS ADQUIRIDOS POR LOS TRABAJADORES DOCENTES Y ESTATALES DE LA PROV. DE BUENOS AIRES.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/484.26/OV/CV",
+    "fecha_mesa": "2026-10-06",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500235/downloadPdf"
+   }
+  },
+  {
+   "expediente": "483/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE GUAMINÍ, PROV. DE BUENOS AIRES: ADHIERE A LAS PALABRAS DEL PTE. JAVIER MILEI, MEDIANTE LAS CUALES REAFIRMÓ LOS DERECHOS SOBERANOS DE LA REPUBLICA ARGENTINA, SOBRE LA TOTALIDAD DE SU TERRITORIO NACIONAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/483.26/OV/CV",
+    "fecha_mesa": "2026-10-05",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500234/downloadPdf"
+   }
+  },
+  {
+   "expediente": "482/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE 25 DE MAYO, PROV. DE BUENOS AIRES: ADHIERE A LAS PALABRAS DEL PTE. JAVIER MILEI, MEDIANTE LAS CUALES REAFIRMÓ LOS DERECHOS SOBERANOS DE LA REPUBLICA ARGENTINA, SOBRE LA TOTALIDAD DE SU TERRITORIO NACIONAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/482.26/OV/CV",
+    "fecha_mesa": "2026-10-05",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": null
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2580,
+ "total_ahora": 2598
+}
