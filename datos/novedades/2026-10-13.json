@@ -1,0 +1,174 @@
+{
+ "fecha": "2026-10-13",
+ "generado": "2026-10-13T14:40:47-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [],
+ "reingresos": [],
+ "bajas": [
+  {
+   "actualizado": "2026-10-12",
+   "anio": 2026,
+   "expediente": "1771/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 142° ANIVERSARIO DE PUERTO BERMEJO, LOC. DE LA PROV. DEL CHACO, EL 9 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Schneider , Silvana Lorena"
+    ],
+    "autores_id": [
+     "579"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1771.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-12"
+  },
+  {
+   "actualizado": "2026-10-12",
+   "anio": 2026,
+   "expediente": "1772/26",
+   "extracto": "AVILA: PROYECTO DE LEY DE CREACION DEL COMPLEJO PENITENCIARIO FEDERAL DE TUCUMAN.",
+   "ficha": {
+    "autores": [
+     "Avila , Beatriz Luisa"
+    ],
+    "autores_id": [
+     "541"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE JUSTICIA Y ASUNTOS PENALES",
+      "ingreso": null,
+      "orden": "1"
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "ingreso": null,
+      "orden": "2"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1772.26/S/PL"
+   },
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-10-12"
+  },
+  {
+   "actualizado": "2026-10-12",
+   "anio": 2026,
+   "expediente": "1773/26",
+   "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL V CONGRESO NACIONAL DEL CONSEJO DE OBRAS Y SERVICIOS SOCIALES PROVINCIALES DE LA REPUBLICA ARGENTINA (COSSPRA), QUE SE REALIZARA EN PUERTO IGUAZU, PROV. DE MISIONES LOS DÍAS 28 Y 29 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Arce , Carlos Omar",
+     "Rojas Decut , Sonia Elizabeth"
+    ],
+    "autores_id": [
+     "558",
+     "559"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE TRABAJO Y PREVISIÓN SOCIAL",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1773.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-12"
+  },
+  {
+   "actualizado": "2026-10-12",
+   "anio": 2026,
+   "expediente": "1774/26",
+   "extracto": "LOPEZ C.: PROYECTO DE DECLARACION QUE EXPRESA BENEPLÁCITO POR LA CONMEMORACION DEL 142° ANIVERSARIO DE LA FUNDACION DE LA CIUDAD DE USHUAIA, PROV. DE TIERRA DEL FUEGO, A.I.A.S, EL 12 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "López , Cándida Cristina"
+    ],
+    "autores_id": [
+     "574"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1774.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-12"
+  },
+  {
+   "actualizado": "2026-10-12",
+   "anio": 2026,
+   "expediente": "1775/26",
+   "extracto": "LOPEZ C.: PROYECTO DE DECLARACION QUE EXPRESA BENEPLÁCITO POR LA CONMEMORACION DEL 54° ANIVERSARIO DE LA FUNDACION DE LA CIUDAD DE TOLHUIN, PROV. DE TIERRA DEL FUEGO, A.I.A.S, EL 9 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "López , Cándida Cristina"
+    ],
+    "autores_id": [
+     "574"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1775.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-12"
+  }
+ ],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2598,
+ "total_ahora": 2593
+}
