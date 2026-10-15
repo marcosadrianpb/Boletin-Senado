@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-14T12:16:01-03:00",
+ "actualizado": "2026-10-15T12:10:39-03:00",
  "anios": [
   2026
  ],
- "corridas": 45,
+ "corridas": 46,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -10056,6 +10056,43 @@
    "vigente": true,
    "visto": "2026-10-05"
   },
+  "1739/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1739/26",
+   "extracto": "LOSADA Y VALENZUELA: PROYECTO DE LEY QUE MODIFICA SU SIMILAR 11.683 -PROCEDIMIENTO TRIBUTARIO- (T.O. 1998 Y S/M), RESPECTO DE UN REGIMEN ESPECIAL DE RECLAMO DE DEUDAS Y MEDIDAS CAUTELARES PARA MIPYMES TRAMO 1.",
+   "ficha": {
+    "autores": [
+     "Losada , Carolina",
+     "Valenzuela , Mercedes Gabriela"
+    ],
+    "autores_id": [
+     "536",
+     "525"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE JUSTICIA Y ASUNTOS PENALES",
+      "ingreso": null,
+      "orden": "1"
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "ingreso": null,
+      "orden": "2"
+     }
+    ],
+    "dae": "78/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-02",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500319/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1739.26/S/PL"
+   },
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
   "174/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -10085,6 +10122,351 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1740/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1740/26",
+   "extracto": "ABDALA: PROYECTO DE RESOLUCION QUE DENOMINA \"HEROES DE MALVINAS\" A UNO DE LOS PATIOS INTERNOS DEL PALACIO LEGISLATIVO.",
+   "ficha": {
+    "autores": [
+     "Abdala , Bartolomé Esteban"
+    ],
+    "autores_id": [
+     "564"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE RELACIONES EXTERIORES Y CULTO",
+      "ingreso": null,
+      "orden": "1"
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "ingreso": null,
+      "orden": "2"
+     }
+    ],
+    "dae": "78/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-02",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500322/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1740.26/S/PR"
+   },
+   "origen": "S",
+   "tipo": "PR",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1741/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1741/26",
+   "extracto": "ABDALA Y OTROS: PROYECTO DE DECLARACIÓN QUE EXPRESA PESAR POR EL FALLECIMIENTO DEL SENADOR NACIONAL POR LA PROV. DE LA RIOJA, DR. JUAN CARLOS PAGOTTO, EL 29 DE SEPTIEMBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Abdala , Bartolomé Esteban",
+     "Orozco , María Emilia",
+     "Paoltroni , Francisco Manuel",
+     "Godoy , Juan Cruz",
+     "Espínola , Carlos Mauricio",
+     "Monteverde , Agustín Aníbal",
+     "Monte de Oca , María Belén",
+     "Alvarez Rivero , Carmen",
+     "Bahl , Adán Humberto",
+     "Rojas Decut , Sonia Elizabeth",
+     "Coto , Agustín Pedro",
+     "Cervi , Mario Pablo",
+     "Avila , Beatriz Luisa",
+     "Bullrich , Patricia",
+     "Almeida , Romina María",
+     "Fullone , Enzo Paolo"
+    ],
+    "autores_id": [
+     "564",
+     "591",
+     "551",
+     "578",
+     "461",
+     "581",
+     "596",
+     "522",
+     "584",
+     "559",
+     "595",
+     "586",
+     "541",
+     "580",
+     "583",
+     "590"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "78/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-02",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500326/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1741.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1742/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1742/26",
+   "extracto": "CARAMBIA: PROYECTO DE LEY QUE CREA EL REGIMEN DE INCENTIVO A LAS INVERSIONES DE CAPITAL NACIONAL (RIICAN).",
+   "ficha": {
+    "autores": [
+     "Carambia , José María"
+    ],
+    "autores_id": [
+     "567"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "ingreso": null,
+      "orden": "1"
+     },
+     {
+      "comision": "DE LEGISLACIÓN GENERAL",
+      "ingreso": null,
+      "orden": "2"
+     },
+     {
+      "comision": "DE ECONOMÍAS REGIONALES, ECONOMÍA SOCIAL, MICRO, PEQUEÑA Y MEDIANA EMPRESA",
+      "ingreso": null,
+      "orden": "3"
+     }
+    ],
+    "dae": "78/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-05",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500329/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1742.26/S/PL"
+   },
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1743/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1743/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE DECLARA MONUMENTO HISTORICO NACIONAL A LA CHIMENEA DE FONTANA DE LA LOC. HOMONIMA, PROV. DEL CHACO, EN LOS TERMINOS DE LA LEY 12.665.",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "78/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-05",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500331/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1743.26/S/PL"
+   },
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1744/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1744/26",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LA REALIZACION DE LA FERIA IBEROAMERICANA DEL LIBRO DEL CHACO 2026 (FIL CHACO 2026), EN LA CDAD. DE RESISTENCIA, PROVINCIA DEL CHACO, DEL 1 AL 11 DE OCTUBRE",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "78/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-05",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500332/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1744.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1745/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1745/26",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACIÓN QUE EXPRESA PREOCUPACION POR EL ACCIDENTE OCURRIDO EN EL PUENTE GRAL. MANUEL BELGRANO, QUE UNE LAS PROVINCIAS DE CHACO Y CORRIENTES, POR PARTE DE UN REMOLCADOR DE BANDERA EXTRANJERA.",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE INFRAESTRUCTURA, VIVIENDA Y TRANSPORTE",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "78/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-05",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500333/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1745.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1746/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1746/26",
+   "extracto": "CAPITANICH: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE LAS DECLARACIONES DEL PRESIDENTE DE LA NACION, JAVIER MILEI, SOBRE LA EXPULSION DE PERSONAS VINCULADAS A ACTIVIDADES TERRORISTAS DURANTE LOS AÑOS 2025 Y 2026. Y OTRAS CUESTIONES CONEXAS.",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "78/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-05",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500334/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1746.26/S/PC"
+   },
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1747/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1747/26",
+   "extracto": "BEDIA: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE EL ESTADO DE CONSERVACION Y MANTENIMIENTO DE LA RUTA N° 40, EN EL TRAMO QUE ATRAVIESA EL DPTO. SANTA CATALINA, PROV. DE JUJUY.",
+   "ficha": {
+    "autores": [
+     "Bedia , Vilma Facunda"
+    ],
+    "autores_id": [
+     "553"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE INFRAESTRUCTURA, VIVIENDA Y TRANSPORTE",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "78/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-05",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500336/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1747.26/S/PC"
+   },
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1748/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1748/26",
+   "extracto": "BEDIA: PROYECTO DE COMUNICACIÓN QUE SOLICITA EVALUAR LA CONSTRUCCION DE UN COMPLEJO DE CONTROL FRONTERIZO INTEGRADO, EN LA LOC. DE CIENEGA DE PAICONE, DEPTO. SANTA CATALINA, PROV. DE JUJUY.",
+   "ficha": {
+    "autores": [
+     "Bedia , Vilma Facunda"
+    ],
+    "autores_id": [
+     "553"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE INFRAESTRUCTURA, VIVIENDA Y TRANSPORTE",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "78/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-05",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500338/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1748.26/S/PC"
+   },
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1749/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1749/26",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL 90° ANIVERSARIO DE LA FUNDACION DE LA LOC. DE JUAN JOSE CASTELLI, PROV. DEL CHACO, EL 3 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-05",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500341/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1749.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
   },
   "175/26|OV": {
    "actualizado": "2026-08-19",
@@ -10116,6 +10498,327 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1750/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1750/26",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL 112° ANIVERSARIO DE LA FUNDACION DE LA LOC. DE CHARATA, PROV. DEL CHACO, EL 4 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-05",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500342/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1750.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1751/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1751/26",
+   "extracto": "CAPITANICH: SOLICITA EL RETIRO DEL PROYECTO DE LEY QUE DECLARA MONUMENTO HISTORICO NACIONAL A LA CHIMENEA DE FONTANA, SITO EN CALLE MORENO 4585, BARRIO FONTANA CENTRO, LA COLMENA, MUNICIPALIDAD DE FONTANA, PROV. DEL CHACO. (REF. S.1743/26)",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-06",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500343/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1751.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1752/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1752/26",
+   "extracto": "CORROZA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL LIBRO \"MANUAL DE DEPORTE SOCIAL (TOMO I)\" ELABORADO EN CONJUNTO POR EL ISEI Y LA SECRETARIA DE DEPORTES DE LA PROVINCIA DEL NEUQUEN.",
+   "ficha": {
+    "autores": [
+     "Corroza , Julieta"
+    ],
+    "autores_id": [
+     "587"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-06",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500344/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1752.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1753/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1753/26",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO POR LA CONMEMORACIÓN DEL 20° ANIVERSARIO DE LA SANCIÓN DE LA LEY 26.157, QUE DECLARÓ A LA CDAD DE RESISTENCIA, PROV. DEL CHACO, \"CAPITAL NACIONAL DE LAS ESCULTURAS\", EL 11 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-07",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500345/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1753.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1754/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1754/26",
+   "extracto": "CAPITANICH: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE LAS MEDIDAS PARA GARANTIZAR EL ACCESO A LA SALUD Y LA PROTECCION DE LOS DERECHOS HUMANOS DE LOS PUEBLOS INDIGENAS DE LA PROV. DEL CHACO, EN ESPECIAL A LA COMUNIDAD QOM DE PAMPA DEL INDIO.",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE SALUD",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-07",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500346/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1754.26/S/PC"
+   },
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1755/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1755/26",
+   "extracto": "GALARETTO Y OTROS: PROYECTO DE DECRETO QUE IMPLEMENTA EL PROGRAMA DE MODERNIZACION DIGITAL DEL H. SENADO DE LA NACION.",
+   "ficha": {
+    "autores": [
+     "Galaretto , Eduardo Horacio",
+     "Cristina , Andrea Marcela",
+     "Kroneberger , Daniel Ricardo",
+     "Vischi , Eduardo Alejandro",
+     "Avila , Beatriz Luisa",
+     "Terenzi , Edith Elizabeth",
+     "Bullrich , Patricia",
+     "Juri , Mariana",
+     "Losada , Carolina",
+     "Juez , Luis Alfredo",
+     "Schneider , Silvana Lorena",
+     "Fama , Flavio Sergio"
+    ],
+    "autores_id": [
+     "573",
+     "570",
+     "530",
+     "524",
+     "541",
+     "528",
+     "580",
+     "534",
+     "536",
+     "400",
+     "579",
+     "520"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": null,
+      "orden": "1"
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "ingreso": null,
+      "orden": "2"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-07",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500347/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1755.26/S/DE"
+   },
+   "origen": "S",
+   "tipo": "DE",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1756/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1756/26",
+   "extracto": "SALINO: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO POR LA CONSAGRACIÓN DE TIAGO GOMEZ Y EMILIA VILLEGAS HEIT, COMO CAMPEONES DEL 55° CAMPEONATO ARGENTINO INFANTIL DE TRINQUETE, DISPUTADO EN EL JOCKEY CLUB DE LA CDAD. DE CORDOBA, DEL 2 AL 4 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Salino , Fernando Aldo"
+    ],
+    "autores_id": [
+     "566"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE DEPORTE",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500348/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1756.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1757/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1757/26",
+   "extracto": "SALINO: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE LAS ACCIONES DESARROLLADAS, LOS RESULTADOS OBTENIDOS Y LAS ESTRATEGIAS IMPLEMENTADAS POR EL GOBIERNO NACIONAL EN RELACION A LAS ISLAS MALVINAS, GEORGIAS DEL SUR, SANDWICH DEL SUR Y LOS ESPACIOS MARITIMOS E INSULARES.",
+   "ficha": {
+    "autores": [
+     "Salino , Fernando Aldo"
+    ],
+    "autores_id": [
+     "566"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE RELACIONES EXTERIORES Y CULTO",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500349/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1757.26/S/PC"
+   },
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1758/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1758/26",
+   "extracto": "AVILA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS LA 20° EDICIÓN DE LA BIENAL INTERNACIONAL DE ARQUITECTURA DE BUENOS AIRES, A REALIZARSE EN LA CIUDAD AUTÓNOMA DE BUENOS AIRES, DEL 22 DE SEPTIEMBRE AL 31 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Avila , Beatriz Luisa"
+    ],
+    "autores_id": [
+     "541"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500350/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1758.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1759/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1759/26",
+   "extracto": "AVILA: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO Y ADHIERE A LOS ACTOS CONMEMORATIVOS POR EL 47° ANIVERSARIO DE LA CREACIÓN DEL LICEO MILITAR \"GENERAL ARAOZ LAMADRID\", A CELEBRARSE EN LA CDAD. DE SAN MIGUEL DE TUCUMAN, PROV. DE TUCUMAN, EL 2 DE NOVIEMBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Avila , Beatriz Luisa"
+    ],
+    "autores_id": [
+     "541"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500351/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1759.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
   "176/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -10145,6 +10848,310 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1760/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1760/26",
+   "extracto": "AVILA: PROYECTO DE COMUNICACIÓN QUE SOLICITA SE INCLUYA A LA PROVINCIA DE TUCUMAN EN EL PLAN DE INFRAESTRUCTURA PENITENCIARIA.",
+   "ficha": {
+    "autores": [
+     "Avila , Beatriz Luisa"
+    ],
+    "autores_id": [
+     "541"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE SEGURIDAD INTERIOR Y NARCOTRÁFICO",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500352/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1760.26/S/PC"
+   },
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1761/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1761/26",
+   "extracto": "MORENO: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO Y RECONOCE AL BALLET FOLKLORICO LATINOAMERICANO \"SANTIAGO DEL ESTERO\" (BAFOLSE) POR LA OBTENCION DEL PRIMER PREMIO EN LA COMPETENCIA INTERNACIONAL CHEONAN WORLD DANCE FESTIVAL 2026, CELEBRADO EN COREA DEL SUR.",
+   "ficha": {
+    "autores": [
+     "Moreno , Elia Esther Del Carmen"
+    ],
+    "autores_id": [
+     "594"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500353/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1761.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1762/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1762/26",
+   "extracto": "KIRCHNER: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE EL ESTADO DE SITUACIÓN DE LAS POLÍTICAS PÚBLICAS DE NIÑEZ, ADOLESCENCIA Y FAMILIA.",
+   "ficha": {
+    "autores": [
+     "Kirchner , Alicia Margarita Antonia"
+    ],
+    "autores_id": [
+     "366"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE POBLACIÓN Y DESARROLLO HUMANO",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500354/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1762.26/S/PC"
+   },
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1763/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1763/26",
+   "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS CULTURAL Y SOCIAL LAS EDICIONES DEL FESTIVAL DE TEATRO \"MONÓLOGOS AL VIENTO\", ORGANIZADO POR EL GRUPO INDEPENDIENTE \"DIONISIO\", EN LA CIUDAD DE PUERTO DESEADO, PROV. DE SANTA CRUZ, DURANTE EL MES DE NOVIEMBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Kirchner , Alicia Margarita Antonia"
+    ],
+    "autores_id": [
+     "366"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500355/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1763.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1764/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1764/26",
+   "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE ADHIERE AL DÍA NACIONAL DE LA LENGUA DE SEÑAS ARGENTINA (LSA), A CELEBRARSE EL 29 DE AGOSTO DE CADA AÑO",
+   "ficha": {
+    "autores": [
+     "Kirchner , Alicia Margarita Antonia"
+    ],
+    "autores_id": [
+     "366"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE POBLACIÓN Y DESARROLLO HUMANO",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500356/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1764.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1765/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1765/26",
+   "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS LA OBRA DEL DRAMATURGO Y DIRECTOR TEATRAL JAVIER MARGULIS, \"UN PICASSO\".",
+   "ficha": {
+    "autores": [
+     "Kirchner , Alicia Margarita Antonia"
+    ],
+    "autores_id": [
+     "366"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500357/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1765.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1766/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1766/26",
+   "extracto": "VALENZUELA Y OTROS: PROYECTO DE RESOLUCION QUE OTORGA LA MENCION DE HONOR \"SENADOR DOMINGO FAUSTINO SARMIENTO\", AL SR. LIONEL ANDRES MESSI CUCCITTINI, EN RECONOCIMIENTO A SU TRAYECTORIA DEPORTIVA.",
+   "ficha": {
+    "autores": [
+     "Valenzuela , Mercedes Gabriela",
+     "Schneider , Silvana Lorena",
+     "Kroneberger , Daniel Ricardo"
+    ],
+    "autores_id": [
+     "525",
+     "579",
+     "530"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE DEPORTE",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500358/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1766.26/S/PR"
+   },
+   "origen": "S",
+   "tipo": "PR",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1767/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1767/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 50° ANIVERSARIO DE LA ESCUELA PRIMARIA N° 878 \"JOSE HIPOLITO UNANUE\", EN LA LOC. DE TRES ISLETAS, PROV. DEL CHACO, EL 11 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Schneider , Silvana Lorena"
+    ],
+    "autores_id": [
+     "579"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500359/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1767.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1768/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1768/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL CENTENARIO DE LA ESCUELA DE EDUCACION PRIMARIA N° 130 \"MATEO CONRADO HELD\", EN LA LOC. DE LAS BREÑAS, PROV. DEL CHACO.",
+   "ficha": {
+    "autores": [
+     "Schneider , Silvana Lorena"
+    ],
+    "autores_id": [
+     "579"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "79/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500360/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1768.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1769/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1769/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 138° ANIVERSARIO DE GENERAL VEDIA, LOC. DE LA PROV. DEL CHACO, EL 12 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Schneider , Silvana Lorena"
+    ],
+    "autores_id": [
+     "579"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500361/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1769.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
   },
   "177/26|OV": {
    "actualizado": "2026-08-19",
@@ -10176,10 +11183,39 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1770/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1770/26",
+   "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 109° ANIVERSARIO DE LA VERDE, LOC. DE LA PROV. DEL CHACO, EL 12 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Schneider , Silvana Lorena"
+    ],
+    "autores_id": [
+     "579"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500362/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1770.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
   "1771/26|S": {
    "actualizado": "2026-10-12",
    "anio": 2026,
-   "baja": "2026-10-13",
    "expediente": "1771/26",
    "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 142° ANIVERSARIO DE PUERTO BERMEJO, LOC. DE LA PROV. DEL CHACO, EL 9 DE OCTUBRE DE 2026.",
    "ficha": {
@@ -10199,18 +11235,17 @@
     "dae": "Sin asignar",
     "dae_tipo": null,
     "fecha_mesa": "2026-10-09",
-    "texto_pdf": null,
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500363/downloadPdf",
     "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1771.26/S/PD"
    },
    "origen": "S",
    "tipo": "PD",
-   "vigente": false,
+   "vigente": true,
    "visto": "2026-10-12"
   },
   "1772/26|S": {
    "actualizado": "2026-10-12",
    "anio": 2026,
-   "baja": "2026-10-13",
    "expediente": "1772/26",
    "extracto": "AVILA: PROYECTO DE LEY DE CREACION DEL COMPLEJO PENITENCIARIO FEDERAL DE TUCUMAN.",
    "ficha": {
@@ -10235,20 +11270,19 @@
     "dae": "Sin asignar",
     "dae_tipo": null,
     "fecha_mesa": "2026-10-09",
-    "texto_pdf": null,
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500364/downloadPdf",
     "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1772.26/S/PL"
    },
    "origen": "S",
    "tipo": "PL",
-   "vigente": false,
+   "vigente": true,
    "visto": "2026-10-12"
   },
   "1773/26|S": {
-   "actualizado": "2026-10-12",
+   "actualizado": "2026-10-15",
    "anio": 2026,
-   "baja": "2026-10-13",
    "expediente": "1773/26",
-   "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL V CONGRESO NACIONAL DEL CONSEJO DE OBRAS Y SERVICIOS SOCIALES PROVINCIALES DE LA REPUBLICA ARGENTINA (COSSPRA), QUE SE REALIZARA EN PUERTO IGUAZU, PROV. DE MISIONES LOS DÍAS 28 Y 29 DE OCTUBRE DE 2026.",
+   "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL V CONGRESO NACIONAL DEL CONSEJO DE OBRAS Y SERVICIOS SOCIALES PROVINCIALES DE LA REPUBLICA ARGENTINA (COSSPRA), A REALIZARSE EN PUERTO IGUAZU, PROV. DE MISIONES, EL 28 Y 29 DE OCTUBRE DE 2026.",
    "ficha": {
     "autores": [
      "Arce , Carlos Omar",
@@ -10268,18 +11302,17 @@
     "dae": "Sin asignar",
     "dae_tipo": null,
     "fecha_mesa": "2026-10-09",
-    "texto_pdf": null,
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500365/downloadPdf",
     "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1773.26/S/PD"
    },
    "origen": "S",
    "tipo": "PD",
-   "vigente": false,
+   "vigente": true,
    "visto": "2026-10-12"
   },
   "1774/26|S": {
    "actualizado": "2026-10-12",
    "anio": 2026,
-   "baja": "2026-10-13",
    "expediente": "1774/26",
    "extracto": "LOPEZ C.: PROYECTO DE DECLARACION QUE EXPRESA BENEPLÁCITO POR LA CONMEMORACION DEL 142° ANIVERSARIO DE LA FUNDACION DE LA CIUDAD DE USHUAIA, PROV. DE TIERRA DEL FUEGO, A.I.A.S, EL 12 DE OCTUBRE DE 2026.",
    "ficha": {
@@ -10299,18 +11332,17 @@
     "dae": "Sin asignar",
     "dae_tipo": null,
     "fecha_mesa": "2026-10-09",
-    "texto_pdf": null,
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500366/downloadPdf",
     "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1774.26/S/PD"
    },
    "origen": "S",
    "tipo": "PD",
-   "vigente": false,
+   "vigente": true,
    "visto": "2026-10-12"
   },
   "1775/26|S": {
    "actualizado": "2026-10-12",
    "anio": 2026,
-   "baja": "2026-10-13",
    "expediente": "1775/26",
    "extracto": "LOPEZ C.: PROYECTO DE DECLARACION QUE EXPRESA BENEPLÁCITO POR LA CONMEMORACION DEL 54° ANIVERSARIO DE LA FUNDACION DE LA CIUDAD DE TOLHUIN, PROV. DE TIERRA DEL FUEGO, A.I.A.S, EL 9 DE OCTUBRE DE 2026.",
    "ficha": {
@@ -10330,13 +11362,123 @@
     "dae": "Sin asignar",
     "dae_tipo": null,
     "fecha_mesa": "2026-10-09",
-    "texto_pdf": null,
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500367/downloadPdf",
     "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1775.26/S/PD"
    },
    "origen": "S",
    "tipo": "PD",
-   "vigente": false,
+   "vigente": true,
    "visto": "2026-10-12"
+  },
+  "1776/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1776/26",
+   "extracto": "COMISION ADMINISTRADORA DEL EDIFICIO DEL MOLINO: COMUNICA DESIGNACION DE AUTORIDADES Y ADJUNTA COPIA DEL ACTA CORRESPONDIENTE.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1776.26/S/CC"
+   },
+   "origen": "S",
+   "tipo": "CC",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1777/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1777/26",
+   "extracto": "MOISES: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA TRAYECTORIA Y DESEMPEÑO DEPORTIVO DEL JUJEÑO ROBERTO ALESSANDRO IBARRA, POR LA OBTENCION DE LA MEDALLA DE BRONCE EN LA COPA DEL MUNDO DE TAEKWON-DO ITF 2026, EN BENIDORM, ESPAÑA.",
+   "ficha": {
+    "autores": [
+     "Moises , María Carolina"
+    ],
+    "autores_id": [
+     "554"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE DEPORTE",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1777.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1778/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1778/26",
+   "extracto": "MOISES: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA INICIATIVA \"JUI SERVICIOS\", PLATAFORMA TECNOLOGICA ORIENTADA A PROMOVER LA INCLUSION LABORAL, FORTALECER EL TRABAJO INDEPENDIENTE Y EL EMPRENDEDURISMO, EN LA PROV. DE JUJUY.",
+   "ficha": {
+    "autores": [
+     "Moises , María Carolina"
+    ],
+    "autores_id": [
+     "554"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE SISTEMAS, MEDIOS DE COMUNICACIÓN Y LIBERTAD DE EXPRESIÓN",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1778.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1779/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1779/26",
+   "extracto": "MOISES: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA PRIMERA EDICION DE LA \"EXPO SABORES DE MI TIERRA\" A REALIZARSE EN LA CIUDAD DE PERICO, PROV. DE JUJUY, EL 24 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Moises , María Carolina"
+    ],
+    "autores_id": [
+     "554"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1779.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
   },
   "178/26|OV": {
    "actualizado": "2026-08-19",
@@ -10368,6 +11510,316 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1780/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1780/26",
+   "extracto": "COTO: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACION DEL 54° ANIVERSARIO DE LA FUNDACIÓN DE LA CIUDAD DE TOLHUIN, PROV. DE TIERRA DEL FUEGO Y A.I.A.S., EL 9 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Coto , Agustín Pedro"
+    ],
+    "autores_id": [
+     "595"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1780.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1781/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1781/26",
+   "extracto": "COTO: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACION DEL 154° ANIVERSARIO DE LA CREACIÓN DE LA ESCUELA NAVAL MILITAR, EL 5 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Coto , Agustín Pedro"
+    ],
+    "autores_id": [
+     "595"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE DEFENSA NACIONAL",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1781.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1782/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1782/26",
+   "extracto": "COTO: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACION DEL 142° ANIVERSARIO DE LA FUNDACION DE LA CDAD. DE USHUAIA, PROV. DE TIERRA DEL FUEGO Y A.I.A.S., EL 12 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Coto , Agustín Pedro"
+    ],
+    "autores_id": [
+     "595"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1782.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1783/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1783/26",
+   "extracto": "MENDOZA: PROYECTO DE DECLARACIÓN QUE ADHIERE AL \"DIA MUNDIAL DE LA SALUD MENTAL\", A CELEBRARSE EL 10 DE OCTUBRE DE CADA AÑO.",
+   "ficha": {
+    "autores": [
+     "Mendoza , Sandra Mariela"
+    ],
+    "autores_id": [
+     "540"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE SALUD",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1783.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1784/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1784/26",
+   "extracto": "MENDOZA: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA CONMEMORACION DEL 90° ANIVERSARIO DE LA CREACIÓN DEL PARQUE PROVINCIAL LA FLORIDA, PROV. DE TUCUMÁN.",
+   "ficha": {
+    "autores": [
+     "Mendoza , Sandra Mariela"
+    ],
+    "autores_id": [
+     "540"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE AMBIENTE Y DESARROLLO SUSTENTABLE",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1784.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1785/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1785/26",
+   "extracto": "MENDOZA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA INVESTIGACIÓN QUE DESARROLLA EL CENTRO DE REFERENCIA PARA LACTOBACILOS (CERELA) Y EL CONICET, CON SEDE EN LA PROV. DE TUCUMÁN, SOBRE UN YOGUR ELABORADO CON BACTERIAS LÁCTICAS.",
+   "ficha": {
+    "autores": [
+     "Mendoza , Sandra Mariela"
+    ],
+    "autores_id": [
+     "540"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE CIENCIA Y TECNOLOGÍA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1785.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1786/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1786/26",
+   "extracto": "MENDOZA: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS VINCULADOS CON LA INTERRUPCION Y SUSPENSION DE LOS SERVICIOS FERROVIARIOS DE PASAJEROS DE LARGA DISTANCIA QUE UNEN C.A.B.A. CON LAS PROVINCIAS DE CORDOBA Y TUCUMÁN.",
+   "ficha": {
+    "autores": [
+     "Mendoza , Sandra Mariela"
+    ],
+    "autores_id": [
+     "540"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE INFRAESTRUCTURA, VIVIENDA Y TRANSPORTE",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1786.26/S/PC"
+   },
+   "origen": "S",
+   "tipo": "PC",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1787/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1787/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE PRORROGA LA DECLARACION DE EMERGENCIA SANITARIA DE LA SALUD PEDIATRICA Y DE LAS RESIDENCIAS NACIONALES EN SALUD (LEY N° 27.796).",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE SALUD",
+      "ingreso": null,
+      "orden": "1"
+     },
+     {
+      "comision": "DE POBLACIÓN Y DESARROLLO HUMANO",
+      "ingreso": null,
+      "orden": "2"
+     },
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "ingreso": null,
+      "orden": "3"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1787.26/S/PL"
+   },
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1788/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1788/26",
+   "extracto": "CAPITANICH: PROYECTO DE LEY QUE DECLARA \"CAPITAL NACIONAL DE LA MEMORIA\" A LA CIUDAD DE RESISTENCIA, PROV. DEL CHACO.",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1788.26/S/PL"
+   },
+   "origen": "S",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
+  "1789/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1789/26",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACION QUE DECLARA DE INTERES LA SEMANA DE LA CULTURA PERONISTA, A REALIZARSE EN LA PROV. DEL CHACO DEL 13 AL 17 DE OCTUBRE DE 2026.",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1789.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
   "179/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -10397,6 +11849,36 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1790/26|S": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "1790/26",
+   "extracto": "GIMENEZ NAVARRO: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LA LABOR DEL CONSEJO NACIONAL DE INVESTIGACIONES CIENTIFICAS Y TECNICAS (CONICET) EN EL MARCO DE LA CAMPAÑA OCEANOGRAFICA TALUD CONTINENTAL IV, EN LA CDAD. DE MAR DEL PLATA.",
+   "ficha": {
+    "autores": [
+     "Giménez Navarro , María Celeste"
+    ],
+    "autores_id": [
+     "562"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE CIENCIA Y TECNOLOGÍA",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-13",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1790.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-10-15"
   },
   "18/26|OV": {
    "actualizado": "2026-08-19",
@@ -13858,6 +15340,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "28/26|P": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "28/26",
+   "extracto": "UNION FERROVIARIA - SECCIONAL GBA OESTE (LINEA SARMIENTO): REMITE INFORME TECNICO Y DENUNCIA SOBRE EL ESTADO DEL SISTEMA FERROVIARIO.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-09-23",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500321/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/28.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
   "28/26|PE": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -14187,6 +15689,26 @@
    "tipo": "CA",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "29/26|P": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "29/26",
+   "extracto": "SUSTERSIC CECILIA - CIELOS LIMPIOS EN AMÉRICA MONITOR AMBIENTAL (CLAMA): REMITE INFORME SOBRE LA INTERVENCIÓN ARTIFICIAL DEL CLIMA (INGENIERÍA CLIMÁTICA).",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-09-25",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500323/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/29.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-10-15"
   },
   "29/26|PE": {
    "actualizado": "2026-08-19",
@@ -14568,6 +16090,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "30/26|P": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "30/26",
+   "extracto": "CENTRO DE DIA MAMUSHKA: SOLICITA EL TRATAMIENTO DEL PROYECTO QUE PROPONE PRORROGAR HASTA EL 31 DE DICIEMBRE DE 2027 LA EMERGENCIA NACIONAL EN DISCAPACIDAD ESTABLECIDA POR LA LEY 27.793.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-09-25",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500324/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/30.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
   "30/26|PE": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -14898,6 +16440,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "31/26|P": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "31/26",
+   "extracto": "FRENTE DE MUJERES ARGENTINAS: SOLICITA EL TRATAMIENTO DEL PROYECTO DE LEY SOBRE FALSAS DENUNCIAS (REF. S-228/25)",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-07",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500325/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/31.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
   "31/26|PE": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -15173,22 +16735,6 @@
    "anio": 2026,
    "expediente": "318/26",
    "extracto": "JEFATURA DE GABINETE: REMITE MENSAJE N° 46/26 QUE COMUNICA EL DICTADO DEL DECRETO DE FACULTADES DELEGADAS N° 1128/26, QUE MODIFICA EL DECRETO N° 49/25, SOBRE REDUCCION DE ALICUOTAS CORRESPONDIENTES AL DERECHO DE IMPORTACION EXTRAZONA PARA VEHICULOS CON MOTORIZACION ALTERNATIVA.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL PERMANENTE DE TRÁMITE LEGISLATIVO (LEY 26.122)",
-      "ingreso": "14-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "81/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-10-14",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500308/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/318.26/PE/DC"
-   },
    "origen": "PE",
    "tipo": "DC",
    "vigente": true,
@@ -15233,6 +16779,26 @@
    "tipo": "CM",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "32/26|P": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "32/26",
+   "extracto": "MENDEZ SEBASTIAN: REMITE ANTEPROYECTO SOBRE LA PROMOCION SANITARIA, LA SEGURIDAD NACIONAL EN INSUMOS CRITICOS Y LA DESCENTRALIZACION BIOTECNOLOGICA Y OTRAS CUESTIONES CONEXAS.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-07",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500327/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/32.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-10-15"
   },
   "32/26|PE": {
    "actualizado": "2026-08-19",
@@ -15464,6 +17030,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "33/26|P": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "33/26",
+   "extracto": "MENDEZ SEBASTIAN ANDRES: REMITE PETICION FORMAL SOBRE DIPLOMACIA PARLAMENTARIA, NEUTRALIDAD ESTRATÉGICA Y PRESERVACION DE LA PAZ INTERNACIONAL REFERENTE A LA VISITA DE SU SANTIDAD A LA ARGENTINA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-07",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500328/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/33.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
   "33/26|PE": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -15693,6 +17279,26 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "34/26|P": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "34/26",
+   "extracto": "FERNANDEZ SOLEDAD: REMITE ANTEPROYECTO SOBRE LA CREACION DEL PARQUE NACIONAL Y AREA MARINA PROTEGIDA ISLAS MALVINAS Y DEL ATLANTICO SUR.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-08",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500330/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/34.26/P/PP"
+   },
+   "origen": "P",
+   "tipo": "PP",
+   "vigente": true,
+   "visto": "2026-10-15"
   },
   "34/26|PE": {
    "actualizado": "2026-08-19",
@@ -19334,6 +20940,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "496/26|OV": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "496/26",
+   "extracto": "PODER LEGISLATIVO DE LA PROV. DE TIERRA DEL FUEGO, A.A.I.A.S: SOLICITA EL TRATAMIENTO Y APROBACIÓN DE LA REFORMA DE LA LEY 14.346 DE PROTECCIÓN DE LOS ANIMALES.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500335/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/496.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
   "496/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -19343,6 +20969,26 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "497/26|OV": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "497/26",
+   "extracto": "CONCEJO DELIBERANTE DE PRESIDENTE PERÓN, PROV. DE BUENOS AIRES: EXPRESA BENEPLÁCITO AL ANTEPROYECTO DE LEY DE LA LEGISLATURA DE LA PROV. DE BS. AS., QUE PROPONE DECLARAR CIUDADANOS ILUSTRES A LOS FUTBOLISTAS BONAERENSES INTEGRANTES DEL PLANTEL DE LA SELECCIÓN ARGENTINA POR EL SUBCAMPEONATO OBTENI",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500337/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/497.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-10-15"
   },
   "497/26|S": {
    "actualizado": "2026-08-19",
@@ -19354,6 +21000,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "498/26|OV": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "498/26",
+   "extracto": "CONCEJO DELIBERANTE DE VILLA GESELL, PROV. DE BUENOS AIRES: RECHAZA EL FALLO DICTADO POR LA CORTE SUPREMA DE JUSTICIA DE LA NACIÓN, REVOCANDO LA SENTENCIA QUE HABIA DECLARADO LA INCONSTITUCIONALIDAD DEL ART. 154 DEL DNU N° 70/2023, DEJANDO SIN EFECTO LA PROTECCIÓN JUDICIAL QUE MANTENIA VIGENTE LO",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500339/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/498.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-10-15"
+  },
   "498/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -19363,6 +21029,26 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "499/26|OV": {
+   "actualizado": "2026-10-15",
+   "anio": 2026,
+   "expediente": "499/26",
+   "extracto": "CONCEJO DELIBERANTE DE LUJAN, PROV. DE BUENOS AIRES: EXPRESA PREOCUPACION Y RECHAZA LA DEROGACION DE LA LEY 26.737 -TIERRAS RURALES-.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-09",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500340/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/499.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-10-15"
   },
   "499/26|S": {
    "actualizado": "2026-08-19",
