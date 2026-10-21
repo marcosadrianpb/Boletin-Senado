@@ -1,0 +1,218 @@
+{
+ "fecha": "2026-10-21",
+ "generado": "2026-10-21T12:25:29-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "325/26",
+   "tipo": "DC",
+   "origen": "PE",
+   "extracto": "JEFATURA DE GABINETE: REMITE MENSAJE N° 47/26 QUE COMUNICA EL DICTADO DEL DECRETO N° 1216/26, QUE APRUEBA LA PRORROGA DE JURISDICCION - LINEAS GENERAL BELGRANO, GENERAL SAN MARTIN Y GENERAL URQUIZA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/325.26/PE/DC",
+    "fecha_mesa": "2026-10-20",
+    "dae": "83/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL DE REFORMA DEL ESTADO Y DEL SEGUIMIENTO DE LAS PRIVATIZACIONES (LEY 23.696)",
+      "orden": "1",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500472/downloadPdf"
+   }
+  },
+  {
+   "expediente": "324/26",
+   "tipo": "AC",
+   "origen": "PE",
+   "extracto": "MENSAJE N° 286/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"C\" MINISTRO PLENIPOTENCIARIO DE SEGUNDA CLASE A FUNCIONARIOS DE LA CATEGORIA \"D\" CONSEJERO DE EMBAJADA Y CONSUL GENERAL DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/324.26/PE/AC",
+    "fecha_mesa": "2026-10-20",
+    "dae": "32/2026",
+    "dae_tipo": "ACUERDOS",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "orden": "1",
+      "ingreso": "20-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500446/downloadPdf"
+   }
+  },
+  {
+   "expediente": "323/26",
+   "tipo": "AC",
+   "origen": "PE",
+   "extracto": "MENSAJE N° 285/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"C\" MINISTRO PLENIPOTENCIARIO DE SEGUNDA CLASE A FUNCIONARIOS DE LA CATEGORIA \"D\" CONSEJERO DE EMBAJADA Y CONSUL GENERAL DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/323.26/PE/AC",
+    "fecha_mesa": "2026-10-20",
+    "dae": "32/2026",
+    "dae_tipo": "ACUERDOS",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "orden": "1",
+      "ingreso": "20-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500445/downloadPdf"
+   }
+  },
+  {
+   "expediente": "322/26",
+   "tipo": "AC",
+   "origen": "PE",
+   "extracto": "MENSAJE N° 284/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"B\" MINISTRO PLENIPOTENCIARIO DE PRIMERA CLASE A FUNCIONARIOS DE LA CATEGORIA \"C\" MINISTRO PLENIPOTENCIARIO DE SEGUNDA CLASE DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/322.26/PE/AC",
+    "fecha_mesa": "2026-10-20",
+    "dae": "32/2026",
+    "dae_tipo": "ACUERDOS",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "orden": "1",
+      "ingreso": "20-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500444/downloadPdf"
+   }
+  },
+  {
+   "expediente": "321/26",
+   "tipo": "AC",
+   "origen": "PE",
+   "extracto": "MENSAJE N° 283/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"B\" MINISTRO PLENIPOTENCIARIO DE PRIMERA CLASE A FUNCIONARIOS DE LA CATEGORIA \"C\" MINISTRO PLENIPOTENCIARIO DE SEGUNDA CLASE DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/321.26/PE/AC",
+    "fecha_mesa": "2026-10-20",
+    "dae": "32/2026",
+    "dae_tipo": "ACUERDOS",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "orden": "1",
+      "ingreso": "20-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500443/downloadPdf"
+   }
+  },
+  {
+   "expediente": "320/26",
+   "tipo": "AC",
+   "origen": "PE",
+   "extracto": "MENSAJE N° 282/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"A\" EMBAJADOR EXTRAORDINARIO Y PLENIPOTENCIARIO A FUNCIONARIOS DE LA CATEGORIA \"B\" MINISTRO PLENIPOTENCIARIO DE PRIMERA CLASE DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/320.26/PE/AC",
+    "fecha_mesa": "2026-10-20",
+    "dae": "32/2026",
+    "dae_tipo": "ACUERDOS",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "orden": "1",
+      "ingreso": "20-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500442/downloadPdf"
+   }
+  },
+  {
+   "expediente": "319/26",
+   "tipo": "AC",
+   "origen": "PE",
+   "extracto": "MENSAJE N° 281/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"A\" EMBAJADOR EXTRAORDINARIO Y PLENIPOTENCIARIO A FUNCIONARIOS DE LA CATEGORIA \"B\" MINISTRO PLENIPOTENCIARIO DE PRIMERA CLASE DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/319.26/PE/AC",
+    "fecha_mesa": "2026-10-20",
+    "dae": "32/2026",
+    "dae_tipo": "ACUERDOS",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "orden": "1",
+      "ingreso": "20-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500441/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [
+  {
+   "expediente": "1691/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "CAPITANICH: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA RECUPERACION DEL DOCUMENTAL \"EL TRIUNFO DE LA CONSTANCIA\", DEL AÑO 1924, DIRIGIDO POR JOSE DI CAMPLI.",
+   "anio": 2026,
+   "cambios": {
+    "extracto": [
+     "CAPITANICH: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA RECUPERACION DEL DOCUMENTAL \"EL TRIUNFO DE LA CONSTANCIA\", DEL AÑO 1924, DIRIGIDO POR JOSE DI CAMPI.",
+     "CAPITANICH: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA RECUPERACION DEL DOCUMENTAL \"EL TRIUNFO DE LA CONSTANCIA\", DEL AÑO 1924, DIRIGIDO POR JOSE DI CAMPLI."
+    ]
+   }
+  },
+  {
+   "expediente": "1352/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL PROGRAMA \"JUECES EN LA ESCUELA\" DESARROLLADO POR EL CENTRO DE CAPACITACION JUDICIAL DE LA PROV. DE MISIONES.",
+   "anio": 2026,
+   "cambios": {
+    "extracto": [
+     "ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL PROGRAMA \"JUECES EN LA ESCUELA\" DESAROLLADO POR EL CENTRO DE CAPACITACION JUDICIAL DE LA PROV. DE MISIONES.",
+     "ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL PROGRAMA \"JUECES EN LA ESCUELA\" DESARROLLADO POR EL CENTRO DE CAPACITACION JUDICIAL DE LA PROV. DE MISIONES."
+    ]
+   }
+  },
+  {
+   "expediente": "1342/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "AVILA Y OTRAS: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL PROYECTO TRANSMEDIA \"LENGUAS QUE CUENTAN\" IMPULSADO POR LA BIBLIOTECA DEL CONGRESO DE LA NACIÓN.",
+   "anio": 2026,
+   "cambios": {
+    "extracto": [
+     "AVILA Y OTRAS: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL PROYECTO TRANSMEDIA \"LENGUAS QUE CUENTAN\" IMPULSADO POR LA BIBLIOTECA DEL CONGESO DE LA NACIÓN.",
+     "AVILA Y OTRAS: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL PROYECTO TRANSMEDIA \"LENGUAS QUE CUENTAN\" IMPULSADO POR LA BIBLIOTECA DEL CONGRESO DE LA NACIÓN."
+    ]
+   }
+  }
+ ],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2657,
+ "total_ahora": 2664
+}
