@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-21T12:25:29-03:00",
+ "actualizado": "2026-10-22T12:24:28-03:00",
  "anios": [
   2026
  ],
- "corridas": 50,
+ "corridas": 51,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -9607,10 +9607,10 @@
    "visto": "2026-10-02"
   },
   "1703/26|S": {
-   "actualizado": "2026-10-02",
+   "actualizado": "2026-10-22",
    "anio": 2026,
    "expediente": "1703/26",
-   "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE COMUNICACION QUE SOLICITA LA INSTALACION DE UNA NUEVA ESTACION DE PEAJE SOBRE LA RN 12 EN LAS INMEDIACIONES DE LA LOC. DE GARUHAPÉ, PROV. DE MISIONES Y OTRAS CUESTIONES CONEXAS.",
+   "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE COMUNICACION QUE SOLICITA SE RECONSIDERE LA INSTALACIÓN DE UNA NUEVA ESTACIÓN DE PEAJE SOBRE LA RN 12 EN LAS INMEDIACIONES DE LA LOC. DE GARUHAPÉ, PROV. DE MISIONES Y OTRAS CUESTIONES CONEXAS.",
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -15601,22 +15601,6 @@
    "anio": 2026,
    "expediente": "319/26",
    "extracto": "MENSAJE N° 281/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"A\" EMBAJADOR EXTRAORDINARIO Y PLENIPOTENCIARIO A FUNCIONARIOS DE LA CATEGORIA \"B\" MINISTRO PLENIPOTENCIARIO DE PRIMERA CLASE DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "20-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "32/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-10-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500441/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/319.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -15687,22 +15671,6 @@
    "anio": 2026,
    "expediente": "320/26",
    "extracto": "MENSAJE N° 282/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"A\" EMBAJADOR EXTRAORDINARIO Y PLENIPOTENCIARIO A FUNCIONARIOS DE LA CATEGORIA \"B\" MINISTRO PLENIPOTENCIARIO DE PRIMERA CLASE DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "20-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "32/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-10-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500442/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/320.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -15733,22 +15701,6 @@
    "anio": 2026,
    "expediente": "321/26",
    "extracto": "MENSAJE N° 283/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"B\" MINISTRO PLENIPOTENCIARIO DE PRIMERA CLASE A FUNCIONARIOS DE LA CATEGORIA \"C\" MINISTRO PLENIPOTENCIARIO DE SEGUNDA CLASE DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "20-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "32/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-10-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500443/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/321.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -15779,22 +15731,6 @@
    "anio": 2026,
    "expediente": "322/26",
    "extracto": "MENSAJE N° 284/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"B\" MINISTRO PLENIPOTENCIARIO DE PRIMERA CLASE A FUNCIONARIOS DE LA CATEGORIA \"C\" MINISTRO PLENIPOTENCIARIO DE SEGUNDA CLASE DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "20-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "32/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-10-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500444/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/322.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -15825,22 +15761,6 @@
    "anio": 2026,
    "expediente": "323/26",
    "extracto": "MENSAJE N° 285/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"C\" MINISTRO PLENIPOTENCIARIO DE SEGUNDA CLASE A FUNCIONARIOS DE LA CATEGORIA \"D\" CONSEJERO DE EMBAJADA Y CONSUL GENERAL DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "20-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "32/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-10-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500445/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/323.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -15871,22 +15791,6 @@
    "anio": 2026,
    "expediente": "324/26",
    "extracto": "MENSAJE N° 286/26 QUE SOLICITA ACUERDO PARA PROMOVER A LA CATEGORIA \"C\" MINISTRO PLENIPOTENCIARIO DE SEGUNDA CLASE A FUNCIONARIOS DE LA CATEGORIA \"D\" CONSEJERO DE EMBAJADA Y CONSUL GENERAL DEL MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERNACIONAL Y CULTO.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "20-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "32/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-10-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500446/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/324.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -15917,22 +15821,6 @@
    "anio": 2026,
    "expediente": "325/26",
    "extracto": "JEFATURA DE GABINETE: REMITE MENSAJE N° 47/26 QUE COMUNICA EL DICTADO DEL DECRETO N° 1216/26, QUE APRUEBA LA PRORROGA DE JURISDICCION - LINEAS GENERAL BELGRANO, GENERAL SAN MARTIN Y GENERAL URQUIZA.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "BICAMERAL DE REFORMA DEL ESTADO Y DEL SEGUIMIENTO DE LAS PRIVATIZACIONES (LEY 23.696)",
-      "ingreso": null,
-      "orden": "1"
-     }
-    ],
-    "dae": "83/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-10-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500472/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/325.26/PE/DC"
-   },
    "origen": "PE",
    "tipo": "DC",
    "vigente": true,

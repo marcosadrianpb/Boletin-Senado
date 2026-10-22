@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-10-15T12:09:16-03:00",
+ "actualizado": "2026-10-22T12:24:22-03:00",
  "senadores": {
   "285": {
    "nombre": "Jorge Milton Capitanich",
@@ -145,10 +145,6 @@
   "556": {
    "nombre": "Jesús Fernando Rejal",
    "bloque": "Justicia Social Federal"
-  },
-  "557": {
-   "nombre": "Juan Carlos Pagotto",
-   "bloque": "La Libertad Avanza"
   },
   "558": {
    "nombre": "Carlos Omar Arce",
