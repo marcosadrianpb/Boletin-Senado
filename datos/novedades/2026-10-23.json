@@ -1,0 +1,114 @@
+{
+ "fecha": "2026-10-23",
+ "generado": "2026-10-23T12:14:35-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "21/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE TRANSFIERE A TITULO GRATUITO EL INMUEBLE PROPIEDAD DEL ESTADO NACIONAL CORRESPONDIENTE AL CENTRO DE ACOPIO Y EMBARQUE BARRANQUERAS A FAVOR DEL GOBIERNO DE LA PROV. DEL CHACO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/21.26/CD/PL",
+    "fecha_mesa": "2026-10-22",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "orden": "1",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "20/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION SOBRE SISTEMAS DE TRAZABILIDAD DE MEDICAMENTOS DE ALTO RIESGO Y DE SUS INGREDIENTES FARMACEUTICOS ACTIVOS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/20.26/CD/PL",
+    "fecha_mesa": "2026-10-22",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE SALUD",
+      "orden": "1",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "19/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE MODIFICA EL CODIGO PENAL DE LA NACION, SOBRE VANDALISMO RURAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/19.26/CD/PL",
+    "fecha_mesa": "2026-10-22",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE JUSTICIA Y ASUNTOS PENALES",
+      "orden": "1",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": null
+   }
+  },
+  {
+   "expediente": "18/26",
+   "tipo": "PL",
+   "origen": "CD",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE PRORROGA HASTA EL 31 DE DICIEMBRE DE 2027, LA EMERGENCIA NACIONAL EN DISCAPACIDAD - LEY 27.793 -.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/18.26/CD/PL",
+    "fecha_mesa": "2026-10-22",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "orden": "1",
+      "ingreso": null
+     },
+     {
+      "comision": "DE POBLACIÓN Y DESARROLLO HUMANO",
+      "orden": "2",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": null
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2664,
+ "total_ahora": 2668
+}

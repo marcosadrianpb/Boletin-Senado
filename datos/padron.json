@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-22T12:24:28-03:00",
+ "actualizado": "2026-10-23T12:14:35-03:00",
  "anios": [
   2026
  ],
- "corridas": 51,
+ "corridas": 52,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -10756,6 +10756,37 @@
    "vigente": true,
    "visto": "2026-10-15"
   },
+  "18/26|CD": {
+   "actualizado": "2026-10-23",
+   "anio": 2026,
+   "expediente": "18/26",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE PRORROGA HASTA EL 31 DE DICIEMBRE DE 2027, LA EMERGENCIA NACIONAL EN DISCAPACIDAD - LEY 27.793 -.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "ingreso": null,
+      "orden": "1"
+     },
+     {
+      "comision": "DE POBLACIÓN Y DESARROLLO HUMANO",
+      "ingreso": null,
+      "orden": "2"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-22",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/18.26/CD/PL"
+   },
+   "origen": "CD",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-10-23"
+  },
   "18/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11095,6 +11126,32 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "19/26|CD": {
+   "actualizado": "2026-10-23",
+   "anio": 2026,
+   "expediente": "19/26",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE MODIFICA EL CODIGO PENAL DE LA NACION, SOBRE VANDALISMO RURAL.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE JUSTICIA Y ASUNTOS PENALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-22",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/19.26/CD/PL"
+   },
+   "origen": "CD",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-10-23"
   },
   "19/26|OV": {
    "actualizado": "2026-08-19",
@@ -11486,6 +11543,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "20/26|CD": {
+   "actualizado": "2026-10-23",
+   "anio": 2026,
+   "expediente": "20/26",
+   "extracto": "PROYECTO DE LEY EN REVISION SOBRE SISTEMAS DE TRAZABILIDAD DE MEDICAMENTOS DE ALTO RIESGO Y DE SUS INGREDIENTES FARMACEUTICOS ACTIVOS.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE SALUD",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-22",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/20.26/CD/PL"
+   },
+   "origen": "CD",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-10-23"
+  },
   "20/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -11825,6 +11908,32 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "21/26|CD": {
+   "actualizado": "2026-10-23",
+   "anio": 2026,
+   "expediente": "21/26",
+   "extracto": "PROYECTO DE LEY EN REVISION QUE TRANSFIERE A TITULO GRATUITO EL INMUEBLE PROPIEDAD DEL ESTADO NACIONAL CORRESPONDIENTE AL CENTRO DE ACOPIO Y EMBARQUE BARRANQUERAS A FAVOR DEL GOBIERNO DE LA PROV. DEL CHACO.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
+      "ingreso": null,
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-22",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/21.26/CD/PL"
+   },
+   "origen": "CD",
+   "tipo": "PL",
+   "vigente": true,
+   "visto": "2026-10-23"
   },
   "21/26|OV": {
    "actualizado": "2026-08-19",
