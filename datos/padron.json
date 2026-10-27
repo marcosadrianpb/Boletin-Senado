@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-26T13:50:26-03:00",
+ "actualizado": "2026-10-27T12:55:38-03:00",
  "anios": [
   2026
  ],
- "corridas": 53,
+ "corridas": 54,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -11836,6 +11836,30 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "1872/26|S": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "1872/26",
+   "extracto": "REJAL: COMUNICA SU INCORPORACION AL BLOQUE JUSTICIALISTA.",
+   "ficha": {
+    "autores": [
+     "Rejal , Jesús Fernando"
+    ],
+    "autores_id": [
+     "556"
+    ],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-22",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500651/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1872.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-10-27"
+  },
   "188/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -21146,6 +21170,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "514/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "514/26",
+   "extracto": "LEGISLATURA DE LA PROV. DE TIERRA DEL FUEGO A.I.A.S: EXPRESA PREOCUPACIÓN SOBRE LOS DECRETOS 764/2026 Y 765/2025 Y LA RES. AABE 101/2026 - SUBASTA DE TIERRAS ESTRATEGICAS DEL ESTADO NACIONAL UBICADAS EN LA CDAD. DE USHUAIA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-22",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500635/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/514.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-10-27"
+  },
   "514/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -21155,6 +21199,26 @@
    "tipo": "PC",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "515/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "515/26",
+   "extracto": "LEGISLATURA DE LA PROV. DE TIERRA DEL FUEGO A.I.A.S: REPUDIA EL INGRESO, AMARRE Y OPERACIÓN EN EL PUERTO DE LA CDAD. DE USHUAIA DEL BUQUE PETROLERO \"VS PROMISE\", POR CONSTITUIR UNA VIOLACIÓN DIRECTA A LA LEY PROVINCIAL 852 (LEY GAUCHO RIVERO).",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-22",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500636/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/515.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-10-27"
   },
   "515/26|S": {
    "actualizado": "2026-08-19",
@@ -21166,6 +21230,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "516/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "516/26",
+   "extracto": "PODER LEGISLATIVO DE LA PROV. DE TIERRA DEL FUEGO, A.E.I.A.S: RECHAZA EL PROYECTO QUE MODIFICA EL RÉGIMEN DE ZONA FRÍA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-22",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500637/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/516.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-10-27"
+  },
   "516/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -21175,6 +21259,26 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "517/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "517/26",
+   "extracto": "CONCEJO DELIBERANTE DE LINCOLN, PROV. DE BUENOS AIRES: SOLICITA DAR TRATAMIENTO A LOS PROYECTOS QUE REGULEN LA INTELIGENCIA ARTIFICIAL.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-22",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500638/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/517.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-10-27"
   },
   "517/26|S": {
    "actualizado": "2026-08-19",
@@ -21186,6 +21290,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "518/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "518/26",
+   "extracto": "CONCEJO DELIBERANTE DE RÍO GRANDE, PROV. DE TIERRA DEL FUEGO, A.I.A.S.: SOLICITA QUE LAS MODIFICACIONES INTRODUCIDAS AL RÉGIMEN DE ZONA FRÍA NO PRODUZCAN UN INCREMENTO EN LAS FACTURAS DE LOS USUARIOS DE TIERRA DEL FUEGO, A.I.A.S.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-22",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500639/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/518.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-10-27"
+  },
   "518/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -21195,6 +21319,26 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "519/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "519/26",
+   "extracto": "CONCEJO DELIBERANTE DE GENERAL BELGRANO, PROV. DE BUENOS AIRES: REPUDIA TODA INTERVENCIÓN DEL GOBIERNO NACIONAL SOBRE ESTABLECIMIENTOS EDUCATIVOS DE LA PROV. DE BUENOS AIRES SIN SUSTENTO CONSTITUCIONAL O LEGAL.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-22",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500644/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/519.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-10-27"
   },
   "519/26|S": {
    "actualizado": "2026-08-19",
@@ -21236,6 +21380,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "520/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "520/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 208/26 QUE TOMA CONOCIMIENTO DE LA CERTIFICACION DE LA RENDICION DE FONDOS TRANSFERIDOS POR EL ESTADO NACIONAL A AEROLINEAS ARGENTINAS S.A. PARA FINANCIAR GASTOS CORRIENTES JULIO 2024 - JULIO 2025 PRIMER PARCIAL.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "26-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-26",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500646/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/520.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-10-27"
+  },
   "520/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -21245,6 +21415,32 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "521/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "521/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 209/26 QUE APRUEBA EL INFORME RESPECTO DE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL \"PROYECTO DE DESARROLLO SUSTENTABLE DE LA CUENCA MATANZA-RIACHUELO\", DEL MIN. DE ECONOMIA (CP N° 7706-AR BIRF) POR EL EJERCICIO N° 15 DEL 01/01/2025 AL 31/1",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "26-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-26",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500645/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/521.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-10-27"
   },
   "521/26|S": {
    "actualizado": "2026-08-19",
@@ -21256,6 +21452,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "522/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "522/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 210/26 QUE APRUEBA EL INFORME RESPECTO DE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL \"PROGRAMA DE GESTION INTEGRAL DE LOS RIESGOS EN EL SISTEMA AGROINDUSTRIAL RURAL (GIRSAR)\" DEL MIN. DE ECONOMIA (CP N° 8867-AR BIRF) POR EL EJERCICIO N° 6 DE",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "26-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-26",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500647/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/522.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-10-27"
+  },
   "522/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -21265,6 +21487,32 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "523/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "523/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 211/26 QUE APRUEBA EL INFORME RESPECTO DE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL PROGRAMA \"FINANCIAMIENTO ADICIONAL PARA EL PROYECTO MEJORA DE LA INCLUSION EDUCATIVA EN EL NIVEL SECUNDARIO Y SUPERIOR\" DEL MIN. DE CAPITAL HUMANO (CP N° 947",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "26-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-26",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500648/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/523.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-10-27"
   },
   "523/26|S": {
    "actualizado": "2026-08-19",
@@ -21276,6 +21524,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "524/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "524/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 212/26 QUE APRUEBA EL INFORME RESPECTO DE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL \"PROYECTO DE RECUPERACION SUSTENTABLE DE PAISAJES Y MEDIOS DE VIDA EN ARGENTINA\" DE LA JGM (CP N° 9335-AR BIRF Y CD PROGREEN N° TF0B7681-AR) POR EL EJERCICI",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "26-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-26",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500649/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/524.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-10-27"
+  },
   "524/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -21285,6 +21559,32 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "525/26|OV": {
+   "actualizado": "2026-10-27",
+   "anio": 2026,
+   "expediente": "525/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 213/26 QUE APRUEBA EL PROGRAMA DE ACCION ANUAL CORRESPONDIENTE AL EJERCICIO 2027.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "26-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-26",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500650/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/525.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-10-27"
   },
   "525/26|S": {
    "actualizado": "2026-08-19",
