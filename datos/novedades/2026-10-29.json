@@ -1,0 +1,44 @@
+{
+ "fecha": "2026-10-29",
+ "generado": "2026-10-29T13:59:44-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "1903/26",
+   "tipo": "PR",
+   "origen": "S",
+   "extracto": "MAYANS: PROYECTO DE RESOLUCIÓN QUE CITA AL SEÑOR JEFE DE GABINETE DE MINISTROS, CPN. DIEGO CESAR SANTILLI, EN LOS TERMINOS DEL ART. 101 DE LA C.N., A EFECTOS DE BRINDAR EL INFORME SOBRE LA MARCHA DEL GOBIERNO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1903.26/S/PR",
+    "fecha_mesa": "2026-10-28",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Mayans , José Miguel Ángel"
+    ],
+    "autores_id": [
+     "294"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "28-10-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500727/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2777,
+ "total_ahora": 2778
+}
