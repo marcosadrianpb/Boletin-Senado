@@ -1,0 +1,81 @@
+{
+ "fecha": "2026-10-30",
+ "generado": "2026-10-30T13:44:42-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "1911/26",
+   "tipo": "PR",
+   "origen": "S",
+   "extracto": "VARIOS SEÑORES SENADORES: PROYECTO DE RESOLUCIÓN QUE EXPRESA BENEPLÁCITO POR LA VISITA DE SU SANTIDAD EL PAPA LEÓN XIV, OBISPO DE ROMA, SUMO PONTÍFICE DE LA IGLESIA CATÓLICA Y SOBERANO DEL ESTADO DE LA CIUDAD DEL VATICANO, CON MOTIVO DE SU VIAJE A LA REPUBLICA ARGENTINA, ENTRE EL 8 Y EL 11 DE",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1911.26/S/PR",
+    "fecha_mesa": "2026-10-29",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Bullrich , Patricia",
+     "Abdala , Bartolomé Esteban",
+     "Vischi , Eduardo Alejandro",
+     "Royon , Flavia Gabriela",
+     "Goerling Lara , Enrique Martín",
+     "Arce , Carlos Omar",
+     "Mayans , José Miguel Ángel",
+     "Espínola , Carlos Mauricio",
+     "Terenzi , Edith Elizabeth",
+     "Salino , Fernando Aldo",
+     "Rojas Decut , Sonia Elizabeth",
+     "Avila , Beatriz Luisa",
+     "Gadano , Natalia Elena",
+     "Andrada , Guillermo Eduardo"
+    ],
+    "autores_id": [
+     "580",
+     "564",
+     "524",
+     "593",
+     "560",
+     "558",
+     "294",
+     "461",
+     "528",
+     "566",
+     "559",
+     "541",
+     "568",
+     "519"
+    ],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500773/downloadPdf"
+   }
+  },
+  {
+   "expediente": "329/26",
+   "tipo": "CE",
+   "origen": "PE",
+   "extracto": "JEFATURA DE GABINETE: COMUNICA SU DISPOSICION PARA CONCURRIR A ESTA H. CAMARA Y BRINDAR EL INFORME N° 146, A FIN DE CUMPLIMENTAR LO DISPUESTO EN EL ART. 101 DE LA CONSTITUCION NACIONAL E INFORMAR ACERCA DE LA MARCHA DEL GOBIERNO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/329.26/PE/CE",
+    "fecha_mesa": "2026-10-29",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500760/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2778,
+ "total_ahora": 2780
+}

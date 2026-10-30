@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-29T13:59:44-03:00",
+ "actualizado": "2026-10-30T13:44:42-03:00",
  "anios": [
   2026
  ],
- "corridas": 56,
+ "corridas": 57,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -11991,26 +11991,6 @@
    "anio": 2026,
    "expediente": "1903/26",
    "extracto": "MAYANS: PROYECTO DE RESOLUCIÓN QUE CITA AL SEÑOR JEFE DE GABINETE DE MINISTROS, CPN. DIEGO CESAR SANTILLI, EN LOS TERMINOS DEL ART. 101 DE LA C.N., A EFECTOS DE BRINDAR EL INFORME SOBRE LA MARCHA DEL GOBIERNO.",
-   "ficha": {
-    "autores": [
-     "Mayans , José Miguel Ángel"
-    ],
-    "autores_id": [
-     "294"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS CONSTITUCIONALES",
-      "ingreso": "28-10-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-28",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500727/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1903.26/S/PR"
-   },
    "origen": "S",
    "tipo": "PR",
    "vigente": true,
@@ -12045,6 +12025,56 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1911/26|S": {
+   "actualizado": "2026-10-30",
+   "anio": 2026,
+   "expediente": "1911/26",
+   "extracto": "VARIOS SEÑORES SENADORES: PROYECTO DE RESOLUCIÓN QUE EXPRESA BENEPLÁCITO POR LA VISITA DE SU SANTIDAD EL PAPA LEÓN XIV, OBISPO DE ROMA, SUMO PONTÍFICE DE LA IGLESIA CATÓLICA Y SOBERANO DEL ESTADO DE LA CIUDAD DEL VATICANO, CON MOTIVO DE SU VIAJE A LA REPUBLICA ARGENTINA, ENTRE EL 8 Y EL 11 DE",
+   "ficha": {
+    "autores": [
+     "Bullrich , Patricia",
+     "Abdala , Bartolomé Esteban",
+     "Vischi , Eduardo Alejandro",
+     "Royon , Flavia Gabriela",
+     "Goerling Lara , Enrique Martín",
+     "Arce , Carlos Omar",
+     "Mayans , José Miguel Ángel",
+     "Espínola , Carlos Mauricio",
+     "Terenzi , Edith Elizabeth",
+     "Salino , Fernando Aldo",
+     "Rojas Decut , Sonia Elizabeth",
+     "Avila , Beatriz Luisa",
+     "Gadano , Natalia Elena",
+     "Andrada , Guillermo Eduardo"
+    ],
+    "autores_id": [
+     "580",
+     "564",
+     "524",
+     "593",
+     "560",
+     "558",
+     "294",
+     "461",
+     "528",
+     "566",
+     "559",
+     "541",
+     "568",
+     "519"
+    ],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500773/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1911.26/S/PR"
+   },
+   "origen": "S",
+   "tipo": "PR",
+   "vigente": true,
+   "visto": "2026-10-30"
   },
   "192/26|OV": {
    "actualizado": "2026-08-19",
@@ -16805,6 +16835,26 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "329/26|PE": {
+   "actualizado": "2026-10-30",
+   "anio": 2026,
+   "expediente": "329/26",
+   "extracto": "JEFATURA DE GABINETE: COMUNICA SU DISPOSICION PARA CONCURRIR A ESTA H. CAMARA Y BRINDAR EL INFORME N° 146, A FIN DE CUMPLIMENTAR LO DISPUESTO EN EL ART. 101 DE LA CONSTITUCION NACIONAL E INFORMAR ACERCA DE LA MARCHA DEL GOBIERNO.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500760/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/329.26/PE/CE"
+   },
+   "origen": "PE",
+   "tipo": "CE",
+   "vigente": true,
+   "visto": "2026-10-30"
   },
   "329/26|S": {
    "actualizado": "2026-08-19",
