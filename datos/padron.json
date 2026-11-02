@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-30T13:44:42-03:00",
+ "actualizado": "2026-11-02T17:26:22-03:00",
  "anios": [
   2026
  ],
- "corridas": 57,
+ "corridas": 58,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -12031,50 +12031,160 @@
    "anio": 2026,
    "expediente": "1911/26",
    "extracto": "VARIOS SEÑORES SENADORES: PROYECTO DE RESOLUCIÓN QUE EXPRESA BENEPLÁCITO POR LA VISITA DE SU SANTIDAD EL PAPA LEÓN XIV, OBISPO DE ROMA, SUMO PONTÍFICE DE LA IGLESIA CATÓLICA Y SOBERANO DEL ESTADO DE LA CIUDAD DEL VATICANO, CON MOTIVO DE SU VIAJE A LA REPUBLICA ARGENTINA, ENTRE EL 8 Y EL 11 DE",
-   "ficha": {
-    "autores": [
-     "Bullrich , Patricia",
-     "Abdala , Bartolomé Esteban",
-     "Vischi , Eduardo Alejandro",
-     "Royon , Flavia Gabriela",
-     "Goerling Lara , Enrique Martín",
-     "Arce , Carlos Omar",
-     "Mayans , José Miguel Ángel",
-     "Espínola , Carlos Mauricio",
-     "Terenzi , Edith Elizabeth",
-     "Salino , Fernando Aldo",
-     "Rojas Decut , Sonia Elizabeth",
-     "Avila , Beatriz Luisa",
-     "Gadano , Natalia Elena",
-     "Andrada , Guillermo Eduardo"
-    ],
-    "autores_id": [
-     "580",
-     "564",
-     "524",
-     "593",
-     "560",
-     "558",
-     "294",
-     "461",
-     "528",
-     "566",
-     "559",
-     "541",
-     "568",
-     "519"
-    ],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-29",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500773/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1911.26/S/PR"
-   },
    "origen": "S",
    "tipo": "PR",
    "vigente": true,
    "visto": "2026-10-30"
+  },
+  "1915/26|S": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "1915/26",
+   "extracto": "CAPITANICH: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Capitanich , Jorge Milton"
+    ],
+    "autores_id": [
+     "285"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500829/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1915.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
+  "1916/26|S": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "1916/26",
+   "extracto": "DE PEDRO: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "de Pedro , Eduardo Enrique"
+    ],
+    "autores_id": [
+     "545"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500828/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1916.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
+  "1917/26|S": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "1917/26",
+   "extracto": "RECALDE: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Recalde , Mariano"
+    ],
+    "autores_id": [
+     "498"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500830/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1917.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
+  "1918/26|S": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "1918/26",
+   "extracto": "SORIA: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Soria , Martin Ignacio"
+    ],
+    "autores_id": [
+     "588"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500831/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1918.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
+  "1919/26|S": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "1919/26",
+   "extracto": "CORROZA: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Corroza , Julieta"
+    ],
+    "autores_id": [
+     "587"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500832/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1919.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "192/26|OV": {
    "actualizado": "2026-08-19",
@@ -16841,16 +16951,6 @@
    "anio": 2026,
    "expediente": "329/26",
    "extracto": "JEFATURA DE GABINETE: COMUNICA SU DISPOSICION PARA CONCURRIR A ESTA H. CAMARA Y BRINDAR EL INFORME N° 146, A FIN DE CUMPLIMENTAR LO DISPUESTO EN EL ART. 101 DE LA CONSTITUCION NACIONAL E INFORMAR ACERCA DE LA MARCHA DEL GOBIERNO.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-10-29",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500760/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/329.26/PE/CE"
-   },
    "origen": "PE",
    "tipo": "CE",
    "vigente": true,
@@ -16916,6 +17016,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "330/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "330/26",
+   "extracto": "MENSAJE N° 287/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CÁMARA FEDERAL DE APELACIONES DE SAN MARTÍN, PROVINCIA DE BUENOS AIRES, SALA II, AL DR GERMÁN MANUEL MOLDES",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500802/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/330.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "330/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -16935,6 +17061,32 @@
    "tipo": "CM",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "331/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "331/26",
+   "extracto": "MENSAJE Nº 288/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE CLORINDA, PROVINCIA DE FORMOSA AL DR. RICARDO FABIÁN ROJAS",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500803/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/331.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "331/26|S": {
    "actualizado": "2026-08-19",
@@ -16956,6 +17108,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "332/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "332/26",
+   "extracto": "MENSAJE Nº 289/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CÁMARA NACIONAL DE APELACIONES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, VOCALÍA N° 9, AL DR. GABRIEL GONZALO REY",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500804/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/332.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "332/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -16975,6 +17153,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "333/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "333/26",
+   "extracto": "MENSAJE Nº 290/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CÁMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA X, A LA DRA. MARIA GABRIELA ALCOLUMBRE.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500805/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/333.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "333/26|S": {
    "actualizado": "2026-08-19",
@@ -16996,6 +17200,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "334/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "334/26",
+   "extracto": "MENSAJE Nº 291/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO PENAL ECONOMICO N° 10 DE LA CAPITAL FEDERAL, AL DR. MATIAS ALEJANDRO LATINO.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500806/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/334.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "334/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17015,6 +17245,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "335/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "335/26",
+   "extracto": "MENSAJE Nº 292/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO PENAL ECONOMICO N° 1 DE LA CAPITAL FEDERAL, A LA DRA. MARIA VALERIA ROSITO PERALTA URQUIZA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500807/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/335.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "335/26|S": {
    "actualizado": "2026-08-19",
@@ -17036,6 +17292,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "336/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "336/26",
+   "extracto": "MENSAJE Nº 293/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 19 DE LA CAPITAL FEDERAL, AL DR. CARLOS FEDERICO COCIANCICH.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500808/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/336.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "336/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17055,6 +17337,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "337/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "337/26",
+   "extracto": "MENSAJE Nº 294/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ PENAL FEDERAL DEL JUZGADO FEDERAL DE GARANTIAS CON ASIENTO EN LA CDAD. DE RECONQUISTA, PROV. DE SANTA FE, AL DR. ARIEL DI GIURA KALTENEGGER.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500809/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/337.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "337/26|S": {
    "actualizado": "2026-08-19",
@@ -17076,6 +17384,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "338/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "338/26",
+   "extracto": "MENSAJE Nº 295/26 QUE SOLICITA ACUERDO PARA DESIGNAR DEFENSOR PUBLICO OFICIAL ANTE LA CAMARA FEDERAL DE CASACION PENAL, DEFENSORIA N° 4, AL DR. FERNANDO BUJAN.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500810/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/338.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "338/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17095,6 +17429,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "339/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "339/26",
+   "extracto": "MENSAJE Nº 296/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 4 DE SAN MARTIN, PROV. DE BUENOS AIRES, AL DR. HERNAN HUGO RE.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500833/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/339.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "339/26|S": {
    "actualizado": "2026-08-19",
@@ -17156,6 +17516,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "340/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "340/26",
+   "extracto": "MENSAJE Nº 297/26 QUE SOLICITA ACUERDO PARA DESIGNAR DEFENSOR PUBLICO OFICIAL FEDERAL CON JURISDICCION EN EL DISTRITO FEDERAL DE ROSARIO, CON ASIENTO EN LA CDAD. DE SAN LORENZO, PROV. DE SANTA FE, AL DR. BRIAN EZEQUIEL GALLO.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500811/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/340.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "340/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17175,6 +17561,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "341/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "341/26",
+   "extracto": "MENSAJE Nº 298/26 QUE SOLICITA ACUERDO PARA DESIGNAR DEFENSOR PUBLICO OFICIAL ANTE EL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 2 DE CATAMARCA, PROV. DE CATAMARCA, AL DR. GABRIEL ADRIAN JAIME.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500812/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/341.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "341/26|S": {
    "actualizado": "2026-08-19",
@@ -17196,6 +17608,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "342/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "342/26",
+   "extracto": "MENSAJE Nº 299/26 QUE SOLICITA ACUERDO PARA DESIGNAR FISCAL DE LA PROCURADURIA DE INVESTIGACIONES ADMINISTRATIVAS, AL DR. GASTON RODRIGO ETCHEBASTER.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500813/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/342.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "342/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17215,6 +17653,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "343/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "343/26",
+   "extracto": "MENSAJE Nº 300/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DEL TRIBUNAL FEDERAL DE JUICIO DE BAHIA BLANCA, PROV. DE BUENOS AIRES, AL DR. JUAN PABLO FERNANDEZ.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500814/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/343.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "343/26|S": {
    "actualizado": "2026-08-19",
@@ -17236,6 +17700,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "344/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "344/26",
+   "extracto": "MENSAJE Nº 301/26 QUE SOLICITA ACUERDO PARA DESIGNAR DEFENSOR PUBLICO OFICIAL FEDERAL DEL INTERIOR DEL PAIS, CON ASIENTO EN LA CDAD. DE GOYA, PROV. DE CORRIENTES, AL DR. ADRIAN ESTEBAN MACERI.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500815/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/344.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "344/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17255,6 +17745,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "345/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "345/26",
+   "extracto": "MENSAJE Nº 302/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL, SALA III, AL DR. IGNACIO MARTIN REBAUDI BASAVILBASO.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500816/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/345.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "345/26|S": {
    "actualizado": "2026-08-19",
@@ -17276,6 +17792,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "346/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "346/26",
+   "extracto": "MENSAJE Nº 303/26 QUE SOLICITA ACUERDO PARA DESIGNAR DEFENSOR PUBLICO OFICIAL ANTE EL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL DE SANTIAGO DEL ESTERO, PROV. DE SANTIAGO DEL ESTERO, AL DR. MARIANO ROMERO.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-29",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500817/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/346.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "346/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17295,6 +17837,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "347/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "347/26",
+   "extracto": "MENSAJE N° 304/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZA DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO COMERCIAL N° 26 DE LA CAPITAL FEDERAL, A LA DRA. VALERIA CRISTINA PEREYRA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-30",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500818/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/347.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "347/26|S": {
    "actualizado": "2026-08-19",
@@ -17316,6 +17884,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "348/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "348/26",
+   "extracto": "MENSAJE N° 305/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL DE LA CAPITAL FEDERAL, SALA M, AL DR. FERNANDO JULIAN OLTRA SANTA CRUZ.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-30",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500819/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/348.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "348/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17335,6 +17929,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "349/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "349/26",
+   "extracto": "MENSAJE N° 306/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZA DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 2 DE LA PLATA, PROVINCIA DE BUENOS AIRES, A LA DRA. MIRTA GRACIELA MARTINEZ.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-30",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500820/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/349.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "349/26|S": {
    "actualizado": "2026-08-19",
@@ -17386,6 +18006,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "350/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "350/26",
+   "extracto": "MENSAJE N° 307/26 QUE SOLICITA ACUERDO PARA DESIGNAR JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 72 DE LA CAPITAL FEDERAL, AL DR. GERMAN DIEGO HIRALDE VEGA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-30",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500821/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/350.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "350/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17405,6 +18051,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "351/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "351/26",
+   "extracto": "MENSAJE N° 308/26 QUE SOLICITA ACUERDO PARA DESIGNAR DEFENSOR PUBLICO OFICIAL ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N° 4, AL DR. JAVIER ANIBAL IBARRA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-30",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500822/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/351.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "351/26|S": {
    "actualizado": "2026-08-19",
@@ -17426,6 +18098,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "352/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "352/26",
+   "extracto": "MENSAJE N° 309/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO COMERCIAL DE LA CAPITAL FEDERAL, SALA E, AL DR. GERARDO DAMIAN SANTICCHIA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-30",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500823/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/352.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "352/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17445,6 +18143,32 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "353/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "353/26",
+   "extracto": "MENSAJE N° 310/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL, SALA ESPECIALIZADA EN DEFENSA DE LA COMPETENCIA, AL DR. HUMBERTO CARLOS GUARDIA MENDONCA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-30",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500824/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/353.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "353/26|S": {
    "actualizado": "2026-08-19",
@@ -17466,6 +18190,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "354/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "354/26",
+   "extracto": "MENSAJE N° 311/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL, SALA ESPECIALIZADA EN DEFENSA DE LA COMPETENCIA, AL DR. SANTIAGO ROCA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-30",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500825/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/354.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "354/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17485,6 +18235,32 @@
    "tipo": "CA",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "355/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "355/26",
+   "extracto": "MENSAJE N° 312/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL, SALA ESPECIALIZADA EN DEFENSA DE LA COMPETENCIA, A LA DRA. SILVIA BEATRIZ PFARHERR.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-30",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500826/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/355.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "355/26|S": {
    "actualizado": "2026-08-19",
@@ -17506,6 +18282,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "356/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "356/26",
+   "extracto": "MENSAJE N° 313/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO PENAL ECONOMICO, SALA A, AL DR. RAFAEL FRANCISCO CAPUTO.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "ingreso": "30-10-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "33/2026",
+    "dae_tipo": "ACUERDOS",
+    "fecha_mesa": "2026-10-30",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500827/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/356.26/PE/AC"
+   },
+   "origen": "PE",
+   "tipo": "AC",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "356/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17526,6 +18328,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "357/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "357/26",
+   "extracto": "JEFATURA DE GABINETE: REMITE RESPUESTA SOBRE EL ESTADO DE LA INTERSECCION DE LAS RUTAS NACIONALES 14, 119 Y 127 EN LA PROVINCIA DE CORRIENTES Y OTRAS CUESTIONES CONEXAS. (REF. S. 1675/25)",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE INFRAESTRUCTURA, VIVIENDA Y TRANSPORTE",
+      "ingreso": "02-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-30",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500842/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/357.26/PE/RP"
+   },
+   "origen": "PE",
+   "tipo": "RP",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "357/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17545,6 +18373,26 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-25"
+  },
+  "358/26|PE": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "358/26",
+   "extracto": "JEFATURA DE GABINETE: REMITE COPIA DEL MENSAJE N° 314/26 Y PROYECTO DE LEY, INGRESADO POR LA H. CAMARA DE DIPUTADOS, DE COMPETITIVIDAD FINANCIERA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-02",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500841/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/358.26/PE/MD"
+   },
+   "origen": "PE",
+   "tipo": "MD",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "358/26|S": {
    "actualizado": "2026-08-19",
@@ -21506,6 +22354,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "526/26|OV": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "526/26",
+   "extracto": "CONCEJO DELIBERANTE DE ENSENADA, PROV. DE BS. AS.: REPUDIA Y EXPRESA PREOCUPACIÓN POR LAS OPERACIONES FINANCIERAS REALIZADAS POR EL B.C.R.A. CON RESERVAS DE ORO DEL ESTADO NACIONAL",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/526.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "526/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -21515,6 +22383,26 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "527/26|OV": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "527/26",
+   "extracto": "CONCEJO DELIBERANTE DE JUNIN DE LOS ANDES, PROV. DEL NEUQUÉN: REPUDIA Y EXPRESA PREOCUPACIÓN POR LA DEROGACIÓN DE LA LEY 26.737 - RÉGIMEN DE PROTECCIÓN AL DOMINIO NACIONAL SOBRE LA PROPIEDAD, POSESIÓN O TENENCIA DE LAS TIERRAS RURALES",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/527.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "527/26|S": {
    "actualizado": "2026-08-19",
@@ -21526,6 +22414,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "528/26|OV": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "528/26",
+   "extracto": "CONCEJO DELIBERANTE DE GENERAL VIAMONTE, PROV. DE BUENOS AIRES: EXPRESA BENEPLÁCITO POR EL PROYECTO DE LEY QUE REFORMA EL CÓDIGO PENAL DE LA NACION, QUE AGRAVA LAS PENAS POR VANDALISMO RURAL E INTRUSIÓN ILEGAL EN ESTABLECIMIENTOS AGROPECUARIOS.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/528.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "528/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -21535,6 +22443,26 @@
    "tipo": "PC",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "529/26|OV": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "529/26",
+   "extracto": "CONCEJO DELIBERANTE DE SAN ISIDRO, PROV. DE BS.AS.: EXPRESA ACOMPAÑAMIENTO AL PROYECTO DE LEY N° 26.659, RESPECTO A GARANTIZAR EL CUMPLIMIENTO Y LA PROTECCIÓN DE LOS DERECHOS SOBERANOS SOBRE SUS RECURSOS NATURALES.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/529.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "529/26|S": {
    "actualizado": "2026-08-19",
@@ -21576,6 +22504,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "530/26|OV": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "530/26",
+   "extracto": "CONCEJO DELIBERANTE DE VILLA GESELL, PROV. DE BUENOS AIRES: EXPRESA BENEPLÁCITO POR LA SENTENCIA QUE DECLARÓ LA INCONSTITUCIONALIDAD DEL DECRETO 759/2025 Y ORDENÓ EL CUMPLIMIENTO DE LA LEY 27.795 -FINANCIAMIENTO UNIVERSITARIO-.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/530.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-02"
+  },
   "530/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -21585,6 +22533,26 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "531/26|OV": {
+   "actualizado": "2026-11-02",
+   "anio": 2026,
+   "expediente": "531/26",
+   "extracto": "CONCEJO DELIBERANTE DE VILLA GESELL, PROV. DE BUENOS AIRES: EXPRESA BENEPLÁCITO POR LA APROBACIÓN DEL PROYECTO DE LEY 656/24-25 POR PARTE DEL SENADO DE LA PROV. DE BS. AS., QUE AUTORIZA LA DONACIÓN A LA MUNICIPALIDAD DE VILLA GESELL DE LOS INMUEBLES CORRESPONDIENTES AL PINAR DEL NORTE Y AL PINAR",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-10-27",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/531.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-02"
   },
   "531/26|S": {
    "actualizado": "2026-08-19",
