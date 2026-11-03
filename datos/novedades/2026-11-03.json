@@ -1,0 +1,40 @@
+{
+ "fecha": "2026-11-03",
+ "generado": "2026-11-03T14:56:00-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "359/26",
+   "tipo": "AC",
+   "origen": "PE",
+   "extracto": "MENSAJE N° 315/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE CASACION EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, VOCALIA N° 7, AL DR. DANIEL EDUARDO RAFECAS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/359.26/PE/AC",
+    "fecha_mesa": "2026-11-03",
+    "dae": "34/2026",
+    "dae_tipo": "ACUERDOS",
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE ACUERDOS",
+      "orden": "1",
+      "ingreso": "03-11-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500870/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2820,
+ "total_ahora": 2821
+}
