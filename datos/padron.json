@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-03T14:56:00-03:00",
+ "actualizado": "2026-11-04T15:06:12-03:00",
  "anios": [
   2026
  ],
- "corridas": 59,
+ "corridas": 60,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -17861,22 +17861,6 @@
    "anio": 2026,
    "expediente": "359/26",
    "extracto": "MENSAJE N° 315/26 QUE SOLICITA ACUERDO PARA DESIGNAR VOCAL DE LA CAMARA NACIONAL DE CASACION EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, VOCALIA N° 7, AL DR. DANIEL EDUARDO RAFECAS.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "DE ACUERDOS",
-      "ingreso": "03-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "34/2026",
-    "dae_tipo": "ACUERDOS",
-    "fecha_mesa": "2026-11-03",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500870/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/359.26/PE/AC"
-   },
    "origen": "PE",
    "tipo": "AC",
    "vigente": true,
@@ -17932,6 +17916,42 @@
    "vigente": true,
    "visto": "2026-08-25"
   },
+  "360/26|PE": {
+   "actualizado": "2026-11-04",
+   "anio": 2026,
+   "expediente": "360/26",
+   "extracto": "JEFATURA DE GABINETE: REMITE INFORME SOBRE LAS OPERACIONES DE CRÉDITO PÚBLICO REALIZADAS DURANTE EL SEGUNDO TRIMESTRE DE 2026 POR EL ORGANO RESPONSABLE DE LA COORDINACION DE LOS SISTEMAS DE ADMINISTRACION FINANCIERA, EN CUMPLIMIENTO DEL ART. 44 DE LA LEY 27.798 -PRESUPUESTO GENERAL DE LA ADMINISTR",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE PRESUPUESTO Y HACIENDA",
+      "ingreso": "04-11-2026",
+      "orden": "1"
+     },
+     {
+      "comision": "DE ECONOMÍA NACIONAL E INVERSIÓN",
+      "ingreso": "04-11-2026",
+      "orden": "2"
+     },
+     {
+      "comision": "BICAMERAL PERMANENTE DE SEGUIMIENTO Y CONTROL DE LA GESTIÓN DE CONTRATACIÓN Y DE PAGO DE LA DEUDA EXTERIOR DE LA NACIÓN (LEY 27.249)",
+      "ingreso": "04-11-2026",
+      "orden": "3"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-03",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500888/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/360.26/PE/CE"
+   },
+   "origen": "PE",
+   "tipo": "CE",
+   "vigente": true,
+   "visto": "2026-11-04"
+  },
   "360/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -17951,6 +17971,26 @@
    "tipo": "CV",
    "vigente": true,
    "visto": "2026-08-25"
+  },
+  "361/26|PE": {
+   "actualizado": "2026-11-04",
+   "anio": 2026,
+   "expediente": "361/26",
+   "extracto": "JEFATURA DE GABINETE: REMITE COPIA DEL MENSAJE N° 316/26, INGRESADO POR LA H. CAMARA DE DIPUTADOS, QUE SOLICITA EL RETIRO DEL MENSAJE N° 314/26 POR EL CUAL SE REMITIÓ EL PROYECTO DE LEY TITULADO \"LEY DE COMPETITIVIDAD FINANCIERA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-04",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500889/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/361.26/PE/MD"
+   },
+   "origen": "PE",
+   "tipo": "MD",
+   "vigente": true,
+   "visto": "2026-11-04"
   },
   "361/26|S": {
    "actualizado": "2026-08-19",
