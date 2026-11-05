@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-10-29T13:59:37-03:00",
+ "actualizado": "2026-11-05T15:07:37-03:00",
  "senadores": {
   "285": {
    "nombre": "Jorge Milton Capitanich",
@@ -284,6 +284,10 @@
   },
   "596": {
    "nombre": "María Belén Monte de Oca",
+   "bloque": "La Libertad Avanza"
+  },
+  "597": {
+   "nombre": "Claudia Cecilia López",
    "bloque": "La Libertad Avanza"
   }
  }

@@ -1,0 +1,34 @@
+{
+ "fecha": "2026-11-05",
+ "generado": "2026-11-05T15:07:44-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "1950/26",
+   "tipo": "CC",
+   "origen": "S",
+   "extracto": "COMISION BICAMERAL PERMANENTE DE LA DEFENSORIA DEL PUEBLO: COMUNICA DICTAMEN EN LA RESOLUCION 1/2026 Y SU ANEXO I, QUE DESIGNA PARA INTEGRAR EL COMITÉ NACIONAL PARA LA PREVENCION DE LA TORTURA EN CALIDAD DE REPRESENTANTES PARLAMENTARIOS.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1950.26/S/CC",
+    "fecha_mesa": "2026-11-04",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/500900/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2823,
+ "total_ahora": 2824
+}
