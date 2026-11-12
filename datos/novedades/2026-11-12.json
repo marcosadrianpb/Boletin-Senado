@@ -1,0 +1,35 @@
+{
+ "fecha": "2026-11-12",
+ "generado": "2026-11-12T15:28:04-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "362/26",
+   "tipo": "AC",
+   "origen": "PE",
+   "extracto": "MENSAJE N° 317/26 QUE SOLICITA ACUERDO A FIN DE POSIBILITAR UN NUEVO NOMBRAMIENTO PARA DESIGNAR JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N°33 DE LA CAPITAL FEDERAL, AL DR. HORACIO ALEJANDRO LIBERTI.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/362.26/PE/AC",
+    "fecha_mesa": null,
+    "dae": null,
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": null,
+    "error": "500 Server Error: Internal Server Error for url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/362.26/PE/AC"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2926,
+ "total_ahora": 2927
+}
