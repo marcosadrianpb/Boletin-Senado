@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-16T17:35:32-03:00",
+ "actualizado": "2026-11-17T16:15:00-03:00",
  "anios": [
   2026
  ],
- "corridas": 68,
+ "corridas": 69,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -13131,26 +13131,6 @@
    "anio": 2026,
    "expediente": "1967/26",
    "extracto": "CARAMBIA: PROYECTO DE LEY QUE MODIFICA SU SIMILAR 19.945 - CÓDIGO ELECTORAL NACIONAL- RESPECTO DE LAS SANCIONES POR LA NO EMISION DEL VOTO.",
-   "ficha": {
-    "autores": [
-     "Carambia , José María"
-    ],
-    "autores_id": [
-     "567"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS CONSTITUCIONALES",
-      "ingreso": "16-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "89/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-06",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501119/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1967.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -18821,16 +18801,6 @@
    "anio": 2026,
    "expediente": "36/26",
    "extracto": "SEBASTIÁN MENDEZ: SOLICITA MEDIACIÓN PAPAL SOBRE DIVERSOS PUNTOS.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-06",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501104/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/36.26/P/PP"
-   },
    "origen": "P",
    "tipo": "PP",
    "vigente": true,
@@ -23241,16 +23211,6 @@
    "anio": 2026,
    "expediente": "545/26",
    "extracto": "CONCEJO DELIBERANTE DE MERCEDES, PROV. DE BUENOS AIRES: REPUDIA EL DECRETO N° 1023/2026 DEL PODER EJECUTIVO QUE ESTABLECE UN RÉGIMEN DE RETIRO VOLUNTARIO CON ELIMINACIÓN DE CARGOS.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-06",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501102/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/545.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23271,16 +23231,6 @@
    "anio": 2026,
    "expediente": "546/26",
    "extracto": "CONCEJO DELIBERANTE DE LA CDAD. DE SALTA, PROV. HOMÓNIMA: EXPRESA PREOCUPACIÓN POR LA DEROGACIÓN DE LA LEY 26.737 -RÉGIMEN DE PROTECCIÓN AL DOMINIO NACIONAL SOBRE LA PROPIEDAD, POSESIÓN O TENENCIA DE LAS TIERRAS RURALES-.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-06",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501101/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/546.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23301,16 +23251,6 @@
    "anio": 2026,
    "expediente": "547/26",
    "extracto": "CONCEJO DELIBERANTE DE LA MATANZA, PROV. DE BUENOS AIRES: RESPALDA EL RECLAMO JUDICIAL QUE LA PROV. DE BUENOS AIRES MANTIENE ANTE LA CORTE SUPREMA DE JUSTICIA DE LA NACION, RESPECTO A LA RESTITUCION DE FONDOS DE COPARTICIPACION FEDERAL.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-06",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501100/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/547.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23331,16 +23271,6 @@
    "anio": 2026,
    "expediente": "548/26",
    "extracto": "CONCEJO DELIBERANTE DE LA MATANZA, PROV. DE BUENOS AIRES: RECHAZA LA SANCION DE LA LEY 27.802 DE MODERNIZACION LABORAL.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-06",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501099/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/548.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23361,16 +23291,6 @@
    "anio": 2026,
    "expediente": "549/26",
    "extracto": "CAMARA DE REPRESENTANTES DE LA PROV. DE MISIONES: SOLICITA CONTEMPLAR LAS NECESIDADES DE LAS ECONOMIAS REGIONALES, LOS PUERTOS DE INTERIOR Y LAS VIAS NAVEGABLES EXCLUIDAS DE LA CONCESION ACTUAL DE LA VIA NAVEGABLE TRONCAL.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501098/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/549.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23421,16 +23341,6 @@
    "anio": 2026,
    "expediente": "550/26",
    "extracto": "CONCEJO DELIBERANTE DE AZUL, PROV. DE BS. AS.: SOLICITA EL TRATAMIENTO DEL PROYECTO DE LEY QUE SANCIONA EL INGRESO NO AUTORIZADO A ESTABLECIMIENTOS RURALES Y DAÑOS A LA PRODUCCIÓN AGROPECUARIA.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501097/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/550.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23451,16 +23361,6 @@
    "anio": 2026,
    "expediente": "551/26",
    "extracto": "CONCEJO DELIBERANTE DE AZUL, PROV. DE BUENOS AIRES: SOLICITA INFORME SOBRE DIVERSOS PUNTOS RELACIONADOS CON LOS PLANES INSTITUCIONALES DE USO PARA EL SECTOR DE CAMPING E INMUEBLE DENOMINADO \"REFUGIO BOCA DE LAS SIERRAS\".",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501096/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/551.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23481,16 +23381,6 @@
    "anio": 2026,
    "expediente": "552/26",
    "extracto": "CONCEJO DELIBERANTE DE GRAL. MOSCONI, PROV. DE SALTA: RESPALDA EL RECLAMO DE LOS TRABAJADORES DE LA EX DIRECCIÓN PROVINCIAL DE ENERGÍA Y DE EDESA S.A. POR EL COBRO DE DIVIDENDOS NO LIQUIDADOS DE EJERCICIOS ANTERIORES.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501105/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/552.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23511,16 +23401,6 @@
    "anio": 2026,
    "expediente": "553/26",
    "extracto": "CONCEJO DELIBERANTE DE GRAL. MOSCONI, PROV. DE SALTA: SOLICITA LA REDUCCIÓN DE LAS ALÍCUOTAS DEL IMPUESTO A LAS ACTIVIDADES ECONÓMICAS.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501106/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/553.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23541,16 +23421,6 @@
    "anio": 2026,
    "expediente": "554/26",
    "extracto": "CONCEJO MUNICIPAL DE RECONQUISTA, PROV. DE SANTA FE: SOLICITA EVALUAR E IMPULSAR LA CREACIÓN DE UN SISTEMA FEDERAL DE AUTONOMÍA Y GRADUACION FAMILIAR.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501107/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/554.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23566,6 +23436,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "555/26|OV": {
+   "actualizado": "2026-11-17",
+   "anio": 2026,
+   "expediente": "555/26",
+   "extracto": "CONCEJO DELIBERANTE DE BENITO JUAREZ, PROV. DE BUENOS AIRES: SOLICITA LA REVISIÓN DEL ESQUEMA DE DISTRIBUCIÓN DEL IMPUESTO A LOS COMBUSTIBLES LÍQUIDOS.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-16",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501134/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/555.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-17"
+  },
   "555/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -23576,6 +23466,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "556/26|OV": {
+   "actualizado": "2026-11-17",
+   "anio": 2026,
+   "expediente": "556/26",
+   "extracto": "CONCEJO MUNICIPAL DE RECONQUISTA, PROV. DE SANTA FE: SOLICITA INCLUIR EN AGENDA LA PROBLEMÁTICA VINCULADA CON EL IMPACTO DE LA INTELIGENCIA ARTIFICIAL, LA AUTOMATIZACIÓN, LA DIGITALIZACIÓN Y LA ECONOMÍA DE PLATAFORMAS SOBRE EL EMPLEO, LA PRODUCCIÓN Y LA ORGANIZACIÓN LABORAL.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-16",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501135/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/556.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-17"
+  },
   "556/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -23585,6 +23495,26 @@
    "tipo": "PC",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "557/26|OV": {
+   "actualizado": "2026-11-17",
+   "anio": 2026,
+   "expediente": "557/26",
+   "extracto": "CONCEJO DELIBERANTE DE LINCOLN, PROV. DE BUENOS AIRES: SOLICITA EL TRATAMIENTO DEL PROYECTO DE LEY SOBRE VANDALISMO RURAL.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-16",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501136/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/557.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-17"
   },
   "557/26|S": {
    "actualizado": "2026-08-19",
