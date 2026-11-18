@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-17T16:15:00-03:00",
+ "actualizado": "2026-11-18T15:55:13-03:00",
  "anios": [
   2026
  ],
- "corridas": 69,
+ "corridas": 70,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -13136,6 +13136,36 @@
    "vigente": true,
    "visto": "2026-11-16"
   },
+  "1969/26|S": {
+   "actualizado": "2026-11-18",
+   "anio": 2026,
+   "expediente": "1969/26",
+   "extracto": "ALMEIDA: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO POR LA NOMINACIÓN DE LA LOC. DE VILLA ELISA, PROV. DE ENTRE RÍOS, AL PROGRAMA BEST TOURISM VILLAGES 2025, IMPULSADO POR LA ONU TURISMO.",
+   "ficha": {
+    "autores": [
+     "Almeida , Romina María"
+    ],
+    "autores_id": [
+     "583"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE TURISMO",
+      "ingreso": "17-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-06",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501143/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1969.26/S/PD"
+   },
+   "origen": "S",
+   "tipo": "PD",
+   "vigente": true,
+   "visto": "2026-11-18"
+  },
   "197/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -18956,6 +18986,32 @@
    "vigente": true,
    "visto": "2026-08-25"
   },
+  "364/26|PE": {
+   "actualizado": "2026-11-18",
+   "anio": 2026,
+   "expediente": "364/26",
+   "extracto": "JEFATURA DE GABINETE: REMITE EL INFORME ANUAL DEL AÑO 2025, ELABORADO POR LA AUTORIDAD DE CUENCA MATANZA RIACHUELO (ACUMAR), EN CUMPLIMIENTO DEL ART. 8° DE LA LEY 26.168.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE AMBIENTE Y DESARROLLO SUSTENTABLE",
+      "ingreso": "18-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-16",
+    "texto_pdf": null,
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/364.26/PE/CE"
+   },
+   "origen": "PE",
+   "tipo": "CE",
+   "vigente": true,
+   "visto": "2026-11-18"
+  },
   "364/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -23441,16 +23497,6 @@
    "anio": 2026,
    "expediente": "555/26",
    "extracto": "CONCEJO DELIBERANTE DE BENITO JUAREZ, PROV. DE BUENOS AIRES: SOLICITA LA REVISIÓN DEL ESQUEMA DE DISTRIBUCIÓN DEL IMPUESTO A LOS COMBUSTIBLES LÍQUIDOS.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501134/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/555.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23471,16 +23517,6 @@
    "anio": 2026,
    "expediente": "556/26",
    "extracto": "CONCEJO MUNICIPAL DE RECONQUISTA, PROV. DE SANTA FE: SOLICITA INCLUIR EN AGENDA LA PROBLEMÁTICA VINCULADA CON EL IMPACTO DE LA INTELIGENCIA ARTIFICIAL, LA AUTOMATIZACIÓN, LA DIGITALIZACIÓN Y LA ECONOMÍA DE PLATAFORMAS SOBRE EL EMPLEO, LA PRODUCCIÓN Y LA ORGANIZACIÓN LABORAL.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501135/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/556.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23501,16 +23537,6 @@
    "anio": 2026,
    "expediente": "557/26",
    "extracto": "CONCEJO DELIBERANTE DE LINCOLN, PROV. DE BUENOS AIRES: SOLICITA EL TRATAMIENTO DEL PROYECTO DE LEY SOBRE VANDALISMO RURAL.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501136/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/557.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,

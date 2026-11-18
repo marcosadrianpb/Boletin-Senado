@@ -1,0 +1,67 @@
+{
+ "fecha": "2026-11-18",
+ "generado": "2026-11-18T15:55:13-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "1969/26",
+   "tipo": "PD",
+   "origen": "S",
+   "extracto": "ALMEIDA: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO POR LA NOMINACIÓN DE LA LOC. DE VILLA ELISA, PROV. DE ENTRE RÍOS, AL PROGRAMA BEST TOURISM VILLAGES 2025, IMPULSADO POR LA ONU TURISMO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1969.26/S/PD",
+    "fecha_mesa": "2026-11-06",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Almeida , Romina María"
+    ],
+    "autores_id": [
+     "583"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE TURISMO",
+      "orden": "1",
+      "ingreso": "17-11-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501143/downloadPdf"
+   }
+  },
+  {
+   "expediente": "364/26",
+   "tipo": "CE",
+   "origen": "PE",
+   "extracto": "JEFATURA DE GABINETE: REMITE EL INFORME ANUAL DEL AÑO 2025, ELABORADO POR LA AUTORIDAD DE CUENCA MATANZA RIACHUELO (ACUMAR), EN CUMPLIMIENTO DEL ART. 8° DE LA LEY 26.168.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/364.26/PE/CE",
+    "fecha_mesa": "2026-11-16",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "DE AMBIENTE Y DESARROLLO SUSTENTABLE",
+      "orden": "1",
+      "ingreso": "18-11-2026"
+     }
+    ],
+    "texto_pdf": null
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2943,
+ "total_ahora": 2945
+}
