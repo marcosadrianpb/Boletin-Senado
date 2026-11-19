@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-18T15:55:13-03:00",
+ "actualizado": "2026-11-19T16:03:51-03:00",
  "anios": [
   2026
  ],
- "corridas": 70,
+ "corridas": 71,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -13141,26 +13141,6 @@
    "anio": 2026,
    "expediente": "1969/26",
    "extracto": "ALMEIDA: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO POR LA NOMINACIÓN DE LA LOC. DE VILLA ELISA, PROV. DE ENTRE RÍOS, AL PROGRAMA BEST TOURISM VILLAGES 2025, IMPULSADO POR LA ONU TURISMO.",
-   "ficha": {
-    "autores": [
-     "Almeida , Romina María"
-    ],
-    "autores_id": [
-     "583"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE TURISMO",
-      "ingreso": "17-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-06",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501143/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1969.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -13195,6 +13175,36 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "1973/26|S": {
+   "actualizado": "2026-11-19",
+   "anio": 2026,
+   "expediente": "1973/26",
+   "extracto": "VISCHI: PROYECTO DE RESOLUCIÓN QUE DISPONE EL 2027 COMO \"AÑO DEL CENTENARIO DEL NACIMIENTO DEL PRESIDENTE DR. RAÚL RICARDO ALFONSÍN\"",
+   "ficha": {
+    "autores": [
+     "Vischi , Eduardo Alejandro"
+    ],
+    "autores_id": [
+     "524"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "ingreso": "18-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "89/2026",
+    "dae_tipo": "NORMAL",
+    "fecha_mesa": "2026-11-12",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501156/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1973.26/S/PR"
+   },
+   "origen": "S",
+   "tipo": "PR",
+   "vigente": true,
+   "visto": "2026-11-19"
   },
   "198/26|OV": {
    "actualizado": "2026-08-19",
@@ -18991,22 +19001,6 @@
    "anio": 2026,
    "expediente": "364/26",
    "extracto": "JEFATURA DE GABINETE: REMITE EL INFORME ANUAL DEL AÑO 2025, ELABORADO POR LA AUTORIDAD DE CUENCA MATANZA RIACHUELO (ACUMAR), EN CUMPLIMIENTO DEL ART. 8° DE LA LEY 26.168.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [
-     {
-      "comision": "DE AMBIENTE Y DESARROLLO SUSTENTABLE",
-      "ingreso": "18-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": null,
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/364.26/PE/CE"
-   },
    "origen": "PE",
    "tipo": "CE",
    "vigente": true,
@@ -23552,6 +23546,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "558/26|OV": {
+   "actualizado": "2026-11-19",
+   "anio": 2026,
+   "expediente": "558/26",
+   "extracto": "CONCEJO DELIBERANTE DE BRAGADO, PROV. DE BS. AS.: SOLICITA QUE EL PROYECTO DE LEY DE PRESUPUESTO NACIONAL 2027, REASIGNE LOS RECURSOS NACIONALES PREVISTOS PARA LA OBRA \"TRAVESÍA URBANA, RUTA NACIONAL N° 5 - TRAMO: TRAVESÍA MERCEDES\".",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-17",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501157/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/558.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-19"
+  },
   "558/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -23561,6 +23575,26 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "559/26|OV": {
+   "actualizado": "2026-11-19",
+   "anio": 2026,
+   "expediente": "559/26",
+   "extracto": "CONCEJO DELIBERANTE DE LA CDAD. DE NEUQUÉN, PROV. HOMÓNIMA: EXPRESA PREOCUPACIÓN POR EL PROYECTO DE LEY DE PRESUPUESTO GENERAL DE LA ADMINISTRACIÓN NACIONAL PARA EL EJERCICIO 2027, QUE MODIFICA LA LEY N° 27.793 DE EMERGENCIA NACIONAL EN DISCAPACIDAD.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-17",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501158/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/559.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-19"
   },
   "559/26|S": {
    "actualizado": "2026-08-19",
@@ -23602,6 +23636,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "560/26|OV": {
+   "actualizado": "2026-11-19",
+   "anio": 2026,
+   "expediente": "560/26",
+   "extracto": "CONCEJO DELIBERANTE DEL PARTIDO CORONEL DE MARINA LEONARDO ROSALES, CDAD. DE PUNTA ALTA, PROV. DE BS.AS.: EXPRESA ACOMPAÑAMIENTO AL TRATAMIENTO Y POSTERIOR APROBACIÓN DEL PROYECTO DE LEY DE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-17",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501159/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/560.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-19"
+  },
   "560/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -23611,6 +23665,26 @@
    "tipo": "PD",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "561/26|OV": {
+   "actualizado": "2026-11-19",
+   "anio": 2026,
+   "expediente": "561/26",
+   "extracto": "CONCEJO DELIBERANTE DE CHOLILA, PROV. DEL CHUBUT: RECHAZA LA INICIATIVA DENOMINADA \"LIBERTAD EDUCATIVA\".",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-17",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501161/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/561.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-19"
   },
   "561/26|S": {
    "actualizado": "2026-08-19",

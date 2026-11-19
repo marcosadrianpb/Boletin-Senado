@@ -1,0 +1,112 @@
+{
+ "fecha": "2026-11-19",
+ "generado": "2026-11-19T16:03:51-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "1973/26",
+   "tipo": "PR",
+   "origen": "S",
+   "extracto": "VISCHI: PROYECTO DE RESOLUCIÓN QUE DISPONE EL 2027 COMO \"AÑO DEL CENTENARIO DEL NACIMIENTO DEL PRESIDENTE DR. RAÚL RICARDO ALFONSÍN\"",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1973.26/S/PR",
+    "fecha_mesa": "2026-11-12",
+    "dae": "89/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Vischi , Eduardo Alejandro"
+    ],
+    "autores_id": [
+     "524"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE EDUCACIÓN Y CULTURA",
+      "orden": "1",
+      "ingreso": "18-11-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501156/downloadPdf"
+   }
+  },
+  {
+   "expediente": "561/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE CHOLILA, PROV. DEL CHUBUT: RECHAZA LA INICIATIVA DENOMINADA \"LIBERTAD EDUCATIVA\".",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/561.26/OV/CV",
+    "fecha_mesa": "2026-11-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501161/downloadPdf"
+   }
+  },
+  {
+   "expediente": "560/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DEL PARTIDO CORONEL DE MARINA LEONARDO ROSALES, CDAD. DE PUNTA ALTA, PROV. DE BS.AS.: EXPRESA ACOMPAÑAMIENTO AL TRATAMIENTO Y POSTERIOR APROBACIÓN DEL PROYECTO DE LEY DE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/560.26/OV/CV",
+    "fecha_mesa": "2026-11-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501159/downloadPdf"
+   }
+  },
+  {
+   "expediente": "559/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE LA CDAD. DE NEUQUÉN, PROV. HOMÓNIMA: EXPRESA PREOCUPACIÓN POR EL PROYECTO DE LEY DE PRESUPUESTO GENERAL DE LA ADMINISTRACIÓN NACIONAL PARA EL EJERCICIO 2027, QUE MODIFICA LA LEY N° 27.793 DE EMERGENCIA NACIONAL EN DISCAPACIDAD.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/559.26/OV/CV",
+    "fecha_mesa": "2026-11-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501158/downloadPdf"
+   }
+  },
+  {
+   "expediente": "558/26",
+   "tipo": "CV",
+   "origen": "OV",
+   "extracto": "CONCEJO DELIBERANTE DE BRAGADO, PROV. DE BS. AS.: SOLICITA QUE EL PROYECTO DE LEY DE PRESUPUESTO NACIONAL 2027, REASIGNE LOS RECURSOS NACIONALES PREVISTOS PARA LA OBRA \"TRAVESÍA URBANA, RUTA NACIONAL N° 5 - TRAMO: TRAVESÍA MERCEDES\".",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/558.26/OV/CV",
+    "fecha_mesa": "2026-11-17",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501157/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 2945,
+ "total_ahora": 2950
+}
