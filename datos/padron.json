@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-19T16:03:51-03:00",
+ "actualizado": "2026-11-20T15:40:34-03:00",
  "anios": [
   2026
  ],
- "corridas": 71,
+ "corridas": 72,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -10847,10 +10847,10 @@
    "visto": "2026-10-26"
   },
   "18/26|CD": {
-   "actualizado": "2026-10-23",
+   "actualizado": "2026-11-20",
    "anio": 2026,
    "expediente": "18/26",
-   "extracto": "PROYECTO DE LEY EN REVISION QUE PRORROGA HASTA EL 31 DE DICIEMBRE DE 2027, LA EMERGENCIA NACIONAL EN DISCAPACIDAD - LEY 27.793 -.",
+   "extracto": "PROYECTO DE LEY EN REVISION DE FORTALECIMIENTO, SOSTENIBILIDAD Y EFICIENCIA PERMANENTE DEL SISTEMA DE DISCAPACIDAD",
    "origen": "CD",
    "tipo": "PL",
    "vigente": true,
@@ -13181,26 +13181,6 @@
    "anio": 2026,
    "expediente": "1973/26",
    "extracto": "VISCHI: PROYECTO DE RESOLUCIÓN QUE DISPONE EL 2027 COMO \"AÑO DEL CENTENARIO DEL NACIMIENTO DEL PRESIDENTE DR. RAÚL RICARDO ALFONSÍN\"",
-   "ficha": {
-    "autores": [
-     "Vischi , Eduardo Alejandro"
-    ],
-    "autores_id": [
-     "524"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "18-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "89/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501156/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1973.26/S/PR"
-   },
    "origen": "S",
    "tipo": "PR",
    "vigente": true,
@@ -13396,6 +13376,36 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "2006/26|S": {
+   "actualizado": "2026-11-20",
+   "anio": 2026,
+   "expediente": "2006/26",
+   "extracto": "ZAMORA: PLANTEA CUESTION DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Zamora , Gerardo"
+    ],
+    "autores_id": [
+     "450"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": "20-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-19",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501171/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2006.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-20"
+  },
   "201/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -13426,6 +13436,86 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "2012/26|S": {
+   "actualizado": "2026-11-20",
+   "anio": 2026,
+   "expediente": "2012/26",
+   "extracto": "BLOQUE PARTIDO JUSTICIALISTA: REMITE PROPUESTA DE SENADORES TITULARES PARA LA CONFORMACION DEL CONSEJO DE LA MAGISTRATURA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-19",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501172/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2012.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-20"
+  },
+  "2013/26|S": {
+   "actualizado": "2026-11-20",
+   "anio": 2026,
+   "expediente": "2013/26",
+   "extracto": "BLOQUE PARTIDO JUSTICIALISTA: REMITE PROPUESTA DE SENADORES SUPLENTES PARA LA CONFORMACION DEL CONSEJO DE LA MAGISTRATURA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-19",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501173/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2013.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-20"
+  },
+  "2014/26|S": {
+   "actualizado": "2026-11-20",
+   "anio": 2026,
+   "expediente": "2014/26",
+   "extracto": "BLOQUE UCR: REMITE PROPUESTA DE SENADORES TITULARES Y SUPLENTES PARA LA CONFORMACION DEL CONSEJO DE LA MAGISTRATURA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-19",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501174/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2014.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-20"
+  },
+  "2015/26|S": {
+   "actualizado": "2026-11-20",
+   "anio": 2026,
+   "expediente": "2015/26",
+   "extracto": "BLOQUE LA LIBERTAD AVANZA: REMITE PROPUESTA DE SENADORES TITULARES Y SUPLENTES PARA LA CONFORMACION DEL CONSEJO DE LA MAGISTRATURA.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-19",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501175/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2015.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-20"
+  },
   "202/26|OV": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -13455,6 +13545,66 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "2027/26|S": {
+   "actualizado": "2026-11-20",
+   "anio": 2026,
+   "expediente": "2027/26",
+   "extracto": "MONTEVERDE: PLANTEA CUESTIÓN DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "Monteverde , Agustín Aníbal"
+    ],
+    "autores_id": [
+     "581"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": "20-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-19",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501176/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2027.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-20"
+  },
+  "2029/26|S": {
+   "actualizado": "2026-11-20",
+   "anio": 2026,
+   "expediente": "2029/26",
+   "extracto": "GONZALEZ: PLANTEA CUESTIÓN DE PRIVILEGIO.",
+   "ficha": {
+    "autores": [
+     "González , María Teresa Margarita"
+    ],
+    "autores_id": [
+     "477"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "ingreso": "20-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-19",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501177/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2029.26/S/CO"
+   },
+   "origen": "S",
+   "tipo": "CO",
+   "vigente": true,
+   "visto": "2026-11-20"
   },
   "203/26|OV": {
    "actualizado": "2026-08-19",
@@ -23551,16 +23701,6 @@
    "anio": 2026,
    "expediente": "558/26",
    "extracto": "CONCEJO DELIBERANTE DE BRAGADO, PROV. DE BS. AS.: SOLICITA QUE EL PROYECTO DE LEY DE PRESUPUESTO NACIONAL 2027, REASIGNE LOS RECURSOS NACIONALES PREVISTOS PARA LA OBRA \"TRAVESÍA URBANA, RUTA NACIONAL N° 5 - TRAMO: TRAVESÍA MERCEDES\".",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-17",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501157/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/558.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23581,16 +23721,6 @@
    "anio": 2026,
    "expediente": "559/26",
    "extracto": "CONCEJO DELIBERANTE DE LA CDAD. DE NEUQUÉN, PROV. HOMÓNIMA: EXPRESA PREOCUPACIÓN POR EL PROYECTO DE LEY DE PRESUPUESTO GENERAL DE LA ADMINISTRACIÓN NACIONAL PARA EL EJERCICIO 2027, QUE MODIFICA LA LEY N° 27.793 DE EMERGENCIA NACIONAL EN DISCAPACIDAD.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-17",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501158/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/559.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23641,16 +23771,6 @@
    "anio": 2026,
    "expediente": "560/26",
    "extracto": "CONCEJO DELIBERANTE DEL PARTIDO CORONEL DE MARINA LEONARDO ROSALES, CDAD. DE PUNTA ALTA, PROV. DE BS.AS.: EXPRESA ACOMPAÑAMIENTO AL TRATAMIENTO Y POSTERIOR APROBACIÓN DEL PROYECTO DE LEY DE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-17",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501159/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/560.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
@@ -23671,16 +23791,6 @@
    "anio": 2026,
    "expediente": "561/26",
    "extracto": "CONCEJO DELIBERANTE DE CHOLILA, PROV. DEL CHUBUT: RECHAZA LA INICIATIVA DENOMINADA \"LIBERTAD EDUCATIVA\".",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-17",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501161/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/561.26/OV/CV"
-   },
    "origen": "OV",
    "tipo": "CV",
    "vigente": true,
