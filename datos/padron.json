@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-24T17:44:30-03:00",
+ "actualizado": "2026-11-25T17:00:01-03:00",
  "anios": [
   2026
  ],
- "corridas": 74,
+ "corridas": 75,
  "creado": "2026-08-19T21:04:42-03:00",
  "expedientes": {
   "1/26|CD": {
@@ -13141,31 +13141,6 @@
    "anio": 2026,
    "expediente": "1968/26",
    "extracto": "CAPITANICH: PROYECTO DE LEY QUE CREA UN RÉGIMEN DE TARIFA SUSTITUTIVA UNIFICADA (T.S.U.) PARA EL EMPLEO RURAL.",
-   "ficha": {
-    "autores": [
-     "Capitanich , Jorge Milton"
-    ],
-    "autores_id": [
-     "285"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE TRABAJO Y PREVISIÓN SOCIAL",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE LEGISLACIÓN GENERAL",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     }
-    ],
-    "dae": "89/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-06",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501226/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1968.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13216,26 +13191,6 @@
    "anio": 2026,
    "expediente": "1970/26",
    "extracto": "ARCE: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO POR LA CONMEMORACIÓN DEL 125° ANIVERSARIO DE LA ESCUELA N° 3 \"DOMINGO FAUSTINO SARMIENTO\", DE LA CDAD. DE POSADAS, PROV. DE MISIONES.",
-   "ficha": {
-    "autores": [
-     "Arce , Carlos Omar"
-    ],
-    "autores_id": [
-     "558"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "89/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-06",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501233/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1970.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -13246,26 +13201,6 @@
    "anio": 2026,
    "expediente": "1971/26",
    "extracto": "CARAMBIA: PROYECTO DE LEY QUE MODIFICA EL CODIGO PENAL DE LA NACION, RESPECTO DE INCORPORAR UNA AGRAVANTE AL DELITO DE INSTIGACION PUBLICA A COMETER DELITO.",
-   "ficha": {
-    "autores": [
-     "Carambia , José María"
-    ],
-    "autores_id": [
-     "567"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE JUSTICIA Y ASUNTOS PENALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "89/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501234/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1971.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13276,31 +13211,6 @@
    "anio": 2026,
    "expediente": "1972/26",
    "extracto": "DE PEDRO: PROYECTO DE LEY QUE RESTABLECE EL FONDO NACIONAL PARA LA EDUCACIÓN TÉCNICO PROFESIONAL",
-   "ficha": {
-    "autores": [
-     "de Pedro , Eduardo Enrique"
-    ],
-    "autores_id": [
-     "545"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE PRESUPUESTO Y HACIENDA",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     }
-    ],
-    "dae": "89/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501235/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1972.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13321,31 +13231,6 @@
    "anio": 2026,
    "expediente": "1974/26",
    "extracto": "CAPITANICH: PROYECTO DE LEY QUE ESTABLECE UN MARCO REGULATORIO DEL BIOETANOL Y DISPOSICIONES GENERALES SOBRE BIOCOMBUSTIBLES",
-   "ficha": {
-    "autores": [
-     "Capitanich , Jorge Milton"
-    ],
-    "autores_id": [
-     "285"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE MINERÍA, ENERGÍA Y COMBUSTIBLES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE PRESUPUESTO Y HACIENDA",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     }
-    ],
-    "dae": "89/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501236/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1974.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13356,31 +13241,6 @@
    "anio": 2026,
    "expediente": "1975/26",
    "extracto": "CAPITANICH: PROYECTO DE LEY QUE DECLARA LA EMERGENCIA DEL CABOTAJE NACIONAL EN EL ÁMBITO FLUVIAL",
-   "ficha": {
-    "autores": [
-     "Capitanich , Jorge Milton"
-    ],
-    "autores_id": [
-     "285"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE INFRAESTRUCTURA, VIVIENDA Y TRANSPORTE",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE PRESUPUESTO Y HACIENDA",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     }
-    ],
-    "dae": "89/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501237/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1975.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13391,31 +13251,6 @@
    "anio": 2026,
    "expediente": "1976/26",
    "extracto": "CAPITANICH: PROYECTO DE LEY DE PRESUPUESTOS MÍNIMOS PARA LA CONSERVACIÓN, RESTAURACIÓN Y RETRIBUCIÓN DE LOS SERVICIOS ECOSISTÉMICOS.",
-   "ficha": {
-    "autores": [
-     "Capitanich , Jorge Milton"
-    ],
-    "autores_id": [
-     "285"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE AMBIENTE Y DESARROLLO SUSTENTABLE",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE PRESUPUESTO Y HACIENDA",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     }
-    ],
-    "dae": "89/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501238/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1976.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13426,36 +13261,6 @@
    "anio": 2026,
    "expediente": "1977/26",
    "extracto": "CAPITANICH: PROYECTO DE LEY QUE CREA EL RÉGIMEN INTEGRADO DE INCENTIVOS A LAS INVERSIONES PRODUCTIVAS, INDUSTRIALES Y COMERCIALES.",
-   "ficha": {
-    "autores": [
-     "Capitanich , Jorge Milton"
-    ],
-    "autores_id": [
-     "285"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE LEGISLACIÓN GENERAL",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE ECONOMÍA NACIONAL E INVERSIÓN",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     },
-     {
-      "comision": "DE PRESUPUESTO Y HACIENDA",
-      "ingreso": "24-11-2026",
-      "orden": "3"
-     }
-    ],
-    "dae": "89/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501239/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1977.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13466,31 +13271,6 @@
    "anio": 2026,
    "expediente": "1978/26",
    "extracto": "CAPITANICH: PROYECTO DE LEY QUE REGULA LA EDUCACIÓN SUPERIOR.",
-   "ficha": {
-    "autores": [
-     "Capitanich , Jorge Milton"
-    ],
-    "autores_id": [
-     "285"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE PRESUPUESTO Y HACIENDA",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     }
-    ],
-    "dae": "89/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501240/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1978.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13501,26 +13281,6 @@
    "anio": 2026,
    "expediente": "1979/26",
    "extracto": "CAPITANICH: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL 95° ANIVERSARIO DE VILLA BERTHET, PROV. DEL CHACO, EL 13 DE NOVIEMBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Capitanich , Jorge Milton"
-    ],
-    "autores_id": [
-     "285"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-12",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501241/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1979.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -13561,26 +13321,6 @@
    "anio": 2026,
    "expediente": "1980/26",
    "extracto": "CARAMBIA: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS DE LA RESOLUCION N° 16/2026 DEL CONSEJO FEDERAL PESQUERO.",
-   "ficha": {
-    "autores": [
-     "Carambia , José María"
-    ],
-    "autores_id": [
-     "567"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE AGRICULTURA, GANADERÍA Y PESCA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-13",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501242/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1980.26/S/PC"
-   },
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -13591,26 +13331,6 @@
    "anio": 2026,
    "expediente": "1981/26",
    "extracto": "LEWANDOWSKI: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RESPECTO AL BENEFICIO TARIFARIO PARA LOS CLUBES DE BARRIO Y PUEBLO.",
-   "ficha": {
-    "autores": [
-     "Lewandowski , Marcelo Néstor"
-    ],
-    "autores_id": [
-     "538"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE DEPORTE",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501244/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1981.26/S/PC"
-   },
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -13621,26 +13341,6 @@
    "anio": 2026,
    "expediente": "1982/26",
    "extracto": "OLIVERA LUCERO: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA VISITA APOSTÓLICA DE SU SANTIDAD EL PAPA LEÓN XIV A LA REP. ARGENTINA, ENTRE EL 8 Y EL 11 DE NOVIEMBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Olivera Lucero , Bruno Antonio"
-    ],
-    "autores_id": [
-     "563"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE RELACIONES EXTERIORES Y CULTO",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501246/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1982.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -13651,36 +13351,6 @@
    "anio": 2026,
    "expediente": "1983/26",
    "extracto": "BENSUSÁN: PROYECTO DE LEY DE PROTECCIÓN Y DESARROLLO ESTRATÉGICO DEL SISTEMA NUCLEAR ARGENTINO.",
-   "ficha": {
-    "autores": [
-     "Bensusán , Daniel Pablo"
-    ],
-    "autores_id": [
-     "532"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE MINERÍA, ENERGÍA Y COMBUSTIBLES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE CIENCIA Y TECNOLOGÍA",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     },
-     {
-      "comision": "DE ASUNTOS CONSTITUCIONALES",
-      "ingreso": "24-11-2026",
-      "orden": "3"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501247/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1983.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13691,26 +13361,6 @@
    "anio": 2026,
    "expediente": "1984/26",
    "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR EL 50° ANIVERSARIO DE LA ASOCIACIÓN COOPERADORA DE LA ESTACIÓN EXPERIMENTAL AGROPECUARIA \"ING. AGR. EMILIO DRUZIANICH\" DEL INTA, DE LA LOC. DE LAS BREÑAS, PROV. DEL CHACO",
-   "ficha": {
-    "autores": [
-     "Schneider , Silvana Lorena"
-    ],
-    "autores_id": [
-     "579"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE AGRICULTURA, GANADERÍA Y PESCA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501248/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1984.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -13721,26 +13371,6 @@
    "anio": 2026,
    "expediente": "1985/26",
    "extracto": "SCHNEIDER: PROYECTO DE DECLARACIÓN QUE RECONOCE AL DR. JOSÉ BENJAMÍN PÉREZ MATOS, PTE. FUNDADOR DEL CENTRO DEL REINO DE PAZ Y JUSTICIA, AL CUMPLIRSE MÁS DE 25 AÑOS DE SU LABOR SOSTENIDA EN LA REP. ARGENTINA.",
-   "ficha": {
-    "autores": [
-     "Schneider , Silvana Lorena"
-    ],
-    "autores_id": [
-     "579"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE RELACIONES EXTERIORES Y CULTO",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501249/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1985.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -13751,31 +13381,6 @@
    "anio": 2026,
    "expediente": "1986/26",
    "extracto": "CAPITANICH: PROYECTO DE LEY DE MODIFICACION DE LA LEY DE IMPUESTOS INTERNOS - INCORPORACIÓN DE NUEVOS PRODUCTOS DE TABACO Y NICOTINA AL FONDO ESPECIAL DEL TABACO.",
-   "ficha": {
-    "autores": [
-     "Capitanich , Jorge Milton"
-    ],
-    "autores_id": [
-     "285"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE PRESUPUESTO Y HACIENDA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE COPARTICIPACIÓN FEDERAL DE IMPUESTOS",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501251/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1986.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13786,26 +13391,6 @@
    "anio": 2026,
    "expediente": "1987/26",
    "extracto": "CAPITANICH: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RELACIONADOS A LA REANUDACIÓN DE LA CONEXIÓN MARÍTIMA COMERCIAL DIRECTA ENTRE PUNTA ARENAS, REPÚBLICA DE CHILE, Y LAS ISLAS MALVINAS, MEDIANTE EL BUQUE DANSTAR.",
-   "ficha": {
-    "autores": [
-     "Capitanich , Jorge Milton"
-    ],
-    "autores_id": [
-     "285"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE RELACIONES EXTERIORES Y CULTO",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501253/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1987.26/S/PC"
-   },
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -13816,26 +13401,6 @@
    "anio": 2026,
    "expediente": "1988/26",
    "extracto": "MORENO: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO POR LA CONMEMORACIÓN DEL 93° ANIVERSARIO DE LA FUNDACIÓN DE LA CDAD. DE SUMAMPA, PROV. DE SANTIAGO DEL ESTERO, EL 20 DE NOVIEMBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Moreno , Elia Esther Del Carmen"
-    ],
-    "autores_id": [
-     "594"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501255/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1988.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -13846,36 +13411,6 @@
    "anio": 2026,
    "expediente": "1989/26",
    "extracto": "LÓPEZ FLORENCIA: REPRODUCE PROYECTO DE LEY QUE CREA EL RÉGIMEN DE FOMENTO A LAS INVERSIONES Y COMPETITIVIDAD DE LAS MI PYMES. (REF. S. 1614/24)",
-   "ficha": {
-    "autores": [
-     "López , María Florencia"
-    ],
-    "autores_id": [
-     "555"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ECONOMÍAS REGIONALES, ECONOMÍA SOCIAL, MICRO, PEQUEÑA Y MEDIANA EMPRESA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE TRABAJO Y PREVISIÓN SOCIAL",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     },
-     {
-      "comision": "DE PRESUPUESTO Y HACIENDA",
-      "ingreso": "24-11-2026",
-      "orden": "3"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501257/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1989.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -13916,26 +13451,6 @@
    "anio": 2026,
    "expediente": "1990/26",
    "extracto": "KIRCHNER: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RESPECTO AL ESTADO ACTUAL Y LAS POLÍTICAS EJECUTADAS PARA GARANTIZAR EL DERECHO HUMANO A LA CONECTIVIDAD.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE SISTEMAS, MEDIOS DE COMUNICACIÓN Y LIBERTAD DE EXPRESIÓN",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-16",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501259/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1990.26/S/PC"
-   },
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -13946,28 +13461,6 @@
    "anio": 2026,
    "expediente": "1991/26",
    "extracto": "ARCE Y ROJAS DECUT: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES LA REALIZACION DEL PRIMER FORO DE MUJERES RURALES MISIONERAS, EN EL AUDITORIUM \"TIERRA SIN MAL\", EN LA CDAD. DE POSADAS, PROV. DE MISIONES, EL 27 DE NOVIEMBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Arce , Carlos Omar",
-     "Rojas Decut , Sonia Elizabeth"
-    ],
-    "autores_id": [
-     "558",
-     "559"
-    ],
-    "comisiones": [
-     {
-      "comision": "BANCA DE LA MUJER",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-17",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501260/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1991.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -13978,44 +13471,6 @@
    "anio": 2026,
    "expediente": "1992/26",
    "extracto": "SORIA Y OTROS: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR LA IDENTIFICACIÓN DE LOS RESTOS DE MARÍA LUISA \"MARA\" SALTO, DETENIDA DESAPARECIDA EN EL EX CENTRO CLANDESTINO \"LA PERLA\", PROV. DE CORDOBA, DURANTE LA ULTIMA DICTADURA CIVICO MILITAR.",
-   "ficha": {
-    "autores": [
-     "Soria , Martin Ignacio",
-     "Capitanich , Jorge Milton",
-     "Salino , Fernando Aldo",
-     "Marks , Ana Inés",
-     "Lewandowski , Marcelo Néstor",
-     "Linares , Carlos Alberto",
-     "de Pedro , Eduardo Enrique",
-     "López , María Florencia",
-     "Recalde , Mariano",
-     "Bahl , Adán Humberto"
-    ],
-    "autores_id": [
-     "588",
-     "285",
-     "566",
-     "589",
-     "538",
-     "529",
-     "545",
-     "555",
-     "498",
-     "584"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE DERECHOS Y GARANTÍAS",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-17",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501261/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1992.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14026,26 +13481,6 @@
    "anio": 2026,
    "expediente": "1993/26",
    "extracto": "CARAMBIA: PROYECTO DE DECLARACION QUE EXPRESA BENEPLACITO POR LA INCORPORACION DEL COMPLEJO PLUTONICO FITZ ROY, UBICADO EN LA PROV. DE SANTA CRUZ, A LA LISTA DE LOS 100 SITIOS DE PATRIMONIO GEOLOGICO MUNDIAL DE LA UNION INTERNACIONAL DE CIENCIAS GEOLOGICAS (IUGS), EL 6 DE NOVIEMBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Carambia , José María"
-    ],
-    "autores_id": [
-     "567"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE CIENCIA Y TECNOLOGÍA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-17",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501262/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1993.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14056,26 +13491,6 @@
    "anio": 2026,
    "expediente": "1994/26",
    "extracto": "ANDRADA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS CULTURAL LA LABOR Y LA TRAYECTORIA DE LA FEDERACIÓN ARGENTINA DE AMIGOS DE MUSEOS (FADAM), EN EL MARCO DE SU 50° ANIVERSARIO",
-   "ficha": {
-    "autores": [
-     "Andrada , Guillermo Eduardo"
-    ],
-    "autores_id": [
-     "519"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-17",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501264/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1994.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14086,26 +13501,6 @@
    "anio": 2026,
    "expediente": "1995/26",
    "extracto": "ABDALA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL \"SEMINARIO SOBRE LACTANCIA HUMANA, MICROBIOMA INTESTINAL Y RESISTENCIA A LOS ANTIMICROBIANOS\", A REALIZARSE EN MODALIDAD VIRTUAL, EL 12 DE NOVIEMBRE.",
-   "ficha": {
-    "autores": [
-     "Abdala , Bartolomé Esteban"
-    ],
-    "autores_id": [
-     "564"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE SALUD",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-18",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501265/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1995.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14116,26 +13511,6 @@
    "anio": 2026,
    "expediente": "1996/26",
    "extracto": "HUALA: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO AL CONMEMORARSE EL 120° ANIVERSARIO DE LA LOC. DE ANGUIL, PROV. DE LA PAMPA, EL 2 DE DICIEMBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Huala , María Victoria"
-    ],
-    "autores_id": [
-     "531"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-18",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501266/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1996.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14146,26 +13521,6 @@
    "anio": 2026,
    "expediente": "1997/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE RECHAZA TODO INTENTO DE PRIVATIZACIÓN Y DISOLUCIÓN DE LA UNIDAD ECONÓMICA QUE REPRESENTA YACIMIENTO CARBONÍFERO RIO TURBIO (YCRT), DE LA PROV. DE SANTA CRUZ.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE MINERÍA, ENERGÍA Y COMBUSTIBLES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "90/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-18",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501267/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1997.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14176,26 +13531,6 @@
    "anio": 2026,
    "expediente": "1998/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE EXPRESA PREOCUPACIÓN Y REPUDIA EL CIERRE DE LOS CENTROS DE REFERENCIA DE LA ACTUAL SECRETARÍA DE NIÑEZ, ADOLESCENCIA Y FAMILIA DEL MINISTERIO DE CAPITAL HUMANO DE LA NACIÓN.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE POBLACIÓN Y DESARROLLO HUMANO",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-18",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501268/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1998.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14206,26 +13541,6 @@
    "anio": 2026,
    "expediente": "1999/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE RECHAZA LA PARALIZACIÓN DE LAS OBRAS DEL COMPLEJO HIDROELÉCTRICO COMPUESTO POR LAS REPRESAS PTE. DR. NESTOR KIRCHNER Y GOB. JORGE CEPERNIC, EN LA PROV. DE SANTA CRUZ.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE INFRAESTRUCTURA, VIVIENDA Y TRANSPORTE",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-18",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501269/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1999.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14366,26 +13681,6 @@
    "anio": 2026,
    "expediente": "2000/26",
    "extracto": "LOPEZ C: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS RELACIONADOS CON LA INTERVENCIÓN DEL PUERTO DE USHUAIA, PROV. DE TIERRA DEL FUEGO, A.I.A.S.",
-   "ficha": {
-    "autores": [
-     "López , Cándida Cristina"
-    ],
-    "autores_id": [
-     "574"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE PRESUPUESTO Y HACIENDA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-18",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501270/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2000.26/S/PC"
-   },
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -14396,26 +13691,6 @@
    "anio": 2026,
    "expediente": "2001/26",
    "extracto": "OLIVERA LUCERO: PROYECTO DE COMUNICACIÓN QUE SOLICITA, A TRAVES DE LA COMISION ADMINISTRADORA DEL TRATADO CON LA REP. DE CHILE, SOBRE INTEGRACION Y COMPLEMENTACIÓN MINERA, APROBADO POR LA LEY 25.243, LA HABILITACION DE UN PASO FRONTERIZO DE USO MINERO Y LOGISTICO, EN EL DPTO. CALINGASTA, PROV. DE",
-   "ficha": {
-    "autores": [
-     "Olivera Lucero , Bruno Antonio"
-    ],
-    "autores_id": [
-     "563"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE RELACIONES EXTERIORES Y CULTO",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501271/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2001.26/S/PC"
-   },
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -14426,26 +13701,6 @@
    "anio": 2026,
    "expediente": "2002/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACION QUE ADHIERE A LA CONMEMORACION DEL ANIVERSARIO DE LA LOC. DE PUERTO SAN JULIAN, PROV. DE SANTA CRUZ, EL 17 DE SEPTIEMBRE DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501272/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2002.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14456,26 +13711,6 @@
    "anio": 2026,
    "expediente": "2003/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACION QUE ADHIERE A LA CONMEMORACION DEL ANIVERSARIO DE LA FUNDACION DE LA LOC. DE LOS ANTIGUOS, PROV. DE SANTA CRUZ, EL 5 DE FEBRERO DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501273/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2003.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14486,26 +13721,6 @@
    "anio": 2026,
    "expediente": "2004/26",
    "extracto": "KIRCHNER: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSOS PUNTOS VINCULADOS AL PROCESO DE DISOLUCION Y TRANSFERENCIA DE COMPETENCIAS DE LA EX AGENCIA NACIONAL DE DISCAPACIDAD (ANDIS).",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE POBLACIÓN Y DESARROLLO HUMANO",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501274/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2004.26/S/PC"
-   },
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -14516,26 +13731,6 @@
    "anio": 2026,
    "expediente": "2005/26",
    "extracto": "KIRCHNER: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE DIVERSAS CUESTIONES VINCULADAS CON EL BANCO DE LA NACION ARGENTINA.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ECONOMÍA NACIONAL E INVERSIÓN",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501275/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2005.26/S/PC"
-   },
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -14556,26 +13751,6 @@
    "anio": 2026,
    "expediente": "2007/26",
    "extracto": "HUALA: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO Y RECONOCE A LA PATINADORA PAMPEANA VIRGINIA PORDOMINGO POR LA OBTENCIÓN DEL SUBCAMPEONATO EN LOS WORLD SKATE GAMES ASU 2026, EN LA CDAD. DE ASUNCIÓN, REP. DEL PARAGUAY, ENTRE EL 2 Y 18 DE OCTUBRE.",
-   "ficha": {
-    "autores": [
-     "Huala , María Victoria"
-    ],
-    "autores_id": [
-     "531"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE DEPORTE",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501276/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2007.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14586,26 +13761,6 @@
    "anio": 2026,
    "expediente": "2008/26",
    "extracto": "HUALA: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLÁCITO Y RECONOCE A LOS JÓVENES ARGENTINOS POR LA OBTENCIÓN DEL PRIMER Y SEGUNDO PUESTO EN LA COMPETENCIA BEEF INTERNATIONAL (BATTLE OF EMERGING ELITE FARMERS) CELEBRADA EN LA CDAD. DE EDMONTON, CANADÁ, ENTRE EL 5 Y 8 DE NOVIEMBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Huala , María Victoria"
-    ],
-    "autores_id": [
-     "531"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE AGRICULTURA, GANADERÍA Y PESCA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501277/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2008.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14616,26 +13771,6 @@
    "anio": 2026,
    "expediente": "2009/26",
    "extracto": "ROJAS DECUT: PROYECTO DE DECLARACION QUE DECLARA DE INTERES EL 1° FORO DE MUJERES RURALES MISIONERAS, A REALIZARSE EN EL AUDITORIO \"TIERRA SIN MAL\", EN LA CDAD. DE POSADAS, PROV. DE MISIONES, EL 27 DE NOVIEMBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Rojas Decut , Sonia Elizabeth"
-    ],
-    "autores_id": [
-     "559"
-    ],
-    "comisiones": [
-     {
-      "comision": "BANCA DE LA MUJER",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501278/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2009.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14676,26 +13811,6 @@
    "anio": 2026,
    "expediente": "2010/26",
    "extracto": "CAPITANICH: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE LAS OBRAS DE DRAGADO Y PROFUNDIZACION DEL \"CANAL LIGURIA\", EN EL RIO PARAGUAY, A LA ALTURA DE LAS LOC. DE PILAR Y HUAMAITA, REP. DEL PARAGUAY, FRENTE A LA DESEMBOCADURA DEL RIO BERMEJO, Y SU IMPACTO HIDRAULICO, AMBIENTAL Y TERRITORIAL",
-   "ficha": {
-    "autores": [
-     "Capitanich , Jorge Milton"
-    ],
-    "autores_id": [
-     "285"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE RELACIONES EXTERIORES Y CULTO",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501279/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2010.26/S/PC"
-   },
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -14706,26 +13821,6 @@
    "anio": 2026,
    "expediente": "2011/26",
    "extracto": "AVILA: PROYECTO DE COMUNICACIÓN QUE SOLICITA INCORPORAR EL NOMBRE DEL CIENTÍFICO TUCUMANO DR. MIGUEL IGNACIO LILLO, EN EL SALÓN DE \"LOS CIENTÍFICOS ARGENTINOS\" DE LA CASA ROSADA.",
-   "ficha": {
-    "autores": [
-     "Avila , Beatriz Luisa"
-    ],
-    "autores_id": [
-     "541"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501280/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2011.26/S/PC"
-   },
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -14776,26 +13871,6 @@
    "anio": 2026,
    "expediente": "2016/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACION QUE ADHIERE A LA CONMEMORACION DEL ANIVERSARIO DE LA CDAD. DE RIO GALLEGOS, PROV. DE SANTA CRUZ, EL 19 DE DICIEMBRE DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501281/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2016.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14806,26 +13881,6 @@
    "anio": 2026,
    "expediente": "2017/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACION QUE ADHIERE A LA CONMEMORACION DEL ANIVERSARIO DE LA LOC. DE RIO TURBIO, PROV. DE SANTA CRUZ, EL 14 DE DICIEMBRE DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501282/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2017.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14836,26 +13891,6 @@
    "anio": 2026,
    "expediente": "2018/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACIÓN DEL ANIVERSARIO DE LA CIUDAD DE PERITO MORENO, PROV. DE SANTA CRUZ, EL 7 DE DICIEMBRE DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501283/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2018.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14866,26 +13901,6 @@
    "anio": 2026,
    "expediente": "2019/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACIÓN DEL ANIVERSARIO DE LA CREACIÓN DE LA COMISIÓN DE FOMENTO DE TRES LAGOS, PROV. DE SANTA CRUZ, EL 3 DE AGOSTO DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501284/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2019.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14926,26 +13941,6 @@
    "anio": 2026,
    "expediente": "2020/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACIÓN DEL ANIVERSARIO DE LA FUNDACIÓN DE LA CDAD. DE PUERTO DESEADO, PROV. DE SANTA CRUZ, EL 15 DE JULIO DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501285/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2020.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14956,26 +13951,6 @@
    "anio": 2026,
    "expediente": "2021/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACIÓN DEL ANIVERSARIO DE LA FUNDACIÓN DE LA CDAD. DE PICO TRUNCADO, PROV. DE SANTA CRUZ, EL 11 DE JULIO DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501286/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2021.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -14986,26 +13961,6 @@
    "anio": 2026,
    "expediente": "2022/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACIÓN DEL ANIVERSARIO DE LA FUNDACIÓN DE LA LOCALIDAD DE LAS HERAS, PROV. DE SANTA CRUZ, EL 6 DE OCTUBRE DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "91/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501287/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2022.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -15016,26 +13971,6 @@
    "anio": 2026,
    "expediente": "2023/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACIÓN DEL ANIVERSARIO DE LA CDAD. DE CALETA OLIVIA, PROV. DE SANTA CRUZ, EL 20 DE NOVIEMBRE DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "92/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501243/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2023.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -15046,26 +13981,6 @@
    "anio": 2026,
    "expediente": "2024/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACION DEL ANIVERSARIO DE LA FUNDACIÓN DE LA CDAD. DE GOBERNADOR GREGORES, PROV. DE SANTA CRUZ, EL 23 DE MARZO DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "92/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501245/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2024.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -15076,26 +13991,6 @@
    "anio": 2026,
    "expediente": "2025/26",
    "extracto": "KIRCHNER: PROYECTO DE DECLARACIÓN QUE ADHIERE A LA CONMEMORACION DEL ANIVERSARIO DE LA LOC. DE PUERTO SANTA CRUZ, PROV. DE SANTA CRUZ, EL 1 DE DICIEMBRE DE CADA AÑO.",
-   "ficha": {
-    "autores": [
-     "Kirchner , Alicia Margarita Antonia"
-    ],
-    "autores_id": [
-     "366"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE ASUNTOS ADMINISTRATIVOS Y MUNICIPALES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "92/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501250/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2025.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -15106,26 +14001,6 @@
    "anio": 2026,
    "expediente": "2026/26",
    "extracto": "JURI: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO POR EL DÉCIMO ANIVERSARIO DEL PROGRAMA \"BELLEZA POR UN FUTURO\" EN LA REP. ARGENTINA IMPULSADA POR LA FUNDACIÓN L´OREAL.",
-   "ficha": {
-    "autores": [
-     "Juri , Mariana"
-    ],
-    "autores_id": [
-     "534"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "92/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501252/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2026.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -15146,60 +14021,6 @@
    "anio": 2026,
    "expediente": "2028/26",
    "extracto": "LOPEZ, C. Y OTROS: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERÉS EL LIBRO \"CAMINAR HACIA LAS 3S. MINDFULNESS PARA VIVIR CON SERENIDAD, SONRISAS Y SALUD\", DE AUTORÍA DE MARIELA AGUILA.",
-   "ficha": {
-    "autores": [
-     "López , Cándida Cristina",
-     "Linares , Carlos Alberto",
-     "Moreno , Elia Esther Del Carmen",
-     "Marks , Ana Inés",
-     "González , María Teresa Margarita",
-     "Neder , José Emilio",
-     "de Pedro , Eduardo Enrique",
-     "Mendoza , Sandra Mariela",
-     "Capitanich , Jorge Milton",
-     "Uñac , Sergio Mauricio",
-     "Salino , Fernando Aldo",
-     "Andrada , Guillermo Eduardo",
-     "Di Tullio , Juliana",
-     "Lewandowski , Marcelo Néstor",
-     "Recalde , Mariano",
-     "López , María Florencia",
-     "Kirchner , Alicia Margarita Antonia",
-     "Corpacci , Lucía Benigna"
-    ],
-    "autores_id": [
-     "574",
-     "529",
-     "594",
-     "589",
-     "477",
-     "510",
-     "545",
-     "540",
-     "285",
-     "561",
-     "566",
-     "519",
-     "517",
-     "538",
-     "498",
-     "555",
-     "366",
-     "398"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "92/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501227/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2028.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -15250,26 +14071,6 @@
    "anio": 2026,
    "expediente": "2030/26",
    "extracto": "LEWANDOWSKI: PROYECTO DE COMUNICACIÓN QUE SOLICITA INFORME SOBRE LAS CIRCUNSTANCIAS, CAUSAS, CONSECUENCIAS Y MEDIDAS ADOPTADAS EN LA EXPLOSIÓN E INCENDIO OCURRIDOS EN LA LOC. DE REMEDIOS DE ESCALADA, PDO. DE LANUS, PROV. DE BS.AS., EL 13 DE NOVIEMBRE DE 2026.",
-   "ficha": {
-    "autores": [
-     "Lewandowski , Marcelo Néstor"
-    ],
-    "autores_id": [
-     "538"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE MINERÍA, ENERGÍA Y COMBUSTIBLES",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "92/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501254/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2030.26/S/PC"
-   },
    "origen": "S",
    "tipo": "PC",
    "vigente": true,
@@ -15280,31 +14081,6 @@
    "anio": 2026,
    "expediente": "2031/26",
    "extracto": "LEWANDOWSKI: PROYECTO DE LEY QUE INSTITUYE LA PENSIÓN PARA FAMILIARES DE VICTIMAS DEL 19 Y 20 DE DICIEMBRE DE 2001.",
-   "ficha": {
-    "autores": [
-     "Lewandowski , Marcelo Néstor"
-    ],
-    "autores_id": [
-     "538"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE TRABAJO Y PREVISIÓN SOCIAL",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE PRESUPUESTO Y HACIENDA",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     }
-    ],
-    "dae": "92/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501256/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2031.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -15315,26 +14091,6 @@
    "anio": 2026,
    "expediente": "2032/26",
    "extracto": "REJAL: PROYECTO DE DECLARACIÓN QUE EXPRESA BENEPLACITO Y RECONOCE LA DESTACADA LABOR E INVALORABLE TRAYECTORIA DE LA INSTITUCIÓN \"ABUELOS DEL CORAZÓN, EN EL DEPTO. CHILECITO, PROV. DE LA RIOJA.",
-   "ficha": {
-    "autores": [
-     "Rejal , Jesús Fernando"
-    ],
-    "autores_id": [
-     "556"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE POBLACIÓN Y DESARROLLO HUMANO",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "92/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501258/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2032.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -15345,36 +14101,6 @@
    "anio": 2026,
    "expediente": "2033/26",
    "extracto": "MOISES: PROYECTO DE LEY QUE REGULA LAS ACTIVIDADES DE PUBLICIDAD DE OPERADORES DE JUEGOS Y PLATAFORMAS DE APUESTAS PARA LOS JUEGOS EN LINEA.",
-   "ficha": {
-    "autores": [
-     "Moises , María Carolina"
-    ],
-    "autores_id": [
-     "554"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE SALUD",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     },
-     {
-      "comision": "DE LEGISLACIÓN GENERAL",
-      "ingreso": "24-11-2026",
-      "orden": "2"
-     },
-     {
-      "comision": "DE JUSTICIA Y ASUNTOS PENALES",
-      "ingreso": "24-11-2026",
-      "orden": "3"
-     }
-    ],
-    "dae": "92/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501225/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2033.26/S/PL"
-   },
    "origen": "S",
    "tipo": "PL",
    "vigente": true,
@@ -15385,26 +14111,6 @@
    "anio": 2026,
    "expediente": "2034/26",
    "extracto": "VALENZUELA: PROYECTO DE DECLARACIÓN QUE DECLARA DE INTERES EL LIBRO INFANTIL \"LAS AVENTURAS DE PILAR: LAS EMOCIONES\", DE AUTORÍA DE LA LIC. VANESA VALENZUELA.",
-   "ficha": {
-    "autores": [
-     "Valenzuela , Mercedes Gabriela"
-    ],
-    "autores_id": [
-     "525"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "92/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-20",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501263/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2034.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -15415,26 +14121,6 @@
    "anio": 2026,
    "expediente": "2035/26",
    "extracto": "NEDER: PROYECTO DE DECLARACIÓN QUE ADHIERE A LAS FIESTAS PATRONALES EN HONOR A NUESTRA SEÑORA DE LORETO EN LA PROV. DE SANTIAGO DEL ESTERO, EL 10 DE DICIEMBRE DE 2026",
-   "ficha": {
-    "autores": [
-     "Neder , José Emilio"
-    ],
-    "autores_id": [
-     "510"
-    ],
-    "comisiones": [
-     {
-      "comision": "DE EDUCACIÓN Y CULTURA",
-      "ingreso": "24-11-2026",
-      "orden": "1"
-     }
-    ],
-    "dae": "92/2026",
-    "dae_tipo": "NORMAL",
-    "fecha_mesa": "2026-11-24",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501288/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2035.26/S/PD"
-   },
    "origen": "S",
    "tipo": "PD",
    "vigente": true,
@@ -20985,16 +19671,6 @@
    "anio": 2026,
    "expediente": "365/26",
    "extracto": "JEFATURA DE GABINETE: EN CUMPLIMIENTO DEL ART. 101 DE LA CONSTITUCION NACIONAL, ELEVA A CONSIDERACION EL INFORME N° 146 DE LA JEFATURA DE GABINETE DE MINISTROS.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-24",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501220/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/365.26/PE/CE"
-   },
    "origen": "PE",
    "tipo": "CE",
    "vigente": true,
@@ -21105,16 +19781,6 @@
    "anio": 2026,
    "expediente": "37/26",
    "extracto": "VAZQUEZ SILVIA BEATRIZ: REMITE PROYECTO DE DECLARACIÓN QUE REPUDIA LA POSTURA ADOPTADA POR EL GOBIERNO NACIONAL FRENTE A LA PREVENCIÓN DE LA VIOLENCIA CONTRA LAS MUJERES Y NIÑAS.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-19",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501289/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/37.26/P/PP"
-   },
    "origen": "P",
    "tipo": "PP",
    "vigente": true,
@@ -21355,16 +20021,6 @@
    "anio": 2026,
    "expediente": "38/26",
    "extracto": "CONFERENCIA EPISCOPAL ARGENTINA: SOLICITA LA APROBACION DEL PROYECTO DE LEY DE PREVENCIÓN DE LA LUDOPATÍA Y LA REGULACIÓN DE LOS JUEGOS DE AZAR Y APUESTAS EN LÍNEA.",
-   "ficha": {
-    "autores": [],
-    "autores_id": [],
-    "comisiones": [],
-    "dae": "Sin asignar",
-    "dae_tipo": null,
-    "fecha_mesa": "2026-11-24",
-    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501222/downloadPdf",
-    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/38.26/P/PP"
-   },
    "origen": "P",
    "tipo": "PP",
    "vigente": true,
@@ -25670,6 +24326,26 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "562/26|OV": {
+   "actualizado": "2026-11-25",
+   "anio": 2026,
+   "expediente": "562/26",
+   "extracto": "CONCEJO DELIBERANTE DE FLORENCIO VARELA, PROV. DE BS. AS: REPUDIA EL CRECIMIENTO DEL ENDEUDAMIENTO Y MOROSIDAD DE LAS FAMILIAS ARGENTINAS.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-20",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501305/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/562.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-25"
+  },
   "562/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -25679,6 +24355,26 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "563/26|OV": {
+   "actualizado": "2026-11-25",
+   "anio": 2026,
+   "expediente": "563/26",
+   "extracto": "CONCEJO DELIBERANTE DE CHOLILA, PROV. DEL CHUBUT: EXPRESA PREOCUPACION POR LA INTERRUPCION DEL FINANCIAMIENTO DEL FONDO NACIONAL DE INCENTIVO DOCENTE (FONID).",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-20",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501306/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/563.26/OV/CV"
+   },
+   "origen": "OV",
+   "tipo": "CV",
+   "vigente": true,
+   "visto": "2026-11-25"
   },
   "563/26|S": {
    "actualizado": "2026-08-19",
@@ -25690,6 +24386,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "564/26|OV": {
+   "actualizado": "2026-11-25",
+   "anio": 2026,
+   "expediente": "564/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACIÓN: COMUNICA RESOLUCION N° 214/26 QUE APRUEBA EL INFORME SOBRE LOS ESTADOS FINANCIEROS DE LA ENTIDAD BINACIONAL YACYRETÁ, POR EL EJERCICIO FINALIZADO EL 31/12/2024.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "25-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-24",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501315/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/564.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-11-25"
+  },
   "564/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -25699,6 +24421,32 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "565/26|OV": {
+   "actualizado": "2026-11-25",
+   "anio": 2026,
+   "expediente": "565/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 215/26 QUE APRUEBA EL INFORME SOBRE LOS ESTADOS FINANCIEROS CORRESPONDIENTES AL \"PROGRAMA DE FORTALECIMIENTO INSTITUCIONAL DE PLANIFICACIÓN TERRITORIAL\" DEL MINISTERIO DE ECONOMÍA (CP N° ARG-25/2016-FONPLATA) POR EL EJERCICIO IRREGULAR N° 7",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "25-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-24",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501316/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/565.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-11-25"
   },
   "565/26|S": {
    "actualizado": "2026-08-19",
@@ -25710,6 +24458,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "566/26|OV": {
+   "actualizado": "2026-11-25",
+   "anio": 2026,
+   "expediente": "566/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 216/26 QUE APRUEBA EL INFORME REALIZADO EN LA AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO, REFERIDO A LA GESTIÓN INTEGRAL DE LA ADMINISTRACIÓN ADUANERA EN CUANTO A LA IMPLEMENTACIÓN Y MONITOREO DE LAS ÁREAS DEFINIDAS COMO DEPÓSITOS FISCALES",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "25-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-24",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501317/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/566.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-11-25"
+  },
   "566/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -25719,6 +24493,32 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "567/26|OV": {
+   "actualizado": "2026-11-25",
+   "anio": 2026,
+   "expediente": "567/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA RESOLUCION N° 217/26, QUE APRUEBA EL INFORME CORRESPONDIENTE AL 3ER. TRIMESTRE DE 2026 DE LA AGN.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "25-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-24",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501318/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/567.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-11-25"
   },
   "567/26|S": {
    "actualizado": "2026-08-19",
@@ -25730,6 +24530,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "568/26|OV": {
+   "actualizado": "2026-11-25",
+   "anio": 2026,
+   "expediente": "568/26",
+   "extracto": "AUDITORÍA GENERAL DE LA NACIÓN: COMUNICA RESOLUCIÓN N° 218/26, QUE APRUEBA EL INFORME REALIZADO EN EL ÁMBITO DEL ENTONCES MIN. DE LAS MUJERES, GÉNEROS Y DIVERSIDAD, REFERIDO A LA IMPLEMENTACIÓN DE ACCIONES Y PROGRAMAS DEL PLAN NACIONAL DE ACCIÓN CONTRA LA VIOLENCIA POR MOTIVOS DE GÉNERO - P",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "25-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-24",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501319/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/568.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-11-25"
+  },
   "568/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -25739,6 +24565,32 @@
    "tipo": "PL",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "569/26|OV": {
+   "actualizado": "2026-11-25",
+   "anio": 2026,
+   "expediente": "569/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACIÓN: COMUNICA RESOLUCION N° 219/26 QUE APRUEBA EL INFORME DE AUDITORÍA, EL INFORME EJECUTIVO Y LA FICHA DE PRENSA EN EL ÁMBITO DE LA SUPERINTENDENCIA DE SERVICIOS DE SALUD, PERIODO 01/01/2018 AL 31/12/2021.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "25-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-24",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501320/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/569.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-11-25"
   },
   "569/26|S": {
    "actualizado": "2026-08-19",
@@ -25780,6 +24632,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "570/26|OV": {
+   "actualizado": "2026-11-25",
+   "anio": 2026,
+   "expediente": "570/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA DISPOSICION N° 478/26 QUE RESUELVE IMPUTAR AL FONDO ESPECIAL DE RESERVA DE LA AGN CREADO POR DISPOSICION N° 283/25-AGN EL PAGO POR LA ADQUISICION DE BIENES DE LA FIRMA CARLOS DEL SANTO S.R.L.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "25-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-24",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501321/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/570.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-11-25"
+  },
   "570/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -25790,6 +24668,32 @@
    "vigente": true,
    "visto": "2026-08-19"
   },
+  "571/26|OV": {
+   "actualizado": "2026-11-25",
+   "anio": 2026,
+   "expediente": "571/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA DISPOSICION N° 479/26 QUE RESUELVE IMPUTAR AL FONDO ESPECIAL DE RESERVA DE LA AGN CREADO POR DISPOSICION N° 283/25-AGN EL PAGO POR LA ADQUISICION DE BIENES DE LA FIRMA CARLOS DEL SANTO S.R.L.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "25-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-24",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501322/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/571.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-11-25"
+  },
   "571/26|S": {
    "actualizado": "2026-08-19",
    "anio": 2026,
@@ -25799,6 +24703,32 @@
    "tipo": "PC",
    "vigente": true,
    "visto": "2026-08-19"
+  },
+  "572/26|OV": {
+   "actualizado": "2026-11-25",
+   "anio": 2026,
+   "expediente": "572/26",
+   "extracto": "AUDITORIA GENERAL DE LA NACION: COMUNICA DISPOSICION N° 480/26 QUE RESUELVE IMPUTAR AL FONDO ESPECIAL DE RESERVA DE LA AGN CREADO POR DISPOSICION N° 283/25-AGN EL PAGO POR LA PRESTACION DE SERVICIOS DE LA FIRMA DOMIN SERVICIOS GENERALES S.R.L.",
+   "ficha": {
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [
+     {
+      "comision": "BICAMERAL PERMANENTE MIXTA REVISORA DE CUENTAS",
+      "ingreso": "25-11-2026",
+      "orden": "1"
+     }
+    ],
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "fecha_mesa": "2026-11-24",
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501323/downloadPdf",
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/572.26/OV/CA"
+   },
+   "origen": "OV",
+   "tipo": "CA",
+   "vigente": true,
+   "visto": "2026-11-25"
   },
   "572/26|S": {
    "actualizado": "2026-08-19",
