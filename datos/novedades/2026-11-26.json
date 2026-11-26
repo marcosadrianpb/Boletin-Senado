@@ -1,0 +1,60 @@
+{
+ "fecha": "2026-11-26",
+ "generado": "2026-11-26T16:43:23-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "2044/26",
+   "tipo": "PL",
+   "origen": "S",
+   "extracto": "BULLRICH Y OTROS: PROYECTO DE LEY DE COMBATE CONTRA EL JUEGO ILEGAL.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2044.26/S/PL",
+    "fecha_mesa": "2026-11-25",
+    "dae": "92/2026",
+    "dae_tipo": "NORMAL",
+    "autores": [
+     "Bullrich , Patricia",
+     "Vischi , Eduardo Alejandro",
+     "Royon , Flavia Gabriela",
+     "Losada , Carolina"
+    ],
+    "autores_id": [
+     "580",
+     "524",
+     "593",
+     "536"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE SALUD",
+      "orden": "1",
+      "ingreso": null
+     },
+     {
+      "comision": "DE LEGISLACIÓN GENERAL",
+      "orden": "2",
+      "ingreso": null
+     },
+     {
+      "comision": "DE JUSTICIA Y ASUNTOS PENALES",
+      "orden": "3",
+      "ingreso": null
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501339/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 3030,
+ "total_ahora": 3031
+}
