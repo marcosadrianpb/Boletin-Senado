@@ -1,0 +1,88 @@
+{
+ "fecha": "2026-11-27",
+ "generado": "2026-11-27T16:32:47-03:00",
+ "linea_base": false,
+ "anios": [
+  2026
+ ],
+ "altas": [
+  {
+   "expediente": "2060/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "BAHL: PLANTEA CUESTION DE PRIVILEGIO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2060.26/S/CO",
+    "fecha_mesa": "2026-11-27",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Bahl , Adán Humberto"
+    ],
+    "autores_id": [
+     "584"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "27-11-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501362/downloadPdf"
+   }
+  },
+  {
+   "expediente": "2059/26",
+   "tipo": "CO",
+   "origen": "S",
+   "extracto": "COTO: PLANTEA CUESTIÓN DE PRIVILEGIO.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2059.26/S/CO",
+    "fecha_mesa": "2026-11-26",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [
+     "Coto , Agustín Pedro"
+    ],
+    "autores_id": [
+     "595"
+    ],
+    "comisiones": [
+     {
+      "comision": "DE ASUNTOS CONSTITUCIONALES",
+      "orden": "1",
+      "ingreso": "27-11-2026"
+     }
+    ],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501361/downloadPdf"
+   }
+  },
+  {
+   "expediente": "2053/26",
+   "tipo": "CC",
+   "origen": "S",
+   "extracto": "COMISION PARLAMENTARIA MIXTA REVISORA DE CUENTAS: COMUNICA QUE NO HA PODIDO EXPEDIRSE DENTRO DEL PLAZO FIJADO POR EL ART. 5° DE LA LEY 23.847, CON RESPECTO A LA CUENTA DE INVERSION CORRESPONDIENTE AL EJERCICIO 2024.",
+   "anio": 2026,
+   "ficha": {
+    "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/2053.26/S/CC",
+    "fecha_mesa": "2026-11-26",
+    "dae": "Sin asignar",
+    "dae_tipo": null,
+    "autores": [],
+    "autores_id": [],
+    "comisiones": [],
+    "texto_pdf": "https://www.senado.gob.ar/parlamentario/parlamentaria/501357/downloadPdf"
+   }
+  }
+ ],
+ "reingresos": [],
+ "bajas": [],
+ "correcciones": [],
+ "absorbidos": 0,
+ "anios_nuevos": [],
+ "total_antes": 3031,
+ "total_ahora": 3034
+}
